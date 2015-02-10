@@ -64,48 +64,89 @@
         // Set initial windows dimensions
         self.getScreenDimensions(self.$window);
         // Listen for window resize
-        self.onResize({1:0,2:1});
+        self.onResize({
+            //  Get Screen Dimensions
+            1: {
+                "methods":      self.getScreenDimensions,
+                "arguments":    self.$window
+            },
+            // Scale the $target to match the Screen dimensions
+            2: {
+                "methods":      self.scale,
+                "arguments":    self.$target
+            }
+        });
 
         // DEBUGGING CODE
         console.log('FullScreenJS has been initialised!');
         console.log(self);
     };
     // Get Screen sizer
-    FullScreenjs.prototype.getScreenDimensions = function ($object) {
+    FullScreenjs.prototype.getScreenDimensions = function ($window) {
+        console.log('getting screen dimensions');
         var self = this;
 
         // assign browsers dimensions to object
-        self.height = $object.height();
-        self.width  = $object.width();
+        self.height = $window.height();
+        self.width  = $window.width();
 
+        console.log('Document resizing\n' +
+        'The height is now: ' +
+        self.height +
+        'px\n' +
+        'The width is now: ' +
+        self.width + 'px');
     };
+
+    // sets the target tiles dimensions to the window size
+    FullScreenjs.prototype.scale = function () {
+        var self = this;
+        console.log(self.$target);
+        self.$target.css({
+                    height: self.height,
+                    width: self.width
+        });
+    };
+
     // Listens for event resize
     FullScreenjs.prototype.onResize = function (methods) {
         //console.log($(window));
         var self = this;
         // Listen for browser resize
         $(window).resize(function(){
-            //console.log('Document resizing\n' +
-            //            'The height is now: ' +
-            //            self.height +
-            //            'px\n' +
-            //            'The width is now: ' +
-            //            self.width + 'px');
-            self.batchCall(methods);
+
+            self.getScreenDimensions(self.$window);
+            self.scale();
+            //Batch Call the following methods
+            //self.batchCall(methods);
+
         });
     };
     // Batch call methods in chronological order
-    FullScreenjs.prototype.batchCall = function (methods) {
-        console.log("There are "+methods.length+" methods");
-        //for (var i = 0; methods.length; i++) {
-        //    methods[i](arguments[i]);
-        //}
-    };
+    //FullScreenjs.prototype.batchCall = function (methods) {
+    //    console.log("There are "+Object.size(methods)+" methods");
+    //    for (var i = 0; Object.size(methods); i++) {
+    //        // Is THIS a function?
+    //        //console.log(typeof methods[i]);
+    //        //if(typeof methods[i] == "function") {
+    //        //    console.log('This is a function');
+    //        //    // does THIS method have arguments
+    //        //    methods[i]['argument'] ?
+    //        //        // TRUE: Call this method with its arguments
+    //        //        methods[i]['method'](arguments[i]['arguement']):
+    //        //            // False: Call this method without arguments
+    //        //            methods[i]['method']();
+    //        //}
+    //    }
+    //};
 
-    // sets the target tiles dimensions to the window size
-    FullScreenjs.prototype.scale = function ($target) {
-        $target.height(self.height);
-        $target.width(self.width);
+    // Get object length
+    Object.size = function(obj) {
+        var size = 0, key;
+        for (key in obj) {
+            if (obj.hasOwnProperty(key)) size++;
+        }
+        return size;
     };
 
     // A really lightweight plugin wrapper around the constructor, 
