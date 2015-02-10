@@ -8,52 +8,60 @@
     <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
   <body>
-    <div class="row">
+  <div class="absolute top width-100">
+    <div class="row collapse">
         <div class="large-6 columns">
-            <header>
-                <img src="http://placehold.it/200x50" alt="Ruckus Logo">
-                <h1 class="hide">Ruckus</h1>
-            </header>
+            <div class="clearfix">
+                <header class="left">
+                    <img src="http://placehold.it/200x50" alt="Ruckus Logo">
+                    <h1 class="hide">Ruckus</h1>
+                </header>
+            </div>
         </div>
         <div class="large-6 columns">
             <nav id="social-media-links">
-                <ul>
-                    <li><a class="icon_facebook" href="#" title="Like us on Facebook">Facebook</a></li>
-                    <li><a class="icon_twitter" href="#" title="Follow us on Twitter">Twitter</a></li>
-                    <li><a class="icon_google" href="#" title="Follow us on Google+">Google+</a></li>
-                    <li><a class="icon_linked-in" href="#" title="Follow our Linked-in page">Linked-in</a></li>
+                <div class="clearfix">
+                <ul class="right">
+                    <li><a class="icon_facebook" href="#" title="Like us on Facebook"><i class="fa fa-facebook"></i></a></li>
+                    <li><a class="icon_twitter" href="#" title="Follow us on Twitter"><i class="fa fa-twitter"></i></a></li>
+                    <li><a class="icon_google" href="#" title="Follow us on Google+"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a class="icon_linked-in" href="#" title="Follow our Linked-in page"><i class="fa fa-linkedin"></i></a></li>
                 </ul>
+                </div>
             </nav>
         </div>
     </div>
+  </div>
     <!-- Tile 1: Simply Better Wireless -->
     <div class="tile" id="stage_1-1">
-        <!-- Heading text -->
-        <div class="row">
-            <div class="large-8 columns">
-                <h2>Simple Better Wireless.</h2>
-                <h3>Choose your sector for a simply better solution</h3>
-            </div>
-        </div>
-        <!-- Selection of options -->
-        <div class="row">
-            <div class="large-12 columns">
-                <!-- Options -->
-                <nav>
-                    <ul>
-                        <li class="button" data-option="retail">Retail</li>
-                        <li class="button" data-option="leisure">Leisure</li>
-                        <li class="button" data-option="hospitality">Hospitality</li>
-                        <li class="button" data-option="transport">Transport</li>
-                        <li class="button" data-option="openspace">Open Space</li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-        <!-- Next button -->
-        <div class="row">
-            <div class="large-4 columns large-centered">
-                <button class="button">Next Button</button>
+        <div class="table-centered-container">
+            <div class="table-centered-cell">
+                <!-- Heading text -->
+                <div class="row">
+                    <div class="large-8 columns large-centered">
+                        <h2>Simple Better Wireless.</h2>
+                        <h3>Choose your sector for a simply better solution</h3>
+                    </div>
+                </div>
+                <!-- Selection of options -->
+                <div class="row">
+                    <nav>
+                        <!-- Options -->
+                            <ul class="large-block-grid-5">
+                                <li data-option="retail"><span class="button" >Retail</span></li>
+                                <li data-option="leisure"><span class="button">Leisure</span></li>
+                                <li data-option="hospitality"><span class="button">Hospitality</span></li>
+                                <li data-option="transport"><span class="button">Transport</span></li>
+                                <li data-option="openspace"><span class="button">Open Space</span></li>
+                            </ul>
+                    </nav>
+                </div>
+                <!-- Next button -->
+                <div class="row">
+                    <div class="large-4 columns large-centered">
+                        <button class="button">Next Button</button>
+                    </div>
+                </div>
             </div>
         </div>
         <!-- Tile background image -->

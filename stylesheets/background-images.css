@@ -1,0 +1,30 @@
+/* line 1, ../scss/background-images.scss */
+.tile {
+  position: relative;
+}
+/* line 3, ../scss/background-images.scss */
+.tile .tile_overlay, .tile .tile_background {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+/* line 10, ../scss/background-images.scss */
+.tile .tile_overlay {
+  z-index: -1;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+/* line 14, ../scss/background-images.scss */
+.tile .tile_background {
+  z-index: -2;
+  background-size: cover;
+}
+/* line 21, ../scss/background-images.scss */
+.tile#stage_1-1 .tile_background, .tile#stage_1-2 .tile_background {
+  background-image: url("../images/background-stage-1-1.jpg");
+}
+/* line 26, ../scss/background-images.scss */
+.tile#stage_2 .tile_background, .tile#stage_3 .tile_background {
+  background-image: url("../images/background-stage-2_3.jpg");
+}

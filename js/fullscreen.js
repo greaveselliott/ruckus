@@ -63,19 +63,10 @@
 
         // Set initial windows dimensions
         self.getScreenDimensions(self.$window);
+        // resize windows to fit window
+        self.scale();
         // Listen for window resize
-        self.onResize({
-            //  Get Screen Dimensions
-            1: {
-                "methods":      self.getScreenDimensions,
-                "arguments":    self.$window
-            },
-            // Scale the $target to match the Screen dimensions
-            2: {
-                "methods":      self.scale,
-                "arguments":    self.$target
-            }
-        });
+        self.onResize();
 
         // DEBUGGING CODE
         console.log('FullScreenJS has been initialised!');
@@ -89,13 +80,6 @@
         // assign browsers dimensions to object
         self.height = $window.height();
         self.width  = $window.width();
-
-        console.log('Document resizing\n' +
-        'The height is now: ' +
-        self.height +
-        'px\n' +
-        'The width is now: ' +
-        self.width + 'px');
     };
 
     // sets the target tiles dimensions to the window size
@@ -109,7 +93,7 @@
     };
 
     // Listens for event resize
-    FullScreenjs.prototype.onResize = function (methods) {
+    FullScreenjs.prototype.onResize = function () {
         //console.log($(window));
         var self = this;
         // Listen for browser resize
@@ -117,9 +101,6 @@
 
             self.getScreenDimensions(self.$window);
             self.scale();
-            //Batch Call the following methods
-            //self.batchCall(methods);
-
         });
     };
     // Batch call methods in chronological order

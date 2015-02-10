@@ -1,0 +1,23 @@
+/* line 2, ../scss/social-nav.scss */
+#social-media-links ul {
+  list-style-type: none !important;
+}
+/* line 4, ../scss/social-nav.scss */
+#social-media-links ul li {
+  display: table;
+  width: 30px;
+  height: 30px;
+  float: left;
+  border: solid 1px white;
+  margin: 0px 0px 0px 10px;
+}
+/* line 11, ../scss/social-nav.scss */
+#social-media-links ul li a {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+/* line 15, ../scss/social-nav.scss */
+#social-media-links ul li a i {
+  color: white;
+}

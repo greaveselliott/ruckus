@@ -1,0 +1,38 @@
+/* line 1, ../scss/structure.scss */
+.table-center-container {
+  display: table;
+  width: 100%;
+}
+
+/* line 6, ../scss/structure.scss */
+.table-center-cell {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* line 11, ../scss/structure.scss */
+.absolute {
+  position: absolute;
+}
+/* line 13, ../scss/structure.scss */
+.absolute .top {
+  top: 0;
+}
+/* line 16, ../scss/structure.scss */
+.absolute .left {
+  left: 0;
+}
+/* line 19, ../scss/structure.scss */
+.absolute .right {
+  right: 0;
+}
+/* line 22, ../scss/structure.scss */
+.absolute .bottom {
+  bottom: 0;
+}
+
+/* line 27, ../scss/structure.scss */
+.width-100 {
+  width: 100%;
+}

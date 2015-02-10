@@ -1,5 +1,16 @@
 @import "settings";
 @import "foundation";
+@import "../font-awesome-4.3.0/scss/font-awesome.scss";
+
+@import "variables.scss";
+@import "structure.scss";
+@import "headings.scss";
+@import "typography.scss";
+@import "header.scss";
+@import "social-nav.scss";
+@import "buttons.scss";
+@import "forms.scss";
+@import "background-images.scss";
 
 // Or selectively include components
 // @import

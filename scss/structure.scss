@@ -1,0 +1,29 @@
+.table-center-container {
+  display: table;
+  width: 100%;
+}
+
+.table-center-cell {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.absolute {
+  position: absolute;
+  .top {
+    top: 0;
+  }
+  .left {
+    left: 0;
+  }
+  .right {
+    right: 0;
+  }
+  .bottom {
+    bottom: 0;
+  }
+}
+
+.width-100 {
+  width: 100%;
+}
