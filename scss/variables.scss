@@ -1,0 +1,28 @@
+// RUCKUS COLOURS
+// ruckus brand colours - primary colour pallete
+$ruckus-orange: #EA7600;
+$ruckus-grey: #75787B;
+// $ruckus-black: $black; included by default
+$ruckus-orange: #EA7600;
+
+// ruckus brand colours - primary colour pallete
+$ruckus-green: #74aa50;
+$ruckus-violet: #702082;
+$ruckus-blue: #009CBD;
+$ruckus-gold: #B58500;
+$ruckus-red: #A4343A;
+
+// SASS LOOP GENERATING THE RUCKUS COLOURS - CLASSES
+// the list (array)
+$ruckus-colours-list: "orange" $ruckus-orange,
+                      "grey" $ruckus-grey,
+                      "orange" $ruckus-orange,
+                      "green" $ruckus-green,
+                      "violet" $ruckus-violet,
+                      "blue" $ruckus-blue,
+                      "gold" $ruckus-gold,
+                      "red" $ruckus-red;
+
+@each $i in $ruckus-colours-list {
+  .ruckus-#{nth($i,1)} { color: #{nth($i,2)} !important; }
+}
