@@ -2,7 +2,7 @@
 @import "settings";
 @import "foundation";
 @import "../font-awesome-4.3.0/scss/font-awesome.scss";
-
+@import "functions.scss";
 
 @import "structure.scss";
 @import "valign-middle.scss";
@@ -13,6 +13,7 @@
 @import "buttons.scss";
 @import "forms.scss";
 @import "background-images.scss";
+@import "colours.scss";
 
 // development sassy sheets
 @import "development.scss";

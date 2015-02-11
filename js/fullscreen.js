@@ -61,31 +61,35 @@
         // and this.options
         var self = this;
 
-        // Set initial windows dimensions
+        // Get initial windows dimensions
         self.getScreenDimensions(self.$window);
-        // resize windows to fit window
+        // Get initial content dimensions
+        //self.getContentDemensions(self.$target);
+
+        // Resize windows to fit window
         self.scale();
         // Listen for window resize
         self.onResize();
-
-        // DEBUGGING CODE
-        console.log('FullScreenJS has been initialised!');
-        console.log(self);
     };
-    // Get Screen sizer
+    // Get Screen size
     FullScreenjs.prototype.getScreenDimensions = function ($window) {
-        console.log('getting screen dimensions');
         var self = this;
-
         // assign browsers dimensions to object
         self.height = $window.height();
         self.width  = $window.width();
     };
+    // Get Content Dimensions
+    //FullScreenjs.prototype.getContentDemensions = function ($target) {
+    //    var self = this;
+    //    var $content = $target.children('.tile-content');
+    //    self.contentHeight = $content.height();
+    //    self.contentHidth = $content.width();
+    //};
 
     // sets the target tiles dimensions to the window size
     FullScreenjs.prototype.scale = function () {
         var self = this;
-        console.log(self.$target);
+
         self.$target.css({
                     height: self.height,
                     width: self.width
@@ -94,32 +98,16 @@
 
     // Listens for event resize
     FullScreenjs.prototype.onResize = function () {
-        //console.log($(window));
+
         var self = this;
         // Listen for browser resize
         $(window).resize(function(){
 
             self.getScreenDimensions(self.$window);
+
             self.scale();
         });
     };
-    // Batch call methods in chronological order
-    //FullScreenjs.prototype.batchCall = function (methods) {
-    //    console.log("There are "+Object.size(methods)+" methods");
-    //    for (var i = 0; Object.size(methods); i++) {
-    //        // Is THIS a function?
-    //        //console.log(typeof methods[i]);
-    //        //if(typeof methods[i] == "function") {
-    //        //    console.log('This is a function');
-    //        //    // does THIS method have arguments
-    //        //    methods[i]['argument'] ?
-    //        //        // TRUE: Call this method with its arguments
-    //        //        methods[i]['method'](arguments[i]['arguement']):
-    //        //            // False: Call this method without arguments
-    //        //            methods[i]['method']();
-    //        //}
-    //    }
-    //};
 
     // Get object length
     Object.size = function(obj) {

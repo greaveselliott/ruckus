@@ -28,36 +28,3 @@
 .tile#stage_2 .tile_background, .tile#stage_3 .tile_background {
   background-image: url("/ruckus/images/background-2.jpg") !important;
 }
-
-/* line 32, ../scss/background-images.scss */
-#options-1, #options-2 {
-  display: block;
-  width: 100%;
-  height: 100px;
-}
-
-/* line 40, ../scss/background-images.scss */
-#options-1 #small {
-  background-image: url("../images/small.png");
-}
-/* line 43, ../scss/background-images.scss */
-#options-1 #medium {
-  background-image: url("../images/small.png");
-}
-/* line 46, ../scss/background-images.scss */
-#options-1 #large {
-  background-image: url("../images/small.png");
-}
-
-/* line 52, ../scss/background-images.scss */
-#options-2 #wifi {
-  background-image: url("../images/stage3-wifi.png");
-}
-/* line 55, ../scss/background-images.scss */
-#options-2 #pos {
-  background-image: url("../images/stage3-card.png");
-}
-/* line 58, ../scss/background-images.scss */
-#options-2 #employee {
-  background-image: url("../images/stage3-graph.png");
-}

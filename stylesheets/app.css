@@ -1,224 +1,4 @@
 @charset "UTF-8";
-/* line 32, ../scss/variables.scss */
-.ruckus-orange {
-  color: #EA7600 !important;
-}
-
-/* line 34, ../scss/variables.scss */
-.ruckus-background-orange {
-  background-color: #EA7600 !important;
-}
-/* line 36, ../scss/variables.scss */
-.ruckus-background-orange.opacity-25 {
-  background-color: rgba(234, 118, 0, 0.25) !important;
-}
-/* line 39, ../scss/variables.scss */
-.ruckus-background-orange.opacity-50 {
-  background-color: rgba(234, 118, 0, 0.5) !important;
-}
-/* line 42, ../scss/variables.scss */
-.ruckus-background-orange.opacity-75 {
-  background-color: rgba(234, 118, 0, 0.75) !important;
-}
-
-/* line 32, ../scss/variables.scss */
-.ruckus-grey {
-  color: #75787B !important;
-}
-
-/* line 34, ../scss/variables.scss */
-.ruckus-background-grey {
-  background-color: #75787B !important;
-}
-/* line 36, ../scss/variables.scss */
-.ruckus-background-grey.opacity-25 {
-  background-color: rgba(117, 120, 123, 0.25) !important;
-}
-/* line 39, ../scss/variables.scss */
-.ruckus-background-grey.opacity-50 {
-  background-color: rgba(117, 120, 123, 0.5) !important;
-}
-/* line 42, ../scss/variables.scss */
-.ruckus-background-grey.opacity-75 {
-  background-color: rgba(117, 120, 123, 0.75) !important;
-}
-
-/* line 32, ../scss/variables.scss */
-.ruckus-orange {
-  color: #EA7600 !important;
-}
-
-/* line 34, ../scss/variables.scss */
-.ruckus-background-orange {
-  background-color: #EA7600 !important;
-}
-/* line 36, ../scss/variables.scss */
-.ruckus-background-orange.opacity-25 {
-  background-color: rgba(234, 118, 0, 0.25) !important;
-}
-/* line 39, ../scss/variables.scss */
-.ruckus-background-orange.opacity-50 {
-  background-color: rgba(234, 118, 0, 0.5) !important;
-}
-/* line 42, ../scss/variables.scss */
-.ruckus-background-orange.opacity-75 {
-  background-color: rgba(234, 118, 0, 0.75) !important;
-}
-
-/* line 32, ../scss/variables.scss */
-.ruckus-green {
-  color: #74aa50 !important;
-}
-
-/* line 34, ../scss/variables.scss */
-.ruckus-background-green {
-  background-color: #74aa50 !important;
-}
-/* line 36, ../scss/variables.scss */
-.ruckus-background-green.opacity-25 {
-  background-color: rgba(116, 170, 80, 0.25) !important;
-}
-/* line 39, ../scss/variables.scss */
-.ruckus-background-green.opacity-50 {
-  background-color: rgba(116, 170, 80, 0.5) !important;
-}
-/* line 42, ../scss/variables.scss */
-.ruckus-background-green.opacity-75 {
-  background-color: rgba(116, 170, 80, 0.75) !important;
-}
-
-/* line 32, ../scss/variables.scss */
-.ruckus-violet {
-  color: #702082 !important;
-}
-
-/* line 34, ../scss/variables.scss */
-.ruckus-background-violet {
-  background-color: #702082 !important;
-}
-/* line 36, ../scss/variables.scss */
-.ruckus-background-violet.opacity-25 {
-  background-color: rgba(112, 32, 130, 0.25) !important;
-}
-/* line 39, ../scss/variables.scss */
-.ruckus-background-violet.opacity-50 {
-  background-color: rgba(112, 32, 130, 0.5) !important;
-}
-/* line 42, ../scss/variables.scss */
-.ruckus-background-violet.opacity-75 {
-  background-color: rgba(112, 32, 130, 0.75) !important;
-}
-
-/* line 32, ../scss/variables.scss */
-.ruckus-blue {
-  color: #009CBD !important;
-}
-
-/* line 34, ../scss/variables.scss */
-.ruckus-background-blue {
-  background-color: #009CBD !important;
-}
-/* line 36, ../scss/variables.scss */
-.ruckus-background-blue.opacity-25 {
-  background-color: rgba(0, 156, 189, 0.25) !important;
-}
-/* line 39, ../scss/variables.scss */
-.ruckus-background-blue.opacity-50 {
-  background-color: rgba(0, 156, 189, 0.5) !important;
-}
-/* line 42, ../scss/variables.scss */
-.ruckus-background-blue.opacity-75 {
-  background-color: rgba(0, 156, 189, 0.75) !important;
-}
-
-/* line 32, ../scss/variables.scss */
-.ruckus-gold {
-  color: #B58500 !important;
-}
-
-/* line 34, ../scss/variables.scss */
-.ruckus-background-gold {
-  background-color: #B58500 !important;
-}
-/* line 36, ../scss/variables.scss */
-.ruckus-background-gold.opacity-25 {
-  background-color: rgba(181, 133, 0, 0.25) !important;
-}
-/* line 39, ../scss/variables.scss */
-.ruckus-background-gold.opacity-50 {
-  background-color: rgba(181, 133, 0, 0.5) !important;
-}
-/* line 42, ../scss/variables.scss */
-.ruckus-background-gold.opacity-75 {
-  background-color: rgba(181, 133, 0, 0.75) !important;
-}
-
-/* line 32, ../scss/variables.scss */
-.ruckus-red {
-  color: #A4343A !important;
-}
-
-/* line 34, ../scss/variables.scss */
-.ruckus-background-red {
-  background-color: #A4343A !important;
-}
-/* line 36, ../scss/variables.scss */
-.ruckus-background-red.opacity-25 {
-  background-color: rgba(164, 52, 58, 0.25) !important;
-}
-/* line 39, ../scss/variables.scss */
-.ruckus-background-red.opacity-50 {
-  background-color: rgba(164, 52, 58, 0.5) !important;
-}
-/* line 42, ../scss/variables.scss */
-.ruckus-background-red.opacity-75 {
-  background-color: rgba(164, 52, 58, 0.75) !important;
-}
-
-/* line 32, ../scss/variables.scss */
-.ruckus-white {
-  color: #fff !important;
-}
-
-/* line 34, ../scss/variables.scss */
-.ruckus-background-white {
-  background-color: #fff !important;
-}
-/* line 36, ../scss/variables.scss */
-.ruckus-background-white.opacity-25 {
-  background-color: rgba(255, 255, 255, 0.25) !important;
-}
-/* line 39, ../scss/variables.scss */
-.ruckus-background-white.opacity-50 {
-  background-color: rgba(255, 255, 255, 0.5) !important;
-}
-/* line 42, ../scss/variables.scss */
-.ruckus-background-white.opacity-75 {
-  background-color: rgba(255, 255, 255, 0.75) !important;
-}
-
-/* line 32, ../scss/variables.scss */
-.ruckus-black {
-  color: #000 !important;
-}
-
-/* line 34, ../scss/variables.scss */
-.ruckus-background-black {
-  background-color: #000 !important;
-}
-/* line 36, ../scss/variables.scss */
-.ruckus-background-black.opacity-25 {
-  background-color: rgba(0, 0, 0, 0.25) !important;
-}
-/* line 39, ../scss/variables.scss */
-.ruckus-background-black.opacity-50 {
-  background-color: rgba(0, 0, 0, 0.5) !important;
-}
-/* line 42, ../scss/variables.scss */
-.ruckus-background-black.opacity-75 {
-  background-color: rgba(0, 0, 0, 0.75) !important;
-}
-
 /* line 348, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-version {
   font-family: "/5.5.1/";
@@ -227,13 +7,13 @@ meta.foundation-version {
 /* line 352, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-small {
   font-family: "/only screen/";
-  width: 0;
+  width: 0em;
 }
 
 /* line 357, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-small-only {
   font-family: "/only screen and (max-width: 40em)/";
-  width: 0;
+  width: 0em;
 }
 
 /* line 362, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -12284,55 +12064,126 @@ th.hide-for-touch {
   vertical-align: middle !important;
 }
 
-/* line 12, ../scss/structure.scss */
+@media only screen and (max-width: 40em) {
+  /* line 11, ../scss/structure.scss */
+  .table-center-cell-small-only {
+    display: table-cell !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+  }
+}
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 18, ../scss/structure.scss */
+  .table-center-cell-medium-only {
+    display: table-cell !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+  }
+}
+
+/* line 25, ../scss/structure.scss */
+.display-block {
+  display: block !important;
+}
+
+@media only screen and (max-width: 40em) {
+  /* line 28, ../scss/structure.scss */
+  .display-block-small {
+    display: block !important;
+  }
+}
+
+/* line 33, ../scss/structure.scss */
+.display-inline {
+  display: inline !important;
+}
+
+/* line 36, ../scss/structure.scss */
+.display-inline-block {
+  display: inline-block !important;
+}
+
+/* line 39, ../scss/structure.scss */
+.clear-none {
+  clear: none !important;
+}
+
+/* line 42, ../scss/structure.scss */
 .clear-both {
   clear: both;
 }
 
-/* line 15, ../scss/structure.scss */
+/* line 45, ../scss/structure.scss */
 .clear-left {
   clear: left;
 }
 
-/* line 18, ../scss/structure.scss */
+/* line 48, ../scss/structure.scss */
 .clear-right {
   clear: right;
 }
 
-/* line 21, ../scss/structure.scss */
+/* line 51, ../scss/structure.scss */
 .absolute {
   position: absolute;
 }
-/* line 23, ../scss/structure.scss */
+/* line 53, ../scss/structure.scss */
 .absolute .top {
   top: 0;
 }
-/* line 26, ../scss/structure.scss */
+/* line 56, ../scss/structure.scss */
 .absolute .left {
   left: 0;
 }
-/* line 29, ../scss/structure.scss */
+/* line 59, ../scss/structure.scss */
 .absolute .right {
   right: 0;
 }
-/* line 32, ../scss/structure.scss */
+/* line 62, ../scss/structure.scss */
 .absolute .bottom {
   bottom: 0;
 }
 
-/* line 37, ../scss/structure.scss */
-.width-100 {
+/* line 67, ../scss/structure.scss */
+.width-100, .button {
   width: 100%;
 }
 
-/* line 41, ../scss/structure.scss */
+@media only screen and (max-width: 40em) {
+  /* line 71, ../scss/structure.scss */
+  .width-100-small {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 40em) {
+  /* line 76, ../scss/structure.scss */
+  .height-100-small {
+    height: 100%;
+  }
+}
+
+/* line 82, ../scss/structure.scss */
 .padding-60-75 {
   padding: 60px 75px;
 }
 
-/* line 45, ../scss/structure.scss */
+/* line 86, ../scss/structure.scss */
 .padding-top-10 {
   padding-top: 10px;
+}
+
+/* line 90, ../scss/structure.scss */
+.margin-center {
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 40em) {
+  /* line 91, ../scss/structure.scss */
+  .margin-center-small {
+    margin: 0 auto;
+  }
 }
 
 /* line 3, ../scss/valign-middle.scss */
@@ -12424,12 +12275,18 @@ th.hide-for-touch {
 .button {
   border: solid 1px #FFF;
 }
-/* line 13, ../scss/buttons.scss */
+/* line 15, ../scss/buttons.scss */
 .button:hover {
-  color: #EA7600;
-  border-color: #EA7600;
+  color: #EA7600 !important;
+  border-color: #EA7600 !important;
 }
-/* line 18, ../scss/buttons.scss */
+/* line 20, ../scss/buttons.scss */
+.button.alt:hover {
+  background-color: #fff !important;
+  border-color: #fff !important;
+  color: black !important;
+}
+/* line 26, ../scss/buttons.scss */
 .button.round-icon {
   margin: 0 auto;
   height: 60px;
@@ -12446,26 +12303,31 @@ th.hide-for-touch {
   -moz-osx-font-smoothing: grayscale;
   transform: translate(0, 0);
 }
-/* line 27, ../scss/buttons.scss */
+/* line 34, ../scss/buttons.scss */
+.button.round-icon.subtle {
+  border-color: #75787B;
+  color: #75787B;
+}
+/* line 39, ../scss/buttons.scss */
 .button.round-icon:before {
   font-size: 1.25rem;
   height: 100%;
   width: 100%;
   text-align: center;
 }
-/* line 34, ../scss/buttons.scss */
+/* line 46, ../scss/buttons.scss */
 .button.round-icon.chevron-down:before {
   content: "\f078";
 }
-/* line 35, ../scss/buttons.scss */
+/* line 47, ../scss/buttons.scss */
 .button.round-icon.chevron-left:before {
   content: "\f053";
 }
-/* line 36, ../scss/buttons.scss */
+/* line 48, ../scss/buttons.scss */
 .button.round-icon.chevron-right:before {
   content: "\f054";
 }
-/* line 37, ../scss/buttons.scss */
+/* line 49, ../scss/buttons.scss */
 .button.round-icon.chevron-up:before {
   content: "\f077";
 }
@@ -12501,37 +12363,284 @@ th.hide-for-touch {
   background-image: url("/ruckus/images/background-2.jpg") !important;
 }
 
-/* line 32, ../scss/background-images.scss */
-#options-1, #options-2 {
-  display: block;
-  width: 100%;
-  height: 100px;
+/* line 2, ../scss/colours.scss */
+.ruckus-orange {
+  color: #EA7600 !important;
 }
 
-/* line 40, ../scss/background-images.scss */
-#options-1 #small {
-  background-image: url("../images/small.png");
+/* line 4, ../scss/colours.scss */
+.ruckus-background-orange {
+  background-color: #EA7600 !important;
 }
-/* line 43, ../scss/background-images.scss */
-#options-1 #medium {
-  background-image: url("../images/small.png");
+/* line 6, ../scss/colours.scss */
+.ruckus-background-orange.opacity-25 {
+  background-color: rgba(234, 118, 0, 0.25) !important;
 }
-/* line 46, ../scss/background-images.scss */
-#options-1 #large {
-  background-image: url("../images/small.png");
+/* line 9, ../scss/colours.scss */
+.ruckus-background-orange.opacity-50 {
+  background-color: rgba(234, 118, 0, 0.5) !important;
+}
+/* line 12, ../scss/colours.scss */
+.ruckus-background-orange.opacity-75 {
+  background-color: rgba(234, 118, 0, 0.75) !important;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 15, ../scss/colours.scss */
+  .ruckus-background-orange.opacity-75-medium-up {
+    background-color: rgba(234, 118, 0, 0.75) !important;
+  }
 }
 
-/* line 52, ../scss/background-images.scss */
-#options-2 #wifi {
-  background-image: url("../images/stage3-wifi.png");
+/* line 2, ../scss/colours.scss */
+.ruckus-grey {
+  color: #75787B !important;
 }
-/* line 55, ../scss/background-images.scss */
-#options-2 #pos {
-  background-image: url("../images/stage3-card.png");
+
+/* line 4, ../scss/colours.scss */
+.ruckus-background-grey {
+  background-color: #75787B !important;
 }
-/* line 58, ../scss/background-images.scss */
-#options-2 #employee {
-  background-image: url("../images/stage3-graph.png");
+/* line 6, ../scss/colours.scss */
+.ruckus-background-grey.opacity-25 {
+  background-color: rgba(117, 120, 123, 0.25) !important;
+}
+/* line 9, ../scss/colours.scss */
+.ruckus-background-grey.opacity-50 {
+  background-color: rgba(117, 120, 123, 0.5) !important;
+}
+/* line 12, ../scss/colours.scss */
+.ruckus-background-grey.opacity-75 {
+  background-color: rgba(117, 120, 123, 0.75) !important;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 15, ../scss/colours.scss */
+  .ruckus-background-grey.opacity-75-medium-up {
+    background-color: rgba(117, 120, 123, 0.75) !important;
+  }
+}
+
+/* line 2, ../scss/colours.scss */
+.ruckus-orange {
+  color: #EA7600 !important;
+}
+
+/* line 4, ../scss/colours.scss */
+.ruckus-background-orange {
+  background-color: #EA7600 !important;
+}
+/* line 6, ../scss/colours.scss */
+.ruckus-background-orange.opacity-25 {
+  background-color: rgba(234, 118, 0, 0.25) !important;
+}
+/* line 9, ../scss/colours.scss */
+.ruckus-background-orange.opacity-50 {
+  background-color: rgba(234, 118, 0, 0.5) !important;
+}
+/* line 12, ../scss/colours.scss */
+.ruckus-background-orange.opacity-75 {
+  background-color: rgba(234, 118, 0, 0.75) !important;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 15, ../scss/colours.scss */
+  .ruckus-background-orange.opacity-75-medium-up {
+    background-color: rgba(234, 118, 0, 0.75) !important;
+  }
+}
+
+/* line 2, ../scss/colours.scss */
+.ruckus-green {
+  color: #74aa50 !important;
+}
+
+/* line 4, ../scss/colours.scss */
+.ruckus-background-green {
+  background-color: #74aa50 !important;
+}
+/* line 6, ../scss/colours.scss */
+.ruckus-background-green.opacity-25 {
+  background-color: rgba(116, 170, 80, 0.25) !important;
+}
+/* line 9, ../scss/colours.scss */
+.ruckus-background-green.opacity-50 {
+  background-color: rgba(116, 170, 80, 0.5) !important;
+}
+/* line 12, ../scss/colours.scss */
+.ruckus-background-green.opacity-75 {
+  background-color: rgba(116, 170, 80, 0.75) !important;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 15, ../scss/colours.scss */
+  .ruckus-background-green.opacity-75-medium-up {
+    background-color: rgba(116, 170, 80, 0.75) !important;
+  }
+}
+
+/* line 2, ../scss/colours.scss */
+.ruckus-violet {
+  color: #702082 !important;
+}
+
+/* line 4, ../scss/colours.scss */
+.ruckus-background-violet {
+  background-color: #702082 !important;
+}
+/* line 6, ../scss/colours.scss */
+.ruckus-background-violet.opacity-25 {
+  background-color: rgba(112, 32, 130, 0.25) !important;
+}
+/* line 9, ../scss/colours.scss */
+.ruckus-background-violet.opacity-50 {
+  background-color: rgba(112, 32, 130, 0.5) !important;
+}
+/* line 12, ../scss/colours.scss */
+.ruckus-background-violet.opacity-75 {
+  background-color: rgba(112, 32, 130, 0.75) !important;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 15, ../scss/colours.scss */
+  .ruckus-background-violet.opacity-75-medium-up {
+    background-color: rgba(112, 32, 130, 0.75) !important;
+  }
+}
+
+/* line 2, ../scss/colours.scss */
+.ruckus-blue {
+  color: #009CBD !important;
+}
+
+/* line 4, ../scss/colours.scss */
+.ruckus-background-blue {
+  background-color: #009CBD !important;
+}
+/* line 6, ../scss/colours.scss */
+.ruckus-background-blue.opacity-25 {
+  background-color: rgba(0, 156, 189, 0.25) !important;
+}
+/* line 9, ../scss/colours.scss */
+.ruckus-background-blue.opacity-50 {
+  background-color: rgba(0, 156, 189, 0.5) !important;
+}
+/* line 12, ../scss/colours.scss */
+.ruckus-background-blue.opacity-75 {
+  background-color: rgba(0, 156, 189, 0.75) !important;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 15, ../scss/colours.scss */
+  .ruckus-background-blue.opacity-75-medium-up {
+    background-color: rgba(0, 156, 189, 0.75) !important;
+  }
+}
+
+/* line 2, ../scss/colours.scss */
+.ruckus-gold {
+  color: #B58500 !important;
+}
+
+/* line 4, ../scss/colours.scss */
+.ruckus-background-gold {
+  background-color: #B58500 !important;
+}
+/* line 6, ../scss/colours.scss */
+.ruckus-background-gold.opacity-25 {
+  background-color: rgba(181, 133, 0, 0.25) !important;
+}
+/* line 9, ../scss/colours.scss */
+.ruckus-background-gold.opacity-50 {
+  background-color: rgba(181, 133, 0, 0.5) !important;
+}
+/* line 12, ../scss/colours.scss */
+.ruckus-background-gold.opacity-75 {
+  background-color: rgba(181, 133, 0, 0.75) !important;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 15, ../scss/colours.scss */
+  .ruckus-background-gold.opacity-75-medium-up {
+    background-color: rgba(181, 133, 0, 0.75) !important;
+  }
+}
+
+/* line 2, ../scss/colours.scss */
+.ruckus-red {
+  color: #A4343A !important;
+}
+
+/* line 4, ../scss/colours.scss */
+.ruckus-background-red {
+  background-color: #A4343A !important;
+}
+/* line 6, ../scss/colours.scss */
+.ruckus-background-red.opacity-25 {
+  background-color: rgba(164, 52, 58, 0.25) !important;
+}
+/* line 9, ../scss/colours.scss */
+.ruckus-background-red.opacity-50 {
+  background-color: rgba(164, 52, 58, 0.5) !important;
+}
+/* line 12, ../scss/colours.scss */
+.ruckus-background-red.opacity-75 {
+  background-color: rgba(164, 52, 58, 0.75) !important;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 15, ../scss/colours.scss */
+  .ruckus-background-red.opacity-75-medium-up {
+    background-color: rgba(164, 52, 58, 0.75) !important;
+  }
+}
+
+/* line 2, ../scss/colours.scss */
+.ruckus-white {
+  color: #fff !important;
+}
+
+/* line 4, ../scss/colours.scss */
+.ruckus-background-white {
+  background-color: #fff !important;
+}
+/* line 6, ../scss/colours.scss */
+.ruckus-background-white.opacity-25 {
+  background-color: rgba(255, 255, 255, 0.25) !important;
+}
+/* line 9, ../scss/colours.scss */
+.ruckus-background-white.opacity-50 {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+}
+/* line 12, ../scss/colours.scss */
+.ruckus-background-white.opacity-75 {
+  background-color: rgba(255, 255, 255, 0.75) !important;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 15, ../scss/colours.scss */
+  .ruckus-background-white.opacity-75-medium-up {
+    background-color: rgba(255, 255, 255, 0.75) !important;
+  }
+}
+
+/* line 2, ../scss/colours.scss */
+.ruckus-black {
+  color: #000 !important;
+}
+
+/* line 4, ../scss/colours.scss */
+.ruckus-background-black {
+  background-color: #000 !important;
+}
+/* line 6, ../scss/colours.scss */
+.ruckus-background-black.opacity-25 {
+  background-color: rgba(0, 0, 0, 0.25) !important;
+}
+/* line 9, ../scss/colours.scss */
+.ruckus-background-black.opacity-50 {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+/* line 12, ../scss/colours.scss */
+.ruckus-background-black.opacity-75 {
+  background-color: rgba(0, 0, 0, 0.75) !important;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 15, ../scss/colours.scss */
+  .ruckus-background-black.opacity-75-medium-up {
+    background-color: rgba(0, 0, 0, 0.75) !important;
+  }
 }
 
 /* line 1, ../scss/development.scss */
