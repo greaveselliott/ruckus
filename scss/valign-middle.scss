@@ -1,0 +1,15 @@
+// Aligns foundation columns to middle
+
+.valign-middle {
+  display: table;
+  height: 100%;
+
+  > .columns {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  > .columns, > [class*="column"] + [class*="column"]:last-child {
+    float: none;
+  }
+}

@@ -1,12 +1,22 @@
 .table-center-container {
-  display: table;
+  display: table !important;
   width: 100%;
 }
 
 .table-center-cell {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
+  display: table-cell !important;
+  text-align: center !important;
+  vertical-align: middle !important;
+}
+
+.clear-both {
+  clear:both;
+}
+.clear-left {
+  clear:left;
+}
+.clear-right {
+  clear:right;
 }
 .absolute {
   position: absolute;
@@ -26,4 +36,12 @@
 
 .width-100 {
   width: 100%;
+}
+
+.padding-60-75 {
+  padding: 60px 75px;
+}
+
+.padding-top-10 {
+ padding-top: 10px;
 }

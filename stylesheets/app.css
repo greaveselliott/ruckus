@@ -1,4 +1,224 @@
 @charset "UTF-8";
+/* line 32, ../scss/variables.scss */
+.ruckus-orange {
+  color: #EA7600 !important;
+}
+
+/* line 34, ../scss/variables.scss */
+.ruckus-background-orange {
+  background-color: #EA7600 !important;
+}
+/* line 36, ../scss/variables.scss */
+.ruckus-background-orange.opacity-25 {
+  background-color: rgba(234, 118, 0, 0.25) !important;
+}
+/* line 39, ../scss/variables.scss */
+.ruckus-background-orange.opacity-50 {
+  background-color: rgba(234, 118, 0, 0.5) !important;
+}
+/* line 42, ../scss/variables.scss */
+.ruckus-background-orange.opacity-75 {
+  background-color: rgba(234, 118, 0, 0.75) !important;
+}
+
+/* line 32, ../scss/variables.scss */
+.ruckus-grey {
+  color: #75787B !important;
+}
+
+/* line 34, ../scss/variables.scss */
+.ruckus-background-grey {
+  background-color: #75787B !important;
+}
+/* line 36, ../scss/variables.scss */
+.ruckus-background-grey.opacity-25 {
+  background-color: rgba(117, 120, 123, 0.25) !important;
+}
+/* line 39, ../scss/variables.scss */
+.ruckus-background-grey.opacity-50 {
+  background-color: rgba(117, 120, 123, 0.5) !important;
+}
+/* line 42, ../scss/variables.scss */
+.ruckus-background-grey.opacity-75 {
+  background-color: rgba(117, 120, 123, 0.75) !important;
+}
+
+/* line 32, ../scss/variables.scss */
+.ruckus-orange {
+  color: #EA7600 !important;
+}
+
+/* line 34, ../scss/variables.scss */
+.ruckus-background-orange {
+  background-color: #EA7600 !important;
+}
+/* line 36, ../scss/variables.scss */
+.ruckus-background-orange.opacity-25 {
+  background-color: rgba(234, 118, 0, 0.25) !important;
+}
+/* line 39, ../scss/variables.scss */
+.ruckus-background-orange.opacity-50 {
+  background-color: rgba(234, 118, 0, 0.5) !important;
+}
+/* line 42, ../scss/variables.scss */
+.ruckus-background-orange.opacity-75 {
+  background-color: rgba(234, 118, 0, 0.75) !important;
+}
+
+/* line 32, ../scss/variables.scss */
+.ruckus-green {
+  color: #74aa50 !important;
+}
+
+/* line 34, ../scss/variables.scss */
+.ruckus-background-green {
+  background-color: #74aa50 !important;
+}
+/* line 36, ../scss/variables.scss */
+.ruckus-background-green.opacity-25 {
+  background-color: rgba(116, 170, 80, 0.25) !important;
+}
+/* line 39, ../scss/variables.scss */
+.ruckus-background-green.opacity-50 {
+  background-color: rgba(116, 170, 80, 0.5) !important;
+}
+/* line 42, ../scss/variables.scss */
+.ruckus-background-green.opacity-75 {
+  background-color: rgba(116, 170, 80, 0.75) !important;
+}
+
+/* line 32, ../scss/variables.scss */
+.ruckus-violet {
+  color: #702082 !important;
+}
+
+/* line 34, ../scss/variables.scss */
+.ruckus-background-violet {
+  background-color: #702082 !important;
+}
+/* line 36, ../scss/variables.scss */
+.ruckus-background-violet.opacity-25 {
+  background-color: rgba(112, 32, 130, 0.25) !important;
+}
+/* line 39, ../scss/variables.scss */
+.ruckus-background-violet.opacity-50 {
+  background-color: rgba(112, 32, 130, 0.5) !important;
+}
+/* line 42, ../scss/variables.scss */
+.ruckus-background-violet.opacity-75 {
+  background-color: rgba(112, 32, 130, 0.75) !important;
+}
+
+/* line 32, ../scss/variables.scss */
+.ruckus-blue {
+  color: #009CBD !important;
+}
+
+/* line 34, ../scss/variables.scss */
+.ruckus-background-blue {
+  background-color: #009CBD !important;
+}
+/* line 36, ../scss/variables.scss */
+.ruckus-background-blue.opacity-25 {
+  background-color: rgba(0, 156, 189, 0.25) !important;
+}
+/* line 39, ../scss/variables.scss */
+.ruckus-background-blue.opacity-50 {
+  background-color: rgba(0, 156, 189, 0.5) !important;
+}
+/* line 42, ../scss/variables.scss */
+.ruckus-background-blue.opacity-75 {
+  background-color: rgba(0, 156, 189, 0.75) !important;
+}
+
+/* line 32, ../scss/variables.scss */
+.ruckus-gold {
+  color: #B58500 !important;
+}
+
+/* line 34, ../scss/variables.scss */
+.ruckus-background-gold {
+  background-color: #B58500 !important;
+}
+/* line 36, ../scss/variables.scss */
+.ruckus-background-gold.opacity-25 {
+  background-color: rgba(181, 133, 0, 0.25) !important;
+}
+/* line 39, ../scss/variables.scss */
+.ruckus-background-gold.opacity-50 {
+  background-color: rgba(181, 133, 0, 0.5) !important;
+}
+/* line 42, ../scss/variables.scss */
+.ruckus-background-gold.opacity-75 {
+  background-color: rgba(181, 133, 0, 0.75) !important;
+}
+
+/* line 32, ../scss/variables.scss */
+.ruckus-red {
+  color: #A4343A !important;
+}
+
+/* line 34, ../scss/variables.scss */
+.ruckus-background-red {
+  background-color: #A4343A !important;
+}
+/* line 36, ../scss/variables.scss */
+.ruckus-background-red.opacity-25 {
+  background-color: rgba(164, 52, 58, 0.25) !important;
+}
+/* line 39, ../scss/variables.scss */
+.ruckus-background-red.opacity-50 {
+  background-color: rgba(164, 52, 58, 0.5) !important;
+}
+/* line 42, ../scss/variables.scss */
+.ruckus-background-red.opacity-75 {
+  background-color: rgba(164, 52, 58, 0.75) !important;
+}
+
+/* line 32, ../scss/variables.scss */
+.ruckus-white {
+  color: #fff !important;
+}
+
+/* line 34, ../scss/variables.scss */
+.ruckus-background-white {
+  background-color: #fff !important;
+}
+/* line 36, ../scss/variables.scss */
+.ruckus-background-white.opacity-25 {
+  background-color: rgba(255, 255, 255, 0.25) !important;
+}
+/* line 39, ../scss/variables.scss */
+.ruckus-background-white.opacity-50 {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+}
+/* line 42, ../scss/variables.scss */
+.ruckus-background-white.opacity-75 {
+  background-color: rgba(255, 255, 255, 0.75) !important;
+}
+
+/* line 32, ../scss/variables.scss */
+.ruckus-black {
+  color: #000 !important;
+}
+
+/* line 34, ../scss/variables.scss */
+.ruckus-background-black {
+  background-color: #000 !important;
+}
+/* line 36, ../scss/variables.scss */
+.ruckus-background-black.opacity-25 {
+  background-color: rgba(0, 0, 0, 0.25) !important;
+}
+/* line 39, ../scss/variables.scss */
+.ruckus-background-black.opacity-50 {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+/* line 42, ../scss/variables.scss */
+.ruckus-background-black.opacity-75 {
+  background-color: rgba(0, 0, 0, 0.75) !important;
+}
+
 /* line 348, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-version {
   font-family: "/5.5.1/";
@@ -2426,17 +2646,17 @@ button, .button {
   padding-left: 2rem;
   font-size: 1rem;
   background-color: transparent;
-  border-color: #FFFFFF;
+  border-color: transparent;
   color: #FFFFFF;
   transition: background-color 300ms ease-out;
 }
 /* line 162, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button:hover, button:focus, .button:hover, .button:focus {
-  background-color: #FFFFFF;
+  background-color: transparent;
 }
 /* line 168, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button:hover, button:focus, .button:hover, .button:focus {
-  color: #333333;
+  color: #FFFFFF;
 }
 /* line 224, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.secondary, .button.secondary {
@@ -2559,7 +2779,7 @@ button.round, .button.round {
 /* line 241, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled, button[disabled], .button.disabled, .button[disabled] {
   background-color: transparent;
-  border-color: #FFFFFF;
+  border-color: transparent;
   color: #FFFFFF;
   cursor: default;
   opacity: 0.7;
@@ -2567,11 +2787,11 @@ button.disabled, button[disabled], .button.disabled, .button[disabled] {
 }
 /* line 162, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-  background-color: #FFFFFF;
+  background-color: transparent;
 }
 /* line 168, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-  color: #333333;
+  color: #FFFFFF;
 }
 /* line 179, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
@@ -7675,12 +7895,12 @@ h1 {
 
 /* line 270, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h2 {
-  font-size: 1.6875rem;
+  font-size: 2.625rem;
 }
 
 /* line 271, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h3 {
-  font-size: 1.375rem;
+  font-size: 2rem;
 }
 
 /* line 272, ../bower_components/foundation/scss/foundation/components/_type.scss */
@@ -7925,12 +8145,12 @@ blockquote p {
 
   /* line 457, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h2 {
-    font-size: 2.3125rem;
+    font-size: 3.25rem;
   }
 
   /* line 458, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h3 {
-    font-size: 1.6875rem;
+    font-size: 2.3125rem;
   }
 
   /* line 459, ../bower_components/foundation/scss/foundation/components/_type.scss */
@@ -12051,83 +12271,123 @@ th.hide-for-touch {
   content: "";
 }
 
-/* line 27, ../scss/variables.scss */
-.ruckus-orange {
-  color: #EA7600 !important;
-}
-
-/* line 27, ../scss/variables.scss */
-.ruckus-grey {
-  color: #75787B !important;
-}
-
-/* line 27, ../scss/variables.scss */
-.ruckus-orange {
-  color: #EA7600 !important;
-}
-
-/* line 27, ../scss/variables.scss */
-.ruckus-green {
-  color: #74aa50 !important;
-}
-
-/* line 27, ../scss/variables.scss */
-.ruckus-violet {
-  color: #702082 !important;
-}
-
-/* line 27, ../scss/variables.scss */
-.ruckus-blue {
-  color: #009CBD !important;
-}
-
-/* line 27, ../scss/variables.scss */
-.ruckus-gold {
-  color: #B58500 !important;
-}
-
-/* line 27, ../scss/variables.scss */
-.ruckus-red {
-  color: #A4343A !important;
-}
-
 /* line 1, ../scss/structure.scss */
-.table-center-container {
-  display: table;
+.table-center-container, .button.round-icon {
+  display: table !important;
   width: 100%;
 }
 
 /* line 6, ../scss/structure.scss */
-.table-center-cell {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
+.table-center-cell, .button.round-icon:before {
+  display: table-cell !important;
+  text-align: center !important;
+  vertical-align: middle !important;
 }
 
-/* line 11, ../scss/structure.scss */
+/* line 12, ../scss/structure.scss */
+.clear-both {
+  clear: both;
+}
+
+/* line 15, ../scss/structure.scss */
+.clear-left {
+  clear: left;
+}
+
+/* line 18, ../scss/structure.scss */
+.clear-right {
+  clear: right;
+}
+
+/* line 21, ../scss/structure.scss */
 .absolute {
   position: absolute;
 }
-/* line 13, ../scss/structure.scss */
+/* line 23, ../scss/structure.scss */
 .absolute .top {
   top: 0;
 }
-/* line 16, ../scss/structure.scss */
+/* line 26, ../scss/structure.scss */
 .absolute .left {
   left: 0;
 }
-/* line 19, ../scss/structure.scss */
+/* line 29, ../scss/structure.scss */
 .absolute .right {
   right: 0;
 }
-/* line 22, ../scss/structure.scss */
+/* line 32, ../scss/structure.scss */
 .absolute .bottom {
   bottom: 0;
 }
 
-/* line 27, ../scss/structure.scss */
+/* line 37, ../scss/structure.scss */
 .width-100 {
   width: 100%;
+}
+
+/* line 41, ../scss/structure.scss */
+.padding-60-75 {
+  padding: 60px 75px;
+}
+
+/* line 45, ../scss/structure.scss */
+.padding-top-10 {
+  padding-top: 10px;
+}
+
+/* line 3, ../scss/valign-middle.scss */
+.valign-middle {
+  display: table;
+  height: 100%;
+}
+/* line 7, ../scss/valign-middle.scss */
+.valign-middle > .columns {
+  display: table-cell;
+  vertical-align: middle;
+}
+/* line 12, ../scss/valign-middle.scss */
+.valign-middle > .columns, .valign-middle > [class*="column"] + [class*="column"]:last-child {
+  float: none;
+}
+
+/* line 1, ../scss/typography.scss */
+.h1 {
+  font-size: 2.75rem !important;
+}
+
+/* line 5, ../scss/typography.scss */
+.h2 {
+  font-size: 3.25rem !important;
+}
+
+/* line 9, ../scss/typography.scss */
+.h3 {
+  font-size: 2.3125rem !important;
+}
+
+/* line 13, ../scss/typography.scss */
+.h4 {
+  font-size: 1.4375rem !important;
+}
+
+/* line 17, ../scss/typography.scss */
+.h5 {
+  font-size: 1.125rem !important;
+}
+
+/* line 21, ../scss/typography.scss */
+.h6 {
+  font-size: 1rem !important;
+}
+
+/* line 1, ../scss/header.scss */
+.top-bar {
+  padding-top: 20px;
+}
+
+/* line 5, ../scss/header.scss */
+.logo {
+  height: 40px;
 }
 
 /* line 2, ../scss/social-nav.scss */
@@ -12154,6 +12414,62 @@ th.hide-for-touch {
   color: white;
 }
 
+/* line 1, ../scss/buttons.scss */
+.ruckus-border-radius, .button {
+  -webkit-border-radius: 7px;
+  border-radius: 7px;
+}
+
+/* line 8, ../scss/buttons.scss */
+.button {
+  border: solid 1px #FFF;
+}
+/* line 13, ../scss/buttons.scss */
+.button:hover {
+  color: #EA7600;
+  border-color: #EA7600;
+}
+/* line 18, ../scss/buttons.scss */
+.button.round-icon {
+  margin: 0 auto;
+  height: 60px;
+  width: 60px;
+  -webkit-border-radius: 1000px;
+  border-radius: 1000px;
+  border-width: 2px;
+  padding: 0px;
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+}
+/* line 27, ../scss/buttons.scss */
+.button.round-icon:before {
+  font-size: 1.25rem;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+/* line 34, ../scss/buttons.scss */
+.button.round-icon.chevron-down:before {
+  content: "\f078";
+}
+/* line 35, ../scss/buttons.scss */
+.button.round-icon.chevron-left:before {
+  content: "\f053";
+}
+/* line 36, ../scss/buttons.scss */
+.button.round-icon.chevron-right:before {
+  content: "\f054";
+}
+/* line 37, ../scss/buttons.scss */
+.button.round-icon.chevron-up:before {
+  content: "\f077";
+}
+
 /* line 1, ../scss/background-images.scss */
 .tile {
   position: relative;
@@ -12178,9 +12494,48 @@ th.hide-for-touch {
 }
 /* line 21, ../scss/background-images.scss */
 .tile#stage_1-1 .tile_background, .tile#stage_1-2 .tile_background {
-  background-image: url("../images/background-stage-1-1.jpg");
+  background-image: url("/ruckus/images/background-1.jpg");
 }
 /* line 26, ../scss/background-images.scss */
 .tile#stage_2 .tile_background, .tile#stage_3 .tile_background {
-  background-image: url("../images/background-stage-2_3.jpg");
+  background-image: url("/ruckus/images/background-2.jpg") !important;
+}
+
+/* line 32, ../scss/background-images.scss */
+#options-1, #options-2 {
+  display: block;
+  width: 100%;
+  height: 100px;
+}
+
+/* line 40, ../scss/background-images.scss */
+#options-1 #small {
+  background-image: url("../images/small.png");
+}
+/* line 43, ../scss/background-images.scss */
+#options-1 #medium {
+  background-image: url("../images/small.png");
+}
+/* line 46, ../scss/background-images.scss */
+#options-1 #large {
+  background-image: url("../images/small.png");
+}
+
+/* line 52, ../scss/background-images.scss */
+#options-2 #wifi {
+  background-image: url("../images/stage3-wifi.png");
+}
+/* line 55, ../scss/background-images.scss */
+#options-2 #pos {
+  background-image: url("../images/stage3-card.png");
+}
+/* line 58, ../scss/background-images.scss */
+#options-2 #employee {
+  background-image: url("../images/stage3-graph.png");
+}
+
+/* line 1, ../scss/development.scss */
+img[src^='http://placehold.it/'] {
+  width: 100%;
+  height: auto;
 }

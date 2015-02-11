@@ -1,0 +1,42 @@
+.ruckus-border-radius   {
+  -webkit-border-radius: $ruckus-border-radius;
+  border-radius: $ruckus-border-radius;
+}
+// list of chevron pointers
+
+
+.button {
+  @extend .button !optional;
+  @extend  .ruckus-border-radius;
+  border: solid 1px #FFF;
+
+  &:hover {
+    color: $ruckus-orange;
+    border-color: $ruckus-orange;
+  }
+
+  &.round-icon {
+    margin: 0 auto;
+    height: 60px;
+    width: 60px;
+    -webkit-border-radius: 1000px;
+    border-radius: 1000px;
+    border-width: 2px;
+    padding: 0px;
+    @extend .table-center-container;
+    &:before {
+      font-size: rem-calc(20);
+      height: 100%; width: 100%;
+      @extend .table-center-cell;
+      text-align: center;
+    }
+    @include fa-icon();
+    &.chevron-down:before {content:"\f078"}
+    &.chevron-left:before {content:"\f053"}
+    &.chevron-right:before {content:"\f054"}
+    &.chevron-up:before {content:"\f077"}
+  }
+}
+
+
+

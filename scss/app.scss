@@ -1,9 +1,11 @@
+@import "variables.scss";
 @import "settings";
 @import "foundation";
 @import "../font-awesome-4.3.0/scss/font-awesome.scss";
 
-@import "variables.scss";
+
 @import "structure.scss";
+@import "valign-middle.scss";
 @import "headings.scss";
 @import "typography.scss";
 @import "header.scss";
@@ -12,6 +14,8 @@
 @import "forms.scss";
 @import "background-images.scss";
 
+// development sassy sheets
+@import "development.scss";
 // Or selectively include components
 // @import
 //   "foundation/components/accordion",
