@@ -12332,6 +12332,18 @@ th.hide-for-touch {
   content: "\f077";
 }
 
+/* line 54, ../scss/buttons.scss */
+.toggled .button {
+  color: #EA7600 !important;
+  border-color: #EA7600 !important;
+}
+/* line 58, ../scss/buttons.scss */
+.toggled .button.alt {
+  background-color: #fff !important;
+  border-color: #fff !important;
+  color: black !important;
+}
+
 /* line 1, ../scss/background-images.scss */
 .tile {
   position: relative;

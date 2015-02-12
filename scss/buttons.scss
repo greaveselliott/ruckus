@@ -12,12 +12,12 @@
 
   border: solid 1px #FFF;
 
-  &:hover {
+  &:hover, {
     color: $ruckus-orange !important;
     border-color: $ruckus-orange !important;
   }
 
-  &.alt:hover {
+  &.alt:hover, {
     background-color: #fff !important;
     border-color: #fff !important;
     color: black !important;
@@ -47,6 +47,19 @@
     &.chevron-left:before {content:"\f053"}
     &.chevron-right:before {content:"\f054"}
     &.chevron-up:before {content:"\f077"}
+  }
+}
+
+.toggled {
+  .button {
+    color: $ruckus-orange !important;
+    border-color: $ruckus-orange !important;
+
+    &.alt {
+      background-color: #fff !important;
+      border-color: #fff !important;
+      color: black !important;
+    }
   }
 }
 

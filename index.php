@@ -7,10 +7,9 @@
     <link rel="stylesheet" href="stylesheets/app.css" />
     <script src="bower_components/modernizr/modernizr.js"></script>
     <script src="js/google-analytics.js"></script>
-    <script src="js/jquery-cookie/src/jquery.cookie.js"></script>
     <!-- <script data-main="js/main" src="js/require.js"></script> -->
   </head>
-  <body>
+  <body class="appContainer">
   <div class="absolute top width-100">
     <div class="row collapse padding-top-10">
         <div class="large-6 columns">
@@ -51,7 +50,7 @@
                 <div class="row collapse padding-top-10">
                     <nav>
                         <!-- Options -->
-                            <ul class="large-block-grid-5 medium-block-grid-3 small-block-grid-2 ruckus-option-group">
+                            <ul class="large-block-grid-5 medium-block-grid-3 small-block-grid-2 ruckus-option-group" data-toggle-type="radio">
                                 <li data-option-name="retail" class="ruckus-option"><span class="button width-100 height-100 alt" >Retail</span></li>
                                 <li data-option-name="leisure" class="ruckus-option"><span class="button width-100 height-100 alt">Leisure</span></li>
                                 <li data-option-name="hospitality" class="ruckus-option"><span class="button width-100 height-100 alt">Hospitality</span></li>
@@ -82,11 +81,20 @@
                     <div class="row">
                         <div class="large-12 columns"><h2 class="ruckus-white">Size of your business?</h2></div>
                         <div class="large-12 columns">
-                            <div class="row ruckus-option-group">
-                                <div class="large-4 columns ruckus-option" data-option-name="small"><img src="http://placehold.it/200x200" alt="Small Ruckus logo"><div class="button">Small</div></div>
-                                <div class="large-4 columns ruckus-option" data-option-name="medium"><img src="http://placehold.it/200x200" alt="Medium Ruckus logo"><div class="button">Medium</div></div>
-                                <div class="large-4 columns ruckus-option" data-option-name="large""><img src="http://placehold.it/200x200" alt="Large Ruckus logo"><div class="button">Large</div></div>
-                            </div>
+                            <ul class="large-block-grid-3 medium-block-grid-3 small-block-grid-3 ruckus-option-group" data-toggle-type="radio">
+                                <li class="ruckus-option" data-option-name="small">
+                                    <img src="http://placehold.it/200x200" alt="Small Ruckus logo">
+                                    <span class="button">Small</span>
+                                </li>
+                                <li class="ruckus-option" data-option-name="medium">
+                                    <img src="http://placehold.it/200x200" alt="Medium Ruckus logo">
+                                    <span class="button">Medium</span>
+                                </li>
+                                <li class="ruckus-option" data-option-name="large">
+                                    <img src="http://placehold.it/200x200" alt="Large Ruckus logo">
+                                    <span class="button">Large</span>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                     <!-- Button which is absolutely positioned in the bottom right corner -->
@@ -110,11 +118,11 @@
                             <h4 class="ruckus-white">Select the option/s relevant to you</h4>
                         </div>
                         <div class="large-12 columns">
-                            <div class="row ruckus-option-group">
-                                <div class="large-4 columns ruckus-option" data-option-name="public"><img src="images/stage3-wifi-white.png" alt="Small Ruckus logo" class="display-block"><div class="button">To provide public Wi-Fi</div></div>
-                                <div class="large-4 columns ruckus-option" data-option-name="pos"><img src="images/stage3-card-white.png" alt="Medium Ruckus logo" class="display-block"><div class="button">POS</div></div>
-                                <div class="large-4 columns ruckus-option" data-option-name="employee"><img src="images/stage3-graph-white.png" alt="Large Ruckus logo" class="display-block"><div class="button">Employee enablement</div></div>
-                            </div>
+                            <ul class="large-block-grid-3 medium-block-grid-3 small-block-grid-3 ruckus-option-group" data-toggle-type="checkbox">
+                                <li class="ruckus-option" data-option-name="public"><img src="images/stage3-wifi-white.png" alt="Small Ruckus logo" class="display-block"><span class="button">To provide public Wi-Fi</span></li>
+                                <li class="ruckus-option" data-option-name="pos"><img src="images/stage3-card-white.png" alt="Medium Ruckus logo" class="display-block"><span class="button">POS</span></li>
+                                <li class="ruckus-option" data-option-name="employee"><img src="images/stage3-graph-white.png" alt="Large Ruckus logo" class="display-block"><span class="button">Employee enablement</span></li>
+                            </ul>
                         </div>
                     </div>
                     <!-- Button which is absolutely positioned in the bottom right corner -->
@@ -184,6 +192,7 @@
     <!-- Scripts: DO NOT DELETE -->
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="js/json-serialize.js"></script>
+    <script src="js/jquery-cookie/src/jquery.cookie.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
     <script src="js/app.js"></script>
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
