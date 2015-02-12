@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation</title>
+    <title>Always better wireless | Ruckus</title>
     <link rel="stylesheet" href="stylesheets/app.css" />
     <script src="bower_components/modernizr/modernizr.js"></script>
+    <script src="js/google-analytics.js"></script>
+    <script src="js/jquery-cookie/src/jquery.cookie.js"></script>
+    <!-- <script data-main="js/main" src="js/require.js"></script> -->
   </head>
   <body>
   <div class="absolute top width-100">
@@ -48,12 +51,12 @@
                 <div class="row collapse padding-top-10">
                     <nav>
                         <!-- Options -->
-                            <ul class="large-block-grid-5 medium-block-grid-3 small-block-grid-2">
-                                <li data-option="retail"><span class="button width-100 height-100 alt" >Retail</span></li>
-                                <li data-option="leisure"><span class="button width-100 height-100 alt">Leisure</span></li>
-                                <li data-option="hospitality"><span class="button width-100 height-100 alt">Hospitality</span></li>
-                                <li data-option="transport"><span class="button width-100 height-100 alt">Transport</span></li>
-                                <li data-option="openspace"><span class="button width-100 height-100 alt">Open Space</span></li>
+                            <ul class="large-block-grid-5 medium-block-grid-3 small-block-grid-2 ruckus-option-group">
+                                <li data-option-name="retail" class="ruckus-option"><span class="button width-100 height-100 alt" >Retail</span></li>
+                                <li data-option-name="leisure" class="ruckus-option"><span class="button width-100 height-100 alt">Leisure</span></li>
+                                <li data-option-name="hospitality" class="ruckus-option"><span class="button width-100 height-100 alt">Hospitality</span></li>
+                                <li data-option-name="transport" class="ruckus-option"><span class="button width-100 height-100 alt">Transport</span></li>
+                                <li data-option-name="openspace" class="ruckus-option"><span class="button width-100 height-100 alt">Open Space</span></li>
                             </ul>
                     </nav>
                 </div>
@@ -79,10 +82,10 @@
                     <div class="row">
                         <div class="large-12 columns"><h2 class="ruckus-white">Size of your business?</h2></div>
                         <div class="large-12 columns">
-                            <div class="row">
-                                <div class="large-4 columns"><img src="http://placehold.it/200x200" alt="Small Ruckus logo"><div class="button">Small</div></div>
-                                <div class="large-4 columns"><img src="http://placehold.it/200x200" alt="Medium Ruckus logo"><div class="button">Medium</div></div>
-                                <div class="large-4 columns"><img src="http://placehold.it/200x200" alt="Large Ruckus logo"><div class="button">Large</div></div>
+                            <div class="row ruckus-option-group">
+                                <div class="large-4 columns ruckus-option" data-option-name="small"><img src="http://placehold.it/200x200" alt="Small Ruckus logo"><div class="button">Small</div></div>
+                                <div class="large-4 columns ruckus-option" data-option-name="medium"><img src="http://placehold.it/200x200" alt="Medium Ruckus logo"><div class="button">Medium</div></div>
+                                <div class="large-4 columns ruckus-option" data-option-name="large""><img src="http://placehold.it/200x200" alt="Large Ruckus logo"><div class="button">Large</div></div>
                             </div>
                         </div>
                     </div>
@@ -107,10 +110,10 @@
                             <h4 class="ruckus-white">Select the option/s relevant to you</h4>
                         </div>
                         <div class="large-12 columns">
-                            <div class="row">
-                                <div class="large-4 columns"><img src="images/stage3-wifi-white.png" alt="Small Ruckus logo" class="display-block"><div class="button">To provide public Wi-Fi</div></div>
-                                <div class="large-4 columns"><img src="images/stage3-card-white.png" alt="Medium Ruckus logo" class="display-block"><div class="button">POS</div></div>
-                                <div class="large-4 columns"><img src="images/stage3-graph-white.png" alt="Large Ruckus logo" class="display-block"><div class="button">Employee enablement</div></div>
+                            <div class="row ruckus-option-group">
+                                <div class="large-4 columns ruckus-option" data-option-name="public"><img src="images/stage3-wifi-white.png" alt="Small Ruckus logo" class="display-block"><div class="button">To provide public Wi-Fi</div></div>
+                                <div class="large-4 columns ruckus-option" data-option-name="pos"><img src="images/stage3-card-white.png" alt="Medium Ruckus logo" class="display-block"><div class="button">POS</div></div>
+                                <div class="large-4 columns ruckus-option" data-option-name="employee"><img src="images/stage3-graph-white.png" alt="Large Ruckus logo" class="display-block"><div class="button">Employee enablement</div></div>
                             </div>
                         </div>
                     </div>
@@ -180,6 +183,7 @@
     </div>
     <!-- Scripts: DO NOT DELETE -->
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="js/json-serialize.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
     <script src="js/app.js"></script>
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
@@ -188,5 +192,8 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.15.1/TweenLite.min.js"></script>
     <script src="js/fullscreen.js"></script>
     <script src="js/fullscreen.config.js"></script>
+    <script src="js/ruckus.js"></script>
+    <script src="js/ruckus.config.js"></script>
+
   </body>
 </html>
