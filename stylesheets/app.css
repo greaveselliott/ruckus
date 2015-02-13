@@ -12169,18 +12169,25 @@ th.hide-for-touch {
   padding: 60px 75px;
 }
 
-/* line 88, ../scss/structure.scss */
+@media only screen and (max-width: 40em) {
+  /* line 87, ../scss/structure.scss */
+  .no-padding-small {
+    padding: 0px !important;
+  }
+}
+
+/* line 92, ../scss/structure.scss */
 .padding-top-10 {
   padding-top: 10px;
 }
 
-/* line 92, ../scss/structure.scss */
+/* line 96, ../scss/structure.scss */
 .margin-center {
   margin: 0 auto;
 }
 
 @media only screen and (max-width: 40em) {
-  /* line 93, ../scss/structure.scss */
+  /* line 97, ../scss/structure.scss */
   .margin-center-small {
     margin: 0 auto;
   }
@@ -12367,17 +12374,22 @@ th.hide-for-touch {
 }
 /* line 65, ../scss/buttons.scss */
 .toggled .button.alt {
-  background-color: #fff !important;
-  border-color: #fff !important;
-  color: black !important;
+  background-color: #EA7600 !important;
+  border-color: #EA7600 !important;
+  color: white !important;
 }
 
 /* line 1, ../scss/background-images.scss */
+body {
+  background-color: transparent !important;
+}
+
+/* line 5, ../scss/background-images.scss */
 .tile {
   opacity: 0;
   position: relative;
 }
-/* line 4, ../scss/background-images.scss */
+/* line 8, ../scss/background-images.scss */
 .tile .tile_overlay, .tile .tile_background {
   position: fixed;
   top: 0px;
@@ -12385,21 +12397,21 @@ th.hide-for-touch {
   width: 100%;
   height: 100%;
 }
-/* line 11, ../scss/background-images.scss */
+/* line 15, ../scss/background-images.scss */
 .tile .tile_overlay {
   z-index: -1;
   background-color: rgba(0, 0, 0, 0.6);
 }
-/* line 15, ../scss/background-images.scss */
+/* line 19, ../scss/background-images.scss */
 .tile .tile_background {
   z-index: -2;
   background-size: cover;
 }
-/* line 22, ../scss/background-images.scss */
+/* line 26, ../scss/background-images.scss */
 .tile#stage_1-1 .tile_background, .tile#stage_1-2 .tile_background {
   background-image: url("/ruckus/images/background-1.jpg");
 }
-/* line 27, ../scss/background-images.scss */
+/* line 31, ../scss/background-images.scss */
 .tile#stage_2 .tile_background, .tile#stage_3 .tile_background {
   background-image: url("/ruckus/images/background-2.jpg") !important;
 }
@@ -12411,24 +12423,24 @@ th.hide-for-touch {
 
 /* line 4, ../scss/colours.scss */
 .ruckus-background-orange {
-  background-color: #EA7600 !important;
+  background-color: #EA7600;
 }
 /* line 6, ../scss/colours.scss */
 .ruckus-background-orange.opacity-25 {
-  background-color: rgba(234, 118, 0, 0.25) !important;
+  background-color: rgba(234, 118, 0, 0.25);
 }
 /* line 9, ../scss/colours.scss */
 .ruckus-background-orange.opacity-50 {
-  background-color: rgba(234, 118, 0, 0.5) !important;
+  background-color: rgba(234, 118, 0, 0.5);
 }
 /* line 12, ../scss/colours.scss */
 .ruckus-background-orange.opacity-75 {
-  background-color: rgba(234, 118, 0, 0.75) !important;
+  background-color: rgba(234, 118, 0, 0.75);
 }
 @media only screen and (min-width: 40.063em) {
   /* line 15, ../scss/colours.scss */
   .ruckus-background-orange.opacity-75-medium-up {
-    background-color: rgba(234, 118, 0, 0.75) !important;
+    background-color: rgba(234, 118, 0, 0.75);
   }
 }
 
@@ -12439,24 +12451,24 @@ th.hide-for-touch {
 
 /* line 4, ../scss/colours.scss */
 .ruckus-background-grey {
-  background-color: #75787B !important;
+  background-color: #75787B;
 }
 /* line 6, ../scss/colours.scss */
 .ruckus-background-grey.opacity-25 {
-  background-color: rgba(117, 120, 123, 0.25) !important;
+  background-color: rgba(117, 120, 123, 0.25);
 }
 /* line 9, ../scss/colours.scss */
 .ruckus-background-grey.opacity-50 {
-  background-color: rgba(117, 120, 123, 0.5) !important;
+  background-color: rgba(117, 120, 123, 0.5);
 }
 /* line 12, ../scss/colours.scss */
 .ruckus-background-grey.opacity-75 {
-  background-color: rgba(117, 120, 123, 0.75) !important;
+  background-color: rgba(117, 120, 123, 0.75);
 }
 @media only screen and (min-width: 40.063em) {
   /* line 15, ../scss/colours.scss */
   .ruckus-background-grey.opacity-75-medium-up {
-    background-color: rgba(117, 120, 123, 0.75) !important;
+    background-color: rgba(117, 120, 123, 0.75);
   }
 }
 
@@ -12467,24 +12479,24 @@ th.hide-for-touch {
 
 /* line 4, ../scss/colours.scss */
 .ruckus-background-orange {
-  background-color: #EA7600 !important;
+  background-color: #EA7600;
 }
 /* line 6, ../scss/colours.scss */
 .ruckus-background-orange.opacity-25 {
-  background-color: rgba(234, 118, 0, 0.25) !important;
+  background-color: rgba(234, 118, 0, 0.25);
 }
 /* line 9, ../scss/colours.scss */
 .ruckus-background-orange.opacity-50 {
-  background-color: rgba(234, 118, 0, 0.5) !important;
+  background-color: rgba(234, 118, 0, 0.5);
 }
 /* line 12, ../scss/colours.scss */
 .ruckus-background-orange.opacity-75 {
-  background-color: rgba(234, 118, 0, 0.75) !important;
+  background-color: rgba(234, 118, 0, 0.75);
 }
 @media only screen and (min-width: 40.063em) {
   /* line 15, ../scss/colours.scss */
   .ruckus-background-orange.opacity-75-medium-up {
-    background-color: rgba(234, 118, 0, 0.75) !important;
+    background-color: rgba(234, 118, 0, 0.75);
   }
 }
 
@@ -12495,24 +12507,24 @@ th.hide-for-touch {
 
 /* line 4, ../scss/colours.scss */
 .ruckus-background-green {
-  background-color: #74aa50 !important;
+  background-color: #74aa50;
 }
 /* line 6, ../scss/colours.scss */
 .ruckus-background-green.opacity-25 {
-  background-color: rgba(116, 170, 80, 0.25) !important;
+  background-color: rgba(116, 170, 80, 0.25);
 }
 /* line 9, ../scss/colours.scss */
 .ruckus-background-green.opacity-50 {
-  background-color: rgba(116, 170, 80, 0.5) !important;
+  background-color: rgba(116, 170, 80, 0.5);
 }
 /* line 12, ../scss/colours.scss */
 .ruckus-background-green.opacity-75 {
-  background-color: rgba(116, 170, 80, 0.75) !important;
+  background-color: rgba(116, 170, 80, 0.75);
 }
 @media only screen and (min-width: 40.063em) {
   /* line 15, ../scss/colours.scss */
   .ruckus-background-green.opacity-75-medium-up {
-    background-color: rgba(116, 170, 80, 0.75) !important;
+    background-color: rgba(116, 170, 80, 0.75);
   }
 }
 
@@ -12523,24 +12535,24 @@ th.hide-for-touch {
 
 /* line 4, ../scss/colours.scss */
 .ruckus-background-violet {
-  background-color: #702082 !important;
+  background-color: #702082;
 }
 /* line 6, ../scss/colours.scss */
 .ruckus-background-violet.opacity-25 {
-  background-color: rgba(112, 32, 130, 0.25) !important;
+  background-color: rgba(112, 32, 130, 0.25);
 }
 /* line 9, ../scss/colours.scss */
 .ruckus-background-violet.opacity-50 {
-  background-color: rgba(112, 32, 130, 0.5) !important;
+  background-color: rgba(112, 32, 130, 0.5);
 }
 /* line 12, ../scss/colours.scss */
 .ruckus-background-violet.opacity-75 {
-  background-color: rgba(112, 32, 130, 0.75) !important;
+  background-color: rgba(112, 32, 130, 0.75);
 }
 @media only screen and (min-width: 40.063em) {
   /* line 15, ../scss/colours.scss */
   .ruckus-background-violet.opacity-75-medium-up {
-    background-color: rgba(112, 32, 130, 0.75) !important;
+    background-color: rgba(112, 32, 130, 0.75);
   }
 }
 
@@ -12551,24 +12563,24 @@ th.hide-for-touch {
 
 /* line 4, ../scss/colours.scss */
 .ruckus-background-blue {
-  background-color: #009CBD !important;
+  background-color: #009CBD;
 }
 /* line 6, ../scss/colours.scss */
 .ruckus-background-blue.opacity-25 {
-  background-color: rgba(0, 156, 189, 0.25) !important;
+  background-color: rgba(0, 156, 189, 0.25);
 }
 /* line 9, ../scss/colours.scss */
 .ruckus-background-blue.opacity-50 {
-  background-color: rgba(0, 156, 189, 0.5) !important;
+  background-color: rgba(0, 156, 189, 0.5);
 }
 /* line 12, ../scss/colours.scss */
 .ruckus-background-blue.opacity-75 {
-  background-color: rgba(0, 156, 189, 0.75) !important;
+  background-color: rgba(0, 156, 189, 0.75);
 }
 @media only screen and (min-width: 40.063em) {
   /* line 15, ../scss/colours.scss */
   .ruckus-background-blue.opacity-75-medium-up {
-    background-color: rgba(0, 156, 189, 0.75) !important;
+    background-color: rgba(0, 156, 189, 0.75);
   }
 }
 
@@ -12579,24 +12591,24 @@ th.hide-for-touch {
 
 /* line 4, ../scss/colours.scss */
 .ruckus-background-gold {
-  background-color: #B58500 !important;
+  background-color: #B58500;
 }
 /* line 6, ../scss/colours.scss */
 .ruckus-background-gold.opacity-25 {
-  background-color: rgba(181, 133, 0, 0.25) !important;
+  background-color: rgba(181, 133, 0, 0.25);
 }
 /* line 9, ../scss/colours.scss */
 .ruckus-background-gold.opacity-50 {
-  background-color: rgba(181, 133, 0, 0.5) !important;
+  background-color: rgba(181, 133, 0, 0.5);
 }
 /* line 12, ../scss/colours.scss */
 .ruckus-background-gold.opacity-75 {
-  background-color: rgba(181, 133, 0, 0.75) !important;
+  background-color: rgba(181, 133, 0, 0.75);
 }
 @media only screen and (min-width: 40.063em) {
   /* line 15, ../scss/colours.scss */
   .ruckus-background-gold.opacity-75-medium-up {
-    background-color: rgba(181, 133, 0, 0.75) !important;
+    background-color: rgba(181, 133, 0, 0.75);
   }
 }
 
@@ -12607,24 +12619,24 @@ th.hide-for-touch {
 
 /* line 4, ../scss/colours.scss */
 .ruckus-background-red {
-  background-color: #A4343A !important;
+  background-color: #A4343A;
 }
 /* line 6, ../scss/colours.scss */
 .ruckus-background-red.opacity-25 {
-  background-color: rgba(164, 52, 58, 0.25) !important;
+  background-color: rgba(164, 52, 58, 0.25);
 }
 /* line 9, ../scss/colours.scss */
 .ruckus-background-red.opacity-50 {
-  background-color: rgba(164, 52, 58, 0.5) !important;
+  background-color: rgba(164, 52, 58, 0.5);
 }
 /* line 12, ../scss/colours.scss */
 .ruckus-background-red.opacity-75 {
-  background-color: rgba(164, 52, 58, 0.75) !important;
+  background-color: rgba(164, 52, 58, 0.75);
 }
 @media only screen and (min-width: 40.063em) {
   /* line 15, ../scss/colours.scss */
   .ruckus-background-red.opacity-75-medium-up {
-    background-color: rgba(164, 52, 58, 0.75) !important;
+    background-color: rgba(164, 52, 58, 0.75);
   }
 }
 
@@ -12635,24 +12647,24 @@ th.hide-for-touch {
 
 /* line 4, ../scss/colours.scss */
 .ruckus-background-white {
-  background-color: #fff !important;
+  background-color: #fff;
 }
 /* line 6, ../scss/colours.scss */
 .ruckus-background-white.opacity-25 {
-  background-color: rgba(255, 255, 255, 0.25) !important;
+  background-color: rgba(255, 255, 255, 0.25);
 }
 /* line 9, ../scss/colours.scss */
 .ruckus-background-white.opacity-50 {
-  background-color: rgba(255, 255, 255, 0.5) !important;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 /* line 12, ../scss/colours.scss */
 .ruckus-background-white.opacity-75 {
-  background-color: rgba(255, 255, 255, 0.75) !important;
+  background-color: rgba(255, 255, 255, 0.75);
 }
 @media only screen and (min-width: 40.063em) {
   /* line 15, ../scss/colours.scss */
   .ruckus-background-white.opacity-75-medium-up {
-    background-color: rgba(255, 255, 255, 0.75) !important;
+    background-color: rgba(255, 255, 255, 0.75);
   }
 }
 
@@ -12663,24 +12675,31 @@ th.hide-for-touch {
 
 /* line 4, ../scss/colours.scss */
 .ruckus-background-black {
-  background-color: #000 !important;
+  background-color: #000;
 }
 /* line 6, ../scss/colours.scss */
 .ruckus-background-black.opacity-25 {
-  background-color: rgba(0, 0, 0, 0.25) !important;
+  background-color: rgba(0, 0, 0, 0.25);
 }
 /* line 9, ../scss/colours.scss */
 .ruckus-background-black.opacity-50 {
-  background-color: rgba(0, 0, 0, 0.5) !important;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 /* line 12, ../scss/colours.scss */
 .ruckus-background-black.opacity-75 {
-  background-color: rgba(0, 0, 0, 0.75) !important;
+  background-color: rgba(0, 0, 0, 0.75);
 }
 @media only screen and (min-width: 40.063em) {
   /* line 15, ../scss/colours.scss */
   .ruckus-background-black.opacity-75-medium-up {
-    background-color: rgba(0, 0, 0, 0.75) !important;
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+}
+
+@media only screen and (max-width: 40em) {
+  /* line 24, ../scss/colours.scss */
+  .no-background-color-small {
+    background-color: transparent !important;
   }
 }
 

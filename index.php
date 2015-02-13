@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Always better wireless | Ruckus</title>
+    <title>Simply better wireless | Ruckus</title>
     <link rel="stylesheet" href="stylesheets/app.css" />
     <script src="bower_components/modernizr/modernizr.js"></script>
     <script src="js/google-analytics.js"></script>
@@ -76,7 +76,7 @@
             <div class="row valign-middle tile-content">
                 <div class="large-12 columns">
                     <!-- Options 2 -->
-                    <div class="ruckus-background-black opacity-75 large-centered padding-60-75">
+                    <div class="ruckus-background-black opacity-75 large-centered padding-60-75 no-padding-small no-background-color-small">
                       <div class="row">
                           <div class="large-12 columns"><h2 class="ruckus-white">Size of your business?</h2></div>
                           <div class="large-12 columns">
@@ -108,7 +108,7 @@
         <div class="row valign-middle tile-content">
           <div class="large-12 columns">
               <!-- Options 2 -->
-              <div class="ruckus-background-black opacity-75 large-centered padding-60-75">
+              <div class="ruckus-background-black opacity-75 large-centered padding-60-75 no-padding-small no-background-color-small">
                   <div class="row">
                       <div class="large-12 columns">
                           <h2 class="ruckus-white">What do you need Wi-Fi for?</h2>
@@ -135,11 +135,11 @@
               <!-- content -->
               <div class="row">
                   <div class="large-8 columns large-centered">
-                      <h2>Details</h2>
+                      <h2 class="text-center">Details</h2>
                   </div>
               </div>
               <div class="row">
-                  <div class="large-8 columns large-centered">
+                  <div class="large-8 columns large-centered medium-8 medium-centered">
                       <form>
                           <!-- Name -->
                           <div class="row collapse">
@@ -159,7 +159,7 @@
                           </div>
                           <!-- Country -->
                           <div class="row collapse">
-                              <div class="large-12 columns">
+                              <div class="large-10 large-centered columns">
                                   <label><span>Country</span><small>(option)</small>
                                   <select>
                                   <option value="">Select your country</option>
@@ -435,7 +435,8 @@
         </div>
         <!-- Tile background image -->
         <div class="tile_overlay"></div>
-        <div class="tile_background"></div>
+        <div class="tile_background one active"></div>
+        <div class="tile_background two inactive"></div>
     </div>
 
     <!-- Scripts: DO NOT DELETE -->

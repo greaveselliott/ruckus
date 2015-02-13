@@ -84,7 +84,11 @@
 .padding-60-75 {
   padding: 60px 75px;
 }
-
+.no-padding-small {
+  @include respond-to(small-only) {
+    padding: 0px !important;
+  }
+}
 .padding-top-10 {
  padding-top: 10px;
 }

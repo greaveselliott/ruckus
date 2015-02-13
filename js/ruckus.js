@@ -29,13 +29,33 @@
                 appContainer:       '.appContainer',
                 entryPoint:         1,
                 userOptionsGroup:   '.ruckus-option-group',
-                userOptions:        '.ruckus-option'
+                userOptions:        '.ruckus-option',
+                rootDir:            '192.168.33.10/ruckus/'
             },
             view: {
                 stage:              window,
                 wrapper:            '.tile',
                 container:          '.slide-container',
-                frame:              '.slide'
+                frame:              '.slide',
+                backgroundTileOne:'.tile_background.one',
+                backgroundTileTwo:'.tile_background.two',
+                backgroundImages: {
+                      1:{ // omit the forward slash before path
+                          path: 'images/background-1.jpg',
+                          absolutePath: undefined,
+                          assignedTile:[0,1]
+                      },
+                      2:{ // omit the forward slash before path
+                          path: 'images/background-2.jpg',
+                          absolutePath: undefined,
+                          assignedTile:[2,3]
+                      },
+                      3:{ // omit the forward slash before path
+                          path: 'images/background-3.jpg',
+                          absolutePath: undefined,
+                          assignedTile:[4,5]
+                      }
+                }
             },
             controller: {
                 next:               '.ruckus-next',
@@ -71,7 +91,7 @@
         // and this.options
 
         var self = this;
-        console.log(this);
+        //console.log(this);
         self.Model();
         self.View();
         self.Controller();
@@ -82,7 +102,9 @@
         self.buildTimeLine();
         self.toggleButtons();
         self.eventRefresh();
-        console.log('Ruckus app initialized.');
+        self.setBackground();
+        //self.setBackground();
+        //console.log('Ruckus app initialized.');
     };
 
     /* Each '.ruckus-option' is assigned a unique prime numbers, acting as its reference to its option.
@@ -135,12 +157,7 @@
             userOptions:        self.options.model.userOptions,          // Individual options selector
             $userOptions:       $(self.options.model.userOptions),       // jQuery object for ALL individual options
             userOptionKeys: undefined,                                   // User options with prime number access keys
-            currentResult: {                                             // The result of the users answers
-                stage1: undefined,                                  // Result of stage 1
-                stage2: undefined,                                  // Result of stage 2
-                stage3: undefined                                   // Result of stage 3
-            },
-            currentLocation:        undefined,                      // Current location within the application
+            currentResult: undefined,                                    // The result of the users answers
             timeAtCurrentLocation:  undefined,                      // The duration the user has spent at this location
             formData: {                                             // User form input data
                 name:       undefined,                              // Users name
@@ -148,7 +165,8 @@
                 country:    undefined,                              // Users country
                 telephone:  undefined                               // Users telephone
             },
-            serializedData: undefined                               // Serialized module data
+            serializedData: undefined,                               // Serialized module data
+            rootDir: self.options.model.rootDir
         };
     };
     // Updating URL deep linking
@@ -161,27 +179,36 @@
     };
     // Tracking user interaction with Google analytics
     EemjiiRuckus.prototype.analytics  = function (){
+        self = this;
+
 
     };
-    // Generating a result based on users selected inputs
-    EemjiiRuckus.prototype.updateResult     = function (userOption) {
-        console.log('updating result');
+
+    EemjiiRuckus.prototype.collectResult = function () {
         var self = this;
 
-        var result = 1;
-
-        if (typeof userOption === 'array') {
-            for (var i = 0; i < userOption.length; i++) {
-               result *= userOption[i];
-            }
-        } else if (typeof userOption === 'number') {
-            result = userOption;
-        }
-
-        self.Model.currentResult["stage"+self.View.currentFrame] = result;
-        console.log(self);
-        return result;
+        self.Model.currentResult.
     };
+
+    // Generating a result based on users selected inputs
+    //EemjiiRuckus.prototype.updateResult     = function (userOption) {
+    //    //console.log('updating result');
+    //    var self = this;
+    //
+    //    var result = 1;
+    //
+    //    if (typeof userOption === 'array') {
+    //        for (var i = 0; i < userOption.length; i++) {
+    //           result *= userOption[i];
+    //        }
+    //    } else if (typeof userOption === 'number') {
+    //        result = userOption;
+    //    }
+    //
+    //    self.Model.currentResult["stage"+self.View.currentFrame-1] = result;
+    //
+    //    return result;
+    //};
 
 
     // Returns the key passed argument 'userOption' key.
@@ -207,6 +234,7 @@
                     break;
                 case 'playback':
                     self.updateResult();
+                    self.setBackground();
                     //self.updateCookie();
                     //self.sendAnalytics();
                     //self.updateURL();
@@ -253,7 +281,11 @@
                     frameNumber: 4
                 }
             },
-            currentFrame: 0
+            currentFrame: 1,
+            background_tile_1: self.options.view.backgroundTileOne,
+            $background_tile_1: $(self.options.view.backgroundTileOne),
+            background_tile_2: self.options.view.backgroundTileOne,
+            $background_tile_2: $(self.options.view.backgroundTileOne)
         };
         // setting totalFrames - We cannot define this property
         // inside the above object, the jQuery selector METHOD doesn't
@@ -297,14 +329,15 @@
         var self = this;
         self.View.timeLine = undefined;
         self.View.timeLine = new TimelineMax ();
-        //$.each(self.View.timeLineFrames, function(key, value){
-        self.View.timeLine.pause();
-        self.View.timeLine.to(self.View.$container,0.5,{left:0}, "0");//.addLabel(0);
 
-        self.View.timeLine.to(self.View.$container,0.5,{left:-self.View.stageWidth}, "1");//.addLabel(1);
-        self.View.timeLine.to(self.View.$container,0.5,{left:-self.View.stageWidth*2}, "2");//.addLabel(2);
-        self.View.timeLine.to(self.View.$container,0.5,{left:-(self.View.stageWidth*3)}, "3");//.addLabel(3);
-       // self.View.timeLine.to(self.View.$container,0.5,{left:-(self.View.stageWidth*3)}).addLabel(4, "+=1");
+        self.View.timeLine.pause();
+        //$.each(self.View.timeLineFrames, function(key, value){
+            self.View.timeLine.to(self.View.$container,0.5,{left:0}, "0");//.addLabel(0);
+
+            self.View.timeLine.to(self.View.$container,0.5,{ ease: Back.easeOut.config(1.2),left:-self.View.stageWidth}, 1);//.addLabel(1);
+            self.View.timeLine.to(self.View.$container,0.5,{ease: Back.easeOut.config(1.2),left:-self.View.stageWidth*2}, 2);//.addLabel(2);
+            self.View.timeLine.to(self.View.$container,0.5,{ease: Back.easeOut.config(1.2),left:-(self.View.stageWidth*3)}, 3);//.addLabel(3);
+        // self.View.timeLine.to(self.View.$container,0.5,{left:-(self.View.stageWidth*3)}).addLabel(4, "+=1");
         ///self.View.timeLine.add(TweenLite.to( self.View.$container,1,{left:-self.View.stageWidth*4}));
         //self.View.timeLine.addPause(3.99);
         //});
@@ -312,9 +345,33 @@
     };
     EemjiiRuckus.prototype.goToAndPlay = function () {
         var self = this;
-        console.log(self.View.currentFrame);
+        //console.log(self.View.currentFrame);
+
         self.View.timeLine.tweenTo(self.View.currentFrame);
     };
+
+    EemjiiRuckus.prototype.setBackground = function () {
+        var self = this;
+
+        $.each(self.options.view.backgroundImages, function(key, value){
+            $.each(value.assignedTile, function (innerKey, innerValue) {
+
+                if (self.View.currentFrame == innerValue) {
+
+                    self.View.backgroundInactive    = '';
+                    self.View.backgroundActive      = value.path;
+
+
+                    self.View.$background_tile_1.css({'background-image':"url("+value.path+")"});
+                    if (!self.backgroundInactive) {
+
+                    }
+                }
+            });
+        });
+
+    };
+
 
 
     // Application Controller
@@ -345,7 +402,7 @@
     EemjiiRuckus.prototype.playback = function (obj) {
         var self = this;
 
-        console.log('clicked');
+        //console.log('clicked');
 
         var $attr = obj.attr('class');
 
@@ -355,12 +412,12 @@
                     self.View.currentFrame++;
 
         } else if ( $attr.indexOf('prev') !== -1 ){
-            self.View.currentFrame <= 0 ?
-                self.View.currentFrame == 0 :
+            self.View.currentFrame <= 1 ?
+                self.View.currentFrame == 1 :
                     self.View.currentFrame--;
         }
         self.Model.$appContainer.trigger('refresh',['playback']);
-        console.log(self.View.currentFrame);
+       // console.log(self.View.currentFrame);
     };
 
     EemjiiRuckus.prototype.toggleButtons = function () {
