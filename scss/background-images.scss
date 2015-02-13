@@ -1,7 +1,8 @@
 .tile {
+  opacity: 0;
   position: relative;
   .tile_overlay, .tile_background {
-    position: absolute;
+    position: fixed;
     top: 0px;
     left: 0px;
     width: 100%;

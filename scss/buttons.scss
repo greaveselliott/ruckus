@@ -4,14 +4,21 @@
 }
 // list of chevron pointers
 
-
+.ruckus-option {
+  .button {
+    margin-bottom: 0px;
+  }
+}
 .button {
   @extend .button !optional;
   @extend .ruckus-border-radius;
   @extend .width-100;
 
   border: solid 1px #FFF;
-
+  white-space: nowrap;
+  @include respond-to(small-only) {
+    font-size: 3.5vw;
+  }
   &:hover, {
     color: $ruckus-orange !important;
     border-color: $ruckus-orange !important;

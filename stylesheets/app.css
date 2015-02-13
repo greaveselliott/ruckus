@@ -12145,42 +12145,42 @@ th.hide-for-touch {
   bottom: 0;
 }
 
-/* line 67, ../scss/structure.scss */
+/* line 69, ../scss/structure.scss */
 .width-100, .button {
   width: 100%;
 }
 
 @media only screen and (max-width: 40em) {
-  /* line 71, ../scss/structure.scss */
+  /* line 73, ../scss/structure.scss */
   .width-100-small {
     width: 100%;
   }
 }
 
 @media only screen and (max-width: 40em) {
-  /* line 76, ../scss/structure.scss */
+  /* line 78, ../scss/structure.scss */
   .height-100-small {
     height: 100%;
   }
 }
 
-/* line 82, ../scss/structure.scss */
+/* line 84, ../scss/structure.scss */
 .padding-60-75 {
   padding: 60px 75px;
 }
 
-/* line 86, ../scss/structure.scss */
+/* line 88, ../scss/structure.scss */
 .padding-top-10 {
   padding-top: 10px;
 }
 
-/* line 90, ../scss/structure.scss */
+/* line 92, ../scss/structure.scss */
 .margin-center {
   margin: 0 auto;
 }
 
 @media only screen and (max-width: 40em) {
-  /* line 91, ../scss/structure.scss */
+  /* line 93, ../scss/structure.scss */
   .margin-center-small {
     margin: 0 auto;
   }
@@ -12232,8 +12232,8 @@ th.hide-for-touch {
 }
 
 /* line 1, ../scss/header.scss */
-.top-bar {
-  padding-top: 20px;
+.header {
+  position: fixed;
 }
 
 /* line 5, ../scss/header.scss */
@@ -12265,6 +12265,22 @@ th.hide-for-touch {
   color: white;
 }
 
+/* line 1, ../scss/slide.scss */
+.tile {
+  overflow: hidden;
+}
+/* line 3, ../scss/slide.scss */
+.tile .slide-container {
+  position: relative;
+  height: 100%;
+}
+/* line 6, ../scss/slide.scss */
+.tile .slide-container .slide {
+  height: 100%;
+  width: 100%;
+  float: left;
+}
+
 /* line 1, ../scss/buttons.scss */
 .ruckus-border-radius, .button {
   -webkit-border-radius: 7px;
@@ -12272,21 +12288,33 @@ th.hide-for-touch {
 }
 
 /* line 8, ../scss/buttons.scss */
+.ruckus-option .button {
+  margin-bottom: 0px;
+}
+
+/* line 12, ../scss/buttons.scss */
 .button {
   border: solid 1px #FFF;
+  white-space: nowrap;
 }
-/* line 15, ../scss/buttons.scss */
+@media only screen and (max-width: 40em) {
+  /* line 12, ../scss/buttons.scss */
+  .button {
+    font-size: 3.5vw;
+  }
+}
+/* line 22, ../scss/buttons.scss */
 .button:hover {
   color: #EA7600 !important;
   border-color: #EA7600 !important;
 }
-/* line 20, ../scss/buttons.scss */
+/* line 27, ../scss/buttons.scss */
 .button.alt:hover {
   background-color: #fff !important;
   border-color: #fff !important;
   color: black !important;
 }
-/* line 26, ../scss/buttons.scss */
+/* line 33, ../scss/buttons.scss */
 .button.round-icon {
   margin: 0 auto;
   height: 60px;
@@ -12303,41 +12331,41 @@ th.hide-for-touch {
   -moz-osx-font-smoothing: grayscale;
   transform: translate(0, 0);
 }
-/* line 34, ../scss/buttons.scss */
+/* line 41, ../scss/buttons.scss */
 .button.round-icon.subtle {
   border-color: #75787B;
   color: #75787B;
 }
-/* line 39, ../scss/buttons.scss */
+/* line 46, ../scss/buttons.scss */
 .button.round-icon:before {
   font-size: 1.25rem;
   height: 100%;
   width: 100%;
   text-align: center;
 }
-/* line 46, ../scss/buttons.scss */
+/* line 53, ../scss/buttons.scss */
 .button.round-icon.chevron-down:before {
   content: "\f078";
 }
-/* line 47, ../scss/buttons.scss */
+/* line 54, ../scss/buttons.scss */
 .button.round-icon.chevron-left:before {
   content: "\f053";
 }
-/* line 48, ../scss/buttons.scss */
+/* line 55, ../scss/buttons.scss */
 .button.round-icon.chevron-right:before {
   content: "\f054";
 }
-/* line 49, ../scss/buttons.scss */
+/* line 56, ../scss/buttons.scss */
 .button.round-icon.chevron-up:before {
   content: "\f077";
 }
 
-/* line 54, ../scss/buttons.scss */
+/* line 61, ../scss/buttons.scss */
 .toggled .button {
   color: #EA7600 !important;
   border-color: #EA7600 !important;
 }
-/* line 58, ../scss/buttons.scss */
+/* line 65, ../scss/buttons.scss */
 .toggled .button.alt {
   background-color: #fff !important;
   border-color: #fff !important;
@@ -12346,31 +12374,32 @@ th.hide-for-touch {
 
 /* line 1, ../scss/background-images.scss */
 .tile {
+  opacity: 0;
   position: relative;
 }
-/* line 3, ../scss/background-images.scss */
+/* line 4, ../scss/background-images.scss */
 .tile .tile_overlay, .tile .tile_background {
-  position: absolute;
+  position: fixed;
   top: 0px;
   left: 0px;
   width: 100%;
   height: 100%;
 }
-/* line 10, ../scss/background-images.scss */
+/* line 11, ../scss/background-images.scss */
 .tile .tile_overlay {
   z-index: -1;
   background-color: rgba(0, 0, 0, 0.6);
 }
-/* line 14, ../scss/background-images.scss */
+/* line 15, ../scss/background-images.scss */
 .tile .tile_background {
   z-index: -2;
   background-size: cover;
 }
-/* line 21, ../scss/background-images.scss */
+/* line 22, ../scss/background-images.scss */
 .tile#stage_1-1 .tile_background, .tile#stage_1-2 .tile_background {
   background-image: url("/ruckus/images/background-1.jpg");
 }
-/* line 26, ../scss/background-images.scss */
+/* line 27, ../scss/background-images.scss */
 .tile#stage_2 .tile_background, .tile#stage_3 .tile_background {
   background-image: url("/ruckus/images/background-2.jpg") !important;
 }

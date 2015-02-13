@@ -31,9 +31,15 @@
                 userOptionsGroup:   '.ruckus-option-group',
                 userOptions:        '.ruckus-option'
             },
+            view: {
+                stage:              window,
+                wrapper:            '.tile',
+                container:          '.slide-container',
+                frame:              '.slide'
+            },
             controller: {
-                next: '.ruckus-next',
-                prev: '.ruckus-prev'
+                next:               '.ruckus-next',
+                prev:               '.ruckus-prev'
             }
         };
 
@@ -71,7 +77,9 @@
         self.Controller();
 
         self.Model.userOptionKeys = self.setResultKeys();
-
+        self.setSlider();
+        self.scale();
+        self.buildTimeLine();
         self.toggleButtons();
         self.eventRefresh();
         console.log('Ruckus app initialized.');
@@ -191,11 +199,11 @@
             switch ( inputType ) {
                 case 'toggle' || 'form-input':
                     self.updateResult();
-                    self.updateCookie();
-                    self.sendAnalytics();
-                case 'continue':
-                    self.updateURL();
-                    self.readURL();
+                    //self.updateCookie();
+                    //self.sendAnalytics();
+                case 'playback':
+                    //self.updateURL();
+                    //self.readURL();
                     self.goToAndPlay();
                     break;
                 default:
@@ -208,40 +216,97 @@
         var self = this;
 
         self.View = {
+            stage:          self.options.view.stage,
+            $stage:         $(self.options.view.stage),
+            wrapper:        self.options.view.wrapper,
+            $wrapper:       $(self.options.view.wrapper),
+            container:      self.options.view.container,
+            $container:     $(self.options.view.container),
+            frame:          self.options.view.frame,
+            $frame:         $(self.options.view.frame),
             timeLineFrames:{
                 1: {
                     url:undefined,
-                    animate: undefined,
-                    frameNumber: 1
+                    frameNumber: 0
                 },
                 2: {
                     url:undefined,
-                    animate: undefined,
-                    frameNumber: 2
+                    frameNumber: 1
                 },
                 3: {
                     url:undefined,
-                    animate: undefined,
-                    frameNumber: 3
+                    frameNumber: 2
                 },
                 4: {
                     url:undefined,
-                    animate: undefined,
-                    frameNumber: 4
+                    frameNumber: 3
                 },
                 5: {
                     url:undefined,
-                    animate: undefined,
-                    frameNumber: 5
+                    frameNumber: 4
                 }
             },
             currentFrame: 1
         };
+        // setting totalFrames - We cannot define this property
+        // inside the above object, the jQuery selector METHOD doesn't
+        // get processed till after All PROPERTIES have been processed
+        // therefore calling .length on $frame returns undefined,
+        // as the totalFrames gets called before the jQuery selector.
+        self.View.totalFrames    = self.View.$frame.length;
+
     };
 
+    EemjiiRuckus.prototype.setSlider = function () {
+        var self = this;
+
+        self.View.$stage.on('resize',function(){
+            self.scale();
+        });
+    };
+
+    EemjiiRuckus.prototype.scale = function () {
+        var self = this;
+
+        self.View.stageHeight    = self.View.$stage.height();
+        self.View.stageWidth     = self.View.$stage.width();
+        self.View.wrapperHeight  = self.View.$container.height();
+        self.View.wrapperWidth   = self.View.$container.width();
+        self.View.frameHeight    = self.View.$frame.height();
+        self.View.frameWidth     = self.View.$frame.width();
+        self.View.containerWidth = self.View.stageWidth * self.View.totalFrames;
+
+        TweenLite.to(self.View.$wrapper, 1, {   height: self.View.stageHeight,
+                                                width: self.View.stageWidth,
+                                                opacity: 1,
+                                                delay:0 });
+        TweenLite.to(self.View.$frame, 1, { width: self.View.stageWidth});
+        TweenLite.to(self.View.$container, 1, { width: self.View.containerWidth });
+    };
+
+    EemjiiRuckus.prototype.buildTimeLine = function () {
+        var self = this;
+        self.View.timeLine = undefined;
+        self.View.timeLine = new TimelineLite ();
+        self.View.timeLine.pause();
+        //$.each(self.View.timeLineFrames, function(key, value){
+        self.View.timeLine.add(TweenLite.fromTo( self.View.$container,1,{left:self.View.$container.css('left')},{left:-self.View.stageWidth}));
+        self.View.timeLine.addPause(0.99);
+        self.View.timeLine.add(TweenLite.fromTo( self.View.$container,1,{left:self.View.$container.css('left')},{left:-self.View.stageWidth*2}));
+        self.View.timeLine.addPause(1.99);
+        self.View.timeLine.add(TweenLite.fromTo( self.View.$container,1,{left:self.View.$container.css('left')},{left:-self.View.stageWidth*3}));
+        self.View.timeLine.addPause(2.99);
+        //self.View.timeLine.add(TweenLite.to( self.View.$container,1,{left:-self.View.stageWidth*4}));
+        //self.View.timeLine.addPause(3.99);
+        //});
+
+    };
     EemjiiRuckus.prototype.goToAndPlay = function () {
-
+        var self = this;
+        self.View.timeLine.play();
     };
+
+
     // Application Controller
     EemjiiRuckus.prototype.Controller = function () {
         var self = this;
@@ -250,8 +315,35 @@
             next: self.options.controller.next,
             $next: $(self.options.controller.next),
             prev: self.options.controller.prev,
-            $prev: $(self.options.controller.prev)
+            $prev: $(self.options.controller.prev),
+            $playback: $(self.options.controller.next + ","+self.options.controller.prev)
         };
+
+        self.Controller.$playback.on('click',function(event){
+            //console.log(event);
+            self.playback($(this));
+        });
+    };
+
+    EemjiiRuckus.prototype.playback = function (obj) {
+        var self = this;
+
+        console.log('clicked');
+
+        var $attr = obj.attr('class');
+
+        if ( $attr.indexOf('next') !== -1 ){
+            self.View.currentFrame >= self.View.totalFrames ?
+                self.View.currentFrame == self.View.totalFrames :
+                    self.View.currentFrame++;
+
+        } else if ( $attr.indexOf('prev') !== -1 ){
+            self.View.currentFrame <= 0 ?
+                self.View.currentFrame == 0 :
+                    self.View.currentFrame--;
+        }
+        self.Model.$appContainer.trigger('refresh',['playback']);
+        console.log(self.View.currentFrame);
     };
 
     EemjiiRuckus.prototype.toggleButtons = function () {

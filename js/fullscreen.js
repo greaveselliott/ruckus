@@ -90,10 +90,7 @@
     FullScreenjs.prototype.scale = function () {
         var self = this;
 
-        self.$target.css({
-                    height: self.height,
-                    width: self.width
-        });
+
     };
 
     // Listens for event resize
@@ -107,15 +104,6 @@
 
             self.scale();
         });
-    };
-
-    // Get object length
-    Object.size = function(obj) {
-        var size = 0, key;
-        for (key in obj) {
-            if (obj.hasOwnProperty(key)) size++;
-        }
-        return size;
     };
 
     // A really lightweight plugin wrapper around the constructor, 
