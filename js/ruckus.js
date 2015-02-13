@@ -201,7 +201,11 @@
                     self.updateResult();
                     //self.updateCookie();
                     //self.sendAnalytics();
+                    break;
                 case 'playback':
+                    self.updateResult();
+                    //self.updateCookie();
+                    //self.sendAnalytics();
                     //self.updateURL();
                     //self.readURL();
                     self.goToAndPlay();
@@ -290,12 +294,12 @@
         self.View.timeLine = new TimelineLite ();
         self.View.timeLine.pause();
         //$.each(self.View.timeLineFrames, function(key, value){
-        self.View.timeLine.add(TweenLite.fromTo( self.View.$container,1,{left:self.View.$container.css('left')},{left:-self.View.stageWidth}));
-        self.View.timeLine.addPause(0.99);
-        self.View.timeLine.add(TweenLite.fromTo( self.View.$container,1,{left:self.View.$container.css('left')},{left:-self.View.stageWidth*2}));
-        self.View.timeLine.addPause(1.99);
-        self.View.timeLine.add(TweenLite.fromTo( self.View.$container,1,{left:self.View.$container.css('left')},{left:-self.View.stageWidth*3}));
-        self.View.timeLine.addPause(2.99);
+        self.View.timeLine.add(TweenLite.to( self.View.$container,1,{left:-self.View.stageWidth}));
+        self.View.timeLine.addPause(1);
+        self.View.timeLine.add(TweenLite.to( self.View.$container,1,{left:-self.View.stageWidth*2}));
+        self.View.timeLine.addPause(2);
+        self.View.timeLine.add(TweenLite.to( self.View.$container,1,{left:-self.View.stageWidth*3}));
+        self.View.timeLine.addPause(3);
         //self.View.timeLine.add(TweenLite.to( self.View.$container,1,{left:-self.View.stageWidth*4}));
         //self.View.timeLine.addPause(3.99);
         //});
