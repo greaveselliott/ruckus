@@ -196,7 +196,10 @@
         var self = this;
 
         self.Model.$appContainer.on('refresh', function(event, inputType){
-            switch ( inputType ) {
+
+            self.Model.lastUsedInputType = inputType;
+
+            switch ( inputType || self.Model.lastUsedInputType ) {
                 case 'toggle' || 'form-input':
                     self.updateResult();
                     //self.updateCookie();
@@ -250,7 +253,7 @@
                     frameNumber: 4
                 }
             },
-            currentFrame: 1
+            currentFrame: 0
         };
         // setting totalFrames - We cannot define this property
         // inside the above object, the jQuery selector METHOD doesn't
@@ -266,6 +269,8 @@
 
         self.View.$stage.on('resize',function(){
             self.scale();
+            self.buildTimeLine();
+            self.Model.$appContainer.trigger('refresh');
         });
     };
 
@@ -291,23 +296,24 @@
     EemjiiRuckus.prototype.buildTimeLine = function () {
         var self = this;
         self.View.timeLine = undefined;
-        self.View.timeLine = new TimelineLite ();
-        self.View.timeLine.pause();
+        self.View.timeLine = new TimelineMax ();
         //$.each(self.View.timeLineFrames, function(key, value){
-        self.View.timeLine.add(TweenLite.to( self.View.$container,1,{left:-self.View.stageWidth}));
-        self.View.timeLine.addPause(1);
-        self.View.timeLine.add(TweenLite.to( self.View.$container,1,{left:-self.View.stageWidth*2}));
-        self.View.timeLine.addPause(2);
-        self.View.timeLine.add(TweenLite.to( self.View.$container,1,{left:-self.View.stageWidth*3}));
-        self.View.timeLine.addPause(3);
-        //self.View.timeLine.add(TweenLite.to( self.View.$container,1,{left:-self.View.stageWidth*4}));
+        self.View.timeLine.pause();
+        self.View.timeLine.to(self.View.$container,0.5,{left:0}, "0");//.addLabel(0);
+
+        self.View.timeLine.to(self.View.$container,0.5,{left:-self.View.stageWidth}, "1");//.addLabel(1);
+        self.View.timeLine.to(self.View.$container,0.5,{left:-self.View.stageWidth*2}, "2");//.addLabel(2);
+        self.View.timeLine.to(self.View.$container,0.5,{left:-(self.View.stageWidth*3)}, "3");//.addLabel(3);
+       // self.View.timeLine.to(self.View.$container,0.5,{left:-(self.View.stageWidth*3)}).addLabel(4, "+=1");
+        ///self.View.timeLine.add(TweenLite.to( self.View.$container,1,{left:-self.View.stageWidth*4}));
         //self.View.timeLine.addPause(3.99);
         //});
 
     };
     EemjiiRuckus.prototype.goToAndPlay = function () {
         var self = this;
-        self.View.timeLine.play();
+        console.log(self.View.currentFrame);
+        self.View.timeLine.tweenTo(self.View.currentFrame);
     };
 
 
@@ -323,9 +329,16 @@
             $playback: $(self.options.controller.next + ","+self.options.controller.prev)
         };
 
-        self.Controller.$playback.on('click',function(event){
-            //console.log(event);
+        self.eventPlayback(self.Controller.$playback);
+    };
+
+    EemjiiRuckus.prototype.eventPlayback = function ($playback) {
+        var self = this;
+
+        $playback.on('click',function(event){
+
             self.playback($(this));
+            //$(this).off('click',"**");
         });
     };
 
@@ -338,7 +351,7 @@
 
         if ( $attr.indexOf('next') !== -1 ){
             self.View.currentFrame >= self.View.totalFrames ?
-                self.View.currentFrame == self.View.totalFrames :
+                self.View.currentFrame == self.View.totalFrames-1 :
                     self.View.currentFrame++;
 
         } else if ( $attr.indexOf('prev') !== -1 ){
