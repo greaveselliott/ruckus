@@ -96,8 +96,15 @@
                               </ul>
                           </div>
                       </div>
-                        <!-- Button which is absolutely positioned in the bottom right corner -->
-                        <div class="button round-icon chevron-left subtle ruckus-prev"></div><div class="button round-icon chevron-right ruckus-next"></div>
+                    <!-- Continue button -->
+                    <div class="nav-wrapper">
+                        <div class="display-inline-block">
+                            <div class="button round-icon chevron-left subtle ruckus-prev"></div>
+                        </div>
+                        <div class="display-inline-block">
+                            <div class="button round-icon chevron-right ruckus-next"></div>
+                        </div>
+                    </div>
                 </div>
           </div>
 
@@ -122,9 +129,16 @@
                           </ul>
                       </div>
                   </div>
-                  <!-- Button which is absolutely positioned in the bottom right corner -->
-                  <div class="button round-icon chevron-left subtle ruckus-prev"></div><div class="button round-icon chevron-right ruckus-next"></div>
-              </div>
+                  <!-- Continue button -->
+                  <div class="nav-wrapper">
+                      <div class="display-inline-block">
+                          <div class="button round-icon chevron-left subtle ruckus-prev"></div>
+                      </div>
+                      <div class="display-inline-block">
+                          <div class="button round-icon chevron-right ruckus-next"></div>
+                      </div>
+                  </div>
+               </div>
           </div>
         </div>
         </div>
@@ -426,7 +440,14 @@
                           </div>
                       </form>
                       <!-- Continue button -->
-                      <div class="button round-icon chevron-left subtle ruckus-prev"></div><div class="button round-icon chevron-right ruckus-next"></div>
+                      <div class="nav-wrapper">
+                          <div class="display-inline-block">
+                            <div class="button round-icon chevron-left subtle ruckus-prev"></div>
+                          </div>
+                          <div class="display-inline-block">
+                              <div class="button round-icon chevron-right ruckus-next"></div>
+                          </div>
+                      </div>
                   </div>
               </div>
           </div>
@@ -435,8 +456,9 @@
         </div>
         <!-- Tile background image -->
         <div class="tile_overlay"></div>
-        <div class="tile_background one active"></div>
-        <div class="tile_background two inactive"></div>
+        <div class="tile_background background_tile_1 inactive" data-activeOnSlide="1"></div>
+        <div class="tile_background background_tile_2 inactive" data-activeOnSlide="2,3"></div>
+        <div class="tile_background background_tile_3 inactive" data-activeOnSlide="4,5"></div>
     </div>
 
     <!-- Scripts: DO NOT DELETE -->

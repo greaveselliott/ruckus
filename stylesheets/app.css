@@ -12182,7 +12182,7 @@ th.hide-for-touch {
 }
 
 /* line 96, ../scss/structure.scss */
-.margin-center {
+.margin-center, .nav-wrapper {
   margin: 0 auto;
 }
 
@@ -12357,10 +12357,12 @@ th.hide-for-touch {
 /* line 54, ../scss/buttons.scss */
 .button.round-icon.chevron-left:before {
   content: "\f053";
+  text-indent: -6px;
 }
 /* line 55, ../scss/buttons.scss */
 .button.round-icon.chevron-right:before {
   content: "\f054";
+  text-indent: 6px;
 }
 /* line 56, ../scss/buttons.scss */
 .button.round-icon.chevron-up:before {
@@ -12377,6 +12379,11 @@ th.hide-for-touch {
   background-color: #EA7600 !important;
   border-color: #EA7600 !important;
   color: white !important;
+}
+
+/* line 73, ../scss/buttons.scss */
+.nav-wrapper {
+  width: 125px;
 }
 
 /* line 1, ../scss/background-images.scss */

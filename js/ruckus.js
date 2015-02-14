@@ -99,7 +99,7 @@
         self.Model.userOptionKeys = self.setResultKeys();
         self.setSlider();
         self.scale();
-        self.buildTimeLine();
+        self.buildTimeLineSlide();
         self.toggleButtons();
         self.eventRefresh();
         self.setBackground();
@@ -184,14 +184,16 @@
 
     };
 
-    EemjiiRuckus.prototype.collectResult = function () {
+    EemjiiRuckus.prototype.collectResult = function ($object) {
         var self = this;
 
-        self.Model.currentResult.
+        $.each(self.Model.currentResult, function(key, value){
+
+        });
     };
 
     // Generating a result based on users selected inputs
-    //EemjiiRuckus.prototype.updateResult     = function (userOption) {
+    // EemjiiRuckus.prototype.updateResult     = function (userOption) {
     //    //console.log('updating result');
     //    var self = this;
     //
@@ -228,13 +230,13 @@
 
             switch ( inputType || self.Model.lastUsedInputType ) {
                 case 'toggle' || 'form-input':
-                    self.updateResult();
+                    //self.updateResult();
                     //self.updateCookie();
                     //self.sendAnalytics();
                     break;
                 case 'playback':
-                    self.updateResult();
-                    self.setBackground();
+                    //self.updateResult();
+                    //self.setBackground();
                     //self.updateCookie();
                     //self.sendAnalytics();
                     //self.updateURL();
@@ -281,11 +283,7 @@
                     frameNumber: 4
                 }
             },
-            currentFrame: 1,
-            background_tile_1: self.options.view.backgroundTileOne,
-            $background_tile_1: $(self.options.view.backgroundTileOne),
-            background_tile_2: self.options.view.backgroundTileOne,
-            $background_tile_2: $(self.options.view.backgroundTileOne)
+            currentFrame: 1
         };
         // setting totalFrames - We cannot define this property
         // inside the above object, the jQuery selector METHOD doesn't
@@ -300,9 +298,9 @@
         var self = this;
 
         self.View.$stage.on('resize',function(){
-            self.scale();
-            self.buildTimeLine();
-            self.Model.$appContainer.trigger('refresh');
+            self.scale()
+                .buildTimeLineSlide()
+                .Model.$appContainer.trigger('refresh');
         });
     };
 
@@ -323,52 +321,59 @@
                                                 delay:0 });
         TweenLite.to(self.View.$frame, 1, { width: self.View.stageWidth});
         TweenLite.to(self.View.$container, 1, { width: self.View.containerWidth });
+
+        return self;
     };
 
-    EemjiiRuckus.prototype.buildTimeLine = function () {
+    EemjiiRuckus.prototype.buildTimeLineSlide = function () {
         var self = this;
-        self.View.timeLine = undefined;
-        self.View.timeLine = new TimelineMax ();
 
-        self.View.timeLine.pause();
-        //$.each(self.View.timeLineFrames, function(key, value){
-            self.View.timeLine.to(self.View.$container,0.5,{left:0}, "0");//.addLabel(0);
+        self.View.timeLineSlide = new TimelineMax ();
+        self.View.timeLineSlide.pause();
 
-            self.View.timeLine.to(self.View.$container,0.5,{ ease: Back.easeOut.config(1.2),left:-self.View.stageWidth}, 1);//.addLabel(1);
-            self.View.timeLine.to(self.View.$container,0.5,{ease: Back.easeOut.config(1.2),left:-self.View.stageWidth*2}, 2);//.addLabel(2);
-            self.View.timeLine.to(self.View.$container,0.5,{ease: Back.easeOut.config(1.2),left:-(self.View.stageWidth*3)}, 3);//.addLabel(3);
-        // self.View.timeLine.to(self.View.$container,0.5,{left:-(self.View.stageWidth*3)}).addLabel(4, "+=1");
-        ///self.View.timeLine.add(TweenLite.to( self.View.$container,1,{left:-self.View.stageWidth*4}));
-        //self.View.timeLine.addPause(3.99);
-        //});
-
+        $.each(self.View.timeLineFrames, function(key, value){
+            if (key == 1) {
+                self.View.timeLineSlide.to(self.View.$container, 0.5, {left: 0}, 0);//.addLabel(0);
+            } else {
+                self.View.timeLineSlide.to(self.View.$container, 0.5, {
+                    ease: Back.easeOut.config(1.2),
+                    left: -self.View.stageWidth * (key-1)
+                }, (key-1));
+            }
+        });
+        return self;
     };
+
     EemjiiRuckus.prototype.goToAndPlay = function () {
         var self = this;
         //console.log(self.View.currentFrame);
 
-        self.View.timeLine.tweenTo(self.View.currentFrame);
+        self.View.timeLineSlide.tweenTo(self.View.currentFrame);
     };
 
     EemjiiRuckus.prototype.setBackground = function () {
         var self = this;
 
+        self.View.timeLineBackground = new TimelineMax ();
+        self.View.timeLineBackground.pause();
+
         $.each(self.options.view.backgroundImages, function(key, value){
+
+
+            var currentBackground = self.View['background_tile_' + key] = '.background_tile_'+key;
+            self.View['$background_tile_' + key] = $(currentBackground);
+
             $.each(value.assignedTile, function (innerKey, innerValue) {
 
-                if (self.View.currentFrame == innerValue) {
+                self.View["$background_tile_"+key].css({'background-image':"url("+value.path+")"});
+                self.View["$background_tile_"+key].data('activeOnSlide', value['assignedTile']);
 
-                    self.View.backgroundInactive    = '';
-                    self.View.backgroundActive      = value.path;
-
-
-                    self.View.$background_tile_1.css({'background-image':"url("+value.path+")"});
-                    if (!self.backgroundInactive) {
-
-                    }
-                }
+                // ANIMATE BACKGROUND BY TWEENING OBJECTS SIMILTANIOUSLY
+                // Animating background as a RTL slider will work best with this design.
             });
         });
+
+        console.log(self);
 
     };
 
