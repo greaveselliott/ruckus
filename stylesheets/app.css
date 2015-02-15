@@ -12273,16 +12273,12 @@ th.hide-for-touch {
 }
 
 /* line 1, ../scss/slide.scss */
-.tile {
-  overflow: hidden;
-}
-/* line 3, ../scss/slide.scss */
-.tile .slide-container {
+.slide-container {
   position: relative;
   height: 100%;
 }
-/* line 6, ../scss/slide.scss */
-.tile .slide-container .slide {
+/* line 4, ../scss/slide.scss */
+.slide-container .slide {
   height: 100%;
   width: 100%;
   float: left;
@@ -12393,34 +12389,45 @@ body {
 
 /* line 5, ../scss/background-images.scss */
 .tile {
+  z-index: 10;
   opacity: 0;
   position: relative;
+  overflow: hidden;
 }
-/* line 8, ../scss/background-images.scss */
-.tile .tile_overlay, .tile .tile_background {
-  position: fixed;
-  top: 0px;
-  left: 0px;
+/* line 10, ../scss/background-images.scss */
+.tile .tile_background-wrapper {
+  z-index: -10;
+  position: absolute;
   width: 100%;
   height: 100%;
+  top: 0px;
+  left: 0px;
 }
-/* line 15, ../scss/background-images.scss */
-.tile .tile_overlay {
-  z-index: -1;
-  background-color: rgba(0, 0, 0, 0.6);
+/* line 18, ../scss/background-images.scss */
+.tile .tile_background-wrapper .tile_background-position {
+  position: relative;
+  height: 100%;
+  width: auto;
 }
-/* line 19, ../scss/background-images.scss */
-.tile .tile_background {
-  z-index: -2;
-  background-size: cover;
+/* line 23, ../scss/background-images.scss */
+.tile .tile_background-wrapper .tile_background-overlay, .tile .tile_background-wrapper .tile_background {
+  height: 100%;
 }
 /* line 26, ../scss/background-images.scss */
-.tile#stage_1-1 .tile_background, .tile#stage_1-2 .tile_background {
-  background-image: url("/ruckus/images/background-1.jpg");
+.tile .tile_background-wrapper .tile_background-overlay {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.6);
 }
-/* line 31, ../scss/background-images.scss */
-.tile#stage_2 .tile_background, .tile#stage_3 .tile_background {
-  background-image: url("/ruckus/images/background-2.jpg") !important;
+/* line 33, ../scss/background-images.scss */
+.tile .tile_background-wrapper .tile_background {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: -30;
+  background-size: cover;
 }
 
 /* line 2, ../scss/colours.scss */

@@ -455,16 +455,23 @@
         </div>
         </div>
         <!-- Tile background image -->
-        <div class="tile_overlay"></div>
-        <div class="tile_background background_tile_1 inactive" data-activeOnSlide="1"></div>
-        <div class="tile_background background_tile_2 inactive" data-activeOnSlide="2,3"></div>
-        <div class="tile_background background_tile_3 inactive" data-activeOnSlide="4,5"></div>
+
+        <div class="tile_background-wrapper">
+            <div class="tile_background-overlay"></div>
+            <div class="tile_background-position">
+                <div class="tile_background background_tile_1 inactive" data-activeOnSlide="1"></div>
+                <div class="tile_background background_tile_2 inactive" data-activeOnSlide="2,3"></div>
+                <div class="tile_background background_tile_3 inactive" data-activeOnSlide="4,5"></div>
+            </div>
+        </div>
+
     </div>
 
     <!-- Scripts: DO NOT DELETE -->
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="js/json-serialize.js"></script>
     <script src="js/jquery-cookie/src/jquery.cookie.js"></script>
+    <script src="js/jquery.address-1.5.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
     <script src="js/app.js"></script>
       <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.15.1/TweenMax.min.js"></script>

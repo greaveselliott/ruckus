@@ -30,15 +30,24 @@
                 entryPoint:         1,
                 userOptionsGroup:   '.ruckus-option-group',
                 userOptions:        '.ruckus-option',
-                rootDir:            '192.168.33.10/ruckus/'
+                rootDir:            '192.168.33.10/ruckus/',
+                defaultPageTitle:   ' | Simply Better Wireless | Ruckus',
+                pageInfo:           {
+                    1: 'Choose your sector.',
+                    2: 'How large is your business?',
+                    3: 'What do you need Wi-Fi for?',
+                    4: 'Your contact details',
+                    5: 'Your solution'
+                }
             },
             view: {
                 stage:              window,
                 wrapper:            '.tile',
                 container:          '.slide-container',
                 frame:              '.slide',
-                backgroundTileOne:'.tile_background.one',
-                backgroundTileTwo:'.tile_background.two',
+                backgroundWrapper:  '.tile_background-wrapper',
+                backgroundPosition: '.tile_background-position',
+                background:         '.tile_background',
                 backgroundImages: {
                       1:{ // omit the forward slash before path
                           path: 'images/background-1.jpg',
@@ -92,19 +101,21 @@
 
         var self = this;
         //console.log(this);
-        self.Model();
-        self.View();
-        self.Controller();
+        self.Model()
+            .View()
+            .Controller()
+            .setSlider()
+            .scale()
+            .toggleButtons()
+            .setBackground()
+            .setBackgroundDimensions()
+            .buildTimeLineSlide()
+            .setDeepLink()
+            .onDeepLinkChange();
+//            .eventRefresh();
 
-        self.Model.userOptionKeys = self.setResultKeys();
-        self.setSlider();
-        self.scale();
-        self.buildTimeLineSlide();
-        self.toggleButtons();
-        self.eventRefresh();
-        self.setBackground();
-        //self.setBackground();
-        //console.log('Ruckus app initialized.');
+        // returning self: enables functions chaining
+        return self;
     };
 
     /* Each '.ruckus-option' is assigned a unique prime numbers, acting as its reference to its option.
@@ -156,6 +167,8 @@
             $userOptionsGroup:  $(self.options.model.userOptionsGroup),  // jQuery object for options group
             userOptions:        self.options.model.userOptions,          // Individual options selector
             $userOptions:       $(self.options.model.userOptions),       // jQuery object for ALL individual options
+            defaultPageTitle:   self.options.model.defaultPageTitle,
+            pageInfo:           self.options.model.pageInfo,             // The application page information
             userOptionKeys: undefined,                                   // User options with prime number access keys
             currentResult: undefined,                                    // The result of the users answers
             timeAtCurrentLocation:  undefined,                      // The duration the user has spent at this location
@@ -168,20 +181,80 @@
             serializedData: undefined,                               // Serialized module data
             rootDir: self.options.model.rootDir
         };
+
+        // returning self: enables functions chaining
+        return self;
     };
     // Updating URL deep linking
-    EemjiiRuckus.prototype.deepLink   = function (){
+    EemjiiRuckus.prototype.setDeepLink   = function (){
+        var self = this;
+        $.address.value(self.View.currentFrame);
 
+        // returning self: enables functions chaining
+        return self;
     };
+
+    EemjiiRuckus.prototype.onDeepLinkChange = function () {
+        var self = this;
+
+        $.address.change(function(event) {
+            self.View.currentFrame = $.address.value().slice(1);
+            console.log(self.View.currentFrame);
+           // self.Model.lastUsedInputType = inputType;
+
+            //self.updateResult();
+            //self.setBackground();
+            //self.updateCookie();
+            //self.sendAnalytics();
+            //self.updateURL();
+            //self.readURL();
+            self.goToAndPlay(self.View.currentFrame);
+            self.sendAnalytics(self.View.currentFrame);
+            self.setPageTitle( self.Model.pageInfo[self.View.currentFrame]);
+
+        });
+        // returning self: enables functions chaining
+        return self;
+    };
+
     // Creating, reading and updating the cookies
     EemjiiRuckus.prototype.cookie     = function (){
 
     };
     // Tracking user interaction with Google analytics
-    EemjiiRuckus.prototype.analytics  = function (){
-        self = this;
+    EemjiiRuckus.prototype.sendAnalytics  = function (currentFrame){
+        var self = this;
 
+        //var pageInfo = self.Model.pageInfo[pageNumber];
 
+        //ga('set', {
+        //    page: pageNumber,
+        //    title: 'test'
+        //});
+        ga('set', {
+            page: '/'+currentFrame,
+            title: self.Model.pageInfo[currentFrame],
+            entryPoint: self.Model.entryPoint
+        });
+        ga('send', 'pageview', {
+            //'page': '/my-new-page',
+            'hitCallback': function() {
+                console.log('analytics.js done sending data');
+            }
+        });
+
+        // returning self: enables functions chaining
+        return self;
+    };
+
+    // Set page title
+    EemjiiRuckus.prototype.setPageTitle = function (title) {
+        var self = this;
+
+        document.title = title.replace(/['";:,.\/?\\-]/g, '') + self.Model.defaultPageTitle;
+
+        // returning self: enables functions chaining
+        return self;
     };
 
     EemjiiRuckus.prototype.collectResult = function ($object) {
@@ -228,6 +301,7 @@
 
             self.Model.lastUsedInputType = inputType;
 
+
             switch ( inputType || self.Model.lastUsedInputType ) {
                 case 'toggle' || 'form-input':
                     //self.updateResult();
@@ -247,6 +321,9 @@
                     break;
             }
         });
+
+        // returning self: enables functions chaining
+        return self;
     };
     // APPLICATION VIEW
     EemjiiRuckus.prototype.View             = function () {
@@ -283,7 +360,8 @@
                     frameNumber: 4
                 }
             },
-            currentFrame: 1
+            currentFrame: 1,
+            backgroundSet: false
         };
         // setting totalFrames - We cannot define this property
         // inside the above object, the jQuery selector METHOD doesn't
@@ -292,6 +370,8 @@
         // as the totalFrames gets called before the jQuery selector.
         self.View.totalFrames    = self.View.$frame.length;
 
+        // returning self: enables functions chaining
+        return self;
     };
 
     EemjiiRuckus.prototype.setSlider = function () {
@@ -302,6 +382,9 @@
                 .buildTimeLineSlide()
                 .Model.$appContainer.trigger('refresh');
         });
+
+        // returning self: enables functions chaining
+        return self;
     };
 
     EemjiiRuckus.prototype.scale = function () {
@@ -322,6 +405,7 @@
         TweenLite.to(self.View.$frame, 1, { width: self.View.stageWidth});
         TweenLite.to(self.View.$container, 1, { width: self.View.containerWidth });
 
+        // returning self: enables functions chaining
         return self;
     };
 
@@ -336,48 +420,109 @@
                 self.View.timeLineSlide.to(self.View.$container, 0.5, {left: 0}, 0);//.addLabel(0);
             } else {
                 self.View.timeLineSlide.to(self.View.$container, 0.5, {
-                    ease: Back.easeOut.config(1.2),
+                    //ease: Back.easeOut.config(1.2),
                     left: -self.View.stageWidth * (key-1)
                 }, (key-1));
             }
         });
+
+        // returning self: enables functions chaining
         return self;
     };
 
-    EemjiiRuckus.prototype.goToAndPlay = function () {
+    EemjiiRuckus.prototype.goToAndPlay = function (frame) {
         var self = this;
-        //console.log(self.View.currentFrame);
+        console.log(frame);
 
-        self.View.timeLineSlide.tweenTo(self.View.currentFrame);
+        self.View.timeLineSlide.tweenTo(frame);
+        self.View.timeLineBackground.tweenTo(frame);
+        // returning self: enables functions chaining
+        return self;
     };
 
     EemjiiRuckus.prototype.setBackground = function () {
         var self = this;
 
-        self.View.timeLineBackground = new TimelineMax ();
+        self.View.timeLineBackground    = new TimelineMax ();
         self.View.timeLineBackground.pause();
+        self.View.backgroundWrapper     = self.options.view.backgroundWrapper;
+        self.View.$backgroundWrapper    = $(self.View.backgroundWrapper);
+        self.View.backgroundPosition    = self.options.view.backgroundPosition;
+        self.View.$backgroundPosition   = $(self.View.backgroundPosition);
+        self.View.background            = self.options.view.background;
+        self.View.$background           = $(self.View.background);
+
 
         $.each(self.options.view.backgroundImages, function(key, value){
 
-
+            // Setting background images
             var currentBackground = self.View['background_tile_' + key] = '.background_tile_'+key;
             self.View['$background_tile_' + key] = $(currentBackground);
 
             $.each(value.assignedTile, function (innerKey, innerValue) {
 
+                // setting background images
                 self.View["$background_tile_"+key].css({'background-image':"url("+value.path+")"});
                 self.View["$background_tile_"+key].data('activeOnSlide', value['assignedTile']);
 
+
+                // setting background timeLine
+                if (key == 1) {
+                    self.View.timeLineBackground.to(self.View.$backgroundPosition, 0.5, {left: 0}, 0);//.addLabel(0);
+                } else {
+                    self.View.timeLineBackground.to(self.View.$backgroundPosition, 0.5, {
+                        //    ease: Back.easeOut.config(1.2),
+
+                        left: -self.View.stageWidth * (key-1)
+                    }, (key-1));
+                }
+                console.log(key);
                 // ANIMATE BACKGROUND BY TWEENING OBJECTS SIMILTANIOUSLY
                 // Animating background as a RTL slider will work best with this design.
             });
+
+            self.View.backgroundCount = key;
         });
-
+        // The background is now set.
+        self.View.backgroundSet = true;
         console.log(self);
-
+        // returning self: enables functions chaining
+        return self;
     };
 
+    EemjiiRuckus.prototype.setBackgroundDimensions = function () {
+        var self = this;
 
+        // If the background has been set, get it dimensions...
+        if (self.View.backgroundSet) {
+            self.View.$backgroundWrapper.css({
+                height: self.View.stageHeight,
+                width: self.View.stageWidth
+            });
+            self.View.$background.css({
+                height: self.View.stageHeight,
+                width: self.View.stageWidth,
+                float: 'left'
+            });
+            self.View.$backgroundPosition.css({
+                height: self.View.stageHeight,
+                width: (self.View.stageWidth * self.View.backgroundCount)
+            });
+        } else {
+            try {
+                self.View.setBackground();
+            } catch (error) {
+                console.log(
+                    "Error: Thrown by setBackgroundDimensions() \n" +
+                    "No the applications background dimensions cannot be defined as \n"+
+                    "the applications background have not been set \n"
+                );
+            }
+        }
+
+        // returning self: enables functions chaining
+        return self;
+    };
 
     // Application Controller
     EemjiiRuckus.prototype.Controller = function () {
@@ -392,6 +537,8 @@
         };
 
         self.eventPlayback(self.Controller.$playback);
+        // returning self: enables functions chaining
+        return self;
     };
 
     EemjiiRuckus.prototype.eventPlayback = function ($playback) {
@@ -400,8 +547,11 @@
         $playback.on('click',function(event){
 
             self.playback($(this));
+            self.setDeepLink();
             //$(this).off('click',"**");
         });
+        // returning self: enables functions chaining
+        return self;
     };
 
     EemjiiRuckus.prototype.playback = function (obj) {
@@ -421,8 +571,10 @@
                 self.View.currentFrame == 1 :
                     self.View.currentFrame--;
         }
-        self.Model.$appContainer.trigger('refresh',['playback']);
-       // console.log(self.View.currentFrame);
+        //self.Model.$appContainer.trigger('refresh',['playback']);
+        // console.log(self.View.currentFrame);
+        // returning self: enables functions chaining
+        return self;
     };
 
     EemjiiRuckus.prototype.toggleButtons = function () {
@@ -442,8 +594,12 @@
                 $parent.children(self.Model.userOptions).removeClass('toggled');
                 $self.addClass('toggled');
             }
-            self.Model.$appContainer.trigger('refresh',['toggle']);
+
+            //self.Model.$appContainer.trigger('refresh',['toggle']);
+            self.setDeepLink();
         });
+        // returning self: enables functions chaining
+        return self;
     };
 
 
