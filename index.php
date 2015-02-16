@@ -1,14 +1,13 @@
-<!doctype html>
-<html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Simply better wireless | Ruckus</title>
-    <link rel="stylesheet" href="stylesheets/app.css" />
-    <script src="bower_components/modernizr/modernizr.js"></script>
-    <script src="js/google-analytics.js"></script>
-    <!-- <script data-main="js/main" src="js/require.js"></script> -->
-  </head>
+<?php
+    /*
+    * Template: index.php
+    * Project: ruckus hub
+    * Author: Elliott Matthew Greaves
+    * Author URL: http://www.elliottgreaves.com/
+    * Description: Includes the template file for entry point 1.
+    */
+    require_once 'header.php'
+?>
   <body class="appContainer">
       <div class="absolute top width-100 header">
         <div class="row padding-top-10">
@@ -486,16 +485,4 @@
 
     </div>
 
-    <!-- Scripts: DO NOT DELETE -->
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="js/json-serialize.js"></script>
-    <script src="js/jquery-cookie/src/jquery.cookie.js"></script>
-    <script src="js/jquery.address-1.5.min.js"></script>
-    <script src="bower_components/foundation/js/foundation.min.js"></script>
-    <script src="js/app.js"></script>
-      <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.15.1/TweenMax.min.js"></script>
-      <script src="js/ruckus.js"></script>
-    <script src="js/ruckus.config.js"></script>
-
-  </body>
-</html>
+<?php require_once('footer.php');?>

@@ -291,6 +291,9 @@
                     //self.updateURL();
                     //self.readURL();
                     //self.goToAndPlay();
+                    self.goToAndPlay(self.View.currentFrame);
+                    self.sendAnalytics(self.View.currentFrame);
+                    self.setPageTitle( self.Model.pageInfo[self.View.currentFrame]);
                     break;
                 default:
                     break;
