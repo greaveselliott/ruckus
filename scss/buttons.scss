@@ -19,6 +19,9 @@
   @include respond-to(small-only) {
     font-size: 3.5vw;
   }
+  @include respond-to(medium-only) {
+    font-size: 1.36vw;
+  }
   &:hover, {
     color: $ruckus-orange !important;
     border-color: $ruckus-orange !important;

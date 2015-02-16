@@ -113,8 +113,10 @@
             .buildTimeLineSlide()
             .setDeepLink()
             .onDeepLinkChange();
+            //.buildResultsObject();
 //            .eventRefresh();
 
+        console.log(self);
         // returning self: enables functions chaining
         return self;
     };
@@ -284,24 +286,32 @@
     };
 
     // Generating a result based on users selected inputs
-    // EemjiiRuckus.prototype.updateResult     = function (userOption) {
-    //    //console.log('updating result');
-    //    var self = this;
-    //
-    //    var result = 1;
-    //
-    //    if (typeof userOption === 'array') {
-    //        for (var i = 0; i < userOption.length; i++) {
-    //           result *= userOption[i];
-    //        }
-    //    } else if (typeof userOption === 'number') {
-    //        result = userOption;
-    //    }
-    //
-    //    self.Model.currentResult["stage"+self.View.currentFrame-1] = result;
-    //
-    //    return result;
-    //};
+    EemjiiRuckus.getUniquePrimeNumber = function () {
+        var counter = 0;
+        var primeNumbersArray = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41,
+            43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97,
+            101, 103, 107, 109, 113, 127, 131, 137, 139, 149,
+            151, 157, 163, 167, 173, 179, 181, 191, 193, 197,
+            199, 211, 223, 227, 229, 233, 239, 241, 251, 257,
+            263, 269, 271, 277, 281, 283, 293, 307, 311, 313,
+            317, 331, 337, 347, 349, 353, 359, 367, 373, 379,
+            383, 389, 397, 401, 409, 419, 421, 431, 433, 439,
+            443, 449, 457, 461, 463, 467, 479, 487, 491, 499,
+            503, 509, 521, 523, 541, 547, 557, 563, 569, 571,
+            577, 587, 593, 599, 601, 607, 613, 617, 619, 631,
+            641, 643, 647, 653, 659, 661, 673, 677, 683, 691,
+            701, 709, 719, 727, 733, 739, 743, 751, 757, 761,
+            769, 773, 787, 797, 809, 811, 821, 823, 827, 829,
+            839, 853, 857, 859, 863, 877, 881, 883, 887, 907,
+            911, 919, 929, 937, 941, 947, 953, 967, 971, 977,
+            983, 991, 997 ];
+
+        var primeNumber = primeNumbersArray[counter];
+
+        counter++;
+
+        return primeNumber[counter]
+    };
 
 
     // Returns the key passed argument 'userOption' key.
@@ -460,6 +470,9 @@
 
     EemjiiRuckus.prototype.setBackground = function () {
         var self = this;
+        var currentBackgroundPosition = 0;
+        var animatonDuration = 0.5;
+        var animationDurationSkip;
 
         self.View.timeLineBackground    = new TimelineMax ();
         self.View.timeLineBackground.pause();
@@ -477,22 +490,28 @@
             var currentBackground = self.View['background_tile_' + key] = '.background_tile_'+key;
             self.View['$background_tile_' + key] = $(currentBackground);
 
+
+
             $.each(value.assignedTile, function (innerKey, innerValue) {
 
                 // setting background images
                 self.View["$background_tile_"+key].css({'background-image':"url("+value.path+")"});
                 self.View["$background_tile_"+key].data('activeOnSlide', value['assignedTile']);
 
-
                 // setting background timeLine
                 if (key == 1) {
-                    self.View.timeLineBackground.to(self.View.$backgroundPosition, 0.5, {left: 0}, 0);//.addLabel(0);
+                    self.View.timeLineBackground.to(self.View.$backgroundPosition,
+                                                    animatonDuration,
+                                                    {left: currentBackgroundPosition},
+                                                    0);//.addLabel(0);
                 } else {
-                    self.View.timeLineBackground.to(self.View.$backgroundPosition, 0.5, {
-                        //    ease: Back.easeOut.config(1.2),
 
-                        left: -self.View.stageWidth * (key-1)
-                    }, (key-1));
+                    self.View.timeLineBackground.to(self.View.$backgroundPosition,
+                                                    currentBackgroundPosition == self.View.stageWidth * (key-1) ? 0 : animatonDuration,
+                                                    {left: currentBackgroundPosition},
+                                                    (key-1));
+
+                    currentBackgroundPosition = -self.View.stageWidth * (key-1);
                 }
                 console.log(key);
                 // ANIMATE BACKGROUND BY TWEENING OBJECTS SIMILTANIOUSLY
@@ -602,7 +621,15 @@
             var $self       = $(this);
             var $parent     = $self.closest(self.Model.userOptionsGroup);
             var $dataType   = $parent.data('toggle-type');
+            var dataName   = $self.data('option-name');
 
+            var pairedFormInput = $("[data-name='" + dataName + "']");
+
+            pairedFormInput.is(':checked') ?
+                pairedFormInput.prop('checked', false) :
+                    pairedFormInput.prop('checked', true);
+            console.log(pairedFormInput);
+            // Toggling the button on UI
             if ($dataType == 'checkbox') {
                 $self.hasClass('toggled') ?         // Does this element have the '.toggled' class?
                     $self.removeClass('toggled') :  // TRUE: remove the '.toggled' class

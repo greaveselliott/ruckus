@@ -53,12 +53,12 @@
                     <div class="row collapse padding-top-10">
                         <nav>
                             <!-- Options -->
-                                <ul class="large-block-grid-5 medium-block-grid-3 small-block-grid-2 ruckus-option-group" data-toggle-type="radio">
+                                <ul class="large-block-grid-5 medium-block-grid-3 small-block-grid-2 ruckus-option-group"  data-toggle-type="radio">
                                     <li data-option-name="retail" class="ruckus-option"><span class="button width-100 height-100 alt" >Retail</span></li>
                                     <li data-option-name="leisure" class="ruckus-option"><span class="button width-100 height-100 alt">Leisure</span></li>
                                     <li data-option-name="hospitality" class="ruckus-option"><span class="button width-100 height-100 alt">Hospitality</span></li>
                                     <li data-option-name="transport" class="ruckus-option"><span class="button width-100 height-100 alt">Transport</span></li>
-                                    <li data-option-name="openspace" class="ruckus-option"><span class="button width-100 height-100 alt">Open Space</span></li>
+                                    <li data-option-name="open space" class="ruckus-option"><span class="button width-100 height-100 alt">Open Space</span></li>
                                 </ul>
                         </nav>
                     </div>
@@ -80,17 +80,17 @@
                       <div class="row">
                           <div class="large-12 columns"><h2 class="ruckus-white">Size of your business?</h2></div>
                           <div class="large-12 columns">
-                              <ul class="large-block-grid-3 medium-block-grid-3 small-block-grid-1 ruckus-option-group" data-toggle-type="radio">
-                                  <li class="ruckus-option" data-option-name="small">
-                                      <img src="http://placehold.it/200x200" alt="Small Ruckus logo" class="hide-for-small">
+                              <ul class="large-block-grid-3 medium-block-grid-3 small-block-grid-1 ruckus-option-group"  data-toggle-type="radio">
+                                  <li class="ruckus-option"  data-option-name="small">
+                                      <img src="images/business-small.png" alt="Small Ruckus logo" class="hide-for-small">
                                       <span class="button">Small</span>
                                   </li>
-                                  <li class="ruckus-option" data-option-name="medium">
-                                      <img src="http://placehold.it/200x200" alt="Medium Ruckus logo" class="hide-for-small">
+                                  <li class="ruckus-option"  data-option-name="medium">
+                                      <img src="images/business-medium.png" alt="Medium Ruckus logo" class="hide-for-small">
                                       <span class="button">Medium</span>
                                   </li>
-                                  <li class="ruckus-option" data-option-name="large">
-                                      <img src="http://placehold.it/200x200" alt="Large Ruckus logo" class="hide-for-small">
+                                  <li class="ruckus-option"  data-option-name="large">
+                                      <img src="images/business-large.png" alt="Large Ruckus logo" class="hide-for-small">
                                       <span class="button">Large</span>
                                   </li>
                               </ul>
@@ -122,10 +122,10 @@
                           <h4 class="ruckus-white">Select the option/s relevant to you</h4>
                       </div>
                       <div class="large-12 columns">
-                          <ul class="large-block-grid-3 medium-block-grid-3 small-block-grid-1 ruckus-option-group" data-toggle-type="checkbox">
-                              <li class="ruckus-option" data-option-name="public"><img src="images/stage3-wifi-white.png" alt="Small Ruckus logo" class="hide-for-small"><span class="button">To provide public Wi-Fi</span></li>
-                              <li class="ruckus-option" data-option-name="pos"><img src="images/stage3-card-white.png" alt="Medium Ruckus logo" class="hide-for-small"><span class="button">POS</span></li>
-                              <li class="ruckus-option" data-option-name="employee"><img src="images/stage3-graph-white.png" alt="Large Ruckus logo" class="hide-for-small"><span class="button">Employee enablement</span></li>
+                          <ul class="large-block-grid-3 medium-block-grid-3 small-block-grid-1 ruckus-option-group"  data-toggle-type="checkbox">
+                              <li class="ruckus-option"  data-option-name="public"><img src="images/stage3-wifi-white.png" alt="Small Ruckus logo" class="hide-for-small"><span class="button">To provide public Wi-Fi</span></li>
+                              <li class="ruckus-option"  data-option-name="pos"><img src="images/stage3-card-white.png" alt="Medium Ruckus logo" class="hide-for-small"><span class="button">POS</span></li>
+                              <li class="ruckus-option"  data-option-name="employee"><img src="images/stage3-graph-white.png" alt="Large Ruckus logo" class="hide-for-small"><span class="button">Employee enablement</span></li>
                           </ul>
                       </div>
                   </div>
@@ -154,12 +154,26 @@
               </div>
               <div class="row">
                   <div class="large-8 columns large-centered medium-8 medium-centered">
-                      <form>
+                      <form data-option-type="ruckus-option-group">
+                          <!-- Business Sector -->
+                          <input type="radio" name="sector" data-name="retail" value="2" class="">
+                          <input type="radio" name="sector" data-name="leisure" value="3" class="">
+                          <input type="radio" name="sector" data-name="hospitality" value="5" class="">
+                          <input type="radio" name="sector" data-name="transport" value="7" class="">
+                          <input type="radio" name="sector" data-name="open space" value="11" class="">
+                          <!-- Size of business -->
+                          <input type="radio" name="size" data-name="small" value="13" class="">
+                          <input type="radio" name="size" data-name="medium" value="17" class="">
+                          <input type="radio" name="size" data-name="large" value="19" class="">
+                          <!-- Wi-Fi requirement -->
+                          <input type="checkbox" name="requirement" data-name="public" value="23" class="">
+                          <input type="checkbox" name="requirement" data-name="pos" value="29" class="">
+                          <input type="checkbox" name="requirement" data-name="employee" value="31" class="">
                           <!-- Name -->
                           <div class="row collapse">
                               <div class="large-12 columns">
                                   <label><span>Name<span>*</span></span>
-                                      <input type="text" placeholder="large-12.columns" />
+                                      <input type="text" placeholder="large-12.columns" data-option-type="ruckus-option"/>
                                   </label>
                               </div>
                           </div>
@@ -167,7 +181,7 @@
                           <div class="row collapse">
                               <div class="large-12 columns">
                                   <label><span>Email<span>*</span></span>
-                                      <input type="text" placeholder="large-12.columns" />
+                                      <input type="text" placeholder="large-12.columns" data-option-type="ruckus-option"/>
                                   </label>
                               </div>
                           </div>
@@ -175,7 +189,7 @@
                           <div class="row collapse">
                               <div class="large-10 large-centered columns">
                                   <label><span>Country</span><small>(option)</small>
-                                  <select>
+                                  <select data-option-type="ruckus-option">
                                   <option value="">Select your country</option>
                                   <option value="AF">Afghanistan</option>
                                   <option value="AX">Åland Islands</option>
@@ -434,7 +448,7 @@
                           <div class="row collapse">
                               <div class="large-12 columns">
                                   <label><span>Telephone</span><small>(option)</small>
-                                      <input type="text" placeholder="large-12.columns" />
+                                      <input type="text" placeholder="large-12.columns" data-option-type="ruckus-option"/>
                                   </label>
                               </div>
                           </div>
