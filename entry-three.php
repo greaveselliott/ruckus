@@ -12,14 +12,14 @@
 <body>
     <header class="hide"><h1>Ruckus | Simply Better Wireless</h1></header>
     <!--#1: Mobile Momentum -->
-    <article class="row"><!-- fullscreen background? -->
+    <article class="row full-screen" id="mobile-momentum"><!-- fullscreen background? -->
         <div class="large-12 columns">
-            <div class="row"><div class="large-12 columns"><h2>Mobile Momentum</h2></div></div>
+            <div class="row ruckus-background-black opacity-75"><div class="large-12 columns padding-25"><h2 class="ruckus-white">Mobile Momentum</h2></div></div>
             <div class="row">
                 <!-- White smart phone with text overlay -->
                 <section class="large-6 columns">
                     <h3 class="hide">Keep up moving with mobile</h3>
-                    <figure>
+                    <figure class="padding-50">
                         <img src="images/guide/icons-11.png" alt="White touch screen SmartPhone - vector icon">
                         <figcaption>
                             <span class="ruckus-orange">Keep up moving with mobile</span>
@@ -28,47 +28,54 @@
                     </figure>
                 </section>
                 <!-- Retail - top 3 tech trends for retailers -->
-                <section class="large-6 columns">
+                <section class="large-6 columns ruckus-background-black opacity-75">
                     <div class="row">
                         <div class="large-12 columns">
-                            <h3>Retail Tech Check</h3>
+                            <h3 class="ruckus-white">Retail Tech Check</h3>
                             <br>
-                            <h4>The top 3 tech trends for retailers</h4>
+                            <h4 class="ruckus-white padding-10-30-0-10">The top 3 tech trends for retailers</h4>
                         </div>
                     </div>
-                    <div class="row"><div class="large-12 columns"><figure><img src="http://placehold.it/100x100"><figcaption>Investment in mobility</figcaption></figure></div></div>
-                    <div class="row"><div class="large-12 columns"><figure><img src="http://placehold.it/100x100"><figcaption>Retail Technology Solutions</figcaption></figure></div></div>
-                    <div class="row"><div class="large-12 columns"><figure><img src="http://placehold.it/100x100"><figcaption>Global e-commerce</figcaption></figure></div></div>
+                    <div class="row"><div class="large-12 columns"><figure class="padding-25"><i class="fa fa-mobile ruckus-orange h2 display-inline-block"></i><figcaption class="ruckus-white h3 display-inline-block">Investment in mobility</figcaption></figure></div></div>
+                    <div class="row"><div class="large-12 columns"><figure class="padding-25"><i class="fa fa-shopping-cart ruckus-orange h2 display-inline-block"></i><figcaption class="ruckus-white h3 display-inline-block">Retail Technology Solutions</figcaption></figure></div></div>
+                    <div class="row"><div class="large-12 columns"><figure class="padding-25"><i class="fa fa-globe ruckus-orange h2 display-inline-block"></i><figcaption class="ruckus-white h3 display-inline-block">Global e-commerce</figcaption></figure></div></div>
                 </section>
             </div>
             <!-- Quick Fact: Semi Transparent Orange background -->
-            <div class="row">
+            <div class="row ruckus-background-orange opacity-75">
                 <div class="large-12 columns">
-                    <figure><img src="http://placehold.it/140x90"><figcaption>A UK based retailer has had a 70% rise in web traffic through smart devices</figcaption></figure>
+                    <h3 class="text-center h4 padding-25">A UK based retailer has had a 70% rise in web traffic through smart devices</h3>
                 </div>
             </div>
             <!-- Smart shoppers -->
+            </div>
+        <div class="ruckus-entry-3_background background-1"></div>
+        </article>
+    <article class="row full-screen" id="smart-shoppers"><!-- fullscreen background? -->
+        <div class="large-12 columns">
             <div class="row">
                 <!-- Heading: Semi Transparent Black background -->
-                <div class="large-12 columns">
+                <div class="large-12 columns ruckus-background-black">
                     <h3 class="ruckus-orange">Smart Shoppers</h3>
-                    <h4>When using a smartphone in a retail environment shoppers used their phones for:</h4>
+                    <h4 class="ruckus-white">When using a smartphone in a retail environment shoppers used their phones for:</h4>
                 </div>
             </div>
             <!-- figurative facts -->
-            <div class="row">
-                <div class="large-4 columns"><figure><img src="http://placehold.it/200x200" alt="Shopping basket Icon"><figcaption>For planning food shopping</figcaption></figure></div>
-                <div class="large-4 columns"><figure><img src="http://placehold.it/200x200" alt="Shopping basket Icon"><figcaption>Checking store locations</figcaption></figure></div>
-                <div class="large-4 columns"><figure><img src="http://placehold.it/200x200" alt="Shopping basket Icon"><figcaption>Price checking</figcaption></figure></div>
+            <div class="row ruckus-background-black opacity-75 text-center">
+                <div class="large-4 columns"><figure class="padding-50"><img src="images/guide/icons-01.png" alt="Shopping basket Icon"><figcaption class="ruckus-grey h4">For planning food shopping</figcaption></figure></div>
+                <div class="large-4 columns"><figure class="padding-50"><img src="images/guide/icons-01.png" alt="Shopping basket Icon"><figcaption class="ruckus-grey h4">Checking store locations</figcaption></figure></div>
+                <div class="large-4 columns"><figure class="padding-50"><img src="images/guide/icons-01.png" alt="Shopping basket Icon"><figcaption class="ruckus-grey h4">Price checking</figcaption></figure></div>
             </div>
+            <div class="ruckus-entry-3_background background-2"></div>
         </div>
+
     </article>
     <!--#2: Mobile Payment -->
-    <article class="row">
+    <article class="row full-screen" id="mobile-payment">
         <div class="large-12 columns">
-        <div class="row ">
+        <div class="row ruckus-background-black opacity-75">
             <div class="large-12 columns">
-                <h2>Mobile Payment</h2>
+                <h2 class="ruckus-white">Mobile Payment</h2>
                 <h3>
                     <span class="ruckus-orange">More than just a way to pay...</span>
                     <br>
@@ -77,10 +84,10 @@
             </div>
         </div>
         <!-- Info-graphics -->
-        <div class="row">
-            <div class="large-4 columns">
+        <div class="row ruckus-background-black opacity-75">
+            <div class="large-3 columns">
                 <!-- Contactless is more -->
-                <figure>
+                <figure class="padding-50">
                     <img src="images/guide/icons-08.png">
                     <figcaption>
                         <span class="ruckus-orange">Contactless is more</span>
@@ -88,17 +95,21 @@
                     </figcaption>
                 </figure>
             </div>
-            <div class="large-4 columns">
+            <div class="large-3 columns ruckus-background-black">
                 <!-- Create win-win-win -->
-                <figure>
+                <figure class="padding-50">
                     <img src="images/guide/icons-09.png">
                     <figcaption>
                         <span class="ruckus-orange">Create win-win-win</span>
                         <span class="ruckus-white">Payments that replace cash and credit cards not only increase customer convenience - but improve sales processing efficiency for retailers and can help reduce fraud</span>
                     </figcaption>
                 </figure>
+
+
+            </div>
+            <div class="large-3 columns">
                 <!-- Scrap the paper -->
-                <figure>
+                <figure class="padding-50">
                     <img src="images/guide/icons-10.png">
                     <figcaption>
                         <span class="ruckus-orange">Scrap the paper</span>
@@ -106,23 +117,28 @@
                     </figcaption>
                 </figure>
             </div>
-            <div class="large-4 columns">
+            <div class="large-3 columns ruckus-background-orange opacity-75">
                 <!-- mCommerce = massive Commerce -->
-                <figure>
+                <figure class="padding-50">
                     <img src="images/guide/icons-11.png">
                     <figcaption>
-                        <span class="ruckus-orange">mCommerce = massive Commerce</span>
+                        <span class="ruckus-black">€19.2B</span>
+                        <br>
+                        <span class="ruckus-black">mCommerce = massive Commerce</span>
                         <span class="ruckus-white">European mCommerce revenues are set to rise from €1.7B in 2011 to €19.2B in 2017</span>
                     </figcaption>
                 </figure>
             </div>
         </div>
+            </div>
+            <div class="ruckus-entry-3_background background-3"></div>
     </article>
     <!--#3: POS Technology -->
-    <article class="row">
-        <div class="row ">
+    <article class="row full-screen" id="pos-technology">
+        <div class="large-12 columns">
+        <div class="row ruckus-background-black opacity-75">
             <div class="large-12 columns">
-                <h2>POS Technology</h2>
+                <h2 class="ruckus-orange">POS Technology</h2>
                 <h3>
                     <span class="ruckus-orange">Check out the future of the checkout</span>
                     <br>
@@ -136,19 +152,19 @@
         </div>
         <!-- Info-graphics -->
         <div class="row">
-            <div class="large-4 columns">
+            <div class="large-3 columns ruckus-background-orange opacity-75">
                 <!-- mPos - not an imposter -->
-                <figure>
+                <figure class="padding-50">
                     <img src="images/guide/icons-04.png">
                     <figcaption>
-                        <span class="ruckus-orange">mPos - not an imposter</span>
+                        <span class="ruckus-black">mPos - not an imposter</span>
                         <span class="ruckus-white">mPos is the real deal: by 2017, an estimated 50% of all transactions will be completed by mPOS, self check outs at a counter or on a shopper's mobile device</span>
                     </figcaption>
                 </figure>
             </div>
-            <div class="large-4 columns">
+            <div class="large-3 columns ruckus-background-black opacity-75">
                 <!-- The virtues of virtual -->
-                <figure>
+                <figure class="padding-50">
                     <img src="images/guide/icons-05.png">
                     <figcaption>
                         <span class="ruckus-orange">mCommerce = massive Commerce</span>
@@ -156,32 +172,36 @@
                     </figcaption>
                 </figure>
             </div>
-            <div class="large-4 columns">
+            <div class="large-3 columns ruckus-background-orange opacity-75">
                 <!-- Create win-win-win -->
-                <figure>
+                <figure class="padding-50">
                     <img src="images/guide/icons-07.png">
                     <figcaption>
-                        <span class="ruckus-orange">Create win-win-win</span>
+                        <span class="ruckus-black">Create win-win-win</span>
                         <span class="ruckus-white">Payments that replace cash and credit cards not only increase customer convenience - but improve sales processing efficiency for retailers and can help reduce fraud</span>
                     </figcaption>
                 </figure>
+            </div>
+            <div class="large-3 columns ruckus-background-orange opacity-75">
                 <!-- Scrap the paper -->
-                <figure>
+                <figure class="padding-50">
                     <img src="images/guide/icons-06.png">
                     <figcaption>
-                        <span class="ruckus-orange">Scrap the paper</span>
+                        <span class="ruckus-black">Scrap the paper</span>
                         <span class="ruckus-white">Replacing paper-based coupons and vouchers with mobile alternatives - which integrate into existing loyalty schemes - can lead to higher conversion rates</span>
                     </figcaption>
                 </figure>
             </div>
         </div>
+        </div>
+        <div class="ruckus-entry-3_background background-4"></div>
     </article>
     <!--#4: Omnichannel Omnipetence? -->
-    <article class="row">
+    <article class="row full-screen" id="omnichannel-omnipetence">
         <div class="large-12 columns">
-            <div class="row ">
+            <div class="row ruckus-background-black opacity-75">
                 <div class="large-12 columns">
-                    <h2>Omnichannel Omnipetence</h2>
+                    <h2 class="ruckus-white">Omnichannel Omnipetence</h2>
                     <h3>
                         <span class="ruckus-orange">Providing seamless sales</span>
                         <br>
@@ -193,7 +213,7 @@
             </div>
             <!-- Facts: Percentage Data -->
             <div class="row">
-                <div class="large-2 columns">
+                <div class="large-2 columns ruckus-background-orange opacity-75">
                     <!-- Text with Semi-Transparent Orange background -->
                     <p>
                         <span class="ruckus-black">The many ways</span>
@@ -202,73 +222,74 @@
                         </span>
                     </p>
                 </div>
-                <div class="large-2 columns">
+                <div class="large-2 columns ruckus-background-black opacity-75">
                     <!-- Check prices -->
                     <figure>
                         <img src="images/guide/icons-21.png">
-                        <figcaption>
+                        <figcaption class="ruckus-white">
                             Check prices on mobile devices while on a business's premises
                         </figcaption>
                     </figure>
                 </div>
-                <div class="large-2 columns">
+                <div class="large-2 columns ruckus-background-black opacity-75">
                     <!-- Research product -->
                     <figure>
                         <img src="images/guide/icons-22.png">
-                        <figcaption>
+                        <figcaption class="ruckus-white">
                             Research products
                         </figcaption>
                     </figure>
                 </div>
-                <div class="large-2 columns">
+                <div class="large-2 columns ruckus-background-black opacity-75">
                     <!-- Look at product reviews -->
                     <figure>
                         <img src="images/guide/icons-23.png">
-                        <figcaption>
+                        <figcaption class="ruckus-white">
                             Look at product reviews
                         </figcaption>
                     </figure>
                 </div>
-                <div class="large-2 columns">
+                <div class="large-2 columns ruckus-background-black opacity-75">
                     <!-- Create win-win-win -->
                     <figure>
                         <img src="images/guide/icons-24.png">
-                        <figcaption>
+                        <figcaption class="ruckus-white">
                             Have bought online
                         </figcaption>
                     </figure>
                 </div>
-                <div class="large-2 columns">
+                <div class="large-2 columns ruckus-background-black opacity-75">
                     <!-- Create win-win-win -->
                     <figure>
                         <img src="images/guide/icons-25.png">
-                        <figcaption>
+                        <figcaption class="ruckus-white">
                             Want ability to check stock levels availability on their mobile
                         </figcaption>
                     </figure>
                 </div>
             </div>
             <!-- Footer information: Semi-transparent black background -->
-            <div class="row">
+            <div class="row ruckus-background-black">
                 <div class="large-4 columns">
-                    <figure><img src="http://placehold.it/160x120"><figcaption>Click & Collect</figcaption></figure>
+                    <figure class="padding-50"><img src="http://placehold.it/160x120"><figcaption class="ruckus-orange">Click & Collect</figcaption></figure>
                 </div>
                 <div class="large-4 columns">
                     <h4 class="ruckus-orange">Click-and-collect delivers</h4>
-                    <p>US retailer Macy's found that when using its click-and-collect service customers spent 125% of their intended order.</p>
+                    <p class="ruckus-white">US retailer Macy's found that when using its click-and-collect service customers spent 125% of their intended order.</p>
                 </div>
                 <div class="large-4 columns">
                     <h4 class="ruckus-orange">Click-and-collect delivers</h4>
-                    <p>In the 2014 holiday period, John Lewis - a leading UK 'bricks-and-clicks' retailer recorded a 19% increase in online sales , boosting the online share of total sales to 36%.</p>
+                    <p class="ruckus-white">In the 2014 holiday period, John Lewis - a leading UK 'bricks-and-clicks' retailer recorded a 19% increase in online sales , boosting the online share of total sales to 36%.</p>
                 </div>
             </div>
+            <div class="ruckus-entry-3_background background-5"></div>
     </article>
     <!--#5: Loyalty Learnings -->
-    <article class="row">
+    <article class="row full-screen ruckus-background-black opacity-75" id="loyalty-learnings">
         <div class="large-12 columns">
-            <div class="row ">
+            <div class="row">
                 <div class="large-12 columns">
-                    <h2>Loyalty Learnings</h2>
+                    <h2 class="ruckus-white">Loyalty Learnings</h2>
                     <h3 class="ruckus-orange">A smarter way to reward and redeem</h3>
                     <h4 class="ruckus-white">The end is nigh for physical fobs, tags and cards. Leading loyalty programs will be driven by apps that let customers track and redeem their rewards via their smartphone.</h4>
                 </div>
@@ -277,11 +298,11 @@
             <div class="row">
                 <!-- A rewarding future -->
                 <div class="large-4 columns">
-                    <figure><img src="images/guide/icons-12.png"><figcaption><span class="ruckus-orange">A rewarding future</span><span>Retailers will need to expand their loyalty program outside of the store. Incentives should go beyond purchases and reward customers for their actions and engagments</span></figcaption></figure>
+                    <figure class="padding-50"><img src="images/guide/icons-12.png"><figcaption><span class="ruckus-orange">A rewarding future</span><span class="ruckus-white">Retailers will need to expand their loyalty program outside of the store. Incentives should go beyond purchases and reward customers for their actions and engagments</span></figcaption></figure>
                 </div>
                 <!-- Many appy returns -->
-                <div class="large-4 columns">
-                    <figure>
+                <div class="large-4 columns ruckus-background-black">
+                    <figure class="padding-50">
                         <img src="images/guide/icons-11.png">
                         <img src="images/guide/icons-19.png">
                         <figcaption>
@@ -292,20 +313,21 @@
                 </div>
                 <!-- The age of engagement -->
                 <div class="large-4 columns">
-                    <figure>
+                    <figure class="padding-50">
                         <img src="images/guide/icons-13.png">
-                        <figcaption><span class="ruckus-orange">The age of engagement</span><span>92% of shoppers engage with a loyalty scheme at least once a month</span></figcaption>
+                        <figcaption><span class="ruckus-orange">The age of engagement</span><span class="ruckus-white">92% of shoppers engage with a loyalty scheme at least once a month</span></figcaption>
                     </figure>
                 </div>
             </div>
         </div>
+        <div class="ruckus-entry-3_background background-6"></div>
     </article>
     <!--#6: Social Shopping -->
-    <article class="row">
+    <article class="row full-screen" id="social-shopping">
         <div class="large-12 columns">
-            <div class="row ">
+            <div class="row ruckus-background-black opacity-75"">
                 <div class="large-12 columns">
-                    <h2>Social Shopping</h2>
+                    <h2 class="ruckus-white">Social Shopping</h2>
                     <h3 class="ruckus-orange">Sharing is caring...</h3>
                     <h4 class="ruckus-white">Social media lets retail brands engage directly withcustomers - that's just part of the opportunity...</h4>
                 </div>
@@ -313,65 +335,95 @@
             <!-- Artwork -->
             <div class="row">
                 <!-- Social shopping stats -->
-                <div class="large-4 columns">
+                <div class="large-4 columns ruckus-background-black">
                     <h4 class="ruckus-orange">Social Shopping Stats</h4>
                     <h5 class="ruckus-white">Using social media consumers have:</h5>
                     <dl>
-                        <dt>Interacted with brands</dt><dd><img src="http://placehold.it/50x50">52%</dd>
-                        <dt>Provided comments about experience</dt><dd><img src="http://placehold.it/50x50">55%</dd>
-                        <dt>Discovered brands</dt><dd><img src="http://placehold.it/50x50">58%</dd>
-                        <dt>Research a brand</dt><dd><img src="http://placehold.it/50x50">59%</dd>
-                        <dt>Bought products</dt><dd><img src="http://placehold.it/50x50">48%</dd>
+                        <dt class="ruckus-white">Interacted with brands</dt><dd><i class="fa fa-comments"></i><span class="ruckus-white">52%</span></dd>
+                        <dt class="ruckus-white">Provided comments about experience</dt><dd><i class="fa fa-comment"></i><span class="ruckus-white">55%</span></dd>
+                        <dt class="ruckus-white">Discovered brands</dt><dd><i class="fa fa-eye"></i><span class="ruckus-white">58%</span></dd>
+                        <dt class="ruckus-white">Research a brand</dt><dd>i class="fa fa-search"></i><span class="ruckus-white">59%</span></dd>
+                        <dt class="ruckus-white">Bought products</dt><dd><img src="http://placehold.it/50x50"><span class="ruckus-white">48%</span></dd>
                     </dl>
                 </div>
                 <!-- Referring is occurring / wr trust 'our' networks -->
-                <div class="large-4 columns">
-                    <figure><img src="images/guide/icons-14.png"><figcaption><span class="ruckus-black">Referring is occurring</span><span class="ruckus-white">71% of consumers are likely to make a purchase based on social media referrals</span></figcaption></figure>
-                    <figure><img src="images/guide/icons-15.png"><figcaption><span class="ruckus-black">We trust 'our' networks</span><span class="ruckus-white">77% of consumers trust product suggestions from friends and family</span></figcaption></figure>
+                <div class="large-4 columns ruckus-background-orange opacity-75">
+                    <figure class="padding-50"><img src="images/guide/icons-14.png"><figcaption><span class="ruckus-black">Referring is occurring</span><span class="ruckus-white">71% of consumers are likely to make a purchase based on social media referrals</span></figcaption></figure>
+                    <figure class="padding-50"><img src="images/guide/icons-15.png"><figcaption><span class="ruckus-black">We trust 'our' networks</span><span class="ruckus-white">77% of consumers trust product suggestions from friends and family</span></figcaption></figure>
                 </div>
-                <div class="large-4 columns">
-                    <figure>
+                <div class="large-4 columns ruckus-background-black opacity-75">
+                    <figure class="padding-50">
                         <img src="images/guide/icons-11.png">
                         <figcaption>
-                            <span class="ruckus-orange">Vocal over social 32%</span><span>of smartphone users use social media to comment on their shopping experiences</span>
+                            <span class="ruckus-orange">Vocal over social 32%</span><span class="ruckus-white">of smartphone users use social media to comment on their shopping experiences</span>
                         </figcaption>
                     </figure>.
                 </div>
             </div>
         </div>
+        <div class="ruckus-entry-3_background background-7"></div>
     </article>
     <!--#7: Big Data -->
-    <article class="row">
+    <article class="row full-screen" id="big-data">
         <div class="large-12 columns">
-            <div class="row ">
+            <div class="row ruckus-background-black opacity-75">
                 <div class="large-12 columns">
-                    <h2>Social Shopping</h2>
-                    <h3 class="ruckus-orange">Sharing is caring...</h3>
-                    <h4 class="ruckus-white">Social media lets retail brands engage directly withcustomers - that's just part of the opportunity...</h4>
+                    <h2 class="ruckus-white">Big Data</h2>
+                    <h3 class="ruckus-orange">When it comes to the crunch...</h3>
+                    <h4 class="ruckus-white">...harnessing big data can mean big advantages: retailers can make highly targeted adjustments to staffing, product placement, marketing displays and even prices throughout the day</h4>
                 </div>
             </div>
             <!-- Artwork -->
             <div class="row">
                 <!-- Social shopping stats -->
-                <div class="large-4 columns">
-                    <figure><img src="images/guide/icons-01.png"><figcaption><span class="ruckus-black">Full of 'next' appeal</span><span class="ruckus-white">52% say big data has enabled theme to expand their sales by offering customers the 'next' logical item</span></figcaption></figure>
+                <div class="large-4 columns ruckus-background-black opacity-75">
+                    <figure class="padding-50"><img src="images/guide/icons-01.png"><figcaption><span class="ruckus-orange">Full of 'next' appeal</span><span class="ruckus-white">52% say big data has enabled theme to expand their sales by offering customers the 'next' logical item</span></figcaption></figure>
                 </div>
                 <!-- Referring is occurring / wr trust 'our' networks -->
-                <div class="large-4 columns">
-                    <figure><img src="images/guide/icons-02.png"><figcaption><span class="ruckus-black">Feel the gain</span><span class="ruckus-white">64% of retailers have made financial gain in customer relationship management through big data</span></figcaption></figure>
+                <div class="large-4 columns ruckus-background-orange opacity-75">
+                    <figure class="padding-50"><img src="images/guide/icons-02.png"><figcaption><span class="ruckus-black">Feel the gain</span><span class="ruckus-white">64% of retailers have made financial gain in customer relationship management through big data</span></figcaption></figure>
                 </div>
-                <div class="large-4 columns">
-                    <figure>
-                        <img src="images/guide/icons-11.png">
+                <div class="large-4 columns ruckus-background-black opacity-75">
+                    <figure class="padding-50">
+                        <img src="images/guide/icons-13.png">
                         <figcaption>
-                            <span class="ruckus-orange">Vocal over social 32%</span><span>of smartphone users use social media to comment on their shopping experiences</span>
+                            <span class="ruckus-orange">Data pays in many ways</span><span class="ruckus-white">52% say data has made multichannel customer tracking and management more profitable</span>
                         </figcaption>
                     </figure>.
                 </div>
             </div>
         </div>
+        <div class="ruckus-entry-3_background background-8"></div>
     </article>
     <!--#8: Wi-Fi in retail -->
+    <article class="row full-screen" id="wifi-in-retail">
+        <div class="large-12 columns">
+            <div class="row ruckus-background-black opacity-75">
+                <div class="large-12 columns">
+                    <h2 class="ruckus-white">Wi-Fi in Retail</h2>
+                </div>
+            </div>
+            <div class="row">
+                <!-- How people feel when there's no Wi-Fi in a business premises -->
+                <div class="large-6 columns ruckus-background-black opacity-75">
+                    <figure class="padding-50">
+                        <figcaption>How people feel when there's no Wi-Fi in a business premises</figcaption>
+                        <img src="http://placehold.it/300x300">
+                    </figure>
+                </div>
+                <!-- Network stability and bandwidth -->
+                <div class="large-6 columns">
+                    <div class="ruckus-background-orange opacity-75">
+                    <h3 class="ruckus-white">Network stability and bandwidth.</h3>
+                    <p>Providing Wi-Fi is fine, but if the connection speed is slow, the user experience crashes and burns. Make sure to dimension the installation according to the maximum traffic.</p>
+                    </div>
+                    <figure class="ruckus-background-blue opacity-75"><figcaption><span class="ruckus-orange">79.5%</span><span>People say having free Wi-Fi can influence where they shop</span></figcaption><img src="images/guide/icons-17.png"></figure>
+                    <figure class="ruckus-background-white opacity-75"><figcaption><span class="ruckus-orange">48.1%</span><span>People say that having from LOREM IPUSM OREM IPUSM OREM IPUSM</span></figcaption><img src="images/guide/icons-18.png"></figure>
+                </div>
+            </div>
+        </div>
+        <div class="ruckus-entry-3_background background-9"></div>
+    </article>
 </body>
 <?php
     require_once('footer.php');
