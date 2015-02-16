@@ -4,7 +4,7 @@
 * Project: ruckus hub
 * Author: Elliott Matthew Greaves
 * Author URL: http://www.elliottgreaves.com/
-* Description: Includes the footer scripts and closing <body> and </html> tags.
+* Description: Includes the footer scripts and closing </html> tags.
 */
 ?>
 

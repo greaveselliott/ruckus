@@ -4,7 +4,7 @@
     * Project: ruckus hub
     * Author: Elliott Matthew Greaves
     * Author URL: http://www.elliottgreaves.com/
-    * Description: Includes the template file for entry point 1.
+    * Description: Template file for entry point 1.
     */
     require_once 'header.php'
 ?>
@@ -39,10 +39,10 @@
         </div>
       </div>
       <!-- Web App Wrapper -->
-      <div class="tile">
+      <article class="tile">
           <div class="slide-container">
           <!-- Tile 1: Simply Better Wireless -->
-          <div class="stage-1 slide">
+          <section class="stage-1 slide">
              <!-- Centering the content  -->
              <div class="row valign-middle tile-content">
                 <div class="large-12 columns">
@@ -74,9 +74,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <!-- Stage 2: Size of your business: template-stage-2 -->
-        <div class="stage2 slide">
+        <section class="stage2 slide">
             <div class="row valign-middle tile-content">
                 <div class="large-12 columns">
                     <!-- Options 2 -->
@@ -113,9 +113,9 @@
           </div>
 
         </div>
-        </div>
+        </section>
         <!-- Stage 3: What do you need Wi-Fi for?: template-stage-3 -->
-        <div class="stage-3 slide">
+        <section class="stage-3 slide">
         <div class="row valign-middle tile-content">
           <div class="large-12 columns">
               <!-- Options 2 -->
@@ -145,9 +145,9 @@
                </div>
           </div>
         </div>
-        </div>
+        </section>
         <!-- Stage 4: Details: template-stage-4 -->
-        <div class="stage4 slide">
+        <section class="stage4 slide">
         <div class="row valign-middle tile-content">
           <div class="large-12 columns">
               <!-- content -->
@@ -470,7 +470,7 @@
               </div>
           </div>
         </div>
-        </div>
+        </section>
         </div>
         <!-- Tile background image -->
 
@@ -483,6 +483,6 @@
             </div>
         </div>
 
-    </div>
-
+    </article>
+</body>
 <?php require_once('footer.php');?>
