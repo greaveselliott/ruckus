@@ -11,26 +11,31 @@
   </head>
   <body class="appContainer">
       <div class="absolute top width-100 header">
-        <div class="row collapse padding-top-10">
-            <div class="large-6 columns">
-                <div class="clearfix">
-                    <header class="left margin-center-small display-block-small">
+        <div class="row padding-top-10">
+            <div class="large-12 columns">
+                <ul class="large-block-grid-2 medium-block-grid-2 small-block-grid-2">
+                    <li>
+                    <header class="left">
                         <img src="images/ruckus-logo.png" alt="Ruckus Logo" class="logo">
                         <h1 class="hide">Ruckus</h1>
                     </header>
-                </div>
+                    </li>
+                    <li>
+                    <nav id="social-media-links">
+                        <div class="clearfix">
+                            <ul class="right small">
+                                <li><a class="icon_facebook" href="#" title="Like us on Facebook"><i class="fa fa-facebook"></i></a></li>
+                                <li><a class="icon_twitter" href="#" title="Follow us on Twitter"><i class="fa fa-twitter"></i></a></li>
+                                <li><a class="icon_google" href="#" title="Follow us on Google+"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a class="icon_linked-in" href="#" title="Follow our Linked-in page"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    </li>
+                </ul>
             </div>
             <div class="large-6 columns">
-                <nav id="social-media-links">
-                    <div class="clearfix">
-                    <ul class="right margin-center-small display-block-small">
-                        <li><a class="icon_facebook" href="#" title="Like us on Facebook"><i class="fa fa-facebook"></i></a></li>
-                        <li><a class="icon_twitter" href="#" title="Follow us on Twitter"><i class="fa fa-twitter"></i></a></li>
-                        <li><a class="icon_google" href="#" title="Follow us on Google+"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a class="icon_linked-in" href="#" title="Follow our Linked-in page"><i class="fa fa-linkedin"></i></a></li>
-                    </ul>
-                    </div>
-                </nav>
+
             </div>
         </div>
       </div>
@@ -123,9 +128,9 @@
                       </div>
                       <div class="large-12 columns">
                           <ul class="large-block-grid-3 medium-block-grid-3 small-block-grid-1 ruckus-option-group"  data-toggle-type="checkbox">
-                              <li class="ruckus-option"  data-option-name="public"><img src="images/stage3-wifi-white.png" alt="Small Ruckus logo" class="hide-for-small"><span class="button">To provide public Wi-Fi</span></li>
-                              <li class="ruckus-option"  data-option-name="pos"><img src="images/stage3-card-white.png" alt="Medium Ruckus logo" class="hide-for-small"><span class="button">POS</span></li>
-                              <li class="ruckus-option"  data-option-name="employee"><img src="images/stage3-graph-white.png" alt="Large Ruckus logo" class="hide-for-small"><span class="button">Employee enablement</span></li>
+                              <li class="ruckus-option"  data-option-name="public"><div class="image hide-for-small" id="wi-fi"></div><span class="button">To provide public Wi-Fi</span></li>
+                              <li class="ruckus-option"  data-option-name="pos"><div class="image hide-for-small" id="pos"></div><span class="button">POS</span></li>
+                              <li class="ruckus-option"  data-option-name="employee"><div class="image hide-for-small" id="employee"></div><span class="button">Employee enablement</span></li>
                           </ul>
                       </div>
                   </div>
@@ -154,7 +159,7 @@
               </div>
               <div class="row">
                   <div class="large-8 columns large-centered medium-8 medium-centered">
-                      <form data-option-type="ruckus-option-group">
+                      <form id="ruckus-data" data-option-type="ruckus-option-group">
                           <!-- Business Sector -->
                           <input type="radio" name="sector" data-name="retail" value="2" class="">
                           <input type="radio" name="sector" data-name="leisure" value="3" class="">

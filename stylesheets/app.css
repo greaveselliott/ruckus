@@ -12241,9 +12241,10 @@ th.hide-for-touch {
 /* line 1, ../scss/header.scss */
 .header {
   position: fixed;
+  z-index: 50;
 }
 
-/* line 5, ../scss/header.scss */
+/* line 6, ../scss/header.scss */
 .logo {
   height: 40px;
 }
@@ -12371,19 +12372,46 @@ th.hide-for-touch {
   content: "\f077";
 }
 
-/* line 64, ../scss/buttons.scss */
+/* line 63, ../scss/buttons.scss */
+.image {
+  display: block;
+  width: 100%;
+  height: 90px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: -90px;
+  margin-bottom: 20px;
+}
+/* line 71, ../scss/buttons.scss */
+.image#wi-fi {
+  background-image: url("../images/stage3-wifi.png");
+}
+/* line 74, ../scss/buttons.scss */
+.image#pos {
+  background-image: url("../images/stage3-card.png");
+}
+/* line 77, ../scss/buttons.scss */
+.image#employee {
+  background-image: url("../images/stage3-graph.png");
+}
+
+/* line 83, ../scss/buttons.scss */
+.toggled .image {
+  background-position-y: 0px;
+}
+/* line 86, ../scss/buttons.scss */
 .toggled .button {
   color: #EA7600 !important;
   border-color: #EA7600 !important;
 }
-/* line 68, ../scss/buttons.scss */
+/* line 90, ../scss/buttons.scss */
 .toggled .button.alt {
   background-color: #EA7600 !important;
   border-color: #EA7600 !important;
   color: white !important;
 }
 
-/* line 76, ../scss/buttons.scss */
+/* line 98, ../scss/buttons.scss */
 .nav-wrapper {
   width: 125px;
 }
