@@ -1,5 +1,4 @@
 /* line 1, ../scss/development.scss */
 img[src^='http://placehold.it/'] {
   width: 100%;
-  height: auto;
-}
+  height: auto; }

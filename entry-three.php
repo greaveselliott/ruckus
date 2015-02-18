@@ -14,31 +14,82 @@
     <!--#1: Mobile Momentum -->
     <article class="row full-screen" id="mobile-momentum"><!-- fullscreen background? -->
         <div class="large-12 columns">
-            <div class="row ruckus-background-black opacity-75"><div class="large-12 columns padding-25"><h2 class="ruckus-white">Mobile Momentum</h2></div></div>
+            <div class="row ruckus-background-black opacity-75 padding-25">
+                <div class="large-12 columns">
+                    <h2 class="ruckus-white">Mobile Payment</h2>
+                    <h4 class="ruckus-orange">
+                        {{Sub-Heading}}
+                    </h4>
+                </div>
+            </div>
             <div class="row">
                 <!-- White smart phone with text overlay -->
                 <section class="large-6 columns">
                     <h3 class="hide">Keep up moving with mobile</h3>
-                    <figure class="padding-50">
-                        <img src="images/guide/icons-11.png" alt="White touch screen SmartPhone - vector icon">
-                        <figcaption>
-                            <span class="ruckus-orange">Keep up moving with mobile</span>
-                            <span class="ruckus-white">Mobile will continue to grow in every part of the shopper journey and the current projection show smartphones and tablets will play a much bigger role</span>
-                        </figcaption>
-                    </figure>
+                    <div class="table-center-container">
+                        <div class="table-center-cell">
+                            <figure id="keep-up-moving">
+                                <img src="images/guide/icons-11.png" alt="White touch screen SmartPhone - vector icon">
+                                <figcaption>
+                                    <span class="ruckus-orange">Keep up moving with mobile</span><br>
+                                    <span class="ruckus-white">Mobile will continue to grow in every part of the shopper journey and the current projection show smartphones and tablets will play a much bigger role</span>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
                 </section>
                 <!-- Retail - top 3 tech trends for retailers -->
-                <section class="large-6 columns ruckus-background-black opacity-75">
+                <section class="large-6 columns">
                     <div class="row">
                         <div class="large-12 columns">
                             <h3 class="ruckus-white">Retail Tech Check</h3>
                             <br>
-                            <h4 class="ruckus-white padding-10-30-0-10">The top 3 tech trends for retailers</h4>
+                            <h4 class="ruckus-white">The top 3 tech trends for retailers</h4>
                         </div>
                     </div>
-                    <div class="row"><div class="large-12 columns"><figure class="padding-25"><i class="fa fa-mobile ruckus-orange h2 display-inline-block"></i><figcaption class="ruckus-white h3 display-inline-block">Investment in mobility</figcaption></figure></div></div>
-                    <div class="row"><div class="large-12 columns"><figure class="padding-25"><i class="fa fa-shopping-cart ruckus-orange h2 display-inline-block"></i><figcaption class="ruckus-white h3 display-inline-block">Retail Technology Solutions</figcaption></figure></div></div>
-                    <div class="row"><div class="large-12 columns"><figure class="padding-25"><i class="fa fa-globe ruckus-orange h2 display-inline-block"></i><figcaption class="ruckus-white h3 display-inline-block">Global e-commerce</figcaption></figure></div></div>
+                    <div class="row">
+                        <div class="large-12 columns">
+                            <figure class="padding-25">
+                                <span class="mm-icons">
+                                    <span class="table-center-container">
+                                        <span class="table-center-cell">
+                                            <i class="fa fa-mobile ruckus-orange h2 display-inline-block"></i>
+                                        </span>
+                                    </span>
+                                </span>
+                                <figcaption class="ruckus-white h4 display-inline-block">Investment in mobility</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="large-12 columns">
+                            <figure class="padding-25">
+                                 <span class="mm-icons">
+                                     <span class="table-center-container">
+                                         <span class="table-center-cell">
+                                             <i class="fa fa-shopping-cart ruckus-orange h2 display-inline-block"></i>
+                                         </span>
+                                     </span>
+                                 </span>
+                                <figcaption class="ruckus-white h4 display-inline-block">Retail Technology Solutions</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="large-12 columns">
+                            <figure class="padding-25">
+                                <span class="mm-icons">
+                                    <span class="table-center-container">
+                                        <span class="table-center-cell">
+                                            <i class="fa fa-globe ruckus-orange h2 display-inline-block"></i>
+                                        </span>
+                                    </span>
+                                </span>
+                                <figcaption class="ruckus-white h4 display-inline-block">Global e-commerce</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="ruckus-entry-3_background ruckus-background-black opacity-75 height-100"></div>
                 </section>
             </div>
             <!-- Quick Fact: Semi Transparent Orange background -->
@@ -79,7 +130,7 @@
                 <h3>
                     <span class="ruckus-orange">More than just a way to pay...</span>
                     <br>
-                    <span class="ruckus-white">...that helps consumers, the benefits are huge for retailers too</span>
+                    <span class="ruckus-white h4">...that helps consumers, the benefits are huge for retailers too</span>
                 </h3>
             </div>
         </div>
@@ -119,15 +170,22 @@
             </div>
             <div class="large-3 columns ruckus-background-orange opacity-75">
                 <!-- mCommerce = massive Commerce -->
-                <figure class="padding-50">
-                    <img src="images/guide/icons-11.png">
-                    <figcaption>
-                        <span class="ruckus-black">€19.2B</span>
-                        <br>
-                        <span class="ruckus-black">mCommerce = massive Commerce</span>
-                        <span class="ruckus-white">European mCommerce revenues are set to rise from €1.7B in 2011 to €19.2B in 2017</span>
-                    </figcaption>
-                </figure>
+
+                <div>
+                    <div class="table-center-container">
+                        <div class="table-center-cell">
+                            <figure id="massive-commerce">
+                                <img src="images/guide/icons-11.png" alt="White touch screen SmartPhone - vector icon">
+                                <figcaption>
+                                    <span class="ruckus-black">€19.2B</span>
+                                    <br>
+                                    <span class="ruckus-black">mCommerce = massive Commerce</span>
+                                    <span class="ruckus-white">European mCommerce revenues are set to rise from €1.7B in 2011 to €19.2B in 2017</span>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
             </div>

@@ -19,6 +19,16 @@
 @import "media.scss";
 @import "guide-background.scss";
 
+// Page specific styles
+@import "template-mobile-momentum.scss";
+@import "template-mobile-payment.scss";
+@import "template-pos-technology.scss";
+@import "template-omnichannel.scss";
+@import "template-loyalty-learning.scss";
+@import "template-social-shopping.scss";
+@import "template-big-data.scss";
+@import "template-wifi-in-retail.scss";
+
 // development sassy sheets
 @import "development.scss";
 // Or selectively include components

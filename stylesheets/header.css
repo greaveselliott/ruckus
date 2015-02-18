@@ -1,9 +1,8 @@
 /* line 1, ../scss/header.scss */
-.top-bar {
-  padding-top: 20px;
-}
+.header {
+  position: fixed;
+  z-index: 50; }
 
-/* line 5, ../scss/header.scss */
+/* line 6, ../scss/header.scss */
 .logo {
-  height: 40px;
-}
+  height: 40px; }

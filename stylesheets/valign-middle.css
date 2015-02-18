@@ -1,14 +1,11 @@
 /* line 3, ../scss/valign-middle.scss */
 .valign-middle {
   display: table;
-  height: 100%;
-}
+  height: 100%; }
 /* line 7, ../scss/valign-middle.scss */
 .valign-middle > .columns {
   display: table-cell;
-  vertical-align: middle;
-}
+  vertical-align: middle; }
 /* line 12, ../scss/valign-middle.scss */
 .valign-middle > .columns, .valign-middle > [class*="column"] + [class*="column"]:last-child {
-  float: none;
-}
+  float: none; }

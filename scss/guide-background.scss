@@ -25,9 +25,9 @@
   &.background-10 {  background-image: url('../images/guide/guide-background-10.jpg');}
 }
 
-#mobile-momentum {
-    .ruckus-entry-3_background {
-
-    }
-    //background-image: url('../images/guide/guide-background-01.jpg');
+.columns, .column {
+  .ruckus-entry-3_background {
+    z-index: -5;
+  }
+  //background-image: url('../images/guide/guide-background-01.jpg');
 }
