@@ -9,6 +9,11 @@
         //padding-right: $column-gutter*3;
       //}
     //}
+
+      > .large-12 > .row {
+        padding-left: 10%;
+        padding-right: 10%;
+      }
+
   }
 }
-

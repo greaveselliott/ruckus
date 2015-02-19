@@ -99,7 +99,19 @@
 .padding-10 {
   padding: 10px;
 }
-
+.padding-left-0-medium-up {
+  @include respond-to(medium-up){
+    padding-left: 0px !important;
+  }
+}
+.padding-right-0-medium-up {
+  @include respond-to(medium-up){
+    padding-right: 0px !important;
+  }
+}
+.padding-15-25 {
+  padding: 15px 25px;
+}
 .padding-25 {
   padding: 25px;
 }
@@ -116,3 +128,8 @@
 .margin-bottom-20 { margin-bottom: 20px;  }
 .margin-left-20 { margin-left: 20px;  }
 .margin-right-20 { margin-right: 20px;  }
+
+.fake-column-33, .fake-column-50, .fake-column-66 { display: inline-block; }
+.fake-column-33 { width: 33%; }
+.fake-column-50 { width: 50%; }
+.fake-column-66 { width: 66%; }

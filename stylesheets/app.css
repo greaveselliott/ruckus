@@ -9823,42 +9823,72 @@ th.hide-for-touch {
 .padding-10 {
   padding: 10px; }
 
-/* line 103, ../scss/structure.scss */
+@media only screen and (min-width: 40.063em) {
+  /* line 102, ../scss/structure.scss */
+  .padding-left-0-medium-up {
+    padding-left: 0px !important; } }
+
+@media only screen and (min-width: 40.063em) {
+  /* line 107, ../scss/structure.scss */
+  .padding-right-0-medium-up {
+    padding-right: 0px !important; } }
+
+/* line 112, ../scss/structure.scss */
+.padding-15-25 {
+  padding: 15px 25px; }
+
+/* line 115, ../scss/structure.scss */
 .padding-25 {
   padding: 25px; }
 
-/* line 106, ../scss/structure.scss */
+/* line 118, ../scss/structure.scss */
 .padding-50 {
   padding: 50px; }
 
-/* line 109, ../scss/structure.scss */
+/* line 121, ../scss/structure.scss */
 .height-100 {
   height: 100% !important; }
 
-/* line 112, ../scss/structure.scss */
+/* line 124, ../scss/structure.scss */
 .margin-center, .nav-wrapper {
   margin: 0 auto; }
 
 @media only screen and (max-width: 40em) {
-  /* line 113, ../scss/structure.scss */
+  /* line 125, ../scss/structure.scss */
   .margin-center-small {
     margin: 0 auto; } }
 
-/* line 115, ../scss/structure.scss */
+/* line 127, ../scss/structure.scss */
 .margin-top-20 {
   margin-top: 20px; }
 
-/* line 116, ../scss/structure.scss */
+/* line 128, ../scss/structure.scss */
 .margin-bottom-20 {
   margin-bottom: 20px; }
 
-/* line 117, ../scss/structure.scss */
+/* line 129, ../scss/structure.scss */
 .margin-left-20 {
   margin-left: 20px; }
 
-/* line 118, ../scss/structure.scss */
+/* line 130, ../scss/structure.scss */
 .margin-right-20 {
   margin-right: 20px; }
+
+/* line 132, ../scss/structure.scss */
+.fake-column-33, .fake-column-50, .fake-column-66 {
+  display: inline-block; }
+
+/* line 133, ../scss/structure.scss */
+.fake-column-33 {
+  width: 33%; }
+
+/* line 134, ../scss/structure.scss */
+.fake-column-50 {
+  width: 50%; }
+
+/* line 135, ../scss/structure.scss */
+.fake-column-66 {
+  width: 66%; }
 
 /* line 3, ../scss/valign-middle.scss */
 .valign-middle {
@@ -9899,6 +9929,10 @@ th.hide-for-touch {
 /* line 25, ../scss/typography.scss */
 .text-bold {
   font-weight: bold !important; }
+
+/* line 29, ../scss/typography.scss */
+.font-scale-x2 {
+  font-size: 2em !important; }
 
 /* line 1, ../scss/header.scss */
 .header {
@@ -10305,6 +10339,10 @@ body {
 /* line 2, ../scss/zurb-grid-extension.scss */
 .row.full-screen {
   max-width: 100% !important; }
+/* line 13, ../scss/zurb-grid-extension.scss */
+.row.full-screen > .large-12 > .row {
+  padding-left: 10%;
+  padding-right: 10%; }
 
 /* line 1, ../scss/media.scss */
 figure {
@@ -10399,17 +10437,19 @@ figure {
 /* line 1, ../scss/template-omnichannel.scss */
 .circular-fact {
   position: relative; }
-/* line 3, ../scss/template-omnichannel.scss */
-.circular-fact figcaption {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  padding-bottom: 10px; }
 
 /* line 4, ../scss/template-social-shopping.scss */
 #social-shopping-stats ul li {
   line-height: 3.25rem;
   padding-bottom: 0px !important; }
+
+/* line 2, ../scss/template-wifi-in-retail.scss */
+.wifi-retail-fact .table-center-container, .wifi-retail-fact .button.round-icon {
+  min-height: 200px; }
+/* line 5, ../scss/template-wifi-in-retail.scss */
+.wifi-retail-fact img {
+  max-width: 200px;
+  max-height: 200px; }
 
 /* line 1, ../scss/development.scss */
 img[src^='http://placehold.it/'] {

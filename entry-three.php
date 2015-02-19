@@ -14,13 +14,17 @@
     <!--#1: Mobile Momentum -->
     <article class="row full-screen" id="mobile-momentum"><!-- fullscreen background? -->
         <div class="large-12 columns">
-            <div class="row ruckus-background-black opacity-75 padding-25">
-                <div class="large-12 columns">
-                    <h2 class="ruckus-white">Mobile Payment</h2>
-                    <h4 class="ruckus-orange">
-                        {{Sub-Heading}}
-                    </h4>
+            <div class="row ruckus-background-black opacity-75">
+
+                <div class="large-12 columns ">
+                    <h2 class="ruckus-white">Mobile Momentum</h2>
+                    <h3>
+                        <span class="ruckus-orange">Keep moving with mobile</span>
+                        <br>
+                            <span class="ruckus-white h4">Mobile will continue to grow in every part of the shopper journey - with smartphones and tablets playing an ever bigger role.</span>
+                    </h3>
                 </div>
+
             </div>
             <div class="row">
                 <!-- White smart phone with text overlay -->
@@ -104,9 +108,9 @@
         </article>
     <article class="row full-screen" id="smart-shoppers"><!-- fullscreen background? -->
         <div class="large-12 columns">
-            <div class="row">
+            <div class="row ruckus-background-black">
                 <!-- Heading: Semi Transparent Black background -->
-                <div class="large-12 columns ruckus-background-black">
+                <div class="large-12 columns">
                     <h3 class="ruckus-orange">Smart Shoppers</h3>
                     <h4 class="ruckus-white">When using a smartphone in a retail environment shoppers used their phones for:</h4>
                 </div>
@@ -125,7 +129,7 @@
     <article class="row full-screen" id="mobile-payment">
         <div class="large-12 columns">
         <div class="row ruckus-background-black opacity-75">
-            <div class="large-12 columns">
+            <div class="large-12 columns ">
                 <h2 class="ruckus-white">Mobile Payment</h2>
                 <h3>
                     <span class="ruckus-orange">More than just a way to pay...</span>
@@ -135,7 +139,7 @@
             </div>
         </div>
         <!-- Info-graphics -->
-        <div class="row ruckus-background-black opacity-75">
+        <div class="row ruckus-background-black opacity-75 match-container-height">
             <div class="large-3 columns">
                 <!-- Contactless is more -->
                 <figure class="padding-50">
@@ -147,7 +151,7 @@
                     </figcaption>
                 </figure>
             </div>
-            <div class="large-3 columns ruckus-background-black">
+            <div class="large-3 columns ruckus-background-black match-container-height">
                 <!-- Create win-win-win -->
                 <figure class="padding-50">
                     <img src="images/guide/icons-09.png">
@@ -160,7 +164,7 @@
 
 
             </div>
-            <div class="large-3 columns">
+            <div class="large-3 columns match-container-height">
                 <!-- Scrap the paper -->
                 <figure class="padding-50">
                     <img src="images/guide/icons-10.png">
@@ -171,7 +175,7 @@
                     </figcaption>
                 </figure>
             </div>
-            <div class="large-3 columns ruckus-background-orange opacity-75">
+            <div class="large-3 columns ruckus-background-orange opacity-75 match-container-height">
                 <!-- mCommerce = massive Commerce -->
 
                 <div>
@@ -198,7 +202,7 @@
     <article class="row full-screen" id="pos-technology">
         <div class="large-12 columns">
         <div class="row ruckus-background-black opacity-75">
-            <div class="large-12 columns">
+            <div class="large-12 columns ">
                 <h2 class="ruckus-orange">POS Technology</h2>
                 <h3>
                     <span class="ruckus-orange">Check out the future of the checkout</span>
@@ -213,7 +217,7 @@
         </div>
         <!-- Info-graphics -->
         <div class="row">
-            <div class="large-3 columns ruckus-background-orange opacity-75">
+            <div class="large-3 columns ruckus-background-orange opacity-75 match-container-height">
                 <!-- mPos - not an imposter -->
                 <figure class="padding-50">
                     <img src="images/guide/icons-04.png">
@@ -224,7 +228,7 @@
                     </figcaption>
                 </figure>
             </div>
-            <div class="large-3 columns ruckus-background-black opacity-75">
+            <div class="large-3 columns ruckus-background-black opacity-75 match-container-height">
                 <!-- The virtues of virtual -->
                 <figure class="padding-50">
                     <img src="images/guide/icons-05.png">
@@ -235,7 +239,7 @@
                     </figcaption>
                 </figure>
             </div>
-            <div class="large-3 columns ruckus-background-orange opacity-75">
+            <div class="large-3 columns ruckus-background-orange opacity-75 match-container-height">
                 <!-- Create win-win-win -->
                 <figure class="padding-50">
                     <img src="images/guide/icons-07.png">
@@ -246,7 +250,7 @@
                     </figcaption>
                 </figure>
             </div>
-            <div class="large-3 columns ruckus-background-black opacity-75">
+            <div class="large-3 columns ruckus-background-black opacity-75 match-container-height">
                 <!-- Scrap the paper -->
                 <figure class="padding-50">
                     <img src="images/guide/icons-06.png">
@@ -263,7 +267,7 @@
     </article>
     <!--#4: Omnichannel Omnipetence? -->
     <article class="row full-screen" id="omnichannel-omnipetence">
-        <div class="large-12 columns">
+        <div class="large-12 columns ">
             <div class="row ruckus-background-black opacity-75">
                 <div class="large-12 columns">
                     <h2 class="ruckus-white">Omnichannel Omnipetence</h2>
@@ -278,17 +282,21 @@
             </div>
             <!-- Facts: Percentage Data -->
             <div class="row">
-                <div class="large-2 columns ruckus-background-orange opacity-75">
+                <div class="large-2 columns ruckus-background-orange opacity-75 match-container-height">
                     <!-- Text with Semi-Transparent Orange background -->
                     <p>
-                        <span class="ruckus-black">The many ways</span>
-                        <br>
-                        <span class="ruckus-white">
-                            Where bricks or clicks-to-mortar the path to purchase for customers is becoming increasingly blurred.
+                        <span class="table-center-container">
+                            <span class="table-center-cell">
+                                <span class="ruckus-black h4">The many ways</span>
+                                    <br>
+                                    <span class="ruckus-white">
+                                        Where bricks or clicks-to-mortar the path to purchase for customers is becoming increasingly blurred.
+                                    </span>
+                            </span>
                         </span>
                     </p>
                 </div>
-                <div class="large-2 columns ruckus-background-black opacity-75">
+                <div class="large-2 columns ruckus-background-black opacity-75 match-container-height">
                     <!-- Check prices -->
                     <figure class="circular-fact">
                         <img src="images/guide/icons-21.png">
@@ -297,7 +305,7 @@
                         </figcaption>
                     </figure>
                 </div>
-                <div class="large-2 columns ruckus-background-black opacity-75">
+                <div class="large-2 columns ruckus-background-black opacity-75 match-container-height">
                     <!-- Research product -->
                     <figure class="circular-fact">
                         <img src="images/guide/icons-22.png">
@@ -306,7 +314,7 @@
                         </figcaption>
                     </figure>
                 </div>
-                <div class="large-2 columns ruckus-background-black opacity-75">
+                <div class="large-2 columns ruckus-background-black opacity-75 match-container-height">
                     <!-- Look at product reviews -->
                     <figure class="circular-fact">
                         <img src="images/guide/icons-23.png">
@@ -315,7 +323,7 @@
                         </figcaption>
                     </figure>
                 </div>
-                <div class="large-2 columns ruckus-background-black opacity-75">
+                <div class="large-2 columns ruckus-background-black opacity-75 match-container-height">
                     <!-- Create win-win-win -->
                     <figure class="circular-fact">
                         <img src="images/guide/icons-24.png">
@@ -324,7 +332,7 @@
                         </figcaption>
                     </figure>
                 </div>
-                <div class="large-2 columns ruckus-background-black opacity-75">
+                <div class="large-2 columns ruckus-background-black opacity-75 match-container-height">
                     <!-- Create win-win-win -->
                     <figure class="circular-fact">
                         <img src="images/guide/icons-25.png">
@@ -336,10 +344,10 @@
             </div>
             <!-- Footer information: Semi-transparent black background -->
             <div class="row ruckus-background-black">
-                <div class="large-2 columns">
+                <div class="large-2 columns  match-container-height">
                     <figure class="padding-25"><img src="images/guide/icons-30.png"><figcaption class="ruckus-orange">Click & Collect</figcaption></figure>
                 </div>
-                <div class="large-6 columns">
+                <div class="large-6 columns  match-container-height">
                         <div class="table-center-container height-100">
                             <div class="table-center-cell">
                                 <h4 class="ruckus-orange">Click-and-collect delivers</h4>
@@ -347,7 +355,7 @@
                             </div>
                         </div>
                 </div>
-                <div class="large-4 columns">
+                <div class="large-4 columns match-container-height">
                         <div class="table-center-container">
                             <div class="table-center-cell">
                                 <h4 class="ruckus-orange">Click-and-collect delivers</h4>
@@ -361,7 +369,7 @@
     <!--#5: Loyalty Learnings -->
     <article class="row full-screen ruckus-background-black opacity-75" id="loyalty-learnings">
         <div class="large-12 columns">
-            <div class="row">
+            <div class="row ">
                 <div class="large-12 columns">
                     <h2 class="ruckus-white">Loyalty Learnings</h2>
                     <h3 class="ruckus-orange">A smarter way to reward and redeem</h3>
@@ -371,11 +379,18 @@
             <!-- Artwork -->
             <div class="row">
                 <!-- A rewarding future -->
-                <div class="large-4 columns">
-                    <figure class="padding-50"><img src="images/guide/icons-12.png"><figcaption><span class="ruckus-orange h4">A rewarding future</span><br><span class="ruckus-white">Retailers will need to expand their loyalty program outside of the store. Incentives should go beyond purchases and reward customers for their actions and engagments</span></figcaption></figure>
+                <div class="large-4 columns match-container-height">
+                    <figure class="padding-50">
+                        <img src="images/guide/icons-12.png">
+                        <figcaption>
+                            <span class="ruckus-orange h4">A rewarding future</span>
+                            <br>
+                            <span class="ruckus-white">Retailers will need to expand their loyalty program outside of the store. Incentives should go beyond purchases and reward customers for their actions and engagments</span>
+                        </figcaption>
+                    </figure>
                 </div>
                 <!-- Many appy returns -->
-                <div class="large-4 columns ruckus-background-black">
+                <div class="large-4 columns ruckus-background-black match-container-height">
                     <div class="table-center-container">
                         <div class="table-center-cell">
                             <figure class="mobile-with-text" id="many-appy-returns">
@@ -390,7 +405,7 @@
                     </div>
                 </div>
                 <!-- The age of engagement -->
-                <div class="large-4 columns">
+                <div class="large-4 columns match-container-height">
                     <figure class="padding-50">
                         <img src="images/guide/icons-13.png">
                         <figcaption><span class="ruckus-orange h4">The age of engagement</span><br><span class="ruckus-white">92% of shoppers engage with a loyalty scheme at least once a month</span></figcaption>
@@ -403,7 +418,7 @@
     <!--#6: Social Shopping -->
     <article class="row full-screen" id="social-shopping">
         <div class="large-12 columns">
-            <div class="row ruckus-background-black opacity-75"">
+            <div class="row ruckus-background-black opacity-75 ">
                 <div class="large-12 columns">
                     <h2 class="ruckus-white">Social Shopping</h2>
                     <h3 class="ruckus-orange">Sharing is caring...</h3>
@@ -413,7 +428,7 @@
             <!-- Artwork -->
             <div class="row">
                 <!-- Social shopping stats -->
-                <div class="large-3 columns ruckus-background-black" id="social-shopping-stats">
+                <div class="large-3 columns ruckus-background-black match-container-height" id="social-shopping-stats">
                     <h4 class="ruckus-orange">Social Shopping Stats</h4>
                     <h5 class="ruckus-white margin-bottom-20">Using social media consumers have:</h5>
 
@@ -446,14 +461,14 @@
 
                 </div>
                 <!-- Referring is occurring / wr trust 'our' networks -->
-                <div class="large-3 columns ruckus-background-orange opacity-75">
+                <div class="large-3 columns ruckus-background-orange opacity-75 match-container-height">
                     <figure class="padding-50"><img src="images/guide/icons-14.png">
                         <figcaption>
                             <span class="ruckus-black h4">Referring is occurring</span>
                             <br>
                             <span class="ruckus-white">71% of consumers are likely to make a purchase based on social media referrals</span></figcaption></figure>
                 </div>
-                <div class="large-3 columns ruckus-background-black opacity-75">
+                <div class="large-3 columns ruckus-background-black opacity-75 match-container-height">
                     <figure class="padding-50"><img src="images/guide/icons-15.png">
                         <figcaption>
                             <span class="ruckus-orange h4">We trust 'our' networks</span>
@@ -462,7 +477,7 @@
                         </figcaption>
                     </figure>
                 </div>
-                <div class="large-3 columns ruckus-background-black opacity-75">
+                <div class="large-3 columns ruckus-background-black opacity-75 match-container-height">
                     <div class="table-center-container">
                         <div class="table-center-cell">
                             <figure class="mobile-with-text" id="vocal-over-social">
@@ -475,16 +490,15 @@
                             </figure>
                         </div>
                     </div>
-
                 </div>
             </div>
-        </div>
+<!--        </div>-->
         <div class="ruckus-entry-3_background background-7"></div>
     </article>
     <!--#7: Big Data -->
     <article class="row full-screen" id="big-data">
         <div class="large-12 columns">
-            <div class="row ruckus-background-black opacity-75">
+            <div class="row ruckus-background-black opacity-75 ">
                 <div class="large-12 columns">
                     <h2 class="ruckus-white">Big Data</h2>
                     <h3 class="ruckus-orange">When it comes to the crunch...</h3>
@@ -494,18 +508,32 @@
             <!-- Artwork -->
             <div class="row">
                 <!-- Social shopping stats -->
-                <div class="large-4 columns ruckus-background-black opacity-75">
-                    <figure class="padding-50"><img src="images/guide/icons-01.png"><figcaption><span class="ruckus-orange">Full of 'next' appeal</span><span class="ruckus-white">52% say big data has enabled theme to expand their sales by offering customers the 'next' logical item</span></figcaption></figure>
+                <div class="large-4 columns ruckus-background-black opacity-75 match-container-height">
+                    <figure class="padding-50"><img src="images/guide/icons-01.png">
+                        <figcaption>
+                            <span class="ruckus-orange h4">Full of 'next' appeal</span>
+                            <br>
+                            <span class="ruckus-white">52% say big data has enabled theme to expand their sales by offering customers the 'next' logical item</span>
+                        </figcaption></figure>
                 </div>
                 <!-- Referring is occurring / wr trust 'our' networks -->
-                <div class="large-4 columns ruckus-background-orange opacity-75">
-                    <figure class="padding-50"><img src="images/guide/icons-02.png"><figcaption><span class="ruckus-black">Feel the gain</span><span class="ruckus-white">64% of retailers have made financial gain in customer relationship management through big data</span></figcaption></figure>
+                <div class="large-4 columns ruckus-background-orange opacity-75 match-container-height">
+                    <figure class="padding-50">
+                        <img src="images/guide/icons-31.png">
+                        <figcaption>
+                            <span class="ruckus-black h4">Feel the gain</span>
+                            <br>
+                            <span class="ruckus-white">64% of retailers have made financial gain in customer relationship management through big data</span>
+                        </figcaption>
+                    </figure>
                 </div>
-                <div class="large-4 columns ruckus-background-black opacity-75">
+                <div class="large-4 columns ruckus-background-black opacity-75 match-container-height">
                     <figure class="padding-50">
                         <img src="images/guide/icons-13.png">
                         <figcaption>
-                            <span class="ruckus-orange">Data pays in many ways</span><span class="ruckus-white">52% say data has made multichannel customer tracking and management more profitable</span>
+                            <span class="ruckus-orange h4">Data pays in many ways</span>
+                            <br>
+                            <span class="ruckus-white">52% say data has made multichannel customer tracking and management more profitable</span>
                         </figcaption>
                     </figure>.
                 </div>
@@ -516,27 +544,64 @@
     <!--#8: Wi-Fi in retail -->
     <article class="row full-screen" id="wifi-in-retail">
         <div class="large-12 columns">
-            <div class="row ruckus-background-black opacity-75">
+            <div class="row ruckus-background-black opacity-75 ">
                 <div class="large-12 columns">
                     <h2 class="ruckus-white">Wi-Fi in Retail</h2>
                 </div>
             </div>
-            <div class="row">
+            <div class="row ruckus-background-black opacity-75">
                 <!-- How people feel when there's no Wi-Fi in a business premises -->
-                <div class="large-6 columns ruckus-background-black opacity-75">
-                    <figure class="padding-50">
-                        <figcaption>How people feel when there's no Wi-Fi in a business premises</figcaption>
-                        <img src="http://placehold.it/300x300">
+                <div class="large-6 columns">
+                    <figure>
+                        <figcaption class="h3 ruckus-white text-left">How people feel when there's no Wi-Fi in a business premises</figcaption>
+                        <img src="images/guide/icons-34.png">
                     </figure>
                 </div>
                 <!-- Network stability and bandwidth -->
                 <div class="large-6 columns">
-                    <div class="ruckus-background-orange opacity-75">
-                    <h3 class="ruckus-white">Network stability and bandwidth.</h3>
-                    <p>Providing Wi-Fi is fine, but if the connection speed is slow, the user experience crashes and burns. Make sure to dimension the installation according to the maximum traffic.</p>
+                    <div class="ruckus-background-orange opacity-75 row">
+                        <div class="large-12 columns">
+                            <h3 class="ruckus-white">Network stability and bandwidth.</h3>
+                            <p>Providing Wi-Fi is fine, but if the connection speed is slow, the user experience crashes and burns. Make sure to dimension the installation according to the maximum traffic.</p>
+                        </div>
                     </div>
-                    <figure class="ruckus-background-blue opacity-75"><figcaption><span class="ruckus-orange">79.5%</span><span>People say having free Wi-Fi can influence where they shop</span></figcaption><img src="images/guide/icons-17.png"></figure>
-                    <figure class="ruckus-background-white opacity-75"><figcaption><span class="ruckus-orange">48.1%</span><span>People say that having from LOREM IPUSM OREM IPUSM OREM IPUSM</span></figcaption><img src="images/guide/icons-18.png"></figure>
+                    <figure class="ruckus-background-blue opacity-75 row wifi-retail-fact">
+
+                        <span class="large-4 columns h3">
+                            <span class="table-center-container">
+                                <span class="table-center-cell">
+                                    <span class="font-scale-x2">79.5%</span>
+                                </span>
+                            </span>
+                        </span>
+                        <span class="large-4 columns h4">
+                             <span class="table-center-container">
+                                <span class="table-center-cell text-left">
+                                    Of people say having free Wi-Fi can influence where they shop
+                                </span>
+                            </span>
+                        </span>
+                        <span class="large-4 columns"><img src="images/guide/icons-17.png" class="left"></span>
+                        <span class="clear-both"></span>
+                    </figure>
+                    <figure class="ruckus-background-white opacity-75 row wifi-retail-fact">
+                        <span class="ruckus-orange h3 large-4 columns">
+                            <span class="table-center-container">
+                                <span class="table-center-cell">
+                                    <span class="font-scale-x2">48.1%</span>
+                                </span>
+                            </span>
+                        </span>
+                        <span class="large-4 columns h4">
+                            <span class="table-center-container">
+                                <span class="table-center-cell text-left">
+                                    Of people enjoy the experience less when they cannot connect
+                                </span>
+                            </span>
+                        </span>
+                        <span class="large-4 columns">
+                            <img src="images/guide/icons-18.png"></span>
+                    </figure>
                 </div>
             </div>
         </div>
@@ -544,5 +609,5 @@
     </article>
 </body>
 <?php
-    require_once('footer.php');
+    require_once('footer-entry-3.php');
 ?>
