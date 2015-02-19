@@ -1,15 +1,4 @@
-/* line 2, ../scss/template-mobile-momentum.scss */
-#mobile-momentum #keep-up-moving {
-  position: relative;
-  margin: 0 auto;
-  width: 225px; }
 /* line 6, ../scss/template-mobile-momentum.scss */
-#mobile-momentum #keep-up-moving figcaption {
-  position: absolute;
-  top: 80px;
-  left: 15%;
-  width: 70%; }
-/* line 14, ../scss/template-mobile-momentum.scss */
 #mobile-momentum .mm-icons {
   width: 75px;
   height: 75px;

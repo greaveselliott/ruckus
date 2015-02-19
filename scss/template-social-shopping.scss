@@ -1,0 +1,17 @@
+#social-shopping-stats {
+
+  ul {
+    li {
+       @extend .ruckus-white;
+        line-height: $h2-font-size;
+        padding-bottom: 0px !important;
+      i.fa {
+        @extend .ruckus-orange;
+        @extend .h2;
+      }
+      span {
+        @extend .h2;
+      }
+    }
+  }
+}

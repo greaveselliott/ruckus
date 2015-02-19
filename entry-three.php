@@ -9,7 +9,7 @@
 
     require_once('header.php');
 ?>
-<body>
+<body id="entry-3">
     <header class="hide"><h1>Ruckus | Simply Better Wireless</h1></header>
     <!--#1: Mobile Momentum -->
     <article class="row full-screen" id="mobile-momentum"><!-- fullscreen background? -->
@@ -28,7 +28,7 @@
                     <h3 class="hide">Keep up moving with mobile</h3>
                     <div class="table-center-container">
                         <div class="table-center-cell">
-                            <figure id="keep-up-moving">
+                            <figure class="mobile-with-text" id="keep-up-moving">
                                 <img src="images/guide/icons-11.png" alt="White touch screen SmartPhone - vector icon">
                                 <figcaption>
                                     <span class="ruckus-orange">Keep up moving with mobile</span><br>
@@ -113,9 +113,9 @@
             </div>
             <!-- figurative facts -->
             <div class="row ruckus-background-black opacity-75 text-center">
-                <div class="large-4 columns"><figure class="padding-50"><img src="images/guide/icons-01.png" alt="Shopping basket Icon"><figcaption class="ruckus-grey h4">For planning food shopping</figcaption></figure></div>
-                <div class="large-4 columns"><figure class="padding-50"><img src="images/guide/icons-01.png" alt="Shopping basket Icon"><figcaption class="ruckus-grey h4">Checking store locations</figcaption></figure></div>
-                <div class="large-4 columns"><figure class="padding-50"><img src="images/guide/icons-01.png" alt="Shopping basket Icon"><figcaption class="ruckus-grey h4">Price checking</figcaption></figure></div>
+                <div class="large-4 columns"><figure class="padding-50"><img src="images/guide/icons-27.png" alt="Shopping basket Icon"><figcaption class="ruckus-grey h4">For planning food shopping</figcaption></figure></div>
+                <div class="large-4 columns"><figure class="padding-50"><img src="images/guide/icons-28.png" alt="Shopping basket Icon"><figcaption class="ruckus-grey h4">Checking store locations</figcaption></figure></div>
+                <div class="large-4 columns"><figure class="padding-50"><img src="images/guide/icons-29.png" alt="Shopping basket Icon"><figcaption class="ruckus-grey h4">Price checking</figcaption></figure></div>
             </div>
             <div class="ruckus-entry-3_background background-2"></div>
         </div>
@@ -141,7 +141,8 @@
                 <figure class="padding-50">
                     <img src="images/guide/icons-08.png">
                     <figcaption>
-                        <span class="ruckus-orange">Contactless is more</span>
+                        <span class="ruckus-orange h4">Contactless is more</span>
+                        <br>
                         <span class="ruckus-white">25% of Western European mobile users will pay for goods in-store using their NFC-enabled phone by 2017</span>
                     </figcaption>
                 </figure>
@@ -151,7 +152,8 @@
                 <figure class="padding-50">
                     <img src="images/guide/icons-09.png">
                     <figcaption>
-                        <span class="ruckus-orange">Create win-win-win</span>
+                        <span class="ruckus-orange h4">Create win-win-win</span>
+                        <br>
                         <span class="ruckus-white">Payments that replace cash and credit cards not only increase customer convenience - but improve sales processing efficiency for retailers and can help reduce fraud</span>
                     </figcaption>
                 </figure>
@@ -163,7 +165,8 @@
                 <figure class="padding-50">
                     <img src="images/guide/icons-10.png">
                     <figcaption>
-                        <span class="ruckus-orange">Scrap the paper</span>
+                        <span class="ruckus-orange h4">Scrap the paper</span>
+                        <br>
                         <span class="ruckus-white">Replacing paper-based coupons and vouchers with mobile alternatives - which integrate into existing loyalty schemes - can lead to higher conversion rates</span>
                     </figcaption>
                 </figure>
@@ -174,13 +177,13 @@
                 <div>
                     <div class="table-center-container">
                         <div class="table-center-cell">
-                            <figure id="massive-commerce">
+                            <figure class="mobile-with-text" id="keep-up-moving">
                                 <img src="images/guide/icons-11.png" alt="White touch screen SmartPhone - vector icon">
                                 <figcaption>
-                                    <span class="ruckus-black">€19.2B</span>
+                                    <span class="ruckus-orange h3">€19.2B</span>
                                     <br>
-                                    <span class="ruckus-black">mCommerce = massive Commerce</span>
-                                    <span class="ruckus-white">European mCommerce revenues are set to rise from €1.7B in 2011 to €19.2B in 2017</span>
+                                    <span class="ruckus-orange">mCommerce = massive Commerce</span><br>
+                                    <span class="ruckus-white">European mCommerce revenues are set torise from €1.7 in 2011 to €19.2b in 2017</span>
                                 </figcaption>
                             </figure>
                         </div>
@@ -215,7 +218,8 @@
                 <figure class="padding-50">
                     <img src="images/guide/icons-04.png">
                     <figcaption>
-                        <span class="ruckus-black">mPos - not an imposter</span>
+                        <span class="ruckus-black h4">mPos - not an imposter</span>
+                        <br>
                         <span class="ruckus-white">mPos is the real deal: by 2017, an estimated 50% of all transactions will be completed by mPOS, self check outs at a counter or on a shopper's mobile device</span>
                     </figcaption>
                 </figure>
@@ -225,7 +229,8 @@
                 <figure class="padding-50">
                     <img src="images/guide/icons-05.png">
                     <figcaption>
-                        <span class="ruckus-orange">mCommerce = massive Commerce</span>
+                        <span class="ruckus-orange h4">mCommerce = massive Commerce</span>
+                        <br>
                         <span class="ruckus-white">European mCommerce revenues are set to rise from €1.7B in 2011 to €19.2B in 2017</span>
                     </figcaption>
                 </figure>
@@ -235,17 +240,19 @@
                 <figure class="padding-50">
                     <img src="images/guide/icons-07.png">
                     <figcaption>
-                        <span class="ruckus-black">Create win-win-win</span>
+                        <span class="ruckus-black h4">Create win-win-win</span>
+                        <br>
                         <span class="ruckus-white">Payments that replace cash and credit cards not only increase customer convenience - but improve sales processing efficiency for retailers and can help reduce fraud</span>
                     </figcaption>
                 </figure>
             </div>
-            <div class="large-3 columns ruckus-background-orange opacity-75">
+            <div class="large-3 columns ruckus-background-black opacity-75">
                 <!-- Scrap the paper -->
                 <figure class="padding-50">
                     <img src="images/guide/icons-06.png">
                     <figcaption>
-                        <span class="ruckus-black">Scrap the paper</span>
+                        <span class="ruckus-orange h4">Scrap the paper</span>
+                        <br>
                         <span class="ruckus-white">Replacing paper-based coupons and vouchers with mobile alternatives - which integrate into existing loyalty schemes - can lead to higher conversion rates</span>
                     </figcaption>
                 </figure>
@@ -275,6 +282,7 @@
                     <!-- Text with Semi-Transparent Orange background -->
                     <p>
                         <span class="ruckus-black">The many ways</span>
+                        <br>
                         <span class="ruckus-white">
                             Where bricks or clicks-to-mortar the path to purchase for customers is becoming increasingly blurred.
                         </span>
@@ -282,7 +290,7 @@
                 </div>
                 <div class="large-2 columns ruckus-background-black opacity-75">
                     <!-- Check prices -->
-                    <figure>
+                    <figure class="circular-fact">
                         <img src="images/guide/icons-21.png">
                         <figcaption class="ruckus-white">
                             Check prices on mobile devices while on a business's premises
@@ -291,7 +299,7 @@
                 </div>
                 <div class="large-2 columns ruckus-background-black opacity-75">
                     <!-- Research product -->
-                    <figure>
+                    <figure class="circular-fact">
                         <img src="images/guide/icons-22.png">
                         <figcaption class="ruckus-white">
                             Research products
@@ -300,7 +308,7 @@
                 </div>
                 <div class="large-2 columns ruckus-background-black opacity-75">
                     <!-- Look at product reviews -->
-                    <figure>
+                    <figure class="circular-fact">
                         <img src="images/guide/icons-23.png">
                         <figcaption class="ruckus-white">
                             Look at product reviews
@@ -309,7 +317,7 @@
                 </div>
                 <div class="large-2 columns ruckus-background-black opacity-75">
                     <!-- Create win-win-win -->
-                    <figure>
+                    <figure class="circular-fact">
                         <img src="images/guide/icons-24.png">
                         <figcaption class="ruckus-white">
                             Have bought online
@@ -318,7 +326,7 @@
                 </div>
                 <div class="large-2 columns ruckus-background-black opacity-75">
                     <!-- Create win-win-win -->
-                    <figure>
+                    <figure class="circular-fact">
                         <img src="images/guide/icons-25.png">
                         <figcaption class="ruckus-white">
                             Want ability to check stock levels availability on their mobile
@@ -328,17 +336,25 @@
             </div>
             <!-- Footer information: Semi-transparent black background -->
             <div class="row ruckus-background-black">
-                <div class="large-4 columns">
-                    <figure class="padding-50"><img src="http://placehold.it/160x120"><figcaption class="ruckus-orange">Click & Collect</figcaption></figure>
+                <div class="large-2 columns">
+                    <figure class="padding-25"><img src="images/guide/icons-30.png"><figcaption class="ruckus-orange">Click & Collect</figcaption></figure>
+                </div>
+                <div class="large-6 columns">
+                        <div class="table-center-container height-100">
+                            <div class="table-center-cell">
+                                <h4 class="ruckus-orange">Click-and-collect delivers</h4>
+                                <p class="ruckus-white">US retailer Macy's found that when using its click-and-collect service customers spent 125% of their intended order.</p>
+                            </div>
+                        </div>
                 </div>
                 <div class="large-4 columns">
-                    <h4 class="ruckus-orange">Click-and-collect delivers</h4>
-                    <p class="ruckus-white">US retailer Macy's found that when using its click-and-collect service customers spent 125% of their intended order.</p>
-                </div>
-                <div class="large-4 columns">
-                    <h4 class="ruckus-orange">Click-and-collect delivers</h4>
-                    <p class="ruckus-white">In the 2014 holiday period, John Lewis - a leading UK 'bricks-and-clicks' retailer recorded a 19% increase in online sales , boosting the online share of total sales to 36%.</p>
-                </div>
+                        <div class="table-center-container">
+                            <div class="table-center-cell">
+                                <h4 class="ruckus-orange">Click-and-collect delivers</h4>
+                                <p class="ruckus-white">In the 2014 holiday period, John Lewis - a leading UK 'bricks-and-clicks' retailer recorded a 19% increase in online sales , boosting the online share of total sales to 36%.</p>
+                            </div>
+                        </div>
+                    </div>
             </div>
             <div class="ruckus-entry-3_background background-5"></div>
     </article>
@@ -356,24 +372,28 @@
             <div class="row">
                 <!-- A rewarding future -->
                 <div class="large-4 columns">
-                    <figure class="padding-50"><img src="images/guide/icons-12.png"><figcaption><span class="ruckus-orange">A rewarding future</span><span class="ruckus-white">Retailers will need to expand their loyalty program outside of the store. Incentives should go beyond purchases and reward customers for their actions and engagments</span></figcaption></figure>
+                    <figure class="padding-50"><img src="images/guide/icons-12.png"><figcaption><span class="ruckus-orange h4">A rewarding future</span><br><span class="ruckus-white">Retailers will need to expand their loyalty program outside of the store. Incentives should go beyond purchases and reward customers for their actions and engagments</span></figcaption></figure>
                 </div>
                 <!-- Many appy returns -->
                 <div class="large-4 columns ruckus-background-black">
-                    <figure class="padding-50">
-                        <img src="images/guide/icons-11.png">
-                        <img src="images/guide/icons-19.png">
-                        <figcaption>
-                            <span class="ruckus-orange">Many appy returns</span>
-                            <span class="ruckus-white">73% of smartphone users are very likely to download a loyalty app</span>
-                        </figcaption>
-                    </figure>
+                    <div class="table-center-container">
+                        <div class="table-center-cell">
+                            <figure class="mobile-with-text" id="many-appy-returns">
+                                <img src="images/guide/icons-11.png" alt="White touch screen SmartPhone - vector icon">
+                                <figcaption>
+                                    <img src="images/guide/icons-19.png" width="100px" height="100px"><br>
+                                    <span class="ruckus-orange">Many appy returns</span><br>
+                                    <span class="ruckus-white">73% of smartphone users are very likely to download a loyalty app</span>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
                 </div>
                 <!-- The age of engagement -->
                 <div class="large-4 columns">
                     <figure class="padding-50">
                         <img src="images/guide/icons-13.png">
-                        <figcaption><span class="ruckus-orange">The age of engagement</span><span class="ruckus-white">92% of shoppers engage with a loyalty scheme at least once a month</span></figcaption>
+                        <figcaption><span class="ruckus-orange h4">The age of engagement</span><br><span class="ruckus-white">92% of shoppers engage with a loyalty scheme at least once a month</span></figcaption>
                     </figure>
                 </div>
             </div>
@@ -393,29 +413,69 @@
             <!-- Artwork -->
             <div class="row">
                 <!-- Social shopping stats -->
-                <div class="large-4 columns ruckus-background-black">
+                <div class="large-3 columns ruckus-background-black" id="social-shopping-stats">
                     <h4 class="ruckus-orange">Social Shopping Stats</h4>
-                    <h5 class="ruckus-white">Using social media consumers have:</h5>
-                    <dl>
-                        <dt class="ruckus-white">Interacted with brands</dt><dd><i class="fa fa-comments"></i><span class="ruckus-white">52%</span></dd>
-                        <dt class="ruckus-white">Provided comments about experience</dt><dd><i class="fa fa-comment"></i><span class="ruckus-white">55%</span></dd>
-                        <dt class="ruckus-white">Discovered brands</dt><dd><i class="fa fa-eye"></i><span class="ruckus-white">58%</span></dd>
-                        <dt class="ruckus-white">Research a brand</dt><dd>i class="fa fa-search"></i><span class="ruckus-white">59%</span></dd>
-                        <dt class="ruckus-white">Bought products</dt><dd><img src="http://placehold.it/50x50"><span class="ruckus-white">48%</span></dd>
-                    </dl>
+                    <h5 class="ruckus-white margin-bottom-20">Using social media consumers have:</h5>
+
+                        <ul class="small-block-grid-3 medium-block-grid-3 large-block-grid-3">
+                            <li>Interacted with brands</li>
+                            <li><i class="fa fa-comments"></i></li>
+                            <li><span>52%</span></li>
+                        </ul>
+
+                        <ul class="small-block-grid-3 medium-block-grid-3 large-block-grid-3">
+                            <li>Provided comments about experience</li>
+                            <li><i class="fa fa-comment"></i></li>
+                            <li><span>55%</span></li>
+                        </ul>
+                        <ul class="small-block-grid-3 medium-block-grid-3 large-block-grid-3">
+                            <li>Discovered brands</li>
+                            <li><i class="fa fa-eye"></i></li>
+                            <li><span>58%</span></li>
+                        </ul>
+                        <ul class="small-block-grid-3 medium-block-grid-3 large-block-grid-3">
+                            <li>Research a brand</li>
+                            <li><i class="fa fa-search"></i></li>
+                            <li><span>59%</span></li>
+                        </ul>
+                        <ul class="small-block-grid-3 medium-block-grid-3 large-block-grid-3">
+                            <li>Bought products</li>
+                            <li><i class="fa fa-shopping-cart"></i></li>
+                            <li><span>48%</span></li>
+                        </ul>
+
                 </div>
                 <!-- Referring is occurring / wr trust 'our' networks -->
-                <div class="large-4 columns ruckus-background-orange opacity-75">
-                    <figure class="padding-50"><img src="images/guide/icons-14.png"><figcaption><span class="ruckus-black">Referring is occurring</span><span class="ruckus-white">71% of consumers are likely to make a purchase based on social media referrals</span></figcaption></figure>
-                    <figure class="padding-50"><img src="images/guide/icons-15.png"><figcaption><span class="ruckus-black">We trust 'our' networks</span><span class="ruckus-white">77% of consumers trust product suggestions from friends and family</span></figcaption></figure>
-                </div>
-                <div class="large-4 columns ruckus-background-black opacity-75">
-                    <figure class="padding-50">
-                        <img src="images/guide/icons-11.png">
+                <div class="large-3 columns ruckus-background-orange opacity-75">
+                    <figure class="padding-50"><img src="images/guide/icons-14.png">
                         <figcaption>
-                            <span class="ruckus-orange">Vocal over social 32%</span><span class="ruckus-white">of smartphone users use social media to comment on their shopping experiences</span>
+                            <span class="ruckus-black h4">Referring is occurring</span>
+                            <br>
+                            <span class="ruckus-white">71% of consumers are likely to make a purchase based on social media referrals</span></figcaption></figure>
+                </div>
+                <div class="large-3 columns ruckus-background-black opacity-75">
+                    <figure class="padding-50"><img src="images/guide/icons-15.png">
+                        <figcaption>
+                            <span class="ruckus-orange h4">We trust 'our' networks</span>
+                            <br>
+                            <span class="ruckus-white">77% of consumers trust product suggestions from friends and family</span>
                         </figcaption>
-                    </figure>.
+                    </figure>
+                </div>
+                <div class="large-3 columns ruckus-background-black opacity-75">
+                    <div class="table-center-container">
+                        <div class="table-center-cell">
+                            <figure class="mobile-with-text" id="vocal-over-social">
+                                <img src="images/guide/icons-11.png" alt="White touch screen SmartPhone - vector icon">
+                                <figcaption>
+                                    <span class="ruckus-orange h4">Vocal over social 32%</span>
+                                    <br>
+                                    <span class="ruckus-white">of smartphone users use social media to comment on their shopping experiences</span>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>

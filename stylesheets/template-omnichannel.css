@@ -1,0 +1,9 @@
+/* line 1, ../scss/template-omnichannel.scss */
+.circular-fact {
+  position: relative; }
+/* line 3, ../scss/template-omnichannel.scss */
+.circular-fact figcaption {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 10px; }
