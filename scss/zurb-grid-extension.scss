@@ -1,6 +1,10 @@
 .row {
   &.full-screen {
     max-width: 100% !important;
+//    @include respond-to(medium-up) {
+//      padding-top: 50px;
+//      min-height: 100vh;
+//    }
     //padding-left: 250px;
     // padding-right: 250px;
     //.large-12 {

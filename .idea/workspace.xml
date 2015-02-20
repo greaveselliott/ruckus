@@ -2,23 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="195a1756-a828-4484-ba93-284ef59836fb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/footer-entry-3.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/layout.entry-three.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paste.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/_settings.scssc" afterPath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/_settings.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/structure.scssc" afterPath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/structure.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/template-omnichannel.scssc" afterPath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/template-omnichannel.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/template-wifi-in-retail.scssc" afterPath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/template-wifi-in-retail.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/typography.scssc" afterPath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/typography.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/zurb-grid-extension.scssc" afterPath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/zurb-grid-extension.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_settings.scss" afterPath="$PROJECT_DIR$/scss/_settings.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/app.css" afterPath="$PROJECT_DIR$/stylesheets/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entry-three.php" afterPath="$PROJECT_DIR$/entry-three.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer-entry-3.php" afterPath="$PROJECT_DIR$/footer-entry-3.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/structure.css" afterPath="$PROJECT_DIR$/stylesheets/structure.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/structure.scss" afterPath="$PROJECT_DIR$/scss/structure.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/template-omnichannel.css" afterPath="$PROJECT_DIR$/stylesheets/template-omnichannel.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/template-omnichannel.scss" afterPath="$PROJECT_DIR$/scss/template-omnichannel.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/template-wifi-in-retail.css" afterPath="$PROJECT_DIR$/stylesheets/template-wifi-in-retail.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/template-wifi-in-retail.scss" afterPath="$PROJECT_DIR$/scss/template-wifi-in-retail.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/typography.css" afterPath="$PROJECT_DIR$/stylesheets/typography.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/typography.scss" afterPath="$PROJECT_DIR$/scss/typography.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/zurb-grid-extension.css" afterPath="$PROJECT_DIR$/stylesheets/zurb-grid-extension.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/zurb-grid-extension.scss" afterPath="$PROJECT_DIR$/scss/zurb-grid-extension.scss" />
@@ -46,23 +39,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="entry-three.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="entry-three.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/entry-three.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="5.266667" vertical-offset="7383" max-vertical-offset="16425">
-              <caret line="289" column="60" selection-start-line="289" selection-start-column="60" selection-end-line="289" selection-end-column="60" />
+            <state vertical-scroll-proportion="0.61601645" vertical-offset="275" max-vertical-offset="5725">
+              <caret line="23" column="89" selection-start-line="23" selection-start-column="89" selection-end-line="23" selection-end-column="89" />
               <folding>
                 <element signature="e#10#216#0#PHP" expanded="true" />
+                <element signature="tag#article#0;tag#body#0" expanded="false" />
+                <element signature="tag#article#1;tag#body#0" expanded="false" />
+                <element signature="tag#article#2;tag#body#0" expanded="false" />
+                <element signature="tag#article#4;tag#body#0" expanded="false" />
+                <element signature="tag#article#6;tag#body#0" expanded="false" />
+                <element signature="tag#article#7;tag#body#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stylesheets/app.css">
+      <file leaf-file-name="_settings.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/_settings.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="258741" max-vertical-offset="261575">
-              <caret line="10326" column="24" selection-start-line="10326" selection-start-column="24" selection-end-line="10326" selection-end-column="24" />
+            <state vertical-scroll-proportion="-7.6" vertical-offset="30747" max-vertical-offset="36825">
+              <caret line="1239" column="34" selection-start-line="1239" selection-start-column="34" selection-end-line="1239" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="structure.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/structure.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="3625">
+              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="paste.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/paste.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.88235295" vertical-offset="0" max-vertical-offset="375">
+              <caret line="3" column="45" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -71,8 +90,8 @@
       <file leaf-file-name="zurb-grid-extension.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/zurb-grid-extension.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="600">
-              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+            <state vertical-scroll-proportion="4.6" vertical-offset="213" max-vertical-offset="700">
+              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="6" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -81,18 +100,8 @@
       <file leaf-file-name="template-omnichannel.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/template-omnichannel.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="350">
+            <state vertical-scroll-proportion="0.0" vertical-offset="200" max-vertical-offset="350">
               <caret line="8" column="1" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="550">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -101,18 +110,8 @@
       <file leaf-file-name="footer-entry-3.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/footer-entry-3.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="425">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.entry-three.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/layout.entry-three.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2567394" vertical-offset="0" max-vertical-offset="779">
-              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+            <state vertical-scroll-proportion="-9.166667" vertical-offset="0" max-vertical-offset="475">
+              <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -143,8 +142,8 @@
       <file leaf-file-name="app.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/app.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.5" vertical-offset="150" max-vertical-offset="1900">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state vertical-scroll-proportion="7.5" vertical-offset="250" max-vertical-offset="1900">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -168,22 +167,23 @@
         <option value="$PROJECT_DIR$/Gemfile.lock" />
         <option value="$PROJECT_DIR$/scss/guide-background.scss" />
         <option value="$PROJECT_DIR$/scss/template-mobile-payment.scss" />
-        <option value="$PROJECT_DIR$/scss/_settings.scss" />
         <option value="$PROJECT_DIR$/config.rb" />
         <option value="$PROJECT_DIR$/scss/template-mobile-momentum.scss" />
         <option value="$PROJECT_DIR$/scss/template-loyalty-learning.scss" />
         <option value="$PROJECT_DIR$/scss/media.scss" />
         <option value="$PROJECT_DIR$/scss/template-social-shopping.scss" />
-        <option value="$PROJECT_DIR$/scss/structure.scss" />
         <option value="$PROJECT_DIR$/test.js" />
         <option value="$PROJECT_DIR$/scss/typography.scss" />
         <option value="$PROJECT_DIR$/scss/template-wifi-in-retail.scss" />
-        <option value="$PROJECT_DIR$/scss/app.scss" />
-        <option value="$PROJECT_DIR$/scss/zurb-grid-extension.scss" />
         <option value="$PROJECT_DIR$/scss/template-omnichannel.scss" />
-        <option value="$PROJECT_DIR$/entry-three.php" />
-        <option value="$PROJECT_DIR$/footer-entry-3.php" />
         <option value="$PROJECT_DIR$/js/layout.entry-three.js" />
+        <option value="$PROJECT_DIR$/scss/structure.scss" />
+        <option value="$PROJECT_DIR$/scss/zurb-grid-extension.scss" />
+        <option value="$PROJECT_DIR$/paste.php" />
+        <option value="$PROJECT_DIR$/footer-entry-3.php" />
+        <option value="$PROJECT_DIR$/scss/app.scss" />
+        <option value="$PROJECT_DIR$/scss/_settings.scss" />
+        <option value="$PROJECT_DIR$/entry-three.php" />
       </list>
     </option>
   </component>
@@ -247,7 +247,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="scss" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -280,15 +280,15 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-env-vars>false</pass-parent-env-vars>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -308,27 +308,27 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3180723" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31730768" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932693" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26037195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26037195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -347,9 +347,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26037195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -373,11 +373,68 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/scss/template-omnichannel.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="200" max-vertical-offset="350">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="550">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer-entry-3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="425">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/layout.entry-three.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="775">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ruckus.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="8648" max-vertical-offset="15575">
+          <caret line="357" column="35" selection-start-line="357" selection-start-column="29" selection-end-line="357" selection-end-column="35" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/template-wifi-in-retail.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="200" max-vertical-offset="350">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="1900">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="12175">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -387,6 +444,12 @@
           <caret line="44" column="41" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
           <folding>
             <element signature="e#10#216#0#PHP" expanded="true" />
+            <element signature="tag#article#0;tag#body#0" expanded="false" />
+            <element signature="tag#article#1;tag#body#0" expanded="false" />
+            <element signature="tag#article#2;tag#body#0" expanded="false" />
+            <element signature="tag#article#4;tag#body#0" expanded="false" />
+            <element signature="tag#article#6;tag#body#0" expanded="false" />
+            <element signature="tag#article#7;tag#body#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -551,7 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.5544041" vertical-offset="1200" max-vertical-offset="12175">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -583,36 +645,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="11.055777" vertical-offset="700" max-vertical-offset="10275">
           <caret line="361" column="32" selection-start-line="361" selection-start-column="21" selection-end-line="361" selection-end-column="32" />
-          <folding>
-            <marker date="1424360595000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424360595000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1424360595000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424360595000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1424360595000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424360595000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424360595000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424360595000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1424360595000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424360595000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424360595000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424360595000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424360595000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424360595000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424360595000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424360595000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424360595000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424360595000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424360595000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424360595000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424360595000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424360595000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424360595000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424360595000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424360595000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424360595000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424360595000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424360595000" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -620,15 +652,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09715026" vertical-offset="0" max-vertical-offset="772">
           <caret line="3" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_settings.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.8" vertical-offset="5071" max-vertical-offset="36825">
-          <caret line="211" column="13" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -648,22 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/structure.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.633333" vertical-offset="2776" max-vertical-offset="3525">
-          <caret line="131" column="68" selection-start-line="131" selection-start-column="68" selection-end-line="131" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5" vertical-offset="150" max-vertical-offset="1900">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="550">
@@ -674,35 +681,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/template-omnichannel.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="350">
+        <state vertical-scroll-proportion="0.0" vertical-offset="200" max-vertical-offset="350">
           <caret line="8" column="1" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/zurb-grid-extension.scss">
+    <entry file="file://$PROJECT_DIR$/js/layout.entry-three.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="600">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.25608194" vertical-offset="0" max-vertical-offset="781">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/app.css">
+    <entry file="file://$PROJECT_DIR$/scss/template-wifi-in-retail.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="258741" max-vertical-offset="261575">
-          <caret line="10326" column="24" selection-start-line="10326" selection-start-column="24" selection-end-line="10326" selection-end-column="24" />
+        <state vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="350">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/entry-three.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="5.266667" vertical-offset="7383" max-vertical-offset="16425">
-          <caret line="289" column="60" selection-start-line="289" selection-start-column="60" selection-end-line="289" selection-end-column="60" />
-          <folding>
-            <element signature="e#10#216#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -716,27 +713,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/template-wifi-in-retail.scss">
+    <entry file="file://$PROJECT_DIR$/stylesheets/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="350">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.30754352" vertical-offset="258766" max-vertical-offset="261600">
+          <caret line="10357" column="19" selection-start-line="10357" selection-start-column="19" selection-end-line="10357" selection-end-column="19" />
+          <folding>
+            <marker date="1424396651000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/structure.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="3625">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/zurb-grid-extension.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.6" vertical-offset="213" max-vertical-offset="700">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="6" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paste.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.88235295" vertical-offset="0" max-vertical-offset="375">
+          <caret line="3" column="45" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/footer-entry-3.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="425">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state vertical-scroll-proportion="-9.166667" vertical-offset="0" max-vertical-offset="475">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/layout.entry-three.js">
+    <entry file="file://$PROJECT_DIR$/scss/app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2567394" vertical-offset="0" max-vertical-offset="779">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        <state vertical-scroll-proportion="7.5" vertical-offset="250" max-vertical-offset="1900">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_settings.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.6" vertical-offset="30747" max-vertical-offset="36825">
+          <caret line="1239" column="34" selection-start-line="1239" selection-start-column="34" selection-end-line="1239" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entry-three.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.61601645" vertical-offset="275" max-vertical-offset="5725">
+          <caret line="23" column="89" selection-start-line="23" selection-start-column="89" selection-end-line="23" selection-end-column="89" />
+          <folding>
+            <element signature="e#10#216#0#PHP" expanded="true" />
+            <element signature="tag#article#0;tag#body#0" expanded="false" />
+            <element signature="tag#article#1;tag#body#0" expanded="false" />
+            <element signature="tag#article#2;tag#body#0" expanded="false" />
+            <element signature="tag#article#4;tag#body#0" expanded="false" />
+            <element signature="tag#article#6;tag#body#0" expanded="false" />
+            <element signature="tag#article#7;tag#body#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

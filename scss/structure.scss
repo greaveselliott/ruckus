@@ -1,12 +1,16 @@
 .table-center-container {
   display: table !important;
-  width: 100%;
+  width: 100% !important;
+  height: 100% !important;
 }
 
 .table-center-cell {
   display: table-cell !important;
   text-align: center !important;
   vertical-align: middle !important;
+  p {
+    margin-bottom: 0px !important;
+  }
 }
 .table-center-cell-small-only {
   @include respond-to(small-only){

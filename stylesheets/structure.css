@@ -1,23 +1,23 @@
 /*
 Error: Undefined mixin 'respond-to'.
-        on line 12 of /Users/elliottgreaves/OneDrive/Development/pulse.survey/public/ruckus/scss/structure.scss, in `respond-to'
-        from line 12 of /Users/elliottgreaves/OneDrive/Development/pulse.survey/public/ruckus/scss/structure.scss
+        on line 16 of /Users/elliottgreaves/OneDrive/Development/pulse.survey/public/ruckus/scss/structure.scss, in `respond-to'
+        from line 16 of /Users/elliottgreaves/OneDrive/Development/pulse.survey/public/ruckus/scss/structure.scss
 
-7:   display: table-cell !important;
-8:   text-align: center !important;
-9:   vertical-align: middle !important;
-10: }
-11: .table-center-cell-small-only {
-12:   @include respond-to(small-only){
-13:     display: table-cell !important;
-14:     text-align: center !important;
-15:     vertical-align: middle !important;
-16:   }
-17: }
+11:   p {
+12:     margin-bottom: 0px !important;
+13:   }
+14: }
+15: .table-center-cell-small-only {
+16:   @include respond-to(small-only){
+17:     display: table-cell !important;
+18:     text-align: center !important;
+19:     vertical-align: middle !important;
+20:   }
+21: }
 
 Backtrace:
-/Users/elliottgreaves/OneDrive/Development/pulse.survey/public/ruckus/scss/structure.scss:12:in `respond-to'
-/Users/elliottgreaves/OneDrive/Development/pulse.survey/public/ruckus/scss/structure.scss:12
+/Users/elliottgreaves/OneDrive/Development/pulse.survey/public/ruckus/scss/structure.scss:16:in `respond-to'
+/Users/elliottgreaves/OneDrive/Development/pulse.survey/public/ruckus/scss/structure.scss:16
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:338:in `block in visit_mixin'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/stack.rb:98:in `block in with_mixin'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
@@ -71,4 +71,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'respond-to'.\A         on line 12 of /Users/elliottgreaves/OneDrive/Development/pulse.survey/public/ruckus/scss/structure.scss, in `respond-to'\A         from line 12 of /Users/elliottgreaves/OneDrive/Development/pulse.survey/public/ruckus/scss/structure.scss\A \A 7:   display: table-cell !important;\A 8:   text-align: center !important;\A 9:   vertical-align: middle !important;\A 10: }\A 11: .table-center-cell-small-only {\A 12:   @include respond-to(small-only){\A 13:     display: table-cell !important;\A 14:     text-align: center !important;\A 15:     vertical-align: middle !important;\A 16:   }\A 17: }"; }
+  content: "Error: Undefined mixin 'respond-to'.\A         on line 16 of /Users/elliottgreaves/OneDrive/Development/pulse.survey/public/ruckus/scss/structure.scss, in `respond-to'\A         from line 16 of /Users/elliottgreaves/OneDrive/Development/pulse.survey/public/ruckus/scss/structure.scss\A \A 11:   p {\A 12:     margin-bottom: 0px !important;\A 13:   }\A 14: }\A 15: .table-center-cell-small-only {\A 16:   @include respond-to(small-only){\A 17:     display: table-cell !important;\A 18:     text-align: center !important;\A 19:     vertical-align: middle !important;\A 20:   }\A 21: }"; }

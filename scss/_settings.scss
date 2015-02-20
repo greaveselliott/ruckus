@@ -810,8 +810,8 @@ $button-round: $global-rounded;
 
 // $include-html-magellan-classes: $include-html-classes;
 
-// $magellan-bg: $white;
-// $magellan-padding: 10px;
+$magellan-bg: $black;
+$magellan-padding: 10px;
 
 // 18. Off-canvas
 // - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1236,12 +1236,12 @@ $button-round: $global-rounded;
 
 // We use these to control the active item styles
 
-// $sub-nav-active-font-weight: $font-weight-normal;
-// $sub-nav-active-bg: $primary-color;
-// $sub-nav-active-bg-hover: scale-color($sub-nav-active-bg, $lightness: -14%);
-// $sub-nav-active-color: $white;
-// $sub-nav-active-padding: $sub-nav-padding;
-// $sub-nav-active-cursor: default;
+$sub-nav-active-font-weight: $font-weight-normal;
+$sub-nav-active-bg: $ruckus-orange;
+$sub-nav-active-bg-hover: scale-color($sub-nav-active-bg, $lightness: -14%);
+$sub-nav-active-color: $white;
+//$sub-nav-active-padding: $sub-nav-padding;
+$sub-nav-active-cursor: default;
 
 // $sub-nav-item-divider: "";
 // $sub-nav-item-divider-margin: rem-calc(12);

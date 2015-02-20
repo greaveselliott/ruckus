@@ -1,7 +1,7 @@
 /* line 2, ../scss/zurb-grid-extension.scss */
 .row.full-screen {
   max-width: 100% !important; }
-/* line 13, ../scss/zurb-grid-extension.scss */
+/* line 17, ../scss/zurb-grid-extension.scss */
 .row.full-screen > .large-12 > .row {
   padding-left: 10%;
   padding-right: 10%; }
