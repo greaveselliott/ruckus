@@ -9931,10 +9931,34 @@ th.hide-for-touch {
   font-size: 1rem !important; }
 
 /* line 25, ../scss/typography.scss */
+.line-height-h1 {
+  line-height: 2.75rem !important; }
+
+/* line 26, ../scss/typography.scss */
+.line-height-h2 {
+  line-height: 3.25rem !important; }
+
+/* line 27, ../scss/typography.scss */
+.line-height-h3 {
+  line-height: 2.3125rem !important; }
+
+/* line 28, ../scss/typography.scss */
+.line-height-h4 {
+  line-height: 1.4375rem !important; }
+
+/* line 29, ../scss/typography.scss */
+.line-height-h5 {
+  line-height: 1.125rem !important; }
+
+/* line 30, ../scss/typography.scss */
+.line-height-h6 {
+  line-height: 1rem !important; }
+
+/* line 32, ../scss/typography.scss */
 .text-bold {
   font-weight: bold !important; }
 
-/* line 29, ../scss/typography.scss */
+/* line 36, ../scss/typography.scss */
 .font-scale-x2 {
   font-size: 2em !important; }
 
@@ -10145,6 +10169,15 @@ body {
   /* line 17, ../scss/colours.scss */
   .ruckus-background-orange.opacity-75-medium-up {
     background-color: rgba(234, 118, 0, 0.75); } }
+/* line 22, ../scss/colours.scss */
+.ruckus-background-orange.opacity-85 {
+  background-color: rgba(234, 118, 0, 0.85); }
+/* line 25, ../scss/colours.scss */
+.ruckus-background-orange.opacity-90 {
+  background-color: rgba(234, 118, 0, 0.9); }
+/* line 28, ../scss/colours.scss */
+.ruckus-background-orange.opacity-95 {
+  background-color: rgba(234, 118, 0, 0.95); }
 
 /* line 3, ../scss/colours.scss */
 .ruckus-grey {
@@ -10166,6 +10199,15 @@ body {
   /* line 17, ../scss/colours.scss */
   .ruckus-background-grey.opacity-75-medium-up {
     background-color: rgba(117, 120, 123, 0.75); } }
+/* line 22, ../scss/colours.scss */
+.ruckus-background-grey.opacity-85 {
+  background-color: rgba(117, 120, 123, 0.85); }
+/* line 25, ../scss/colours.scss */
+.ruckus-background-grey.opacity-90 {
+  background-color: rgba(117, 120, 123, 0.9); }
+/* line 28, ../scss/colours.scss */
+.ruckus-background-grey.opacity-95 {
+  background-color: rgba(117, 120, 123, 0.95); }
 
 /* line 3, ../scss/colours.scss */
 .ruckus-orange, #social-shopping-stats ul li i.fa {
@@ -10187,6 +10229,15 @@ body {
   /* line 17, ../scss/colours.scss */
   .ruckus-background-orange.opacity-75-medium-up {
     background-color: rgba(234, 118, 0, 0.75); } }
+/* line 22, ../scss/colours.scss */
+.ruckus-background-orange.opacity-85 {
+  background-color: rgba(234, 118, 0, 0.85); }
+/* line 25, ../scss/colours.scss */
+.ruckus-background-orange.opacity-90 {
+  background-color: rgba(234, 118, 0, 0.9); }
+/* line 28, ../scss/colours.scss */
+.ruckus-background-orange.opacity-95 {
+  background-color: rgba(234, 118, 0, 0.95); }
 
 /* line 3, ../scss/colours.scss */
 .ruckus-green {
@@ -10208,6 +10259,15 @@ body {
   /* line 17, ../scss/colours.scss */
   .ruckus-background-green.opacity-75-medium-up {
     background-color: rgba(116, 170, 80, 0.75); } }
+/* line 22, ../scss/colours.scss */
+.ruckus-background-green.opacity-85 {
+  background-color: rgba(116, 170, 80, 0.85); }
+/* line 25, ../scss/colours.scss */
+.ruckus-background-green.opacity-90 {
+  background-color: rgba(116, 170, 80, 0.9); }
+/* line 28, ../scss/colours.scss */
+.ruckus-background-green.opacity-95 {
+  background-color: rgba(116, 170, 80, 0.95); }
 
 /* line 3, ../scss/colours.scss */
 .ruckus-violet {
@@ -10229,6 +10289,15 @@ body {
   /* line 17, ../scss/colours.scss */
   .ruckus-background-violet.opacity-75-medium-up {
     background-color: rgba(112, 32, 130, 0.75); } }
+/* line 22, ../scss/colours.scss */
+.ruckus-background-violet.opacity-85 {
+  background-color: rgba(112, 32, 130, 0.85); }
+/* line 25, ../scss/colours.scss */
+.ruckus-background-violet.opacity-90 {
+  background-color: rgba(112, 32, 130, 0.9); }
+/* line 28, ../scss/colours.scss */
+.ruckus-background-violet.opacity-95 {
+  background-color: rgba(112, 32, 130, 0.95); }
 
 /* line 3, ../scss/colours.scss */
 .ruckus-blue {
@@ -10250,6 +10319,15 @@ body {
   /* line 17, ../scss/colours.scss */
   .ruckus-background-blue.opacity-75-medium-up {
     background-color: rgba(0, 156, 189, 0.75); } }
+/* line 22, ../scss/colours.scss */
+.ruckus-background-blue.opacity-85 {
+  background-color: rgba(0, 156, 189, 0.85); }
+/* line 25, ../scss/colours.scss */
+.ruckus-background-blue.opacity-90 {
+  background-color: rgba(0, 156, 189, 0.9); }
+/* line 28, ../scss/colours.scss */
+.ruckus-background-blue.opacity-95 {
+  background-color: rgba(0, 156, 189, 0.95); }
 
 /* line 3, ../scss/colours.scss */
 .ruckus-gold {
@@ -10271,6 +10349,15 @@ body {
   /* line 17, ../scss/colours.scss */
   .ruckus-background-gold.opacity-75-medium-up {
     background-color: rgba(181, 133, 0, 0.75); } }
+/* line 22, ../scss/colours.scss */
+.ruckus-background-gold.opacity-85 {
+  background-color: rgba(181, 133, 0, 0.85); }
+/* line 25, ../scss/colours.scss */
+.ruckus-background-gold.opacity-90 {
+  background-color: rgba(181, 133, 0, 0.9); }
+/* line 28, ../scss/colours.scss */
+.ruckus-background-gold.opacity-95 {
+  background-color: rgba(181, 133, 0, 0.95); }
 
 /* line 3, ../scss/colours.scss */
 .ruckus-red {
@@ -10292,6 +10379,15 @@ body {
   /* line 17, ../scss/colours.scss */
   .ruckus-background-red.opacity-75-medium-up {
     background-color: rgba(164, 52, 58, 0.75); } }
+/* line 22, ../scss/colours.scss */
+.ruckus-background-red.opacity-85 {
+  background-color: rgba(164, 52, 58, 0.85); }
+/* line 25, ../scss/colours.scss */
+.ruckus-background-red.opacity-90 {
+  background-color: rgba(164, 52, 58, 0.9); }
+/* line 28, ../scss/colours.scss */
+.ruckus-background-red.opacity-95 {
+  background-color: rgba(164, 52, 58, 0.95); }
 
 /* line 3, ../scss/colours.scss */
 .ruckus-white, #social-shopping-stats ul li {
@@ -10313,6 +10409,15 @@ body {
   /* line 17, ../scss/colours.scss */
   .ruckus-background-white.opacity-75-medium-up {
     background-color: rgba(255, 255, 255, 0.75); } }
+/* line 22, ../scss/colours.scss */
+.ruckus-background-white.opacity-85 {
+  background-color: rgba(255, 255, 255, 0.85); }
+/* line 25, ../scss/colours.scss */
+.ruckus-background-white.opacity-90 {
+  background-color: rgba(255, 255, 255, 0.9); }
+/* line 28, ../scss/colours.scss */
+.ruckus-background-white.opacity-95 {
+  background-color: rgba(255, 255, 255, 0.95); }
 
 /* line 3, ../scss/colours.scss */
 .ruckus-black {
@@ -10334,9 +10439,18 @@ body {
   /* line 17, ../scss/colours.scss */
   .ruckus-background-black.opacity-75-medium-up {
     background-color: rgba(0, 0, 0, 0.75); } }
+/* line 22, ../scss/colours.scss */
+.ruckus-background-black.opacity-85 {
+  background-color: rgba(0, 0, 0, 0.85); }
+/* line 25, ../scss/colours.scss */
+.ruckus-background-black.opacity-90 {
+  background-color: rgba(0, 0, 0, 0.9); }
+/* line 28, ../scss/colours.scss */
+.ruckus-background-black.opacity-95 {
+  background-color: rgba(0, 0, 0, 0.95); }
 
 @media only screen and (max-width: 40em) {
-  /* line 26, ../scss/colours.scss */
+  /* line 35, ../scss/colours.scss */
   .no-background-color-small {
     background-color: transparent !important; } }
 
@@ -10369,11 +10483,15 @@ figure {
   left: 15%;
   width: 70%; }
 
-/* line 2, ../scss/guide-background.scss */
+/* line 1, ../scss/guide-background.scss */
+body#entry-three {
+  background-color: #000; }
+
+/* line 4, ../scss/guide-background.scss */
 .full-screen {
   position: relative; }
 
-/* line 6, ../scss/guide-background.scss */
+/* line 9, ../scss/guide-background.scss */
 .ruckus-entry-3_background {
   background-size: cover;
   background-repeat: no-repeat;
@@ -10384,42 +10502,35 @@ figure {
   left: 0px;
   display: block;
   z-index: -10; }
-/* line 16, ../scss/guide-background.scss */
-.ruckus-entry-3_background.background-1 {
-  background-image: url("../images/guide/guide-background-01.jpg"); }
-/* line 17, ../scss/guide-background.scss */
-.ruckus-entry-3_background.background-2 {
-  background-image: url("../images/guide/guide-background-02.jpg"); }
-/* line 18, ../scss/guide-background.scss */
-.ruckus-entry-3_background.background-3 {
-  background-image: url("../images/guide/guide-background-03.jpg"); }
-/* line 19, ../scss/guide-background.scss */
-.ruckus-entry-3_background.background-4 {
-  background-image: url("../images/guide/guide-background-04.jpg"); }
-/* line 20, ../scss/guide-background.scss */
-.ruckus-entry-3_background.background-5 {
-  background-image: url("../images/guide/guide-background-05.jpg"); }
-/* line 21, ../scss/guide-background.scss */
-.ruckus-entry-3_background.background-6 {
-  background-image: url("../images/guide/guide-background-06.jpg"); }
-/* line 22, ../scss/guide-background.scss */
-.ruckus-entry-3_background.background-7 {
-  background-image: url("../images/guide/guide-background-07.jpg"); }
-/* line 23, ../scss/guide-background.scss */
-.ruckus-entry-3_background.background-8 {
-  background-image: url("../images/guide/guide-background-08.jpg"); }
-/* line 24, ../scss/guide-background.scss */
-.ruckus-entry-3_background.background-9 {
-  background-image: url("../images/guide/guide-background-09.jpg"); }
-/* line 25, ../scss/guide-background.scss */
+/* line 28, ../scss/guide-background.scss */
 .ruckus-entry-3_background.background-10 {
   background-image: url("../images/guide/guide-background-10.jpg"); }
 
-/* line 29, ../scss/guide-background.scss */
+/* line 32, ../scss/guide-background.scss */
 .columns .ruckus-entry-3_background, .column .ruckus-entry-3_background {
   z-index: -5; }
 
-/* line 6, ../scss/template-mobile-momentum.scss */
+@media only screen and (max-width: 40em) {
+  /* line 5, ../scss/navigation.scss */
+  header nav li {
+    float: none !important; } }
+/* line 10, ../scss/navigation.scss */
+header nav li a {
+  -webkit-transition: background 0.22s ease-in;
+  -moz-transition: background 0.22s ease-in;
+  -ms-transition: background 0.22s ease-in;
+  -o-transition: background 0.22s ease-in;
+  transition: background 0.22s ease-in;
+  border-radius: 3px; }
+/* line 17, ../scss/navigation.scss */
+header nav li a:hover {
+  background-color: #fff; }
+
+/* line 5, ../scss/template-mobile-momentum.scss */
+#mobile-momentum .dimensions-trolleys {
+  width: 306px;
+  height: 306px; }
+/* line 10, ../scss/template-mobile-momentum.scss */
 #mobile-momentum .mm-icons {
   width: 75px;
   height: 75px;
@@ -10454,6 +10565,117 @@ figure {
 .wifi-retail-fact img {
   max-width: 200px;
   max-height: 200px; }
+
+/* line 1, ../scss/hamburgler.scss */
+* {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent;
+  /* For some Androids */ }
+
+/* line 5, ../scss/hamburgler.scss */
+.top-animate {
+  background: #fff !important;
+  top: 13px !important;
+  -webkit-transform: rotate(45deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(45deg); }
+
+/* line 12, ../scss/hamburgler.scss */
+.mid-animate {
+  opacity: 0; }
+
+/* line 15, ../scss/hamburgler.scss */
+.bottom-animate {
+  background: #fff !important;
+  top: 13px !important;
+  -webkit-transform: rotate(-225deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(-225deg); }
+
+/* line 22, ../scss/hamburgler.scss */
+.top-menu {
+  top: 5px;
+  width: 25px;
+  height: 2px;
+  border-radius: 10px;
+  background-color: #F9A530; }
+
+/* line 29, ../scss/hamburgler.scss */
+.mid-menu {
+  top: 13px;
+  width: 25px;
+  height: 2px;
+  border-radius: 10px;
+  background-color: #F9A530; }
+
+/* line 36, ../scss/hamburgler.scss */
+.bottom-menu {
+  top: 21px;
+  width: 25px;
+  height: 2px;
+  border-radius: 10px;
+  background-color: #F9A530; }
+
+/* line 43, ../scss/hamburgler.scss */
+.menui {
+  background: #fff;
+  transition: 0.6s ease;
+  transition-timing-function: cubic-bezier(0.75, 0, 0.29, 1.01);
+  margin-top: 10px;
+  position: absolute; }
+
+/* line 52, ../scss/hamburgler.scss */
+.icon {
+  z-index: 999;
+  position: fixed;
+  /*    background: rgba(0, 0, 0, 0.21);*/
+  display: block;
+  padding: 9px;
+  height: 32px;
+  width: 32px;
+  margin: 0px;
+  top: 0;
+  left: 0; }
+
+/* line 65, ../scss/hamburgler.scss */
+.mobilenav {
+  /*    top: 47px !important;*/
+  font-family: inherit;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9); }
+
+/* line 77, ../scss/hamburgler.scss */
+.mobilenav li {
+  list-style-type: none;
+  text-align: center;
+  padding: 10px; }
+
+/* line 82, ../scss/hamburgler.scss */
+.mobilenav li a {
+  font-size: 150%;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 300;
+  width: 100%; }
+
+/* line 89, ../scss/hamburgler.scss */
+.mobilenav li:first-child {
+  margin-top: 60px; }
+
+/* line 1, ../scss/ruckus-guide-button.scss */
+#hub-link {
+  width: 200px;
+  height: 200px;
+  background-color: #009CBD;
+  z-index: 50;
+  position: absolute;
+  right: 0px; }
 
 /* line 1, ../scss/development.scss */
 img[src^='http://placehold.it/'] {

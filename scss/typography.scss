@@ -22,6 +22,13 @@
   font-size: $h6-font-size !important;
 }
 
+.line-height-h1{line-height: $h1-font-size !important;}
+.line-height-h2{line-height: $h2-font-size !important;}
+.line-height-h3{line-height: $h3-font-size !important;}
+.line-height-h4{line-height: $h4-font-size !important;}
+.line-height-h5{line-height: $h5-font-size !important;}
+.line-height-h6{line-height: $h6-font-size !important;}
+
 .text-bold {
   font-weight: $font-weight-bold !important;
 }

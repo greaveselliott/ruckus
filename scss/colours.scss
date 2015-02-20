@@ -19,6 +19,15 @@
         background-color: #{rgba(nth($i,2), 0.75)};
       }
     }
+    &.opacity-85 {
+      background-color: #{rgba(nth($i,2), 0.85)};
+    }
+    &.opacity-90 {
+      background-color: #{rgba(nth($i,2), 0.90)};
+    }
+    &.opacity-95 {
+      background-color: #{rgba(nth($i,2), 0.95)};
+    }
   }
 }
 

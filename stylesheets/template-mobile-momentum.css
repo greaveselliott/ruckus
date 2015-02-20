@@ -1,4 +1,8 @@
-/* line 6, ../scss/template-mobile-momentum.scss */
+/* line 5, ../scss/template-mobile-momentum.scss */
+#mobile-momentum .dimensions-trolleys {
+  width: 306px;
+  height: 306px; }
+/* line 10, ../scss/template-mobile-momentum.scss */
 #mobile-momentum .mm-icons {
   width: 75px;
   height: 75px;
