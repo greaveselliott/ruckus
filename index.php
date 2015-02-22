@@ -42,45 +42,51 @@
       <article class="tile">
           <div class="slide-container">
           <!-- Tile 1: Simply Better Wireless -->
-          <section class="stage-1 slide">
-             <!-- Centering the content  -->
-             <div class="row valign-middle tile-content">
-                <div class="large-12 columns">
-                    <!-- Heading text -->
-                    <div class="row collapse">
-                        <div class="large-7 columns large-centered">
-                            <h2 class="ruckus-orange text-center">Simply Better Wireless.</h2>
-                            <h3 class="ruckus-white text-center">Choose your sector for a simply better solution</h3>
-                        </div>
-                    </div>
-                    <!-- Selection of options -->
-                    <div class="row collapse padding-top-10">
-                        <nav>
-                            <!-- Options -->
-                                <ul class="large-block-grid-5 medium-block-grid-3 small-block-grid-2 ruckus-option-group"  data-toggle-type="radio">
-                                    <li data-option-name="retail" class="ruckus-option"><span class="button width-100 height-100 alt" >Retail</span></li>
-                                    <li data-option-name="leisure" class="ruckus-option"><span class="button width-100 height-100 alt">Leisure</span></li>
-                                    <li data-option-name="hospitality" class="ruckus-option"><span class="button width-100 height-100 alt">Hospitality</span></li>
-                                    <li data-option-name="transport" class="ruckus-option"><span class="button width-100 height-100 alt">Transport</span></li>
-                                    <li data-option-name="open space" class="ruckus-option"><span class="button width-100 height-100 alt">Open Space</span></li>
-                                </ul>
-                        </nav>
-                    </div>
-                    <!-- Next button -->
-                    <div class="row">
-                        <div class="large-4 columns large-centered">
-                            <div class="button round-icon chevron-right ruckus-next"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+<!--          <section class="stage-1 slide">-->
+<!--             <!-- Centering the content  -->
+<!--             <div class="row valign-middle tile-content">-->
+<!--                <div class="large-12 columns">-->
+<!--                    <!-- Heading text -->
+<!--                    <div class="row collapse">-->
+<!--                        <div class="large-7 columns large-centered">-->
+<!--                            <h2 class="ruckus-orange text-center">Simply Better Wireless.</h2>-->
+<!--                            <h3 class="ruckus-white text-center">Choose your sector for a simply better solution</h3>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <!-- Selection of options -->
+<!--                    <div class="row collapse padding-top-10">-->
+<!--                        <nav>-->
+<!--                            <!-- Options -->
+<!--                                <ul class="large-block-grid-5 medium-block-grid-3 small-block-grid-2 ruckus-option-group"  data-toggle-type="radio">-->
+<!--                                    <li data-option-name="retail" class="ruckus-option"><span class="button width-100 height-100 alt" >Retail</span></li>-->
+<!--                                    <li data-option-name="leisure" class="ruckus-option"><span class="button width-100 height-100 alt">Leisure</span></li>-->
+<!--                                    <li data-option-name="hospitality" class="ruckus-option"><span class="button width-100 height-100 alt">Hospitality</span></li>-->
+<!--                                    <li data-option-name="transport" class="ruckus-option"><span class="button width-100 height-100 alt">Transport</span></li>-->
+<!--                                    <li data-option-name="open space" class="ruckus-option"><span class="button width-100 height-100 alt">Open Space</span></li>-->
+<!--                                </ul>-->
+<!--                        </nav>-->
+<!--                    </div>-->
+<!--                    <!-- Next button -->
+<!--                    <div class="row">-->
+<!--                        <div class="large-4 columns large-centered">-->
+<!--                            <div class="button round-icon chevron-right ruckus-next"></div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </section>-->
         <!-- Stage 2: Size of your business: template-stage-2 -->
         <section class="stage2 slide">
             <div class="row valign-middle tile-content">
                 <div class="large-12 columns">
                     <!-- Options 2 -->
                     <div class="ruckus-background-black opacity-75 large-centered padding-60-75 no-padding-small no-background-color-small">
+                        <div class="row collapse">
+                            <div class="large-7 columns large-centered">
+                                <h2 class="ruckus-orange text-center">Simply Better Wireless.</h2>
+                                <h3 class="ruckus-white text-center">Choose your simply better solution</h3>
+                            </div>
+                        </div>
                       <div class="row">
                           <div class="large-12 columns"><h2 class="ruckus-white">Size of your business?</h2></div>
                           <div class="large-12 columns">
@@ -102,9 +108,9 @@
                       </div>
                     <!-- Continue button -->
                     <div class="nav-wrapper">
-                        <div class="display-inline-block">
-                            <div class="button round-icon chevron-left subtle ruckus-prev"></div>
-                        </div>
+<!--                        <div class="display-inline-block">-->
+<!--                            <div class="button round-icon chevron-left subtle ruckus-prev"></div>-->
+<!--                        </div>-->
                         <div class="display-inline-block">
                             <div class="button round-icon chevron-right ruckus-next"></div>
                         </div>
@@ -471,6 +477,79 @@
           </div>
         </div>
         </section>
+          <!-- Stage 5: Solution: template-stage-5 -->
+          <section class="stage5 slide">
+              <div class="row valign-middle tile-content">
+                  <div class="large-12 columns">
+                      <div class="ruckus-background-black opacity-75 large-centered padding-60-75 no-padding-small no-background-color-small">
+                          <!-- content -->
+                          <div class="row ">
+                              <div class="large-12 columns large-centered">
+                                  <h3 class="text-center ruckus-white">Your simply better solution</h3>
+                              </div>
+                          </div>
+                          <div class="row">
+                              <div class="large-12 columns large-centered medium-8 medium-centered">
+                                  <!-- Solution -->
+                                  <div class="row">
+                                      <div class="large-12 columns">
+                                            <h3 class="ruckus-orange">Small Retail</h3>
+                                      </div>
+                                  </div>
+                                  <div class="row">
+                                      <!-- Writing-->
+                                      <div class="large-8 columns ruckus-white">
+                                          <p>Even the smallest of stores need Wi-Fi today.  It may be simply to build a hotspot for customers in a coffee shop, but it may be for something more sophisticated such as processing credit card transactions away from the till, or being able to check what stock is available in the back room. Whatever you needs, you need Wi-Fi that works, isn’t difficult to set up, and most importantly, is safe and secure for the user.</p>
+                                          <p>Why is choosing the right Wi-Fi so important even for a small business? Because once you have it, you, and your customers, will come to rely on it even more in the future.</p>
+
+                                          <p>Simply Smarter Wireless allows you to move and grow from;</p>
+                                          <ul>
+                                            <li>secure credit transactions from wireless terminals, and</li>
+                                             <li>providing simple and secure customer hotspots, to</li>
+                                             <li>digital signage showing promotions</li>
+                                            <li>discrete video surveillance</li>
+                                            <li>stock checking without leaving the customer</li>
+                                          </ul>
+
+
+                                          <p>For the smaller store, often a single access point in the back office is enough to provide coverage from front of store to back, and support tens of users, but sometimes you need to cover a couple of floors and two or more access points are required. With the right Wi-Fi ,processing credit card transactions can easily be done in a PCI compliant way, and running more sophisticated things like shop video surveillance is easy</p>
+
+                                          <p>Remember,  61 % of retailers say that their customers spend more time in store since they installed Wi-Fi (source /GR DeviceSpace 2014) and 50% spend more money. That’s why choosing the right Wi-Fi is so important.</p>
+
+                                      </div>
+                                      <!-- Video-->
+                                      <div class="large-4 columns">
+                                          <h5 class="ruckus-orange">Videos and Downloads</h5>
+                                          <ul class="large-block-grid-1 medium-block-grid-2 small-block-grid-2">
+                                              <li>
+                                                  <div class="flex-video">
+                                                      <iframe width="420" height="315" src="//www.youtube.com/embed/aiBt44rrslw" frameborder="0" allowfullscreen></iframe>
+                                                  </div>
+                                              </li>
+                                          </ul>
+                                          <h5 class="ruckus-orange">Downloads</h5>
+                                          <ul class="large-block-grid-1 medium-block-grid-3 small-block-grid-2">
+                                              <li><a class="th margin-bottom-20" href="#"><img src="http://placehold.it/320x180"></a></li>
+                                              <li><a class="th margin-bottom-20" href="#"><img src="http://placehold.it/320x180"></a></li>
+                                              <li><a class="th margin-bottom-20" href="#"><img src="http://placehold.it/320x180"></a></li>
+                                          </ul>
+                                      </div>
+                                  </div>
+                                  <!-- Continue button -->
+                                  <div class="nav-wrapper">
+                                      <div class="display-inline-block">
+                                          <div class="button round-icon chevron-left subtle ruckus-prev"></div>
+                                      </div>
+                                      <div class="display-inline-block">
+                                          <div class="button round-icon chevron-right ruckus-next"></div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+            </div>
+          </section>
         </div>
         <!-- Tile background image -->
 

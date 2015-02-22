@@ -143,6 +143,7 @@
           }
         });
 
+
         if (!active_item) {
           arrivals.removeClass(settings.active_class);
         }

@@ -32,13 +32,13 @@
                 userOptions:        '.ruckus-option',
                 rootDir:            '192.168.33.10/ruckus/',
                 defaultPageTitle:   ' | Simply Better Wireless | Ruckus',
-                pageInfo:           {
-                    1: 'Choose your sector.',
-                    2: 'How large is your business?',
-                    3: 'What do you need Wi-Fi for?',
-                    4: 'Your contact details',
-                    5: 'Your solution'
-                }
+                pageInfo:           [
+                                    'How large is your business?',
+                                    'What do you need Wi-Fi for?',
+                                    'Your contact details',
+                                    'Your solution'
+                                    ],
+                startingFrame: 1
             },
             view: {
                 stage:              window,
@@ -112,6 +112,7 @@
             .buildTimeLineSlide()
             .setDeepLink()
             .onDeepLinkChange();
+            //.eventRefresh();
             //.buildResultsObject();
 //            .eventRefresh();
 
@@ -144,7 +145,8 @@
             },
             serializedData: undefined,                               // Serialized module data
             rootDir: self.options.model.rootDir,                    // Root directory (e.g. https://www.yourwebsite.com/)
-            cookiesEnabled: true                                    // are cookies enabled?
+            cookiesEnabled: true,                                    // are cookies enabled?
+            startingFrame: self.options.model.startingFrame         // are cookies enabled?
         };
 
         // returning self: enables functions chaining
@@ -153,6 +155,10 @@
     // Updating URL deep linking
     EemjiiRuckus.prototype.setDeepLink   = function (){
         var self = this;
+        //var slug = self.Model.pageInfo[self.View.currentFrame].toLowerCase().replace(/ /g, '-');;
+
+        //console.log('slug is: ' + slug);
+
         $.address.value(self.View.currentFrame);
 
         // returning self: enables functions chaining
@@ -164,12 +170,7 @@
 
         $.address.change(function(event) {
             self.View.currentFrame = $.address.value().slice(1);
-           // self.Model.lastUsedInputType = inputType;
 
-            //self.updateResult();
-            //self.setBackground();
-            //self.updateCookie();
-            //self.sendAnalytics();
             self.goToAndPlay(self.View.currentFrame);
             self.sendAnalytics(self.View.currentFrame);
             self.setPageTitle( self.Model.pageInfo[self.View.currentFrame]);
@@ -196,7 +197,6 @@
         ga('create', 'UA-59686286-1', 'auto');
         ga('send', 'pageview');
 
-
         // returning self: enables functions chaining
         return self;
     };
@@ -204,12 +204,6 @@
     EemjiiRuckus.prototype.sendAnalytics  = function (currentFrame){
         var self = this;
 
-        //var pageInfo = self.Model.pageInfo[pageNumber];
-
-        //ga('set', {
-        //    page: pageNumber,
-        //    title: 'test'
-        //});
         ga('set', {
             page: '/'+currentFrame,
             title: self.Model.pageInfo[currentFrame],
@@ -260,14 +254,6 @@
         return self;
     };
 
-
-    // Returns the key passed argument 'userOption' key.
-    EemjiiRuckus.prototype.getKey    = function (userOption) {
-        var self = this;
-
-        return self.Model.userOptionKeys[userOption.data('option-name')].key;
-    };
-
     // Customer event: 'refresh' - refreshes Model data
     EemjiiRuckus.prototype.eventRefresh = function (){
         var self = this;
@@ -275,6 +261,7 @@
         self.Model.$appContainer.on('refresh', function(event, inputType){
 
             self.Model.lastUsedInputType = inputType;
+
 
 
             switch ( inputType || self.Model.lastUsedInputType ) {
@@ -291,9 +278,9 @@
                     //self.updateURL();
                     //self.readURL();
                     //self.goToAndPlay();
-                    self.goToAndPlay(self.View.currentFrame);
-                    self.sendAnalytics(self.View.currentFrame);
-                    self.setPageTitle( self.Model.pageInfo[self.View.currentFrame]);
+                    //self.goToAndPlay(self.View.currentFrame);
+                    //self.sendAnalytics(self.View.currentFrame);
+                    //self.setPageTitle( self.Model.pageInfo[self.View.currentFrame]);
                     break;
                 default:
                     break;
@@ -346,7 +333,7 @@
         // get processed till after All PROPERTIES have been processed
         // therefore calling .length on $frame returns undefined,
         // as the totalFrames gets called before the jQuery selector.
-        self.View.totalFrames    = self.View.$frame.length;
+        self.Model.totalFrames    = self.View.$frame.length;
 
         // returning self: enables functions chaining
         return self;
@@ -374,7 +361,7 @@
         self.View.wrapperWidth   = self.View.$container.width();
         self.View.frameHeight    = self.View.$frame.height();
         self.View.frameWidth     = self.View.$frame.width();
-        self.View.containerWidth = self.View.stageWidth * self.View.totalFrames;
+        self.View.containerWidth = self.View.stageWidth * self.Model.totalFrames;
 
         TweenLite.to(self.View.$wrapper, 1, {   height: self.View.stageHeight,
                                                 width: self.View.stageWidth,
@@ -407,6 +394,7 @@
         // returning self: enables functions chaining
         return self;
     };
+
 
     EemjiiRuckus.prototype.goToAndPlay = function (frame) {
         var self = this;
@@ -553,15 +541,17 @@
         var $attr = obj.attr('class');
 
         if ( $attr.indexOf('next') !== -1 ){
-            self.View.currentFrame >= self.View.totalFrames ?
-                self.View.currentFrame == self.View.totalFrames-1 :
+            self.View.currentFrame >= self.Model.totalFrames ?
+                self.View.currentFrame == self.Model.totalFrames-1 :
                     self.View.currentFrame++;
 
         } else if ( $attr.indexOf('prev') !== -1 ){
-            self.View.currentFrame <= 1 ?
-                self.View.currentFrame == 1 :
+            self.View.currentFrame <= self.Model.startingFrame ?
+                self.View.currentFrame == self.Model.startingFrame :
                     self.View.currentFrame--;
         }
+        console.log('The starting frame is: ' + self.View.startingFrame);
+        console.log('The current frame is: ' + self.View.currentFrame);
         //self.Model.$appContainer.trigger('refresh',['playback']);
         // console.log(self.View.currentFrame);
         // returning self: enables functions chaining

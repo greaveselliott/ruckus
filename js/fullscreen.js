@@ -27,7 +27,8 @@
     // Create the defaults once
     var fullScreenjs = 'fullScreenjs',
         defaults = {
-            target: ".tile"
+            target: ".fs-target",
+            container: ".fs-container"
         };
 
     // The actual plugin constructor
@@ -44,12 +45,10 @@
         self._defaults = defaults;
         self._name = fullScreenjs;
 
-
-        self.element    = element;
         self.window     = window;
         self.$window    = $(self.window);
         self.target     = self.options.target;
-        self.$target    = $(self.target);
+        self.$target     =  $(self.target);
 
         self.init();
     }
@@ -61,49 +60,33 @@
         // and this.options
         var self = this;
 
-        // Get initial windows dimensions
-        self.getScreenDimensions(self.$window);
-        // Get initial content dimensions
-        //self.getContentDemensions(self.$target);
-
         // Resize windows to fit window
-        self.scale();
+        self.setScreenDimensions(self.$target, self.$window);
         // Listen for window resize
         self.onResize();
     };
-    // Get Screen size
-    FullScreenjs.prototype.getScreenDimensions = function ($window) {
-        var self = this;
-        // assign browsers dimensions to object
-        self.height = $window.height();
-        self.width  = $window.width();
+    // Set $targets dimensions to that of its container - or any other object...
+    FullScreenjs.prototype.setScreenDimensions = function ($target, $container) {
+        var target      = $target;
+        var container   = $container;
+        var dimensions      = [container.height(), container.width()];
+
+        target.css({
+            height: dimensions[0],
+            width: dimensions[1]
+        });
+
+        return dimensions;
     };
-    // Get Content Dimensions
-    //FullScreenjs.prototype.getContentDemensions = function ($target) {
-    //    var self = this;
-    //    var $content = $target.children('.tile-content');
-    //    self.contentHeight = $content.height();
-    //    self.contentHidth = $content.width();
-    //};
-
-    // sets the target tiles dimensions to the window size
-    FullScreenjs.prototype.scale = function () {
-        var self = this;
-
-
-    };
-
-    // Listens for event resize
+    // Listening for 'resize' events
     FullScreenjs.prototype.onResize = function () {
 
         var self = this;
         // Listen for browser resize
         $(window).resize(function(){
-
-            self.getScreenDimensions(self.$window);
-
-            self.scale();
+            self.setScreenDimensions(self.$target, self.$window);
         });
+
     };
 
     // A really lightweight plugin wrapper around the constructor, 

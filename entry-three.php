@@ -10,22 +10,53 @@
     require_once('header.php');
 ?>
 <body id="entry-3">
-    <header><h1 class="hide">Ruckus | Simply Better Wireless</h1>
-        <nav class="mobile-nav">
-            <div data-magellan-expedition="fixed">
-                <ul class="sub-nav no-bullet text-center">
-                    <li data-magellan-arrival="mobile-momentum"><a href="#mobile-momentum">Mobile Momentum</a></li>
-                    <li data-magellan-arrival="mobile-payment"><a href="#mobile-payment">Mobile Payment</a></li>
-                    <li data-magellan-arrival="pos-technology"><a href="#pos-technology">POS Momentum</a></li>
-                    <li data-magellan-arrival="omnichannel-omnipetence"><a href="#omnichannel-omnipetence">Omnichannel Omnipetence</a></li>
-                    <li data-magellan-arrival="loyalty-learnings"><a href="#loyalty-learnings">Loyalty Learnings</a></li>
-                    <li data-magellan-arrival="social-shopping"><a href="#social-shopping">Social Shopping</a></li>
-                    <li data-magellan-arrival="big-data"><a href="#big-data">Big Data</a></li>
-                    <li data-magellan-arrival="retail-wifi"><a href="#retail-wifi">Retail Wi-Fi</a></li>
-                </ul>
-            </div>
+    <header class="full-screen ruckus-background-black"><h1 class="hide">Ruckus | Simply Better Wireless</h1>
+        <nav data-magellan-expedition="fixed" class="large-12 columns">
+            <ul class="sub-nav no-bullet">
+                <li data-magellan-arrival="home">
+                    <a href="#home">Home</a>
+                </li>
+                <li data-magellan-arrival="mobile-momentum">
+                    <a href="#mobile-momentum">Mobile Momentum</a>
+                </li>
+                <li data-magellan-arrival="mobile-payment">
+                    <a href="#mobile-payment">Mobile Payment</a>
+                </li>
+                <li data-magellan-arrival="pos-technology">
+                    <a href="#pos-technology">POS Momentum</a>
+                </li>
+                <li data-magellan-arrival="omnichannel-omnipetence">
+                    <a href="#omnichannel-omnipetence">Omnichannel Omnipetence</a>
+                </li>
+                <li data-magellan-arrival="loyalty-learnings">
+                    <a href="#loyalty-learnings">Loyalty Learnings</a>
+                </li>
+                <li data-magellan-arrival="social-shopping">
+                    <a href="#social-shopping">Social Shopping</a>
+                </li>
+                <li data-magellan-arrival="big-data">
+                    <a href="#big-data">Big Data</a>
+                </li>
+                <li data-magellan-arrival="retail-wifi">
+                    <a href="#retail-wifi">Retail Wi-Fi</a>
+                </li>
+            </ul>
         </nav>
     </header>
+    <section class="full-screen home" data-magellan-destination="home" id="entry-3-landing-page">
+        <div class="row valign-middle">
+            <div class="large-12 columns">
+                <div class="table-center-container">
+                    <div class="table-center-cell">
+                        <h3 class="ruckus-white"><span class="font-scale-x2">The Simply Better Guide to Retail Tech</span></h3>
+                        <hr>
+                        <h5 class="ruckus-orange h3 text-left">Technology is impacting on every aspect of the retail chain, from the manufacturer to the consumer. This guide highlights some of the biggest and most important changes happening in retail today.</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ruckus-entry-3_background background-1 lazy-load" data-original="images/guide/guide-background-00.jpg" style="background-color: #ccc;"></div>
+    </section>
     <!--#1: Mobile Momentum -->
     <article class="row full-screen" id="mobile-momentum" data-magellan-destination="mobile-momentum"><!-- fullscreen background? -->
         <div class="large-12 columns">
@@ -43,7 +74,7 @@
             </div>
             <div class="row data-equalizer">
                 <!-- White smart phone with text overlay -->
-                <section class="large-6 columns data-equalizer-watch">
+                <section class="large-6 medium-6 columns data-equalizer-watch">
                     <h3 class="hide">Keep up moving with mobile</h3>
                     <div class="table-center-container">
                         <div class="table-center-cell">
@@ -58,7 +89,7 @@
                     </div>
                 </section>
                 <!-- Retail - top 3 tech trends for retailers -->
-                <section class="large-6 columns data-equalizer-watch">
+                <section class="large-6 medium-6 columns data-equalizer-watch">
                     <div class="row">
                         <div class="large-12 columns">
                             <h3 class="ruckus-white">Retail Tech Check</h3>
@@ -132,19 +163,19 @@
             </div>
             <!-- figurative facts -->
             <div class="row ruckus-background-black opacity-75 text-center" data-equalizer>
-                <div class="large-4 columns" data-equalizer-watch>
+                <div class="large-4 medium-4 columns" data-equalizer-watch>
                     <figure class="padding-50">
                         <img class="lazy-load" data-original="images/guide/icons-27.png" alt="Shopping basket Icon">
                         <figcaption class="ruckus-grey h4">For planning food shopping</figcaption>
                     </figure>
                 </div>
-                <div class="large-4 columns" data-equalizer-watch>
+                <div class="large-4 medium-4 columns" data-equalizer-watch>
                     <figure class="padding-50">
                         <img class="lazy-load dimensions-trolleys" data-original="images/guide/icons-28.png" alt="Shopping basket Icon">
                         <figcaption class="ruckus-grey h4">Checking store locations</figcaption>
                     </figure>
                 </div>
-                <div class="large-4 columns" data-equalizer-watch>
+                <div class="large-4 medium-4 columns" data-equalizer-watch>
                     <figure class="padding-50">
                         <img class="lazy-load" data-original="images/guide/icons-29.png" alt="Shopping basket Icon">
                         <figcaption class="ruckus-grey h4">Price checking</figcaption>
@@ -601,18 +632,18 @@
                             </div>
                         </div>
                     </div>
-                    <figure class="ruckus-background-blue opacity-75 row wifi-retail-fact">
+                    <figure class="row wifi-retail-fact ruckus-background-black opacity-50">
 
                         <span class="large-4 columns h1">
                             <span class="table-center-container">
-                                <span class="table-center-cell">
+                                <span class="table-center-cell ruckus-white">
                                     79.5%
                                 </span>
                             </span>
                         </span>
                         <span class="large-4 columns">
                              <span class="table-center-container">
-                                <span class="table-center-cell text-left">
+                                <span class="table-center-cell text-left ruckus-white">
                                     Of people say having free Wi-Fi can influence where they shop
                                 </span>
                             </span>
@@ -660,12 +691,38 @@
 <!--        </nav>-->
 <!--    </footer>-->
     <div id="hub-link">
-        <p>Select you own wireless needs</p>
-        <div class="button">GO</div>
+        <a href="#" class="padding-25 display-block">
+            <p class="h5 text-center">Select your own wireless needs</p>
+            <div class="button alt">GO</div>
+        </a>
     </div>
 
-    <footer>
+    <footer id="appendix" class="row full-screen ruckus-background-black">
+        <div class="large-12 columns">
+            <div class="row">
+                <div class="larg-12 columns">
+                    <h2>Appendix</h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="large-4 columns">
+                    <h4 class="ruckus-white">HTML Ipsum Presents</h4>
 
+                    <p class="ruckus-white"><strong><em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
+                </div>
+                <div class="large-4 columns">
+                    <h4 class="ruckus-white">HTML Ipsum Presents</h4>
+
+                    <p class="ruckus-white"><strong><em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
+                </div>
+                <div class="large-4 columns">
+                    <h4 class="ruckus-white">HTML Ipsum Presents</h4>
+
+                    <p class="ruckus-white"><strong><em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 <?php

@@ -9814,83 +9814,87 @@ th.hide-for-touch {
 .padding-10-30-0-10 {
   padding: 10px 30px 0px 10px; }
 
+/* line 94, ../scss/structure.scss */
+.no-padding {
+  padding: 0 !important; }
+
 @media only screen and (max-width: 40em) {
-  /* line 94, ../scss/structure.scss */
+  /* line 97, ../scss/structure.scss */
   .no-padding-small {
     padding: 0px !important; } }
 
-/* line 100, ../scss/structure.scss */
+/* line 103, ../scss/structure.scss */
 .padding-top-10 {
   padding-top: 10px; }
 
-/* line 103, ../scss/structure.scss */
+/* line 106, ../scss/structure.scss */
 .padding-10 {
   padding: 10px; }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 106, ../scss/structure.scss */
+  /* line 109, ../scss/structure.scss */
   .padding-left-0-medium-up {
     padding-left: 0px !important; } }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 111, ../scss/structure.scss */
+  /* line 114, ../scss/structure.scss */
   .padding-right-0-medium-up {
     padding-right: 0px !important; } }
 
-/* line 116, ../scss/structure.scss */
+/* line 119, ../scss/structure.scss */
 .padding-15-25 {
   padding: 15px 25px; }
 
-/* line 119, ../scss/structure.scss */
+/* line 122, ../scss/structure.scss */
 .padding-25 {
   padding: 25px; }
 
-/* line 122, ../scss/structure.scss */
+/* line 125, ../scss/structure.scss */
 .padding-50 {
   padding: 50px; }
 
-/* line 125, ../scss/structure.scss */
+/* line 128, ../scss/structure.scss */
 .height-100 {
   height: 100% !important; }
 
-/* line 128, ../scss/structure.scss */
+/* line 131, ../scss/structure.scss */
 .margin-center, .nav-wrapper {
   margin: 0 auto; }
 
 @media only screen and (max-width: 40em) {
-  /* line 129, ../scss/structure.scss */
+  /* line 132, ../scss/structure.scss */
   .margin-center-small {
     margin: 0 auto; } }
 
-/* line 131, ../scss/structure.scss */
+/* line 134, ../scss/structure.scss */
 .margin-top-20 {
   margin-top: 20px; }
 
-/* line 132, ../scss/structure.scss */
+/* line 135, ../scss/structure.scss */
 .margin-bottom-20 {
   margin-bottom: 20px; }
 
-/* line 133, ../scss/structure.scss */
+/* line 136, ../scss/structure.scss */
 .margin-left-20 {
   margin-left: 20px; }
 
-/* line 134, ../scss/structure.scss */
+/* line 137, ../scss/structure.scss */
 .margin-right-20 {
   margin-right: 20px; }
 
-/* line 136, ../scss/structure.scss */
+/* line 139, ../scss/structure.scss */
 .fake-column-33, .fake-column-50, .fake-column-66 {
   display: inline-block; }
 
-/* line 137, ../scss/structure.scss */
+/* line 140, ../scss/structure.scss */
 .fake-column-33 {
   width: 33%; }
 
-/* line 138, ../scss/structure.scss */
+/* line 141, ../scss/structure.scss */
 .fake-column-50 {
   width: 50%; }
 
-/* line 139, ../scss/structure.scss */
+/* line 142, ../scss/structure.scss */
 .fake-column-66 {
   width: 66%; }
 
@@ -9999,7 +10003,8 @@ th.hide-for-touch {
 .slide-container .slide {
   height: 100%;
   width: 100%;
-  float: left; }
+  float: left;
+  overflow: scroll; }
 
 /* line 1, ../scss/buttons.scss */
 .ruckus-border-radius, .button {
@@ -10034,8 +10039,8 @@ th.hide-for-touch {
 /* line 36, ../scss/buttons.scss */
 .button.round-icon {
   margin: 0 auto;
-  height: 60px;
-  width: 60px;
+  height: 60px !important;
+  width: 60px !important;
   -webkit-border-radius: 1000px;
   border-radius: 1000px;
   border-width: 2px;
@@ -10107,6 +10112,17 @@ th.hide-for-touch {
 /* line 98, ../scss/buttons.scss */
 .nav-wrapper {
   width: 125px; }
+
+/* line 103, ../scss/buttons.scss */
+#hub-link {
+  width: 180px;
+  height: 180px;
+  background-color: #009CBD;
+  z-index: 50;
+  position: fixed;
+  right: 0px;
+  top: 50%;
+  margin-top: -90px; }
 
 /* line 1, ../scss/background-images.scss */
 body {
@@ -10667,15 +10683,6 @@ header nav li a:hover {
 /* line 89, ../scss/hamburgler.scss */
 .mobilenav li:first-child {
   margin-top: 60px; }
-
-/* line 1, ../scss/ruckus-guide-button.scss */
-#hub-link {
-  width: 200px;
-  height: 200px;
-  background-color: #009CBD;
-  z-index: 50;
-  position: absolute;
-  right: 0px; }
 
 /* line 1, ../scss/development.scss */
 img[src^='http://placehold.it/'] {

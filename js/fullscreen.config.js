@@ -1,7 +1,8 @@
-(function($){
+(function($, window){
 
-    $('html').fullScreenjs({
-
+    $('#entry-3-landing-page').fullScreenjs({
+        target: '#entry-3-landing-page',
+        container: window
     });
 
-})(jQuery);
+})(jQuery, window);
