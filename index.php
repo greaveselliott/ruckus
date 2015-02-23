@@ -166,11 +166,12 @@
                   <div class="large-8 columns large-centered medium-8 medium-centered">
                       <form id="ruckus-data" data-option-type="ruckus-option-group">
                           <!-- Business Sector -->
-                          <input type="radio" name="sector" data-name="retail" value="2" class="">
-                          <input type="radio" name="sector" data-name="leisure" value="3" class="">
-                          <input type="radio" name="sector" data-name="hospitality" value="5" class="">
-                          <input type="radio" name="sector" data-name="transport" value="7" class="">
-                          <input type="radio" name="sector" data-name="open space" value="11" class="">
+                          <!-- Removed temporarily -->
+<!--                          <input type="radio" name="sector" data-name="retail" value="2" class="">-->
+<!--                          <input type="radio" name="sector" data-name="leisure" value="3" class="">-->
+<!--                          <input type="radio" name="sector" data-name="hospitality" value="5" class="">-->
+<!--                          <input type="radio" name="sector" data-name="transport" value="7" class="">-->
+<!--                          <input type="radio" name="sector" data-name="open space" value="11" class="">-->
                           <!-- Size of business -->
                           <input type="radio" name="size" data-name="small" value="13" class="">
                           <input type="radio" name="size" data-name="medium" value="17" class="">
@@ -492,46 +493,22 @@
                               <div class="large-12 columns large-centered medium-8 medium-centered">
                                   <!-- Solution -->
                                   <div class="row">
-                                      <div class="large-12 columns">
-                                            <h3 class="ruckus-orange">Small Retail</h3>
+                                      <div class="large-12 columns template-solution-header">
+                                          <h3 class="ruckus-orange">Small Retail</h3>
                                       </div>
                                   </div>
                                   <div class="row">
                                       <!-- Writing-->
-                                      <div class="large-8 columns ruckus-white">
-                                          <p>Even the smallest of stores need Wi-Fi today.  It may be simply to build a hotspot for customers in a coffee shop, but it may be for something more sophisticated such as processing credit card transactions away from the till, or being able to check what stock is available in the back room. Whatever you needs, you need Wi-Fi that works, isn’t difficult to set up, and most importantly, is safe and secure for the user.</p>
-                                          <p>Why is choosing the right Wi-Fi so important even for a small business? Because once you have it, you, and your customers, will come to rely on it even more in the future.</p>
-
-                                          <p>Simply Smarter Wireless allows you to move and grow from;</p>
-                                          <ul>
-                                            <li>secure credit transactions from wireless terminals, and</li>
-                                             <li>providing simple and secure customer hotspots, to</li>
-                                             <li>digital signage showing promotions</li>
-                                            <li>discrete video surveillance</li>
-                                            <li>stock checking without leaving the customer</li>
-                                          </ul>
-
-
-                                          <p>For the smaller store, often a single access point in the back office is enough to provide coverage from front of store to back, and support tens of users, but sometimes you need to cover a couple of floors and two or more access points are required. With the right Wi-Fi ,processing credit card transactions can easily be done in a PCI compliant way, and running more sophisticated things like shop video surveillance is easy</p>
-
-                                          <p>Remember,  61 % of retailers say that their customers spend more time in store since they installed Wi-Fi (source /GR DeviceSpace 2014) and 50% spend more money. That’s why choosing the right Wi-Fi is so important.</p>
+                                      <div class="large-8 columns ruckus-white template-solution-article">
 
                                       </div>
                                       <!-- Video-->
                                       <div class="large-4 columns">
-                                          <h5 class="ruckus-orange">Videos and Downloads</h5>
-                                          <ul class="large-block-grid-1 medium-block-grid-2 small-block-grid-2">
-                                              <li>
-                                                  <div class="flex-video">
-                                                      <iframe width="420" height="315" src="//www.youtube.com/embed/aiBt44rrslw" frameborder="0" allowfullscreen></iframe>
-                                                  </div>
-                                              </li>
+                                          <h5 class="ruckus-orange">Videos</h5>
+                                          <ul class="large-block-grid-1 medium-block-grid-2 small-block-grid-2 template-solution-videos">
                                           </ul>
                                           <h5 class="ruckus-orange">Downloads</h5>
-                                          <ul class="large-block-grid-1 medium-block-grid-3 small-block-grid-2">
-                                              <li><a class="th margin-bottom-20" href="#"><img src="http://placehold.it/320x180"></a></li>
-                                              <li><a class="th margin-bottom-20" href="#"><img src="http://placehold.it/320x180"></a></li>
-                                              <li><a class="th margin-bottom-20" href="#"><img src="http://placehold.it/320x180"></a></li>
+                                          <ul class="large-block-grid-1 medium-block-grid-3 small-block-grid-2 template-solution-downloads">
                                           </ul>
                                       </div>
                                   </div>

@@ -64,7 +64,52 @@
                           absolutePath: undefined,
                           assignedTile:[4,5]
                       }
-                }
+                },
+                solutionsTemplate: {
+                    header:     'template-solution-header.html',
+                    article:    'template-solution-article.html',
+                    videos:     'template-solution-videos.html',
+                    downloads:  'template-solution-downloads.html'
+                },
+                solutionTarget: {
+                    header:     '.template-solution-header',
+                    article:    '.template-solution-article',
+                    videos:     '.template-solution-videos',
+                    downloads:  '.template-solution-downloads'
+                },
+                solutionData: [
+                    {
+                        header:   [
+                            {
+                                headerTitle: 'Solution unavailable'
+                            }
+                        ],
+                        article: [
+                            {
+                                articleText: 'Why not enter a solution into the plugin configuration file'
+                            }
+                        ],
+                        videos: [
+                            {
+                                videoURL: '//www.youtube.com/embed/aiBt44rrslw'
+                            }
+                        ],
+                        downloads:[
+                            {
+                                downloadName: 'default download title',
+                                downloadImage: 'http://placehold.it/320x170',
+                                downloadLink: '#'
+
+                            },
+                            {
+                                downloadName: 'default download title',
+                                downloadImage: 'http://placehold.it/320x170',
+                                downloadLink: '#'
+
+                            }
+                        ]
+                    }
+                ]
             },
             controller: {
                 next:               '.ruckus-next',
@@ -135,7 +180,7 @@
             defaultPageTitle:   self.options.model.defaultPageTitle,
             pageInfo:           self.options.model.pageInfo,             // The application page information
             userOptionKeys: undefined,                                   // User options with prime number access keys
-            currentResult: undefined,                                    // The result of the users answers
+            currentResult: 0,                                       // The result of the users answers
             timeAtCurrentLocation:  undefined,                      // The duration the user has spent at this location
             formData: {                                             // User form input data
                 name:       undefined,                              // Users name
@@ -173,8 +218,7 @@
 
             self.goToAndPlay(self.View.currentFrame);
             self.sendAnalytics(self.View.currentFrame);
-            self.setPageTitle( self.Model.pageInfo[self.View.currentFrame]);
-
+           // self.setPageTitle( self.Model.pageInfo[self.View.currentFrame]);
         });
         // returning self: enables functions chaining
         return self;
@@ -231,28 +275,53 @@
     };
 
     EemjiiRuckus.prototype.updateResult = function () {
-
+        console.log('updating result');
         var self = this;
-
-        var $form = $('#ruckus-data');
-        var $element = $form.find('input,select');
-        var serviceCode = 1;
-        var $currentElement = undefined;
-
-        $.each($element, function(key, value){
-            $currentElement = $element.eq(key);
-
-            if ($currentElement.is(":checked")){
-                serviceCode *= $currentElement.val();
+        // Header
+        self.View.solutionTarget.$header.loadTemplate(  // loading template into $header
+            self.options.view.solutionsTemplate.header, //
+            self.options.view.solutionData[self.Model.currentResult].header,
+            {
+                complete: console.log('header complete'),
+                success: console.log('header successfully updated'),
+                error: console.log('Error: loading header')
             }
-        });
-
-        self.Model.serviceCode = serviceCode;
-
-        console.log(self.Model.serviceCode);
+        );
+        // Article
+        self.View.solutionTarget.$article.loadTemplate( // loading template into $article
+            self.options.view.solutionsTemplate.article,
+            self.options.view.solutionData[self.Model.currentResult].article,
+            {
+                complete: console.log('Article complete'),
+                success: console.log('Article successfully updated'),
+                error: console.log('Error: loading article')
+            }
+        );
+        // Videos
+        self.View.solutionTarget.$videos.loadTemplate( // loading template into $videos
+            self.options.view.solutionsTemplate.videos,
+            self.options.view.solutionData[self.Model.currentResult].videos,
+            {
+                complete: console.log('videos complete'),
+                success: console.log('videos successfully updated'),
+                error: console.log('Error: loading videos')
+            }
+        );
+        // Downloads
+        self.View.solutionTarget.$downloads.loadTemplate( // loading template into $downloads
+            self.options.view.solutionsTemplate.downloads,
+            self.options.view.solutionData[self.Model.currentResult].downloads,
+            {
+                complete: console.log('header complete'),
+                success: console.log('header successfully updated'),
+                error: console.log('Error: loading header')
+            }
+        );
 
         return self;
     };
+
+
 
     // Customer event: 'refresh' - refreshes Model data
     EemjiiRuckus.prototype.eventRefresh = function (){
@@ -326,7 +395,14 @@
                 }
             },
             currentFrame: 1,
-            backgroundSet: false
+            backgroundSet: false,
+            solutionTarget: {
+                $header:    $(self.options.view.solutionTarget.header),
+                $article:   $(self.options.view.solutionTarget.article),
+                $videos:    $(self.options.view.solutionTarget.videos),
+                $downloads: $(self.options.view.solutionTarget.downloads)
+            }
+
         };
         // setting totalFrames - We cannot define this property
         // inside the above object, the jQuery selector METHOD doesn't
