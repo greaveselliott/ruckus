@@ -93,28 +93,19 @@
                               <ul class="large-block-grid-3 medium-block-grid-3 small-block-grid-1 ruckus-option-group"  data-toggle-type="radio">
                                   <li class="ruckus-option"  data-option-name="small">
                                       <img src="images/business-small.png" alt="Small Ruckus logo" class="hide-for-small">
-                                      <span class="button">Small</span>
+                                      <span class="button alt">Small</span>
                                   </li>
                                   <li class="ruckus-option"  data-option-name="medium">
                                       <img src="images/business-medium.png" alt="Medium Ruckus logo" class="hide-for-small">
-                                      <span class="button">Medium</span>
+                                      <span class="button alt">Medium</span>
                                   </li>
                                   <li class="ruckus-option"  data-option-name="large">
                                       <img src="images/business-large.png" alt="Large Ruckus logo" class="hide-for-small">
-                                      <span class="button">Large</span>
+                                      <span class="button alt">Large</span>
                                   </li>
                               </ul>
                           </div>
                       </div>
-                    <!-- Continue button -->
-                    <div class="nav-wrapper">
-<!--                        <div class="display-inline-block">-->
-<!--                            <div class="button round-icon chevron-left subtle ruckus-prev"></div>-->
-<!--                        </div>-->
-                        <div class="display-inline-block">
-                            <div class="button round-icon chevron-right ruckus-next"></div>
-                        </div>
-                    </div>
                 </div>
           </div>
 
@@ -137,15 +128,6 @@
                               <li class="ruckus-option"  data-option-name="pos"><div class="image hide-for-small" id="pos"></div><span class="button">POS</span></li>
                               <li class="ruckus-option"  data-option-name="employee"><div class="image hide-for-small" id="employee"></div><span class="button">Employee enablement</span></li>
                           </ul>
-                      </div>
-                  </div>
-                  <!-- Continue button -->
-                  <div class="nav-wrapper">
-                      <div class="display-inline-block">
-                          <div class="button round-icon chevron-left subtle ruckus-prev"></div>
-                      </div>
-                      <div class="display-inline-block">
-                          <div class="button round-icon chevron-right ruckus-next"></div>
                       </div>
                   </div>
                </div>
@@ -173,13 +155,13 @@
 <!--                          <input type="radio" name="sector" data-name="transport" value="7" class="">-->
 <!--                          <input type="radio" name="sector" data-name="open space" value="11" class="">-->
                           <!-- Size of business -->
-                          <input type="radio" name="size" data-name="small" value="13" class="">
-                          <input type="radio" name="size" data-name="medium" value="17" class="">
-                          <input type="radio" name="size" data-name="large" value="19" class="">
+                          <input type="radio" name="size" data-name="small" value="13" class="hide">
+                          <input type="radio" name="size" data-name="medium" value="17" class="hide">
+                          <input type="radio" name="size" data-name="large" value="19" class="hide">
                           <!-- Wi-Fi requirement -->
-                          <input type="checkbox" name="requirement" data-name="public" value="23" class="">
-                          <input type="checkbox" name="requirement" data-name="pos" value="29" class="">
-                          <input type="checkbox" name="requirement" data-name="employee" value="31" class="">
+                          <input type="checkbox" name="requirement" data-name="public" value="23" class="hide">
+                          <input type="checkbox" name="requirement" data-name="pos" value="29" class="hide">
+                          <input type="checkbox" name="requirement" data-name="employee" value="31" class="hide">
                           <!-- Name -->
                           <div class="row collapse">
                               <div class="large-12 columns">
@@ -464,15 +446,6 @@
                               </div>
                           </div>
                       </form>
-                      <!-- Continue button -->
-                      <div class="nav-wrapper">
-                          <div class="display-inline-block">
-                            <div class="button round-icon chevron-left subtle ruckus-prev"></div>
-                          </div>
-                          <div class="display-inline-block">
-                              <div class="button round-icon chevron-right ruckus-next"></div>
-                          </div>
-                      </div>
                   </div>
               </div>
           </div>
@@ -512,15 +485,6 @@
                                           </ul>
                                       </div>
                                   </div>
-                                  <!-- Continue button -->
-                                  <div class="nav-wrapper">
-                                      <div class="display-inline-block">
-                                          <div class="button round-icon chevron-left subtle ruckus-prev"></div>
-                                      </div>
-                                      <div class="display-inline-block">
-                                          <div class="button round-icon chevron-right ruckus-next"></div>
-                                      </div>
-                                  </div>
                               </div>
                           </div>
                       </div>
@@ -528,8 +492,20 @@
             </div>
           </section>
         </div>
+        <!-- slide navigation -->
+          <div class="navigation">
+              <div class="nav-wrapper">
+                  <div class="display-inline-block">
+                      <div class="button round-icon chevron-left subtle ruckus-prev"></div>
+                  </div>
+                  <div class="display-inline-block">
+                      <div class="button round-icon chevron-right ruckus-next"></div>
+                  </div>
+              </div>
+          </div>
+        <!-- Loading Image -->
+        <div class="loading inactive"></div>
         <!-- Tile background image -->
-
         <div class="tile_background-wrapper">
             <div class="tile_background-overlay"></div>
             <div class="tile_background-position">

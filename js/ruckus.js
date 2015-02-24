@@ -45,6 +45,8 @@
                 wrapper:            '.tile',
                 container:          '.slide-container',
                 frame:              '.slide',
+                loadingBar:         '.loading',
+                form:               '#ruckus-data',
                 backgroundWrapper:  '.tile_background-wrapper',
                 backgroundPosition: '.tile_background-position',
                 background:         '.tile_background',
@@ -91,7 +93,7 @@
                         ],
                         videos: [
                             {
-                                videoURL: '//www.youtube.com/embed/aiBt44rrslw'
+                                videoURL: 'http://player.vimeo.com/video/60122989'
                             }
                         ],
                         downloads:[
@@ -112,6 +114,7 @@
                 ]
             },
             controller: {
+                navWrapper:         '.navigation',
                 next:               '.ruckus-next',
                 prev:               '.ruckus-prev'
             }
@@ -155,6 +158,7 @@
             .setBackground()
             .setBackgroundDimensions()
             .buildTimeLineSlide()
+            .buildNavigation()
             .setDeepLink()
             .onDeepLinkChange();
             //.eventRefresh();
@@ -191,7 +195,9 @@
             serializedData: undefined,                               // Serialized module data
             rootDir: self.options.model.rootDir,                    // Root directory (e.g. https://www.yourwebsite.com/)
             cookiesEnabled: true,                                    // are cookies enabled?
-            startingFrame: self.options.model.startingFrame         // are cookies enabled?
+            startingFrame: self.options.model.startingFrame,         // are cookies enabled?
+            loadingActive: false,
+            navigationActive: false
         };
 
         // returning self: enables functions chaining
@@ -218,6 +224,7 @@
 
             self.goToAndPlay(self.View.currentFrame);
             self.sendAnalytics(self.View.currentFrame);
+            self.toggleNavigation();
            // self.setPageTitle( self.Model.pageInfo[self.View.currentFrame]);
         });
         // returning self: enables functions chaining
@@ -228,6 +235,7 @@
     EemjiiRuckus.prototype.cookie     = function (){
 
     };
+
 
     // Set analytics
     EemjiiRuckus.prototype.setAnalytics = function () {
@@ -274,48 +282,87 @@
         return self;
     };
 
+    // toggling loading bar
+    EemjiiRuckus.prototype.toggleLoadingBar = function () {
+        var self = this;
+
+        if (self.Model.loadingActive) {
+            self.View.$loadingBar.removeClass('active').addClass('inactive');
+            self.Model.loadingActive = false;
+        } else {
+            self.View.$loadingBar.removeClass('inactive').addClass('active');
+            self.Model.loadingActive = true;
+        }
+
+        return self;
+    };
+
+    // build navigation timeline
+
+    EemjiiRuckus.prototype.buildNavigation = function () {
+        var self = this;
+
+        self.View.navTimeline = new TimelineMax();
+        self.View.navTimeline.to(self.Controller.$navWrapper, 0.5,
+            {
+                bottom: '0px',
+                opacity: 1
+            });
+
+        return self;
+    };
+
+    // toggle navigation
+    EemjiiRuckus.prototype.toggleNavigation = function (toggle) {
+        var self = this;
+
+        if (toggle) {
+            self.View.navTimeline.play();
+            self.Model.navigationActive = true;
+
+        } else {
+            self.View.navTimeline.reverse();
+            self.Model.navigationActive = false;
+        }
+       console.log('navigation active: '+ toggle);
+
+        return self;
+    };
+
+    // Slide Conditions
+
+    EemjiiRuckus.prototype.slideConditions = function() {
+        var self = this;
+
+
+
+        return self;
+    };
+
+
+    // Updating end result
     EemjiiRuckus.prototype.updateResult = function () {
         console.log('updating result');
         var self = this;
         // Header
         self.View.solutionTarget.$header.loadTemplate(  // loading template into $header
             self.options.view.solutionsTemplate.header, //
-            self.options.view.solutionData[self.Model.currentResult].header,
-            {
-                complete: console.log('header complete'),
-                success: console.log('header successfully updated'),
-                error: console.log('Error: loading header')
-            }
+            self.options.view.solutionData[self.Model.currentResult].header
         );
         // Article
         self.View.solutionTarget.$article.loadTemplate( // loading template into $article
             self.options.view.solutionsTemplate.article,
-            self.options.view.solutionData[self.Model.currentResult].article,
-            {
-                complete: console.log('Article complete'),
-                success: console.log('Article successfully updated'),
-                error: console.log('Error: loading article')
-            }
+            self.options.view.solutionData[self.Model.currentResult].article
         );
         // Videos
         self.View.solutionTarget.$videos.loadTemplate( // loading template into $videos
             self.options.view.solutionsTemplate.videos,
-            self.options.view.solutionData[self.Model.currentResult].videos,
-            {
-                complete: console.log('videos complete'),
-                success: console.log('videos successfully updated'),
-                error: console.log('Error: loading videos')
-            }
+            self.options.view.solutionData[self.Model.currentResult].videos
         );
         // Downloads
         self.View.solutionTarget.$downloads.loadTemplate( // loading template into $downloads
             self.options.view.solutionsTemplate.downloads,
-            self.options.view.solutionData[self.Model.currentResult].downloads,
-            {
-                complete: console.log('header complete'),
-                success: console.log('header successfully updated'),
-                error: console.log('Error: loading header')
-            }
+            self.options.view.solutionData[self.Model.currentResult].downloads
         );
 
         return self;
@@ -359,6 +406,18 @@
         // returning self: enables functions chaining
         return self;
     };
+
+    // Form submit to Database
+
+    EemjiiRuckus.prototype.formHasData = function () {
+        var self = this;
+
+
+
+        return self;
+    };
+
+
     // APPLICATION VIEW
     EemjiiRuckus.prototype.View             = function () {
         var self = this;
@@ -370,8 +429,10 @@
             $wrapper:       $(self.options.view.wrapper),
             container:      self.options.view.container,
             $container:     $(self.options.view.container),
+            $form:          $(self.options.view.form),
             frame:          self.options.view.frame,
             $frame:         $(self.options.view.frame),
+            $loadingBar: $(self.options.view.loadingBar),
             timeLineFrames:{
                 1: {
                     url:undefined,
@@ -584,6 +645,8 @@
         var self = this;
 
         self.Controller = {
+            navWrapper: self.options.controller.navWrapper,
+            $navWrapper: $(self.options.controller.navWrapper),
             next: self.options.controller.next,
             $next: $(self.options.controller.next),
             prev: self.options.controller.prev,
@@ -651,13 +714,19 @@
             console.log(pairedFormInput);
             // Toggling the button on UI
             if ($dataType == 'checkbox') {
-                $self.hasClass('toggled') ?         // Does this element have the '.toggled' class?
-                    $self.removeClass('toggled') :  // TRUE: remove the '.toggled' class
-                        $self.addClass('toggled');  // FALSE: add the '.toggled' class
+                if ($self.hasClass('toggled') ) {         // Does this element have the '.toggled' class?
+                    $self.removeClass('toggled');
+                    self.toggleNavigation(false);
+                } else {  // TRUE: remove the '.toggled' class
+                    $self.addClass('toggled');
+                    self.toggleNavigation(true);
+                }  // FALSE: add the '.toggled' class
 
             } else if ($dataType == 'radio') {
                 $parent.children(self.Model.userOptions).removeClass('toggled');
                 $self.addClass('toggled');
+                self.toggleNavigation(true);
+
             }
 
             //self.Model.$appContainer.trigger('refresh',['toggle']);
