@@ -79,16 +79,111 @@
                     videos:     '.template-solution-videos',
                     downloads:  '.template-solution-downloads'
                 },
+            //    solutionData: [
+            //        {
+            //            header:   [
+            //                {
+            //                    headerTitle: 'Solution unavailable'
+            //                }
+            //            ],
+            //            article: [
+            //                {
+            //                    articleText: 'Why not enter a solution into the plugin configuration file'
+            //                }
+            //            ],
+            //            videos: [
+            //                {
+            //                    videoURL: 'http://player.vimeo.com/video/60122989'
+            //                }
+            //            ],
+            //            downloads:[
+            //                {
+            //                    downloadName: 'default download title',
+            //                    downloadImage: 'http://placehold.it/320x170',
+            //                    downloadLink: '#'
+            //
+            //                },
+            //                {
+            //                    downloadName: 'default download title',
+            //                    downloadImage: 'http://placehold.it/320x170',
+            //                    downloadLink: '#'
+            //
+            //                }
+            //            ]
+            //        }
+            //    ]
                 solutionData: [
                     {
                         header:   [
                             {
-                                headerTitle: 'Solution unavailable'
+                                headerTitle: 'Small Solution'
                             }
                         ],
                         article: [
                             {
-                                articleText: 'Why not enter a solution into the plugin configuration file'
+                                articleText: "<p>Even the smallest of stores need Wi-Fi today.  It may be simply to build a hotspot for customers in a coffee shop, but it may be for something more sophisticated such as processing credit card transactions away from the till, or being able to check what stock is available in the back room. Whatever you needs, you need Wi-Fi that works, isn’t difficult to set up, and most importantly, is safe and secure for the user.</p><p>Why is choosing the right Wi-Fi so important even for a small business? Because once you have it, you, and your customers, will come to rely on it even more in the future.</p><p>Simply Smarter Wireless allows you to move and grow from;</p><ul><li>secure credit transactions from wireless terminals, and</li><li>providing simple and secure customer hotspots, to</li><li>digital signage showing promotions</li><li>discrete video surveillance</li><li>stock checking without leaving the customer</li></ul><p>For the smaller store, often a single access point in the back office is enough to provide coverage from front of store to back, and support tens of users, but sometimes you need to cover a couple of floors and two or more access points are required. With the right Wi-Fi ,processing credit card transactions can easily be done in a PCI compliant way, and running more sophisticated things like shop video surveillance is easy</p><p>Remember,  61 % of retailers say that their customers spend more time in store since they installed Wi-Fi (source /GR DeviceSpace 2014) and 50% spend more money. That’s why choosing the right Wi-Fi is so important.</p>"
+                            }
+                        ],
+                        videos: [
+                            {
+                                videoURL: 'http://player.vimeo.com/video/60122989'
+                            }
+                        ],
+                        downloads:[
+                            {
+                                downloadName: 'default download title',
+                                downloadImage: 'http://placehold.it/320x170',
+                                downloadLink: '#'
+
+                            },
+                            {
+                                downloadName: 'default download title',
+                                downloadImage: 'http://placehold.it/320x170',
+                                downloadLink: '#'
+
+                            }
+                        ]
+                    },
+                    {
+                        header:   [
+                            {
+                                headerTitle: 'Medium Solution'
+                            }
+                        ],
+                        article: [
+                            {
+                                articleText: '<p>From a single large store to hundreds of smaller boutiques across an entire country, Wi-Fi is the easiest way to connect customers and staff to the information they need to enable a sale. Imagine a store where sales staff never leave a customer to check if something is in stock, or where they can order out-of-stock items for next day home delivery while standing at the display. Imagine a store where customers don’t have to queue at a till to pay.</p><p>Ruckus Wireless is a market leader in Wi-Fi for mid-market retailers. Our solutions are simple to deploy, sold and supported by a huge choice of specialist resellers, and uses the smartest technology to ensure the best connection across the whole sales floor and back office.</p><p>With Wi-Fi in store, staff can better service your customer’s better, and you can start thinking about how you can</p><ul><li>Use location based services solutions - such as Ruckus SPoT™ - to review your footfall and see how people move around your store:<br><ul><li>Change your window display and analyse how many more people come into the store than just walk past</li><li>Match your highest margin products to the areas where your customers go most.</li></ul></li><li>Reward loyal customers with target promotions – something that nearly ¾ of all customers say they are happy to receive</li><li>Understand more about your demographics and how your store is used at different times and on different days of the week.</li></ul><p>“Almost every new consumer product today has an embedded Wi-Fi capability. To effectively demonstrate and sell these products, customers want to actually see and understand how to use them in a live environment. The Ruckus system, with its integrated adaptive antenna array technology, is simply in a different league and has helped increase in-store sales” Tim Pearce – Hughes Electrical (UK)</p>'
+                            }
+                        ],
+                        videos: [
+                            {
+                                videoURL: 'http://player.vimeo.com/video/60122989'
+                            }
+                        ],
+                        downloads:[
+                            {
+                                downloadName: 'default download title',
+                                downloadImage: 'http://placehold.it/320x170',
+                                downloadLink: '#'
+
+                            },
+                            {
+                                downloadName: 'default download title',
+                                downloadImage: 'http://placehold.it/320x170',
+                                downloadLink: '#'
+
+                            }
+                        ]
+                    },
+                    {
+                        header:   [
+                            {
+                                headerTitle: 'Large Solution'
+                            }
+                        ],
+                        article: [
+                            {
+                                articleText: '<p>Even the smallest of stores need Wi-Fi today.  It may be simply to build a hotspot for customers in a coffee shop, but it may be for something more sophisticated such as processing credit card transactions away from the till, or being able to check what stock is available in the back room. Whatever you needs, you need Wi-Fi that works, isn’t difficult to set up, and most importantly, is safe and secure for the user.</p><p>Why is choosing the right Wi-Fi so important even for a small business? Because once you have it, you, and your customers, will come to rely on it even more in the future.</p><p>Simply Smarter Wireless allows you to move and grow from;</p><ul><li>secure credit transactions from wireless terminals, and</li><li>providing simple and secure customer hotspots, to</li><li>digital signage showing promotions</li><li>discrete video surveillance</li><li>stock checking without leaving the customer</li></ul><p>For the smaller store, often a single access point in the back office is enough to provide coverage from front of store to back, and support tens of users, but sometimes you need to cover a couple of floors and two or more access points are required. With the right Wi-Fi ,processing credit card transactions can easily be done in a PCI compliant way, and running more sophisticated things like shop video surveillance is easy</p><p>Remember,  61 % of retailers say that their customers spend more time in store since they installed Wi-Fi (source /GR DeviceSpace 2014) and 50% spend more money. That’s why choosing the right Wi-Fi is so important.</p>'
                             }
                         ],
                         videos: [
@@ -160,7 +255,9 @@
             .buildTimeLineSlide()
             .buildNavigation()
             .setDeepLink()
-            .onDeepLinkChange();
+            .onDeepLinkChange()
+            .onSlideDataChange();
+            //.writeToDB();
             //.eventRefresh();
             //.buildResultsObject();
 //            .eventRefresh();
@@ -197,7 +294,8 @@
             cookiesEnabled: true,                                    // are cookies enabled?
             startingFrame: self.options.model.startingFrame,         // are cookies enabled?
             loadingActive: false,
-            navigationActive: false
+            navigationActive: false,
+            currentSlideValid: false
         };
 
         // returning self: enables functions chaining
@@ -224,7 +322,7 @@
 
             self.goToAndPlay(self.View.currentFrame);
             self.sendAnalytics(self.View.currentFrame);
-            self.toggleNavigation();
+            self.isSlideValid();
            // self.setPageTitle( self.Model.pageInfo[self.View.currentFrame]);
         });
         // returning self: enables functions chaining
@@ -303,10 +401,11 @@
         var self = this;
 
         self.View.navTimeline = new TimelineMax();
-        self.View.navTimeline.to(self.Controller.$navWrapper, 0.5,
+        self.View.navTimeline.to(self.Controller.$navWrapper, 0.44,
             {
                 bottom: '0px',
-                opacity: 1
+                opacity: 1,
+                ease: Back.easeOut.config(1.7)
             });
 
         return self;
@@ -333,8 +432,6 @@
 
     EemjiiRuckus.prototype.slideConditions = function() {
         var self = this;
-
-
 
         return self;
     };
@@ -407,16 +504,26 @@
         return self;
     };
 
-    // Form submit to Database
-
-    EemjiiRuckus.prototype.formHasData = function () {
+    // update result
+    EemjiiRuckus.prototype.currentResult = function (obj) {
         var self = this;
+        var option = $(obj).data('name');
 
-
-
-        return self;
+        switch (option) {
+            case 'small':
+                self.Model.currentResult = 0;
+                break;
+            case 'medium':
+                self.Model.currentResult = 1;
+                break;
+            case 'large':
+                self.Model.currentResult = 2;
+                break;
+            default:
+                break;
+        }
+        console.log('The current result is ', self.Model.currentResult);
     };
-
 
     // APPLICATION VIEW
     EemjiiRuckus.prototype.View             = function () {
@@ -489,6 +596,7 @@
         return self;
     };
 
+
     EemjiiRuckus.prototype.scale = function () {
         var self = this;
 
@@ -531,6 +639,7 @@
         // returning self: enables functions chaining
         return self;
     };
+
 
 
     EemjiiRuckus.prototype.goToAndPlay = function (frame) {
@@ -654,20 +763,24 @@
             $playback: $(self.options.controller.next + ","+self.options.controller.prev)
         };
 
-        self.eventPlayback(self.Controller.$playback);
+        self.eventPlayback(self.Controller.$playback, true);
         // returning self: enables functions chaining
         return self;
     };
 
-    EemjiiRuckus.prototype.eventPlayback = function ($playback) {
+    EemjiiRuckus.prototype.eventPlayback = function ($playback, toggle) {
         var self = this;
 
-        $playback.on('click',function(event){
+        if (toggle === true) { // if toggle == TRUE
+            $playback.on('click', function (event) {
 
-            self.playback($(this));
-            self.setDeepLink();
-            //$(this).off('click',"**");
-        });
+                self.playback($(this));
+                self.setDeepLink();
+
+            });
+        } else if(toggle === false) { // if toggle == FALSE
+            $playback.off('click','**');
+        }
         // returning self: enables functions chaining
         return self;
     };
@@ -697,6 +810,95 @@
         return self;
     };
 
+    EemjiiRuckus.prototype.onSlideDataChange = function () {
+        var self = this;
+        $('fieldset.slide-data')
+            .find('input, select, textarea')
+            .change(function(){
+                self.isSlideValid();
+                self.currentResult(this);
+            });
+
+        return self;
+    };
+
+    EemjiiRuckus.prototype.isSlideValid = function () {
+        var self = this;
+        var currentSlide = $(self.View.frame).eq(self.View.currentFrame-1);
+        var currentSlideName = currentSlide.data('slide');
+        var $linkedSlide = $('#ruckus-data').find('[data-linked-slide="'+currentSlideName+'"]');
+        var minRequired = $linkedSlide.find('[required]').length > 0 ? $linkedSlide.find('[required]').length : 1;
+        var $elements = $linkedSlide.find('input, select, textarea');
+        var currentValid = 0;
+
+        $.each($elements, function(key, value) {
+            var $thisElement = $(this);
+
+            if ($thisElement.is(':checkbox, :radio')) {
+                console.log('is checkbox or radio');
+                if ($thisElement.prop('checked') ) {
+                    currentValid++;
+                }
+            } else {
+                console.log('Not checkbox or radio');
+                if ($thisElement[0].required && $thisElement.val() ) {
+                    currentValid++;
+                }
+            }
+        });
+
+        console.log('Current slide is '+currentSlideName);
+        console.log('Linked slide is ',$linkedSlide);
+        console.log('Minimum required form elements', minRequired);
+        console.log('Current valid elements', currentValid);
+
+        console.log('FORM UPDATED!');
+
+        self.Model.isCurrentSlideValid = minRequired <= currentValid;
+
+        if (self.Model.isCurrentSlideValid) {
+            self.toggleNavigation(true);
+        } else {
+            self.toggleNavigation(false);
+        }
+
+        console.log(self);
+        return self;
+    };
+
+    EemjiiRuckus.prototype.writeToDB = function () {
+        var self = this;
+
+        self.Controller.$next.on('click',function(){
+            if (self.View.currentFrame == 4){
+
+                var data = self.getFormData();
+
+                $.post( $('#ruckus-data').attr("action"), data, function(info){
+                    console.log(info)
+                });
+
+                $("#ruckus-data").submit(function(){
+                    return false;
+                });
+
+                console.log('================');
+                console.log('SUBMITING FORM..');
+                console.log('================');
+                //$('#ruckus-data').submit();
+            }
+        });
+
+        return self;
+    };
+
+    EemjiiRuckus.prototype.getFormData = function () {
+
+        var $formData = $('#ruckus-data').serializeArray();
+
+        return $formData;
+    };
+
     EemjiiRuckus.prototype.toggleButtons = function () {
         var self = this;
 
@@ -704,34 +906,41 @@
             var $self       = $(this);
             var $parent     = $self.closest(self.Model.userOptionsGroup);
             var $dataType   = $parent.data('toggle-type');
-            var dataName   = $self.data('option-name');
+            var dataName    = $self.data('option-name');
+            var $siblings   = $self.siblings();
 
             var pairedFormInput = $("[data-name='" + dataName + "']");
 
             pairedFormInput.is(':checked') ?
-                pairedFormInput.prop('checked', false) :
-                    pairedFormInput.prop('checked', true);
-            console.log(pairedFormInput);
+                pairedFormInput.prop('checked', false).change() :
+                    pairedFormInput.prop('checked', true).change();
+            console.log('Paired form input: '+pairedFormInput);
+
             // Toggling the button on UI
             if ($dataType == 'checkbox') {
                 if ($self.hasClass('toggled') ) {         // Does this element have the '.toggled' class?
                     $self.removeClass('toggled');
-                    self.toggleNavigation(false);
+                    console.log('Does the sibling have a class of toggled? ' + $siblings.hasClass('toggled'));
+                    if (!$siblings.hasClass('toggled')) {
+                        //self.toggleNavigation(false);
+                    }
                 } else {  // TRUE: remove the '.toggled' class
                     $self.addClass('toggled');
-                    self.toggleNavigation(true);
+                    //self.toggleNavigation(true);
                 }  // FALSE: add the '.toggled' class
 
             } else if ($dataType == 'radio') {
                 $parent.children(self.Model.userOptions).removeClass('toggled');
                 $self.addClass('toggled');
-                self.toggleNavigation(true);
+                //self.toggleNavigation(true);
 
             }
 
-            //self.Model.$appContainer.trigger('refresh',['toggle']);
-            self.updateResult();
-            self.setDeepLink();
+            if (self.Model.isCurrentSlideValid){
+                //self.Model.$appContainer.trigger('refresh',['toggle']);
+                self.updateResult();
+                self.setDeepLink();
+            }
         });
         // returning self: enables functions chaining
         return self;
