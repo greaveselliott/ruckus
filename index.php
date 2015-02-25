@@ -42,39 +42,33 @@
       <article class="tile">
           <div class="slide-container">
           <!-- Tile 1: Simply Better Wireless -->
-<!--          <section class="stage-1 slide">-->
-<!--             <!-- Centering the content  -->
-<!--             <div class="row valign-middle tile-content">-->
-<!--                <div class="large-12 columns">-->
-<!--                    <!-- Heading text -->
-<!--                    <div class="row collapse">-->
-<!--                        <div class="large-7 columns large-centered">-->
-<!--                            <h2 class="ruckus-orange text-center">Simply Better Wireless.</h2>-->
-<!--                            <h3 class="ruckus-white text-center">Choose your sector for a simply better solution</h3>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <!-- Selection of options -->
-<!--                    <div class="row collapse padding-top-10">-->
-<!--                        <nav>-->
-<!--                            <!-- Options -->
-<!--                                <ul class="large-block-grid-5 medium-block-grid-3 small-block-grid-2 ruckus-option-group"  data-toggle-type="radio">-->
-<!--                                    <li data-option-name="retail" class="ruckus-option"><span class="button width-100 height-100 alt" >Retail</span></li>-->
-<!--                                    <li data-option-name="leisure" class="ruckus-option"><span class="button width-100 height-100 alt">Leisure</span></li>-->
-<!--                                    <li data-option-name="hospitality" class="ruckus-option"><span class="button width-100 height-100 alt">Hospitality</span></li>-->
-<!--                                    <li data-option-name="transport" class="ruckus-option"><span class="button width-100 height-100 alt">Transport</span></li>-->
-<!--                                    <li data-option-name="open space" class="ruckus-option"><span class="button width-100 height-100 alt">Open Space</span></li>-->
-<!--                                </ul>-->
-<!--                        </nav>-->
-<!--                    </div>-->
-<!--                    <!-- Next button -->
-<!--                    <div class="row">-->
-<!--                        <div class="large-4 columns large-centered">-->
-<!--                            <div class="button round-icon chevron-right ruckus-next"></div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </section>-->
+          <section class="stage-1 slide" data-slide="sector">
+             <!-- Centering the content -->
+             <div class="row valign-middle tile-content">
+                <div class="large-12 columns">
+                    <!-- Heading text -->
+                    <div class="row collapse">
+                        <div class="large-7 columns large-centered">
+                            <h2 class="ruckus-orange text-center">Simply Better Wireless.</h2>
+                            <h3 class="ruckus-white text-center">Choose your sector for a simply better solution</h3>
+                        </div>
+                    </div>
+                    <!-- Selection of options-->
+                    <div class="row collapse padding-top-10">
+                        <nav>
+                            <!-- Options-->
+                                <ul class="large-block-grid-5 medium-block-grid-3 small-block-grid-2 ruckus-option-group"  data-toggle-type="radio">
+                                    <li data-option-name="retail" class="ruckus-option"><span class="button width-100 height-100 alt" >Retail</span></li>
+                                    <li data-option-name="leisure" class="ruckus-option"><span class="button width-100 height-100 alt">Leisure</span></li>
+                                    <li data-option-name="hospitality" class="ruckus-option"><span class="button width-100 height-100 alt">Hospitality</span></li>
+                                    <li data-option-name="transport" class="ruckus-option"><span class="button width-100 height-100 alt">Transport</span></li>
+                                    <li data-option-name="open space" class="ruckus-option"><span class="button width-100 height-100 alt">Open Space</span></li>
+                                </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- Stage 2: Size of your business: template-stage-2 -->
         <section class="stage2 slide" data-slide="size">
             <div class="row valign-middle tile-content">
@@ -141,21 +135,22 @@
               <!-- content -->
               <div class="row">
                   <div class="large-8 columns large-centered">
-                      <h2 class="text-center">Details</h2>
+                      <h2 class="text-center ruckus-white">Details</h2>
                   </div>
               </div>
               <div class="row">
                   <div class="large-8 columns large-centered medium-8 medium-centered">
                       <form action="response.php" id="ruckus-data" data-option-type="ruckus-option-group">
                           <!-- Business Sector -->
-                          <!-- Removed temporarily -->
-<!--                          <input type="radio" name="sector" data-name="retail" value="2" class="">-->
-<!--                          <input type="radio" name="sector" data-name="leisure" value="3" class="">-->
-<!--                          <input type="radio" name="sector" data-name="hospitality" value="5" class="">-->
-<!--                          <input type="radio" name="sector" data-name="transport" value="7" class="">-->
-<!--                          <input type="radio" name="sector" data-name="open space" value="11" class="">-->
+                          <fieldset class="slide-data hide" data-linked-slide="sector">
+                          <input type="radio" name="sector" data-name="retail" value="2" class="">
+                          <input type="radio" name="sector" data-name="leisure" value="3" class="">
+                          <input type="radio" name="sector" data-name="hospitality" value="5" class="">
+                          <input type="radio" name="sector" data-name="transport" value="7" class="">
+                          <input type="radio" name="sector" data-name="open space" value="11" class="">
+                          </fieldset>
                           <!-- Size of business -->
-                          <fieldset class="slide-data" data-linked-slide="size">
+                          <fieldset class="slide-data hide" data-linked-slide="size">
                               <label><span class="ruckus-white">Small business</span>
                                 <input type="radio" name="size" data-name="small" value="13" class="">
                               </label>
@@ -167,7 +162,7 @@
                               </label>
                           </fieldset>
                           <!-- Wi-Fi requirement -->
-                          <fieldset class="slide-data" data-linked-slide="wifi">
+                          <fieldset class="slide-data hide" data-linked-slide="wifi">
                               <label>
                                   <span class="ruckus-white">Public Wifi</span>
                                 <input type="checkbox" name="wifi" data-name="public" value="23" class="">

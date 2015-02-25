@@ -17,7 +17,7 @@
 <script src="js/app.js"></script>
 <!--<script src="js/layout.entry-three.js"></script>-->
 <script src="js/foundation.equalizer.js"></script>
-<script src="js/foundation.offcanvas.js"></script>
+<!--<script src="js/foundation.offcanvas.js"></script>-->
 <script src="jquery_lazyload/jquery.lazyload.js"></script>
 <script src="js/jquery.lazyload.config.js"></script>
 <script src="js/fullscreen.js"></script>

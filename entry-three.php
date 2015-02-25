@@ -10,39 +10,39 @@
     require_once('header.php');
 ?>
 <body id="entry-3">
-    <header class="full-screen ruckus-background-black"><h1 class="hide">Ruckus | Simply Better Wireless</h1>
-        <nav data-magellan-expedition="fixed" class="large-12 columns">
-            <ul class="sub-nav no-bullet">
-                <li data-magellan-arrival="home">
-                    <a href="#home">Home</a>
-                </li>
-                <li data-magellan-arrival="mobile-momentum">
-                    <a href="#mobile-momentum">Mobile Momentum</a>
-                </li>
-                <li data-magellan-arrival="mobile-payment">
-                    <a href="#mobile-payment">Mobile Payment</a>
-                </li>
-                <li data-magellan-arrival="pos-technology">
-                    <a href="#pos-technology">POS Momentum</a>
-                </li>
-                <li data-magellan-arrival="omnichannel-omnipetence">
-                    <a href="#omnichannel-omnipetence">Omnichannel Omnipetence</a>
-                </li>
-                <li data-magellan-arrival="loyalty-learnings">
-                    <a href="#loyalty-learnings">Loyalty Learnings</a>
-                </li>
-                <li data-magellan-arrival="social-shopping">
-                    <a href="#social-shopping">Social Shopping</a>
-                </li>
-                <li data-magellan-arrival="big-data">
-                    <a href="#big-data">Big Data</a>
-                </li>
-                <li data-magellan-arrival="retail-wifi">
-                    <a href="#retail-wifi">Retail Wi-Fi</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+<!--    <header class="full-screen ruckus-background-black"><h1 class="hide">Ruckus | Simply Better Wireless</h1>-->
+<!--        <nav data-magellan-expedition="fixed" class="large-12 columns">-->
+<!--            <ul class="sub-nav no-bullet">-->
+<!--                <li data-magellan-arrival="home">-->
+<!--                    <a href="#home">Home</a>-->
+<!--                </li>-->
+<!--                <li data-magellan-arrival="mobile-momentum">-->
+<!--                    <a href="#mobile-momentum">Mobile Momentum</a>-->
+<!--                </li>-->
+<!--                <li data-magellan-arrival="mobile-payment">-->
+<!--                    <a href="#mobile-payment">Mobile Payment</a>-->
+<!--                </li>-->
+<!--                <li data-magellan-arrival="pos-technology">-->
+<!--                    <a href="#pos-technology">POS Momentum</a>-->
+<!--                </li>-->
+<!--                <li data-magellan-arrival="omnichannel-omnipetence">-->
+<!--                    <a href="#omnichannel-omnipetence">Omnichannel Omnipetence</a>-->
+<!--                </li>-->
+<!--                <li data-magellan-arrival="loyalty-learnings">-->
+<!--                    <a href="#loyalty-learnings">Loyalty Learnings</a>-->
+<!--                </li>-->
+<!--                <li data-magellan-arrival="social-shopping">-->
+<!--                    <a href="#social-shopping">Social Shopping</a>-->
+<!--                </li>-->
+<!--                <li data-magellan-arrival="big-data">-->
+<!--                    <a href="#big-data">Big Data</a>-->
+<!--                </li>-->
+<!--                <li data-magellan-arrival="retail-wifi">-->
+<!--                    <a href="#retail-wifi">Retail Wi-Fi</a>-->
+<!--                </li>-->
+<!--            </ul>-->
+<!--        </nav>-->
+<!--    </header>-->
     <section class="full-screen home" data-magellan-destination="home" id="entry-3-landing-page">
         <div class="row valign-middle">
             <div class="large-12 columns">
@@ -51,16 +51,89 @@
                         <h3 class="ruckus-white"><span class="font-scale-x2">The Simply Better Guide to Retail Tech</span></h3>
                         <hr>
                         <h5 class="ruckus-orange h3 text-left">Technology is impacting on every aspect of the retail chain, from the manufacturer to the consumer. This guide highlights some of the biggest and most important changes happening in retail today.</h5>
+                        <div class="display-inline-block padding-50">
+                            <div class="button alt round-icon chevron-down"></div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="ruckus-entry-3_background background-1 lazy-load" data-original="images/guide/guide-background-00.jpg" style="background-color: #ccc;"></div>
     </section>
+<!--#0: Wi-Fi in retail -->
+<article class="row full-screen" id="retail-wifi" data-magellan-destination="retail-wifi">
+    <div class="large-12 columns">
+        <div class="row ruckus-background-black opacity-75 ">
+            <div class="large-12 columns margin-bottom-20">
+                <h2 class="ruckus-white text-left">Retail Wi-Fi</h2>
+                <h3 class="ruckus-orange text-left">Don’t drop out</h3>
+            </div>
+        </div>
+        <div class="row ruckus-background-black opacity-75">
+            <!-- How people feel when there's no Wi-Fi in a business premises -->
+            <div class="large-6 columns">
+                <figure>
+                    <figcaption class="ruckus-white text-left h5">Make sure your Wi-Fi is specified for your maximum traffic – if the connection is slow the user experience will come crashing down</figcaption>
+                    <img class="lazy-load" data-original="images/guide/icons-34.png">
+                </figure>
+            </div>
+            <!-- Network stability and bandwidth -->
+            <div class="large-6 columns">
+                <div class="ruckus-background-orange opacity-75 row">
+                    <div class="large-12 columns">
+                        <div class="padding-25">
+                            <h3 class="ruckus-white">Network stability and bandwidth.</h3>
+                            <p>Providing Wi-Fi is fine, but if the connection speed is slow, the user experience crashes and burns. Make sure to dimension the installation according to the maximum traffic.</p>
+                        </div>
+                    </div>
+                </div>
+                <figure class="row wifi-retail-fact ruckus-background-black opacity-50">
+
+                        <span class="large-4 columns h1">
+                            <span class="table-center-container">
+                                <span class="table-center-cell ruckus-white">
+                                    80%
+                                </span>
+                            </span>
+                        </span>
+                        <span class="large-4 columns">
+                             <span class="table-center-container">
+                                <span class="table-center-cell text-left ruckus-white">
+                                    Of people say having free Wi-Fi can influence where they shop
+                                </span>
+                            </span>
+                        </span>
+                    <span class="large-4 columns"><img class="lazy-load left" data-original="images/guide/icons-17.png"></span>
+                    <span class="clear-both"></span>
+                </figure>
+                <figure class="ruckus-background-white opacity-75 row wifi-retail-fact">
+                        <span class="ruckus-orange h1 large-4 columns">
+                            <span class="table-center-container">
+                                <span class="table-center-cell">
+                                    48%
+                                </span>
+                            </span>
+                        </span>
+                        <span class="large-4 columns">
+                            <span class="table-center-container">
+                                <span class="table-center-cell text-left">
+                                    Of people enjoy the experience less when they cannot connect
+                                </span>
+                            </span>
+                        </span>
+                        <span class="large-4 columns">
+                            <img class="lazy-load" data-original="images/guide/icons-18.png"></span>
+                </figure>
+            </div>
+        </div>
+    </div>
+    <div class="ruckus-entry-3_background background-9 lazy-load" data-original="images/guide/guide-background-09.jpg" style="background-color: #ccc;"></div>
+</article>
+
     <!--#1: Mobile Momentum -->
     <article class="row full-screen" id="mobile-momentum" data-magellan-destination="mobile-momentum"><!-- fullscreen background? -->
         <div class="large-12 columns">
-            <div class="row ruckus-background-black opacity-75">
+            <div class="row ruckus-background-black">
 
                 <div class="large-12 columns">
                     <h2 class="ruckus-white">Mobile Momentum</h2>
@@ -148,45 +221,46 @@
                     <h3 class="text-center h4 padding-25">A UK based retailer has had a 70% rise in web traffic through smart devices</h3>
                 </div>
             </div>
-            <!-- Smart shoppers -->
+
             </div>
+
         <div class="ruckus-entry-3_background background-1 lazy-load" data-original="images/guide/guide-background-01.jpg" style="background-color: #ccc;"></div>
         </article>
-    <article class="row full-screen" id="smart-shoppers"><!-- fullscreen background? -->
-        <div class="large-12 columns">
-            <div class="row ruckus-background-black">
-                <!-- Heading: Semi Transparent Black background -->
-                <div class="large-12 columns">
-                    <h3 class="ruckus-orange">Smart Shoppers</h3>
-                    <h4 class="ruckus-white">When using a smartphone in a retail environment shoppers used their phones for:</h4>
-                </div>
-            </div>
-            <!-- figurative facts -->
-            <div class="row ruckus-background-black opacity-75 text-center" data-equalizer>
-                <div class="large-4 medium-4 columns" data-equalizer-watch>
-                    <figure class="padding-50">
-                        <img class="lazy-load" data-original="images/guide/icons-27.png" alt="Shopping basket Icon">
-                        <figcaption class="ruckus-grey h4">For planning food shopping</figcaption>
-                    </figure>
-                </div>
-                <div class="large-4 medium-4 columns" data-equalizer-watch>
-                    <figure class="padding-50">
-                        <img class="lazy-load dimensions-trolleys" data-original="images/guide/icons-28.png" alt="Shopping basket Icon">
-                        <figcaption class="ruckus-grey h4">Checking store locations</figcaption>
-                    </figure>
-                </div>
-                <div class="large-4 medium-4 columns" data-equalizer-watch>
-                    <figure class="padding-50">
-                        <img class="lazy-load" data-original="images/guide/icons-29.png" alt="Shopping basket Icon">
-                        <figcaption class="ruckus-grey h4">Price checking</figcaption>
-                    </figure>
-                </div>
-            </div>
-
-            <div class="ruckus-entry-3_background background-2 lazy-load" data-original="images/guide/guide-background-02.jpg" style="background-color: #ccc;"></div>
-        </div>
-
-    </article>
+<!--    <article class="row full-screen" id="smart-shoppers"><!-- fullscreen background? --><!-- Smart shoppers -->
+<!--        <div class="large-12 columns">-->
+<!--            <div class="row ruckus-background-black">-->
+<!--                <!-- Heading: Semi Transparent Black background -->
+<!--                <div class="large-12 columns">-->
+<!--                    <h3 class="ruckus-orange">Smart Shoppers</h3>-->
+<!--                    <h4 class="ruckus-white">When using a smartphone in a retail environment shoppers used their phones for:</h4>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <!-- figurative facts -->
+<!--            <div class="row ruckus-background-black opacity-75 text-center" data-equalizer>-->
+<!--                <div class="large-4 medium-4 columns" data-equalizer-watch>-->
+<!--                    <figure class="padding-50">-->
+<!--                        <img class="lazy-load" data-original="images/guide/icons-27.png" alt="Shopping basket Icon">-->
+<!--                        <figcaption class="ruckus-grey h4">For planning food shopping</figcaption>-->
+<!--                    </figure>-->
+<!--                </div>-->
+<!--                <div class="large-4 medium-4 columns" data-equalizer-watch>-->
+<!--                    <figure class="padding-50">-->
+<!--                        <img class="lazy-load dimensions-trolleys" data-original="images/guide/icons-28.png" alt="Shopping basket Icon">-->
+<!--                        <figcaption class="ruckus-grey h4">Checking store locations</figcaption>-->
+<!--                    </figure>-->
+<!--                </div>-->
+<!--                <div class="large-4 medium-4 columns" data-equalizer-watch>-->
+<!--                    <figure class="padding-50">-->
+<!--                        <img class="lazy-load" data-original="images/guide/icons-29.png" alt="Shopping basket Icon">-->
+<!--                        <figcaption class="ruckus-grey h4">Price checking</figcaption>-->
+<!--                    </figure>-->
+<!--                </div>-->
+<!--            </div>-->
+<!---->
+<!--            <div class="ruckus-entry-3_background background-2 lazy-load" data-original="images/guide/guide-background-02.jpg" style="background-color: #ccc;"></div>-->
+<!--        </div>-->
+<!---->
+<!--    </article>-->
     <!--#2: Mobile Payment -->
     <article class="row full-screen" id="mobile-payment" data-magellan-destination="mobile-payment">
         <div class="large-12 columns">
@@ -204,7 +278,7 @@
         <div class="row ruckus-background-black opacity-75 " data-equalizer>
             <div class="large-3 columns" data-equalizer-watch>
                 <!-- Contactless is more -->
-                <figure class="padding-50">
+                <figure class="padding-25">
                     <img class="lazy-load" data-original="images/guide/icons-08.png">
                     <figcaption>
                         <span class="ruckus-orange h4">Contactless is more</span>
@@ -215,7 +289,7 @@
             </div>
             <div class="large-3 columns ruckus-background-black " data-equalizer-watch>
                 <!-- Create win-win-win -->
-                <figure class="padding-50">
+                <figure class="padding-25">
                     <img class="lazy-load" data-original="images/guide/icons-09.png">
                     <figcaption>
                         <span class="ruckus-orange h4">Create win-win-win</span>
@@ -228,7 +302,7 @@
             </div>
             <div class="large-3 columns " data-equalizer-watch>
                 <!-- Scrap the paper -->
-                <figure class="padding-50">
+                <figure class="padding-25">
                     <img class="lazy-load" data-original="images/guide/icons-10.png">
                     <figcaption>
                         <span class="ruckus-orange h4">Scrap the paper</span>
@@ -496,29 +570,29 @@
                             <h5 class="ruckus-white margin-bottom-20">Using social media consumers have:</h5>
 
                             <div class="row ruckus-white collapse">
-                                <div class="large-2 columns"><i class="fa fa-comments ruckus-orange"></i></div>
-                                <div class="large-8 columns">Interacted with brands</div>
-                                <div class="large-2 columns"><span>52%</span></div>
+                                <div class="large-2 columns"><i class="fa fa-comments ruckus-orange h3"></i></div>
+                                <div class="large-8 columns line-height-h3 text-left">Interacted with brands</div>
+                                <div class="large-2 columns line-height-h3 text-left"><span>52%</span></div>
                             </div>
                             <div class="row ruckus-white collapse padding-top-10">
-                                <div class="large-2 columns"><i class="fa fa-comment ruckus-orange"></i></div>
-                                <div class="large-8 columns">Provided comments about experience</div>
-                                <div class="large-2 columns"><span>55%</span></div>
+                                <div class="large-2 columns"><i class="fa fa-comment ruckus-orange h3"></i></div>
+                                <div class="large-8 columns line-height-h3 text-left">Shared their experience</div>
+                                <div class="large-2 columns line-height-h3 text-left"><span>55%</span></div>
                             </div>
                             <div class="row ruckus-white collapse padding-top-10">
-                                <div class="large-2 columns"><i class="fa fa-eye ruckus-orange"></i></div>
-                                <div class="large-8 columns">Discovered brands</div>
-                                <div class="large-2 columns"><span>58%</span></div>
+                                <div class="large-2 columns"><i class="fa fa-eye ruckus-orange h3"></i></div>
+                                <div class="large-8 columns line-height-h3 text-left">Discovered brands</div>
+                                <div class="large-2 columns line-height-h3 text-left"><span>58%</span></div>
                             </div>
                             <div class="row ruckus-white collapse padding-top-10">
-                                <div class="large-2 columns"><i class="fa fa-search ruckus-orange"></i></div>
-                                <div class="large-8 columns">Research a brand</div>
-                                <div class="large-2 columns"><span>59%</span></div>
+                                <div class="large-2 columns"><i class="fa fa-search ruckus-orange h3"></i></div>
+                                <div class="large-8 columns line-height-h3 text-left">Research a brand</div>
+                                <div class="large-2 columns line-height-h3 text-left"><span>59%</span></div>
                             </div>
                             <div class="row ruckus-white collapse padding-top-10">
-                                <div class="large-2 columns"><i class="fa fa-shopping-cart ruckus-orange"></i></div>
-                                <div class="large-8 columns">Bought products</div>
-                                <div class="large-2 columns"><span>48%</span></div>
+                                <div class="large-2 columns"><i class="fa fa-shopping-cart ruckus-orange h3"></i></div>
+                                <div class="large-8 columns line-height-h3 text-left">Bought products</div>
+                                <div class="large-2 columns line-height-h3 text-left"><span>48%</span></div>
                             </div>
                         </div>
                     </div>
@@ -572,7 +646,7 @@
             <div class="row" data-equalizer>
                 <!-- Social shopping stats -->
                 <div class="large-4 columns ruckus-background-black opacity-75 " data-equalizer-watch>
-                    <figure class="padding-50"><img class="lazy-load" data-original="images/guide/icons-01.png">
+                    <figure class="padding-50"><img class="lazy-load" data-original="images/guide/icons-03.png">
                         <figcaption>
                             <span class="ruckus-orange h4">Full of 'next' appeal</span>
                             <br>
@@ -593,7 +667,7 @@
                 </div>
                 <div class="large-4 columns ruckus-background-black opacity-75 " data-equalizer-watch>
                     <figure class="padding-50">
-                        <img class="lazy-load" data-original="images/guide/icons-13.png">
+                        <img class="lazy-load" data-original="images/guide/icons-36.png">
                         <figcaption>
                             <span class="ruckus-orange h4">Data pays in many ways</span>
                             <br>
@@ -605,76 +679,7 @@
         </div>
         <div class="ruckus-entry-3_background background-8 lazy-load" data-original="images/guide/guide-background-08.jpg" style="background-color: #ccc;"></div>
     </article>
-    <!--#8: Wi-Fi in retail -->
-    <article class="row full-screen" id="retail-wifi" data-magellan-destination="retail-wifi">
-        <div class="large-12 columns">
-            <div class="row ruckus-background-black opacity-75 ">
-                <div class="large-12 columns margin-bottom-20">
-                    <h2 class="ruckus-white text-left">Retail Wi-Fi</h2>
-                    <h3 class="ruckus-orange text-left">Don’t drop out</h3>
-                </div>
-            </div>
-            <div class="row ruckus-background-black opacity-75">
-                <!-- How people feel when there's no Wi-Fi in a business premises -->
-                <div class="large-6 columns">
-                    <figure>
-                        <figcaption class="ruckus-white text-left h5">Make sure your Wi-Fi is specified for your maximum traffic – if the connection is slow the user experience will come crashing down</figcaption>
-                        <img class="lazy-load" data-original="images/guide/icons-34.png">
-                    </figure>
-                </div>
-                <!-- Network stability and bandwidth -->
-                <div class="large-6 columns">
-                    <div class="ruckus-background-orange opacity-75 row">
-                        <div class="large-12 columns">
-                            <div class="padding-25">
-                                <h3 class="ruckus-white">Network stability and bandwidth.</h3>
-                                <p>Providing Wi-Fi is fine, but if the connection speed is slow, the user experience crashes and burns. Make sure to dimension the installation according to the maximum traffic.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <figure class="row wifi-retail-fact ruckus-background-black opacity-50">
-
-                        <span class="large-4 columns h1">
-                            <span class="table-center-container">
-                                <span class="table-center-cell ruckus-white">
-                                    79.5%
-                                </span>
-                            </span>
-                        </span>
-                        <span class="large-4 columns">
-                             <span class="table-center-container">
-                                <span class="table-center-cell text-left ruckus-white">
-                                    Of people say having free Wi-Fi can influence where they shop
-                                </span>
-                            </span>
-                        </span>
-                        <span class="large-4 columns"><img class="lazy-load left" data-original="images/guide/icons-17.png"></span>
-                        <span class="clear-both"></span>
-                    </figure>
-                    <figure class="ruckus-background-white opacity-75 row wifi-retail-fact">
-                        <span class="ruckus-orange h1 large-4 columns">
-                            <span class="table-center-container">
-                                <span class="table-center-cell">
-                                    48.1%
-                                </span>
-                            </span>
-                        </span>
-                        <span class="large-4 columns">
-                            <span class="table-center-container">
-                                <span class="table-center-cell text-left">
-                                    Of people enjoy the experience less when they cannot connect
-                                </span>
-                            </span>
-                        </span>
-                        <span class="large-4 columns">
-                            <img class="lazy-load" data-original="images/guide/icons-18.png"></span>
-                    </figure>
-                </div>
-            </div>
-        </div>
-        <div class="ruckus-entry-3_background background-9 lazy-load" data-original="images/guide/guide-background-09.jpg" style="background-color: #ccc;"></div>
-    </article>
-<!--    <footer>-->
+    <!--    <footer>-->
 <!--        <nav>-->
 <!--            <div data-magellan-expedition="fixed">-->
 <!--                <ul class="sub-nav no-bullet text-center">-->

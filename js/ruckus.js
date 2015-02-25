@@ -33,6 +33,7 @@
                 rootDir:            '192.168.33.10/ruckus/',
                 defaultPageTitle:   ' | Simply Better Wireless | Ruckus',
                 pageInfo:           [
+                                    '',
                                     'How large is your business?',
                                     'What do you need Wi-Fi for?',
                                     'Your contact details',
@@ -158,9 +159,18 @@
                         videos: [
                             {
                                 videoURL: 'http://player.vimeo.com/video/60122989'
+                            },
+                            {
+                                videoURL: 'http://player.vimeo.com/video/60122989'
                             }
                         ],
                         downloads:[
+                            {
+                                downloadName: 'default download title',
+                                downloadImage: 'http://placehold.it/320x170',
+                                downloadLink: '#'
+
+                            },
                             {
                                 downloadName: 'default download title',
                                 downloadImage: 'http://placehold.it/320x170',
@@ -256,9 +266,8 @@
             .buildNavigation()
             .setDeepLink()
             .onDeepLinkChange()
-            .onSlideDataChange();
-            //.writeToDB();
-            //.eventRefresh();
+            .onSlideDataChange()
+            .eventRefresh();
             //.buildResultsObject();
 //            .eventRefresh();
 
@@ -323,7 +332,7 @@
             self.goToAndPlay(self.View.currentFrame);
             self.sendAnalytics(self.View.currentFrame);
             self.isSlideValid();
-           // self.setPageTitle( self.Model.pageInfo[self.View.currentFrame]);
+            self.setPageTitle( self.Model.pageInfo[self.View.currentFrame-1]);
         });
         // returning self: enables functions chaining
         return self;
@@ -428,15 +437,6 @@
         return self;
     };
 
-    // Slide Conditions
-
-    EemjiiRuckus.prototype.slideConditions = function() {
-        var self = this;
-
-        return self;
-    };
-
-
     // Updating end result
     EemjiiRuckus.prototype.updateResult = function () {
         console.log('updating result');
@@ -472,32 +472,30 @@
         var self = this;
 
         self.Model.$appContainer.on('refresh', function(event, inputType){
+            self.scale()
 
-            self.Model.lastUsedInputType = inputType;
-
-
-
-            switch ( inputType || self.Model.lastUsedInputType ) {
-                case 'toggle' || 'form-input':
-                    //self.updateResult();
-                    //self.updateCookie();
-                    //self.sendAnalytics();
-                    break;
-                case 'playback':
-                    //self.updateResult();
-                    //self.setBackground();
-                    //self.updateCookie();
-                    //self.sendAnalytics();
-                    //self.updateURL();
-                    //self.readURL();
-                    //self.goToAndPlay();
-                    //self.goToAndPlay(self.View.currentFrame);
-                    //self.sendAnalytics(self.View.currentFrame);
-                    //self.setPageTitle( self.Model.pageInfo[self.View.currentFrame]);
-                    break;
-                default:
-                    break;
-            }
+                .setBackground()
+                .setBackgroundDimensions()
+                .buildTimeLineSlide()
+                .goToAndPlay(self.View.currentFrame);
+            //switch ( inputType || self.Model.lastUsedInputType ) {
+            //    case 'toggle' || 'form-input':
+            //        //self.updateResult();
+            //        //self.updateCookie();
+            //        //self.sendAnalytics();
+            //        break;
+            //    case 'playback':
+            //        self.scale()
+            //
+            //            .setBackground()
+            //            .setBackgroundDimensions()
+            //            .buildTimeLineSlide()
+            //            .goToAndPlay(self.View.currentFrame);
+            //        break;
+            //    default:
+            //        break;
+            //}
+            //self.Model.lastUsedInputType = inputType;
         });
 
         // returning self: enables functions chaining
@@ -587,9 +585,7 @@
         var self = this;
 
         self.View.$stage.on('resize',function(){
-            self.scale()
-                .buildTimeLineSlide()
-                .Model.$appContainer.trigger('refresh');
+            self.Model.$appContainer.trigger('refresh');
         });
 
         // returning self: enables functions chaining

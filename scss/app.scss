@@ -1,40 +1,40 @@
-@import "variables.scss";
+@import "variables";
 @import "settings";
 @import "foundation";
 @import "../font-awesome-4.3.0/scss/font-awesome.scss";
-@import "functions.scss";
+@import "functions";
 
-@import "structure.scss";
-@import "valign-middle.scss";
-@import "headings.scss";
-@import "typography.scss";
-@import "header.scss";
-@import "social-nav.scss";
-@import "slide.scss";
-@import "buttons.scss";
-@import "forms.scss";
-@import "background-images.scss";
-@import "colours.scss";
-@import "zurb-grid-extension.scss";
-@import "media.scss";
-@import "guide-background.scss";
-@import "navigation.scss";
-@import "loading.scss";
+@import "structure";
+@import "valign-middle";
+@import "headings";
+@import "typography";
+@import "header";
+@import "social-nav";
+@import "slide";
+@import "buttons";
+@import "forms";
+@import "background-images";
+@import "colours";
+@import "zurb-grid-extension";
+@import "media";
+@import "guide-background";
+@import "navigation";
+@import "loading";
 
 // Page specific styles
-@import "template-mobile-momentum.scss";
-@import "template-mobile-payment.scss";
-@import "template-pos-technology.scss";
-@import "template-omnichannel.scss";
-@import "template-loyalty-learning.scss";
-@import "template-social-shopping.scss";
-@import "template-big-data.scss";
-@import "template-wifi-in-retail.scss";
-@import "hamburgler.scss";
-@import "ruckus-guide-button.scss";
+@import "template-mobile-momentum";
+@import "template-mobile-payment";
+@import "template-pos-technology";
+@import "template-omnichannel";
+@import "template-loyalty-learning";
+@import "template-social-shopping";
+@import "template-big-data";
+@import "template-wifi-in-retail";
+@import "hamburgler";
+@import "ruckus-guide-button";
 
 // development sassy sheets
-@import "development.scss";
+@import "development";
 // Or selectively include components
 // @import
 //   "foundation/components/accordion",
