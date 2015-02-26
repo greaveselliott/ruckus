@@ -6233,7 +6233,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 
 /* line 269, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h1 {
-  font-size: 2.125rem; }
+  font-size: 4.125rem; }
 
 /* line 270, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h2 {
@@ -6433,7 +6433,7 @@ blockquote, blockquote p {
 
   /* line 456, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h1 {
-    font-size: 2.75rem; }
+    font-size: 4.75rem; }
 
   /* line 457, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h2 {
@@ -9821,80 +9821,85 @@ th.hide-for-touch {
 @media only screen and (max-width: 40em) {
   /* line 97, ../scss/_structure.scss */
   .no-padding-small {
+    padding: 0px !important;
     padding: 0px !important; } }
 
-/* line 103, ../scss/_structure.scss */
+/* line 104, ../scss/_structure.scss */
 .padding-top-10 {
   padding-top: 10px; }
 
-/* line 106, ../scss/_structure.scss */
+/* line 107, ../scss/_structure.scss */
 .padding-10 {
   padding: 10px; }
 
+/* line 110, ../scss/_structure.scss */
+.padding-right-20 {
+  padding-right: 20px; }
+
 @media only screen and (min-width: 40.063em) {
-  /* line 109, ../scss/_structure.scss */
+  /* line 113, ../scss/_structure.scss */
   .padding-left-0-medium-up {
     padding-left: 0px !important; } }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 114, ../scss/_structure.scss */
+  /* line 118, ../scss/_structure.scss */
   .padding-right-0-medium-up {
     padding-right: 0px !important; } }
 
-/* line 119, ../scss/_structure.scss */
+/* line 123, ../scss/_structure.scss */
 .padding-15-25 {
   padding: 15px 25px; }
 
-/* line 122, ../scss/_structure.scss */
+/* line 126, ../scss/_structure.scss */
 .padding-25 {
   padding: 25px; }
 
-/* line 125, ../scss/_structure.scss */
+/* line 129, ../scss/_structure.scss */
 .padding-50 {
   padding: 50px; }
 
-/* line 128, ../scss/_structure.scss */
+/* line 132, ../scss/_structure.scss */
 .height-100 {
   height: 100% !important; }
 
-/* line 131, ../scss/_structure.scss */
+/* line 135, ../scss/_structure.scss */
 .margin-center, .nav-wrapper {
   margin: 0 auto; }
 
 @media only screen and (max-width: 40em) {
-  /* line 132, ../scss/_structure.scss */
+  /* line 136, ../scss/_structure.scss */
   .margin-center-small {
     margin: 0 auto; } }
 
-/* line 134, ../scss/_structure.scss */
+/* line 138, ../scss/_structure.scss */
 .margin-top-20 {
   margin-top: 20px; }
 
-/* line 135, ../scss/_structure.scss */
+/* line 139, ../scss/_structure.scss */
 .margin-bottom-20 {
   margin-bottom: 20px; }
 
-/* line 136, ../scss/_structure.scss */
+/* line 140, ../scss/_structure.scss */
 .margin-left-20 {
   margin-left: 20px; }
 
-/* line 137, ../scss/_structure.scss */
+/* line 141, ../scss/_structure.scss */
 .margin-right-20 {
   margin-right: 20px; }
 
-/* line 139, ../scss/_structure.scss */
+/* line 143, ../scss/_structure.scss */
 .fake-column-33, .fake-column-50, .fake-column-66 {
   display: inline-block; }
 
-/* line 140, ../scss/_structure.scss */
+/* line 144, ../scss/_structure.scss */
 .fake-column-33 {
   width: 33%; }
 
-/* line 141, ../scss/_structure.scss */
+/* line 145, ../scss/_structure.scss */
 .fake-column-50 {
   width: 50%; }
 
-/* line 142, ../scss/_structure.scss */
+/* line 146, ../scss/_structure.scss */
 .fake-column-66 {
   width: 66%; }
 
@@ -9911,58 +9916,70 @@ th.hide-for-touch {
   float: none; }
 
 /* line 1, ../scss/_typography.scss */
-.h1 {
-  font-size: 2.75rem !important; }
+.h0 {
+  font-size: 4.75rem !important; }
 
-/* line 5, ../scss/_typography.scss */
+/* line 4, ../scss/_typography.scss */
+.h1 {
+  font-size: 4.75rem !important; }
+
+/* line 8, ../scss/_typography.scss */
 .h2, #social-shopping-stats ul li i.fa, #social-shopping-stats ul li span {
   font-size: 3.25rem !important; }
 
-/* line 9, ../scss/_typography.scss */
+/* line 12, ../scss/_typography.scss */
 .h3 {
   font-size: 2.3125rem !important; }
 
-/* line 13, ../scss/_typography.scss */
+/* line 16, ../scss/_typography.scss */
 .h4 {
   font-size: 1.4375rem !important; }
 
-/* line 17, ../scss/_typography.scss */
+/* line 20, ../scss/_typography.scss */
+.h4_5 {
+  font-size: 1.3125rem !important; }
+
+/* line 24, ../scss/_typography.scss */
 .h5 {
   font-size: 1.125rem !important; }
 
-/* line 21, ../scss/_typography.scss */
+/* line 28, ../scss/_typography.scss */
 .h6 {
   font-size: 1rem !important; }
 
-/* line 25, ../scss/_typography.scss */
+/* line 32, ../scss/_typography.scss */
 .line-height-h1 {
-  line-height: 2.75rem !important; }
+  line-height: 5.625rem !important; }
 
-/* line 26, ../scss/_typography.scss */
+/* line 33, ../scss/_typography.scss */
+.line-height-h1 {
+  line-height: 4.75rem !important; }
+
+/* line 34, ../scss/_typography.scss */
 .line-height-h2 {
   line-height: 3.25rem !important; }
 
-/* line 27, ../scss/_typography.scss */
+/* line 35, ../scss/_typography.scss */
 .line-height-h3 {
   line-height: 2.3125rem !important; }
 
-/* line 28, ../scss/_typography.scss */
+/* line 36, ../scss/_typography.scss */
 .line-height-h4 {
   line-height: 1.4375rem !important; }
 
-/* line 29, ../scss/_typography.scss */
+/* line 37, ../scss/_typography.scss */
 .line-height-h5 {
   line-height: 1.125rem !important; }
 
-/* line 30, ../scss/_typography.scss */
+/* line 38, ../scss/_typography.scss */
 .line-height-h6 {
   line-height: 1rem !important; }
 
-/* line 32, ../scss/_typography.scss */
+/* line 40, ../scss/_typography.scss */
 .text-bold {
   font-weight: bold !important; }
 
-/* line 36, ../scss/_typography.scss */
+/* line 44, ../scss/_typography.scss */
 .font-scale-x2 {
   font-size: 2em !important; }
 
@@ -10126,7 +10143,7 @@ th.hide-for-touch {
 
 /* line 1, ../scss/_background-images.scss */
 body {
-  background-color: transparent !important; }
+  background-color: black !important; }
 
 /* line 5, ../scss/_background-images.scss */
 .tile {
@@ -10495,12 +10512,12 @@ figure {
 /* line 17, ../scss/_media.scss */
 .mobile-with-text figcaption {
   position: absolute;
-  top: 80px;
+  top: 50px;
   left: 15%;
   width: 70%; }
 
 /* line 1, ../scss/_guide-background.scss */
-body#entry-three {
+body#entry-3 {
   background-color: #000; }
 
 /* line 4, ../scss/_guide-background.scss */

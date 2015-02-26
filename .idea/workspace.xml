@@ -2,80 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="195a1756-a828-4484-ba93-284ef59836fb" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/background-images.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/buttons.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/colours.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/development.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/forms.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/functions.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/guide-background.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/hamburgler.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/header.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/headings.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/loading.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/media.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/navigation.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/ruckus-guide-button.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/slide.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/social-nav.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/structure.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/template-big-data.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/template-loyalty-learning.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/template-mobile-momentum.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/template-mobile-payment.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/template-omnichannel.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/template-pos-technology.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/template-social-shopping.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/template-wifi-in-retail.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/typography.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/valign-middle.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/variables.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/zurb-grid-extension.css" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scss/background-images.scss" afterPath="$PROJECT_DIR$/scss/_background-images.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scss/buttons.scss" afterPath="$PROJECT_DIR$/scss/_buttons.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scss/colours.scss" afterPath="$PROJECT_DIR$/scss/_colours.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scss/development.scss" afterPath="$PROJECT_DIR$/scss/_development.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scss/forms.scss" afterPath="$PROJECT_DIR$/scss/_forms.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scss/functions.scss" afterPath="$PROJECT_DIR$/scss/_functions.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scss/guide-background.scss" afterPath="$PROJECT_DIR$/scss/_guide-background.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scss/hamburgler.scss" afterPath="$PROJECT_DIR$/scss/_hamburgler.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scss/header.scss" afterPath="$PROJECT_DIR$/scss/_header.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scss/headings.scss" afterPath="$PROJECT_DIR$/scss/_headings.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scss/loading.scss" afterPath="$PROJECT_DIR$/scss/_loading.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scss/media.scss" afterPath="$PROJECT_DIR$/scss/_media.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scss/navigation.scss" afterPath="$PROJECT_DIR$/scss/_navigation.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scss/ruckus-guide-button.scss" afterPath="$PROJECT_DIR$/scss/_ruckus-guide-button.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scss/slide.scss" afterPath="$PROJECT_DIR$/scss/_slide.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scss/social-nav.scss" afterPath="$PROJECT_DIR$/scss/_social-nav.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scss/structure.scss" afterPath="$PROJECT_DIR$/scss/_structure.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scss/template-big-data.scss" afterPath="$PROJECT_DIR$/scss/_template-big-data.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scss/template-loyalty-learning.scss" afterPath="$PROJECT_DIR$/scss/_template-loyalty-learning.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scss/template-mobile-momentum.scss" afterPath="$PROJECT_DIR$/scss/_template-mobile-momentum.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scss/template-mobile-payment.scss" afterPath="$PROJECT_DIR$/scss/_template-mobile-payment.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scss/template-omnichannel.scss" afterPath="$PROJECT_DIR$/scss/_template-omnichannel.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scss/template-pos-technology.scss" afterPath="$PROJECT_DIR$/scss/_template-pos-technology.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scss/template-social-shopping.scss" afterPath="$PROJECT_DIR$/scss/_template-social-shopping.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scss/template-wifi-in-retail.scss" afterPath="$PROJECT_DIR$/scss/_template-wifi-in-retail.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scss/typography.scss" afterPath="$PROJECT_DIR$/scss/_typography.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scss/valign-middle.scss" afterPath="$PROJECT_DIR$/scss/_valign-middle.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scss/variables.scss" afterPath="$PROJECT_DIR$/scss/_variables.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scss/zurb-grid-extension.scss" afterPath="$PROJECT_DIR$/scss/_zurb-grid-extension.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/guide/Icons-30.png" afterPath="$PROJECT_DIR$/images/guide/Icons-30.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/a66a65ed29a7a1151de94f64f18befc374855e5d/_split-buttons.scssc" afterPath="$PROJECT_DIR$/.sass-cache/a66a65ed29a7a1151de94f64f18befc374855e5d/_split-buttons.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/app.scssc" afterPath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/app.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/isInViewport.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/_background-images.scssc" afterPath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/_background-images.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/_guide-background.scssc" afterPath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/_guide-background.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/_media.scssc" afterPath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/_media.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/_settings.scssc" afterPath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/_settings.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/_structure.scssc" afterPath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/_structure.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/_typography.scssc" afterPath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/_typography.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery-template" afterPath="$PROJECT_DIR$/jquery-template" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery_lazyload" afterPath="$PROJECT_DIR$/jquery_lazyload" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Happy.js" afterPath="$PROJECT_DIR$/Happy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_split-buttons.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_split-buttons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_background-images.scss" afterPath="$PROJECT_DIR$/scss/_background-images.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_guide-background.scss" afterPath="$PROJECT_DIR$/scss/_guide-background.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_media.scss" afterPath="$PROJECT_DIR$/scss/_media.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_settings.scss" afterPath="$PROJECT_DIR$/scss/_settings.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_structure.scss" afterPath="$PROJECT_DIR$/scss/_structure.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_typography.scss" afterPath="$PROJECT_DIR$/scss/_typography.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/app.css" afterPath="$PROJECT_DIR$/stylesheets/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/app.scss" afterPath="$PROJECT_DIR$/scss/app.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entry-three.php" afterPath="$PROJECT_DIR$/entry-three.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer-entry-3.php" afterPath="$PROJECT_DIR$/footer-entry-3.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/css/foundation.css.map" afterPath="$PROJECT_DIR$/bower_components/foundation/css/foundation.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/ruckus.js" afterPath="$PROJECT_DIR$/js/ruckus.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ruckus.iws" />
@@ -101,34 +46,107 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="entry-three.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/entry-three.php">
+      <file leaf-file-name="ruckus.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/ruckus.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="27.232143" vertical-offset="4175" max-vertical-offset="23175">
-              <caret line="112" column="38" selection-start-line="112" selection-start-column="38" selection-end-line="112" selection-end-column="38" />
+            <state vertical-scroll-proportion="33.615383" vertical-offset="16374" max-vertical-offset="25225">
+              <caret line="620" column="49" selection-start-line="620" selection-start-column="38" selection-end-line="620" selection-end-column="49" />
               <folding>
-                <element signature="e#3181#3212#0#HTML" expanded="true" />
-                <element signature="e#22966#22997#0#HTML" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer-entry-3.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/footer-entry-3.php">
+      <file leaf-file-name="entry-three.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/entry-three.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.41989663" vertical-offset="0" max-vertical-offset="774">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="54" />
+            <state vertical-scroll-proportion="19.89319" vertical-offset="0" max-vertical-offset="16125">
+              <caret line="596" column="47" selection-start-line="596" selection-start-column="47" selection-end-line="596" selection-end-column="47" />
+              <folding>
+                <element signature="e#10#216#0#PHP" expanded="true" />
+                <element signature="e#1426#1457#0#HTML" expanded="true" />
+                <element signature="e#5505#5536#0#HTML" expanded="true" />
+                <element signature="e#9745#9781#0#HTML" expanded="true" />
+                <element signature="e#11007#11038#0#HTML" expanded="true" />
+                <element signature="e#14887#14918#0#HTML" expanded="true" />
+                <element signature="e#18292#18323#0#HTML" expanded="true" />
+                <element signature="e#23971#24002#0#HTML" expanded="true" />
+                <element signature="e#27075#27106#0#HTML" expanded="true" />
+                <element signature="e#32968#32999#0#HTML" expanded="true" />
+                <element signature="e#36003#36034#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_guide-background.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/_guide-background.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.166667" vertical-offset="0" max-vertical-offset="1050">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pas.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pas.html">
+      <file leaf-file-name="_template-mobile-momentum.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/_template-mobile-momentum.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="725">
-              <caret line="0" column="1470" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="525">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fullscreen.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/fullscreen.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="350">
+              <caret line="3" column="38" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="isInViewport.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/isInViewport.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1496" max-vertical-offset="3875">
+              <caret line="77" column="38" selection-start-line="77" selection-start-column="38" selection-end-line="77" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_background-images.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/_background-images.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.4" vertical-offset="988" max-vertical-offset="1475">
+              <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer-entry-3.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/footer-entry-3.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.133333" vertical-offset="176" max-vertical-offset="925">
+              <caret line="18" column="98" selection-start-line="18" selection-start-column="98" selection-end-line="18" selection-end-column="98" />
+              <folding>
+                <element signature="e#6#204#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fullscreen.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/fullscreen.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="96" max-vertical-offset="2575">
+              <caret line="84" column="31" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -147,17 +165,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config.rb" />
-        <option value="$PROJECT_DIR$/scss/template-loyalty-learning.scss" />
-        <option value="$PROJECT_DIR$/scss/media.scss" />
-        <option value="$PROJECT_DIR$/scss/template-social-shopping.scss" />
-        <option value="$PROJECT_DIR$/test.js" />
-        <option value="$PROJECT_DIR$/scss/template-wifi-in-retail.scss" />
-        <option value="$PROJECT_DIR$/scss/template-omnichannel.scss" />
         <option value="$PROJECT_DIR$/js/layout.entry-three.js" />
         <option value="$PROJECT_DIR$/scss/zurb-grid-extension.scss" />
         <option value="$PROJECT_DIR$/paste.php" />
-        <option value="$PROJECT_DIR$/scss/_settings.scss" />
         <option value="$PROJECT_DIR$/scss/typography.scss" />
         <option value="$PROJECT_DIR$/scss/colours.scss" />
         <option value="$PROJECT_DIR$/js/jquery.lazyload.min.js" />
@@ -168,7 +178,6 @@
         <option value="$PROJECT_DIR$/scss/ruckus-guide-button.scss" />
         <option value="$PROJECT_DIR$/js/foundation.magellan.js" />
         <option value="$PROJECT_DIR$/js/fullscreen.js" />
-        <option value="$PROJECT_DIR$/js/fullscreen.config.js" />
         <option value="$PROJECT_DIR$/scss/buttons.scss" />
         <option value="$PROJECT_DIR$/scss/slide.scss" />
         <option value="$PROJECT_DIR$/scss/structure.scss" />
@@ -194,10 +203,19 @@
         <option value="$PROJECT_DIR$/js/ruckus.config.js" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/footer-entry-3.php" />
         <option value="$PROJECT_DIR$/footer.php" />
-        <option value="$PROJECT_DIR$/entry-three.php" />
         <option value="$PROJECT_DIR$/js/ruckus.js" />
+        <option value="$PROJECT_DIR$/isInViewport/lib/isInViewport.config.js" />
+        <option value="$PROJECT_DIR$/scss/_media.scss" />
+        <option value="$PROJECT_DIR$/scss/_typography.scss" />
+        <option value="$PROJECT_DIR$/scss/_settings.scss" />
+        <option value="$PROJECT_DIR$/scss/_structure.scss" />
+        <option value="$PROJECT_DIR$/js/fullscreen.config.js" />
+        <option value="$PROJECT_DIR$/scss/_guide-background.scss" />
+        <option value="$PROJECT_DIR$/footer-entry-3.php" />
+        <option value="$PROJECT_DIR$/scss/_background-images.scss" />
+        <option value="$PROJECT_DIR$/js/isInViewport.config.js" />
+        <option value="$PROJECT_DIR$/entry-three.php" />
       </list>
     </option>
   </component>
@@ -251,6 +269,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ruckus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ruckus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -266,8 +298,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/isInViewport/lib" />
       <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
     </key>
   </component>
   <component name="RunManager">
@@ -336,13 +372,13 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31610578" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31566265" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26037195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26037195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -395,40 +431,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scss/_template-loyalty-learning.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="772">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="2" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="11.055777" vertical-offset="700" max-vertical-offset="10275">
-          <caret line="361" column="32" selection-start-line="361" selection-start-column="21" selection-end-line="361" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.bowerrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09715026" vertical-offset="0" max-vertical-offset="772">
-          <caret line="3" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_template-social-shopping.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="550">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/_template-omnichannel.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="200" max-vertical-offset="350">
@@ -451,21 +458,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_settings.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="26.633333" vertical-offset="31774" max-vertical-offset="36825">
-          <caret line="1239" column="34" selection-start-line="1239" selection-start-column="34" selection-end-line="1239" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_typography.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.866667" vertical-offset="249" max-vertical-offset="1075">
-          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/_template-wifi-in-retail.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="350">
@@ -482,34 +474,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_background-images.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2663116" vertical-offset="0" max-vertical-offset="1375">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery.lazyload.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35211268" vertical-offset="2175" max-vertical-offset="6525">
           <caret line="98" column="44" selection-start-line="98" selection-start-column="44" selection-end-line="98" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_template-mobile-momentum.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12919897" vertical-offset="0" max-vertical-offset="774">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_ruckus-guide-button.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="751">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -527,40 +495,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/fullscreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="625" max-vertical-offset="2700">
-          <caret line="48" column="41" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/fullscreen.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="779">
-          <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_guide-background.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48445597" vertical-offset="276" max-vertical-offset="1050">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/foundation.magellan.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.9304123" vertical-offset="3824" max-vertical-offset="5250">
           <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_structure.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.733334" vertical-offset="1998" max-vertical-offset="3700">
-          <caret line="94" column="23" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -711,38 +649,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="87.46667" vertical-offset="15474" max-vertical-offset="16425">
-          <caret line="514" column="18" selection-start-line="514" selection-start-column="18" selection-end-line="516" selection-end-column="24" />
-          <folding>
-            <element signature="e#10#210#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/ruckus.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1275">
           <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/ruckus.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28482586" vertical-offset="646" max-vertical-offset="25225">
-          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48449612" vertical-offset="0" max-vertical-offset="774">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="4" selection-end-line="20" selection-end-column="53" />
           <folding />
         </state>
       </provider>
@@ -785,22 +695,175 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/entry-three.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="27.232143" vertical-offset="4175" max-vertical-offset="23175">
-          <caret line="112" column="38" selection-start-line="112" selection-start-column="38" selection-end-line="112" selection-end-column="38" />
+        <state vertical-scroll-proportion="2.2622738" vertical-offset="13974" max-vertical-offset="16425">
+          <caret line="514" column="18" selection-start-line="514" selection-start-column="18" selection-end-line="516" selection-end-column="24" />
           <folding>
-            <element signature="e#3181#3212#0#HTML" expanded="true" />
-            <element signature="e#22966#22997#0#HTML" expanded="true" />
+            <element signature="e#10#210#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36617842" vertical-offset="0" max-vertical-offset="751">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/waypoints/lib/noframework.waypoints.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49875313" vertical-offset="850" max-vertical-offset="18700">
+          <caret line="50" column="3" selection-start-line="50" selection-start-column="3" selection-end-line="50" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_headings.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_media.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="700">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_settings.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.066667" vertical-offset="5008" max-vertical-offset="36950">
+          <caret line="210" column="28" selection-start-line="210" selection-start-column="28" selection-end-line="210" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_typography.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.8333333" vertical-offset="0" max-vertical-offset="1275">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_template-mobile-momentum.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="525">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.7304236" vertical-offset="302723" max-vertical-offset="319275">
+          <caret line="10021" column="14" selection-start-line="10021" selection-start-column="14" selection-end-line="10021" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_structure.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2016021" vertical-offset="0" max-vertical-offset="3800">
+          <caret line="36" column="12" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_ruckus-guide-button.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="751">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_background-images.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.4" vertical-offset="988" max-vertical-offset="1475">
+          <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/footer-entry-3.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41989663" vertical-offset="0" max-vertical-offset="774">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="54" />
+        <state vertical-scroll-proportion="-9.133333" vertical-offset="176" max-vertical-offset="925">
+          <caret line="18" column="98" selection-start-line="18" selection-start-column="98" selection-end-line="18" selection-end-column="98" />
+          <folding>
+            <element signature="e#6#204#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/fullscreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="96" max-vertical-offset="2575">
+          <caret line="84" column="31" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/fullscreen.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="350">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_guide-background.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.166667" vertical-offset="0" max-vertical-offset="1275">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/isInViewport.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1496" max-vertical-offset="3875">
+          <caret line="77" column="38" selection-start-line="77" selection-start-column="38" selection-end-line="77" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ruckus.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="33.615383" vertical-offset="16374" max-vertical-offset="25225">
+          <caret line="620" column="49" selection-start-line="620" selection-start-column="38" selection-end-line="620" selection-end-column="49" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entry-three.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="19.89319" vertical-offset="0" max-vertical-offset="16125">
+          <caret line="596" column="47" selection-start-line="596" selection-start-column="47" selection-end-line="596" selection-end-column="47" />
+          <folding>
+            <element signature="e#10#216#0#PHP" expanded="true" />
+            <element signature="e#1426#1457#0#HTML" expanded="true" />
+            <element signature="e#5505#5536#0#HTML" expanded="true" />
+            <element signature="e#9745#9781#0#HTML" expanded="true" />
+            <element signature="e#11007#11038#0#HTML" expanded="true" />
+            <element signature="e#14887#14918#0#HTML" expanded="true" />
+            <element signature="e#18292#18323#0#HTML" expanded="true" />
+            <element signature="e#23971#24002#0#HTML" expanded="true" />
+            <element signature="e#27075#27106#0#HTML" expanded="true" />
+            <element signature="e#32968#32999#0#HTML" expanded="true" />
+            <element signature="e#36003#36034#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
