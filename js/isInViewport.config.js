@@ -48,9 +48,7 @@
 
         self.window     = window;
         self.$window    = $(self.window);
-        self.target     = self.options.target;
-        self.$target     =  $(self.target);
-
+        self.currentCTA = 'Default CTA text';
         self.init();
     }
 
@@ -61,8 +59,9 @@
         // and this.options
         var self = this;
 
-        self.wayPoints();
-        self.timelineHubLink();
+        self.wayPoints()
+            .timelineHubLink()
+            .updateCtaText();
     };
 
     ActivePage.prototype.timelineHubLink = function () {
@@ -70,21 +69,46 @@
         var $hubLink = $(self.options.cta_button);
 
         var timelineHubLink = new TimelineMax({yoyo: true, paused: true, repeat: 1, onComplete: console.log('Hublink animation complete')});
-
-
-        timelineHubLink.to($hubLink, 0.4, { rotation: 5 ,scaleX: 1.2, scaleY: 1.2, ease: Power4.easeOut, y: 0 });
+        timelineHubLink.to($hubLink, 0.5, { rotation: 5 ,scaleX: 1.2, scaleY: 1.2, ease: Back.easeInOut.config(1.7), y: 0 });
 
         $(document).on('cta_pulse',function(){
             timelineHubLink.restart();
         });
 
+        console.log(self);
+
         return self;
     };
 
-    ActivePage.prototype.alertHubLink = function () {
+    ActivePage.prototype.updateCtaText = function () {
         var self = this;
 
-        $(document).trigger('cta_pulse');
+        $(document).on('cta_pulse', function () {
+           $('#CTA-text').text(self.currentCTA);
+        });
+
+        return self;
+    };
+
+    ActivePage.prototype.setCurrentCTA = function ($element) {
+        var self = this;
+
+        //console.log($element.data('cta'));
+
+        self.currentCTA = $element.data('cta');
+
+        return self;
+    };
+
+    ActivePage.prototype.getCurrentCTA = function () {
+        return this.currentCTA;
+    };
+
+    ActivePage.prototype.alertHubLink = function ($element) {
+        var self = this;
+        console.log('alertHubLink(); sees element as ', $element);
+        $(document).trigger('cta_pulse',[$element]);
+
 
         return self;
     };
@@ -93,7 +117,7 @@
         var self                = this;
         var classname   = self.options.wayPoints;
         var $elements           = $('.' + classname);
-        var $window = window; // some reason window is appearing undefined here. Added this $window variable as a hotfix.
+        //var $window = window; // some reason window is appearing undefined here. Added this $window variable as a hotfix.
         $elements.each(function(key, value) {
             new Waypoint({
                 element: this,
@@ -107,7 +131,10 @@
 
                     // set current element
                     $element.addClass('np-current').css({opacity: 1});
-                    self.alertHubLink();
+                    self.getCurrentCTA($element);
+                    self.setCurrentCTA($element);
+                    self.alertHubLink($element);
+
                     // set previous element
                     if (previousWaypoint) {
                         $(previousWaypoint.element).addClass('np-previous');
@@ -117,12 +144,11 @@
                         $(nextWaypoint.element).addClass('np-next');
                     }
                     // alert hub
-
-
                 },
-                offset: function(){
-                    return -(this.element.clientHeight - $(this.element).height())/2;
-                },
+                //offset: function(){
+                //    return (this.element.clientHeight - $(this.element).height());
+                //},
+                offset: key == 0 ? 0 :'20%',
                 group: classname
             })
         });

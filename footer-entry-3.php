@@ -16,7 +16,7 @@
 <script src="js/foundation.equalizer.js"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.15.1/TweenLite.min.js"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.15.1/TimelineMax.min.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.15.1/plugins/CSSPlugin.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.15.1/easing/EasePack.min.js"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.15.1/plugins/CSSPlugin.min.js"></script>
 <script src="jquery_lazyload/jquery.lazyload.js"></script>
 <script src="js/jquery.lazyload.config.js"></script>

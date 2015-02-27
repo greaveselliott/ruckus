@@ -30,7 +30,7 @@
         <div class="ruckus-entry-3_background background-1 lazy-load" data-original="images/guide/guide-background-00.jpg" style="background-color: #000;"></div>
     </section>
 <!--#0: Wi-Fi in retail -->
-<article class="row full-screen ruckus-tile" id="retail-wifi" data-magellan-destination="retail-wifi">
+<article class="row full-screen ruckus-tile" id="retail-wifi" data-cta="Get the right Wi-Fi – Specify your wireless needs">
     <div class="large-12 columns">
         <div class="row ruckus-background-black opacity-75 ">
             <div class="large-12 columns margin-bottom-20 ruckus-background-black">
@@ -99,7 +99,7 @@
 </article>
 
     <!--#1: Mobile Momentum -->
-    <article class="row full-screen ruckus-tile" id="mobile-momentum" data-magellan-destination="mobile-momentum"><!-- fullscreen background? -->
+    <article class="row full-screen ruckus-tile" id="mobile-momentum" data-cta="Get the right wireless to keep moving"><!-- fullscreen background? -->
         <div class="large-12 columns">
             <div class="row ruckus-background-black">
 
@@ -188,7 +188,7 @@
         <div class="ruckus-entry-3_background background-1 lazy-load" data-original="images/guide/guide-background-01.jpg" style="background-color: #000;"></div>
         </article>
     <!--#2: Mobile Payment -->
-    <article class="row full-screen ruckus-tile" id="mobile-payment" data-magellan-destination="mobile-payment">
+    <article class="row full-screen ruckus-tile" id="mobile-payment" data-cta="Get the wireless that pays its way">
         <div class="large-12 columns">
         <div class="row ruckus-background-black opacity-75">
             <div class="large-12 columns ">
@@ -257,7 +257,7 @@
         <div class="ruckus-entry-3_background background-3 lazy-load" data-original="images/guide/guide-background-03.jpg" style="background-color: #000;"></div>
     </article>
     <!--#3: POS Technology -->
-    <article class="row full-screen ruckus-tile" id="pos-technology" data-magellan-destination="pos-technology">
+    <article class="row full-screen ruckus-tile" id="pos-technology" data-cta="Specify your PCI compliant wireless needs">
         <div class="large-12 columns">
         <div class="row ruckus-background-black opacity-75">
             <div class="large-12 columns ">
@@ -315,7 +315,7 @@
         <div class="ruckus-entry-3_background background-4 lazy-load" data-original="images/guide/guide-background-04.jpg" style="background-color: #000;"></div>
     </article>
     <!--#4: Omnichannel Omnipetence? -->
-    <article class="row full-screen ruckus-tile" id="omnichannel-omnipetence" data-magellan-destination="omnichannel-omnipetence">
+    <article class="row full-screen ruckus-tile" id="omnichannel-omnipetence" data-cta="Get seamless wireless here to serve your needs">
         <div class="large-12 columns ">
             <div class="row ruckus-background-black opacity-75">
                 <div class="large-12 columns">
@@ -337,7 +337,7 @@
                             </span>
                         </span>
                 </div>
-                <div class="large-2 columns ruckus-background-black opacity-75 " data-equalizer-watch>
+                <div class="large-2 columns ruckus-background-black opacity-75 padding-bottom-20" data-equalizer-watch>
                     <!-- Check prices -->
                     <figure class="circular-fact">
                         <img class="lazy-load" data-original="images/guide/icons-21.png">
@@ -408,7 +408,7 @@
             <div class="ruckus-entry-3_background background-5 lazy-load" data-original="images/guide/guide-background-05.jpg" style="background-color: #000;"></div>
     </article>
     <!--#5: Loyalty Learnings -->
-    <article class="row full-screen ruckus-background-black opacity-75 ruckus-tile" id="loyalty-learnings" data-magellan-destination="loyalty-learnings">
+    <article class="row full-screen ruckus-background-black opacity-75 ruckus-tile" id="loyalty-learnings" data-cta="Reward your customers with the best wireless">
         <div class="large-12 columns">
             <div class="row ">
                 <div class="large-12 columns">
@@ -455,7 +455,7 @@
         <div class="ruckus-entry-3_background background-6 lazy-load" data-original="images/guide/guide-background-06.jpg" style="background-color: #000;"></div>
     </article>
     <!--#6: Social Shopping -->
-    <article class="row full-screen ruckus-tile" id="social-shopping" data-magellan-destination="social-shopping">
+    <article class="row full-screen ruckus-tile" id="social-shopping" data-cta="Get the right wireless to engage with your customers">
         <div class="large-12 columns">
             <div class="row ruckus-background-black opacity-75 ">
                 <div class="large-12 columns">
@@ -537,7 +537,7 @@
             <div class="ruckus-entry-3_background background-7 lazy-load" data-original="images/guide/guide-background-07.jpg" style="background-color: #000;"></div>
     </article>
     <!--#7: Big Data -->
-    <article class="row full-screen ruckus-tile" id="big-data" data-magellan-destination="big-data">
+    <article class="row full-screen ruckus-tile" id="big-data" data-cta="Specify your wireless needs to make the most of Big Data">
         <div class="large-12 columns">
             <div class="row ruckus-background-black opacity-75 ">
                 <div class="large-12 columns">
@@ -584,24 +584,11 @@
         <div class="ruckus-entry-3_background background-8 lazy-load" data-original="images/guide/guide-background-08.jpg" style="background-color: #000;"></div>
     </article>
     <!--    <footer>-->
-<!--        <nav>-->
-<!--            <div data-magellan-expedition="fixed">-->
-<!--                <ul class="sub-nav no-bullet text-center">-->
-<!--                    <li data-magellan-arrival="mobile-momentum"><a href="#mobile-momentum">Mobile Momentum</a></li>-->
-<!--                    <li data-magellan-arrival="mobile-payment"><a href="#mobile-payment">Mobile Payment</a></li>-->
-<!--                    <li data-magellan-arrival="pos-technology"><a href="#pos-technology">POS Momentum</a></li>-->
-<!--                    <li data-magellan-arrival="omnichannel-omnipetence"><a href="#omnichannel-omnipetence">Omnichannel Omnipetence</a></li>-->
-<!--                    <li data-magellan-arrival="loyalty-learnings"><a href="#loyalty-learnings">Loyalty Learnings</a></li>-->
-<!--                    <li data-magellan-arrival="social-shopping"><a href="#social-shopping">Social Shopping</a></li>-->
-<!--                    <li data-magellan-arrival="big-data"><a href="#big-data">Big Data</a></li>-->
-<!--                    <li data-magellan-arrival="retail-wifi"><a href="#retail-wifi">Wi-Fi in Retail</a></li>-->
-<!--                </ul>-->
-<!--            </div>-->
-<!--        </nav>-->
 <!--    </footer>-->
     <div id="hub-link">
         <a href="#" class="padding-25 display-block">
-            <p class="h5 text-center">Select your own wireless needs</p>
+            <p id="CTA-text" class="h5 text-center">Select your own wireless needs</p>
+            <p class="button alt no-margin-bottom">GO</p>
         </a>
     </div>
 
