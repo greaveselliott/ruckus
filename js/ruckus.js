@@ -122,7 +122,7 @@
                         ],
                         article: [
                             {
-                                articleText: "<p>Even the smallest of stores need Wi-Fi today.  It may be simply to build a hotspot for customers in a coffee shop, but it may be for something more sophisticated such as processing credit card transactions away from the till, or being able to check what stock is available in the back room. Whatever you needs, you need Wi-Fi that works, isn’t difficult to set up, and most importantly, is safe and secure for the user.</p><p>Why is choosing the right Wi-Fi so important even for a small business? Because once you have it, you, and your customers, will come to rely on it even more in the future.</p><p>Simply Smarter Wireless allows you to move and grow from;</p><ul><li>secure credit transactions from wireless terminals, and</li><li>providing simple and secure customer hotspots, to</li><li>digital signage showing promotions</li><li>discrete video surveillance</li><li>stock checking without leaving the customer</li></ul><p>For the smaller store, often a single access point in the back office is enough to provide coverage from front of store to back, and support tens of users, but sometimes you need to cover a couple of floors and two or more access points are required. With the right Wi-Fi ,processing credit card transactions can easily be done in a PCI compliant way, and running more sophisticated things like shop video surveillance is easy</p><p>Remember,  61 % of retailers say that their customers spend more time in store since they installed Wi-Fi (source /GR DeviceSpace 2014) and 50% spend more money. That’s why choosing the right Wi-Fi is so important.</p>"
+                                articleText: "<p>Thanks {{XXXXX}},<br>Why do you think the right Wi-Fi so important even for a small business?<br>Because once you have it, you, and your customers, will come to rely on it even more in the future. </p><p>Even the smallest of stores need Wi-Fi today. It may be simply to build a hotspot for customers in a coffee shop, but it may be for something more sophisticated such as processing credit card transactions away from the till, or being able to check what stock is available in the back room. Whatever you needs, you need Wi-Fi that works, isn’t difficult to set up, and most importantly, is safe and secure for the user.</p><h5 class='ruckus-white'>Simply Smarter Wireless allows you to move and grow from;</h5><ul> <li>secure credit transactions from wireless terminals, and</li> <li>providing simple and secure customer hotspots, to</li> <li>digital signage showing promotions</li> <li>discrete video surveillance</li> <li>stock checking without leaving the customer</li></ul><p>For the smaller store, often a single access point in the back office is enough to provide coverage from front of store to back, and support tens of users, but sometimes you need to cover a couple of floors and two or more access points are required. With the right Wi-Fi, processing credit card transactions can easily be done in a PCI compliant way, and running more sophisticated things like shop video surveillance is easy</p><p>Remember…<br>…61 % of retailers say that their customers spend more time in store since they installed Wi-Fi (source /GR DeviceSpace 2014) and 50% spend more money. That’s why choosing the right Wi-Fi is so important.</p>"
                             }
                         ],
                         videos: [
@@ -153,7 +153,7 @@
                         ],
                         article: [
                             {
-                                articleText: '<p>From a single large store to hundreds of smaller boutiques across an entire country, Wi-Fi is the easiest way to connect customers and staff to the information they need to enable a sale. Imagine a store where sales staff never leave a customer to check if something is in stock, or where they can order out-of-stock items for next day home delivery while standing at the display. Imagine a store where customers don’t have to queue at a till to pay.</p><p>Ruckus Wireless is a market leader in Wi-Fi for mid-market retailers. Our solutions are simple to deploy, sold and supported by a huge choice of specialist resellers, and uses the smartest technology to ensure the best connection across the whole sales floor and back office.</p><p>With Wi-Fi in store, staff can better service your customer’s better, and you can start thinking about how you can</p><ul><li>Use location based services solutions - such as Ruckus SPoT™ - to review your footfall and see how people move around your store:<br><ul><li>Change your window display and analyse how many more people come into the store than just walk past</li><li>Match your highest margin products to the areas where your customers go most.</li></ul></li><li>Reward loyal customers with target promotions – something that nearly ¾ of all customers say they are happy to receive</li><li>Understand more about your demographics and how your store is used at different times and on different days of the week.</li></ul><p>“Almost every new consumer product today has an embedded Wi-Fi capability. To effectively demonstrate and sell these products, customers want to actually see and understand how to use them in a live environment. The Ruckus system, with its integrated adaptive antenna array technology, is simply in a different league and has helped increase in-store sales” Tim Pearce – Hughes Electrical (UK)</p>'
+                                articleText: '<p>XXXX lets imagine for a minute<br>Imagine a store where sales staff never leave a customer to check if something is in stock,<br>Or where they can order out-of-stock items for next day home delivery while standing at the display.<br>Or a store where customers don’t have to queue at a till to pay.<br>All of this and more is possible now with Ruckus - From a single large store to hundreds of smaller boutiques across an entire country, Wi-Fi is the easiest way to connect customers and staff to the information they need to enable a sale.<br>Ruckus Wireless is a market leader in Wi-Fi for mid-market retailers. Our solutions are simple to deploy, sold and supported by a huge choice of specialist resellers, and uses the smartest technology to ensure the best connection across the whole sales floor and back office.<br>With Wi-Fi in store, staff can better service your customer’s better, and you can start thinking about how you can</p><ul> <li>Use location based services solutions - such as Ruckus SPoT™ - to review your footfall and see how people move around your store: <ul> <li>Change your window display and analyse how many more people come into the store than just walk past</li> <li>Match your highest margin products to the areas where your customers go most.</li> </ul> </li> <li>Reward loyal customers with target promotions – something that nearly ¾ of all customers say they are happy to receive</li> <li>Understand more about your demographics and how your store is used at different times and on different days of the week.</li></ul><blockquote>“Almost every new consumer product today has an embedded Wi-Fi capability. To effectively demonstrate and sell these products, customers want to actually see and understand how to use them in a live environment. The Ruckus system, with its integrated adaptive antenna array technology, is simply in a different league and has helped increase in-store sales” <cite>Tim Pearce – Hughes Electrical (UK)</cite></blockquote>'
                             }
                         ],
                         videos: [
@@ -221,7 +221,9 @@
             controller: {
                 navWrapper:         '.navigation',
                 next:               '.ruckus-next',
-                prev:               '.ruckus-prev'
+                prev:               '.ruckus-prev',
+                startButton:        '.ruckus-hub-start',
+                formSubmitButton:   '.ruckus-form-submit'
             }
         };
 
@@ -267,7 +269,8 @@
             .setDeepLink()
             .onDeepLinkChange()
             .onSlideDataChange()
-            .eventRefresh();
+            .eventRefresh()
+            .writeToDB();
             //.buildResultsObject();
 //            .eventRefresh();
 
@@ -394,11 +397,13 @@
         var self = this;
 
         if (self.Model.loadingActive) {
+            console.log('LOADING...');
             self.View.$loadingBar.removeClass('active').addClass('inactive');
             self.Model.loadingActive = false;
         } else {
             self.View.$loadingBar.removeClass('inactive').addClass('active');
             self.Model.loadingActive = true;
+            console.log('LOADING COMPLETE');
         }
 
         return self;
@@ -474,10 +479,10 @@
         self.Model.$appContainer.on('refresh', function(event, inputType){
             self.scale()
 
-                .setBackground()
-                .setBackgroundDimensions()
-                .buildTimeLineSlide()
-                .goToAndPlay(self.View.currentFrame);
+            .setBackground()
+            .setBackgroundDimensions()
+            .buildTimeLineSlide()
+            .goToAndPlay(self.View.currentFrame);
             //switch ( inputType || self.Model.lastUsedInputType ) {
             //    case 'toggle' || 'form-input':
             //        //self.updateResult();
@@ -756,7 +761,11 @@
             $next: $(self.options.controller.next),
             prev: self.options.controller.prev,
             $prev: $(self.options.controller.prev),
-            $playback: $(self.options.controller.next + ","+self.options.controller.prev)
+            startButton: self.options.controller.startButton,
+            $startButton: $(self.options.controller.startButton),
+            formSubmitButton: self.options.controller.formSubmitButton,
+            $formSubmitButton: $(self.options.controller.formSubmitButton),
+            $playback: $(self.options.controller.next + ","+self.options.controller.prev + ','+ self.options.controller.startButton)
         };
 
         self.eventPlayback(self.Controller.$playback, true);
@@ -777,6 +786,17 @@
         } else if(toggle === false) { // if toggle == FALSE
             $playback.off('click','**');
         }
+
+
+        // Form Complete Event - Not the greatest code, but meh...
+        $(document).on('formSubmitted', function(){
+            self.View.currentFrame >= self.Model.totalFrames ?
+            self.View.currentFrame == self.Model.totalFrames-1 :
+                self.View.currentFrame++;
+            self.setDeepLink();
+        });
+
+
         // returning self: enables functions chaining
         return self;
     };
@@ -784,11 +804,11 @@
     EemjiiRuckus.prototype.playback = function (obj) {
         var self = this;
 
-        //console.log('clicked');
+        console.log('clicked');
 
         var $attr = obj.attr('class');
 
-        if ( $attr.indexOf('next') !== -1 ){
+        if ( $attr.indexOf('next') !== -1 || $attr.indexOf('start') !== -1){
             self.View.currentFrame >= self.Model.totalFrames ?
                 self.View.currentFrame == self.Model.totalFrames-1 :
                     self.View.currentFrame++;
@@ -798,6 +818,7 @@
                 self.View.currentFrame == self.Model.startingFrame :
                     self.View.currentFrame--;
         }
+
         console.log('The starting frame is: ' + self.View.startingFrame);
         console.log('The current frame is: ' + self.View.currentFrame);
         //self.Model.$appContainer.trigger('refresh',['playback']);
@@ -835,12 +856,13 @@
                 if ($thisElement.prop('checked') ) {
                     currentValid++;
                 }
-            } else {
-                console.log('Not checkbox or radio');
-                if ($thisElement[0].required && $thisElement.val() ) {
-                    currentValid++;
-                }
             }
+            //else {
+            //    console.log('Not checkbox or radio');
+            //    if ($thisElement[0].required && $thisElement.val() ) {
+            //        currentValid++;
+            //    }
+            //}
         });
 
         console.log('Current slide is '+currentSlideName);
@@ -865,34 +887,38 @@
     EemjiiRuckus.prototype.writeToDB = function () {
         var self = this;
 
-        self.Controller.$next.on('click',function(){
-            if (self.View.currentFrame == 4){
+        $('#ruckus-data').submit(function(){
+            console.log('CLICKED');
+            var data = self.getFormData();
 
-                var data = self.getFormData();
+            self.toggleLoadingBar();
 
-                $.post( $('#ruckus-data').attr("action"), data, function(info){
-                    console.log(info)
-                });
+            $.ajax({
+                type: 'POST',
+                url: $('#ruckus-data').attr("action"),
+                data: data
+            }).done(function(){ // Required Callback Function
+                console.log("success");
+                $('#ruckus-data')[0].reset();
 
-                $("#ruckus-data").submit(function(){
-                    return false;
-                });
+                // trigger form submit event
+                $(document).trigger('formSubmitted');
 
-                console.log('================');
-                console.log('SUBMITING FORM..');
-                console.log('================');
-                //$('#ruckus-data').submit();
-            }
+            }).fail(function() {
+                console.log("error writing to DB");
+            })
+            .always(function() {
+                self.toggleLoadingBar();
+            });
+
+            return false;
         });
 
         return self;
     };
 
     EemjiiRuckus.prototype.getFormData = function () {
-
-        var $formData = $('#ruckus-data').serializeArray();
-
-        return $formData;
+        return $('#ruckus-data').serializeArray();
     };
 
     EemjiiRuckus.prototype.toggleButtons = function () {

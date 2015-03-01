@@ -25,6 +25,12 @@
   &:hover, {
     color: $ruckus-orange !important;
     border-color: $ruckus-orange !important;
+    &.no-hover {
+      background-color: transparent !important;
+      border-color: #fff !important;
+      color: #fff !important;
+      cursor: default !important;
+    }
   }
 
   &.alt:hover, {
@@ -110,4 +116,14 @@
   right: 0px;
   top: 50%;
   margin-top: -90px;
+}
+
+.link-to-guide {
+  width: 200px;
+  background-color: $ruckus-orange;
+  height: 140px;
+  position: absolute;
+  right: 0px;
+  top: 40%;
+  z-index: 1000;
 }

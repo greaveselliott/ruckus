@@ -16,12 +16,12 @@
             <div class="large-12 columns">
                 <div class="table-center-container">
                     <div class="table-center-cell">
-                        <h1>INSERT RUCKUS LOGO</h1>
+                        <img src="images/ruckus-logo-big.png">
                         <h3 class="ruckus-white"><span class="font-scale-x2">The Simply Better Guide <br>to Retail Tech</span></h3>
                         <hr>
                         <h5 class="ruckus-orange h3 text-left text-center">This guide highlights some of the biggest and most important changes happening in retail today.</h5>
                         <div class="display-inline-block padding-50">
-                            <div class="button alt round-icon chevron-down"></div>
+                            <div class="button round-icon chevron-down no-hover"></div>
                         </div>
                     </div>
                 </div>
@@ -104,7 +104,7 @@
             <div class="row ruckus-background-black">
 
                 <div class="large-12 columns">
-                    <h2 class="ruckus-white h3">Mobile will continue to grow in every part of the shopper journey, with smartphones and tablets playing an even bigger role.</h2>
+                    <h2 class="ruckus-white h3">Mobile will continue to grow in every part of the shopper journey, with smartphones and tablets playing an even bigger role</h2>
                 </div>
 
             </div>
@@ -127,7 +127,7 @@
                                         </span>
                                     </span>
                                 </span>
-                                <figcaption class="ruckus-white h4 display-inline-block">Investment in mobility</figcaption>
+                                <figcaption class="ruckus-white h4 display-inline-block line-height-h1">Investment in mobility</figcaption>
                             </figure>
                         </div>
                     </div>
@@ -141,7 +141,7 @@
                                          </span>
                                      </span>
                                  </span>
-                                <figcaption class="ruckus-white h4 display-inline-block">Retail Technology Solutions</figcaption>
+                                <figcaption class="ruckus-white h4 display-inline-block line-height-h1">Retail Technology Solutions</figcaption>
                             </figure>
                         </div>
                     </div>
@@ -151,11 +151,11 @@
                                 <span class="mm-icons">
                                     <span class="table-center-container">
                                         <span class="table-center-cell">
-                                            <i class="fa fa-globe ruckus-orange h1 display-inline-block"></i>
+                                            <i class="fa fa-globe ruckus-orange h1 display-inline-block line-height-h1"></i>
                                         </span>
                                     </span>
                                 </span>
-                                <figcaption class="ruckus-white h4 display-inline-block">Global e-commerce</figcaption>
+                                <figcaption class="ruckus-white h4 display-inline-block line-height-h1">Global e-commerce</figcaption>
                             </figure>
                         </div>
                     </div>
@@ -190,7 +190,7 @@
     <!--#2: Mobile Payment -->
     <article class="row full-screen ruckus-tile" id="mobile-payment" data-cta="Get the wireless that pays its way">
         <div class="large-12 columns">
-        <div class="row ruckus-background-black opacity-75">
+        <div class="row ruckus-background-black">
             <div class="large-12 columns ">
                 <h2 class="h3 ruckus-white">Mobile Payments aren’t just convenient for consumers, they huge benefits for retailers too
                 </h2>
@@ -259,7 +259,7 @@
     <!--#3: POS Technology -->
     <article class="row full-screen ruckus-tile" id="pos-technology" data-cta="Specify your PCI compliant wireless needs">
         <div class="large-12 columns">
-        <div class="row ruckus-background-black opacity-75">
+        <div class="row ruckus-background-black">
             <div class="large-12 columns ">
                 <h2 class="ruckus-white h3">POS technology is changing quickly – Is your POS ready for the revolution? </h2>
             </div>
@@ -317,9 +317,9 @@
     <!--#4: Omnichannel Omnipetence? -->
     <article class="row full-screen ruckus-tile" id="omnichannel-omnipetence" data-cta="Get seamless wireless here to serve your needs">
         <div class="large-12 columns ">
-            <div class="row ruckus-background-black opacity-75">
+            <div class="row ruckus-background-black">
                 <div class="large-12 columns">
-                    <h2 class="ruckus-white h3">Retailers embracing an omnichannel approach to serve customers’ needs will those best placed to succeed. </h2>
+                    <h2 class="ruckus-white h3">Retailers embracing an omnichannel approach will those best placed to succeed</h2>
                 </div>
             </div>
             <!-- Facts: Percentage Data -->
@@ -410,7 +410,7 @@
     <!--#5: Loyalty Learnings -->
     <article class="row full-screen ruckus-background-black opacity-75 ruckus-tile" id="loyalty-learnings" data-cta="Reward your customers with the best wireless">
         <div class="large-12 columns">
-            <div class="row ">
+            <div class="row ruckus-background-black">
                 <div class="large-12 columns">
                     <h2 class="ruckus-white h3">Leading loyalty programs will be driven by apps that let customers track and redeem their rewards via their smartphone</h2>
                 </div>
@@ -457,7 +457,7 @@
     <!--#6: Social Shopping -->
     <article class="row full-screen ruckus-tile" id="social-shopping" data-cta="Get the right wireless to engage with your customers">
         <div class="large-12 columns">
-            <div class="row ruckus-background-black opacity-75 ">
+            <div class="row ruckus-background-black">
                 <div class="large-12 columns">
                     <h2 class="ruckus-white h3">Social media lets retail brands engage directly with customers – that’s just part of the opportunity </h2>
                 </div>
@@ -539,11 +539,14 @@
     <!--#7: Big Data -->
     <article class="row full-screen ruckus-tile" id="big-data" data-cta="Specify your wireless needs to make the most of Big Data">
         <div class="large-12 columns">
-            <div class="row ruckus-background-black opacity-75 ">
+            <div class="row ruckus-background-black">
                 <div class="large-12 columns">
-                    <h2 class="ruckus-white h3">By harnessing the power of big data, retailers can make highly targeted adjustments to staffing, product placement, marketing displays and even prices throughout the day </h2>
-                    <br>
-                    <h3 class="h3 ruckus-orange">For the retailers surveyed:</h3>
+                    <h2 class="ruckus-white h3">Harnessing the power of big data will give retailers big advantages</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="large-12 columns ruckus-background-black opacity-75">
+                    <h3 class="h3 ruckus-orange">Of the retailers surveyed:</h3>
                 </div>
             </div>
             <!-- Artwork -->
@@ -586,7 +589,7 @@
     <!--    <footer>-->
 <!--    </footer>-->
     <div id="hub-link">
-        <a href="#" class="padding-25 display-block">
+        <a href="index.php" target="_blank" class="padding-25 display-block">
             <p id="CTA-text" class="h5 text-center">Select your own wireless needs</p>
             <p class="button alt no-margin-bottom">GO</p>
         </a>

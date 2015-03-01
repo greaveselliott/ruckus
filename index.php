@@ -50,22 +50,16 @@
                     <div class="row collapse">
                         <div class="large-7 columns large-centered">
                             <h2 class="ruckus-orange text-center">Simply Better Wireless.</h2>
-                            <h3 class="ruckus-white text-center">Choose your sector for a simply better solution</h3>
+                            <p class="ruckus-white text-center h4">Ruckus Wireless is a pioneer in the wireless infrastructure market, enabling carriers and enterprises to stay ahead of the exploding demand for high-bandwidth applications and services.</p>
+                            <hr>
+                            <p class="ruckus-orange text-center h4">Ruckus redefines what’s possible in wireless network performance with flexibility, reliability, and affordability.</p>
+                            <hr>
+                            <p class="ruckus-white text-center h4">Find out how Ruckus can help you get Simply Better Wireless. Just answer two simply questions to your own personalised Ruckus solution.</p>
+                            <div class="ruckus-hub-start button alt">Start Now</div>
                         </div>
                     </div>
                     <!-- Selection of options-->
-                    <div class="row collapse padding-top-10">
-                        <nav>
-                            <!-- Options-->
-                                <ul class="large-block-grid-5 medium-block-grid-3 small-block-grid-2 ruckus-option-group"  data-toggle-type="radio">
-                                    <li data-option-name="retail" class="ruckus-option"><span class="button width-100 height-100 alt" >Retail</span></li>
-                                    <li data-option-name="leisure" class="ruckus-option"><span class="button width-100 height-100 alt">Leisure</span></li>
-                                    <li data-option-name="hospitality" class="ruckus-option"><span class="button width-100 height-100 alt">Hospitality</span></li>
-                                    <li data-option-name="transport" class="ruckus-option"><span class="button width-100 height-100 alt">Transport</span></li>
-                                    <li data-option-name="open space" class="ruckus-option"><span class="button width-100 height-100 alt">Open Space</span></li>
-                                </ul>
-                        </nav>
-                    </div>
+
                 </div>
             </div>
         </section>
@@ -75,26 +69,20 @@
                 <div class="large-12 columns">
                     <!-- Options 2 -->
                     <div class="ruckus-background-black opacity-75 large-centered padding-60-75 no-padding-small no-background-color-small">
-                        <div class="row collapse">
-                            <div class="large-7 columns large-centered">
-                                <h2 class="ruckus-orange text-center">Simply Better Wireless.</h2>
-                                <h3 class="ruckus-white text-center">Choose your simply better solution</h3>
-                            </div>
-                        </div>
                       <div class="row">
-                          <div class="large-12 columns"><h2 class="ruckus-white">Size of your business?</h2></div>
+                          <div class="large-12 columns"><h2 class="ruckus-white">Select one answer below that best represents your business size</h2></div>
                           <div class="large-12 columns">
                               <ul class="large-block-grid-3 medium-block-grid-3 small-block-grid-1 ruckus-option-group"  data-toggle-type="radio">
                                   <li class="ruckus-option"  data-option-name="small">
-                                      <img src="images/business-small.png" alt="Small Ruckus logo" class="hide-for-small">
+                                      <img src="images/business-small.png" alt="Small Ruckus logo" class="hide-for-small width-100">
                                       <span class="button alt">Small</span>
                                   </li>
                                   <li class="ruckus-option"  data-option-name="medium">
-                                      <img src="images/business-medium.png" alt="Medium Ruckus logo" class="hide-for-small">
+                                      <img src="images/business-medium.png" alt="Medium Ruckus logo" class="hide-for-small width-100">
                                       <span class="button alt">Medium</span>
                                   </li>
                                   <li class="ruckus-option"  data-option-name="large">
-                                      <img src="images/business-large.png" alt="Large Ruckus logo" class="hide-for-small">
+                                      <img src="images/business-large.png" alt="Large Ruckus logo" class="hide-for-small width-100">
                                       <span class="button alt">Large</span>
                                   </li>
                               </ul>
@@ -114,7 +102,7 @@
                   <div class="row">
                       <div class="large-12 columns">
                           <h2 class="ruckus-white">What do you need Wi-Fi for?</h2>
-                          <h4 class="ruckus-white">Select the option/s relevant to you</h4>
+                          <h4 class="ruckus-white">Please select one or more options below</h4>
                       </div>
                       <div class="large-12 columns">
                           <ul class="large-block-grid-3 medium-block-grid-3 small-block-grid-1 ruckus-option-group"  data-toggle-type="checkbox">
@@ -135,12 +123,13 @@
               <!-- content -->
               <div class="row">
                   <div class="large-8 columns large-centered">
-                      <h2 class="text-center ruckus-white">Details</h2>
+                      <h2 class="text-center ruckus-white">One final step</h2>
+                      <h3 class="text-center ruckus-orange">Please enter your details below so that we can email your solution to you </h3>
                   </div>
               </div>
               <div class="row">
                   <div class="large-8 columns large-centered medium-8 medium-centered">
-                      <form action="response.php" id="ruckus-data" data-option-type="ruckus-option-group">
+                      <form method="post" action="response.php" id="ruckus-data" data-option-type="ruckus-option-group">
                           <!-- Business Sector -->
                           <fieldset class="slide-data hide" data-linked-slide="sector">
                           <input type="radio" name="sector" data-name="retail" value="2" class="">
@@ -152,26 +141,26 @@
                           <!-- Size of business -->
                           <fieldset class="slide-data hide" data-linked-slide="size">
                               <label><span class="ruckus-white">Small business</span>
-                                <input type="radio" name="size" data-name="small" value="13" class="">
+                                <input type="radio" name="size" data-name="small" value="Small Business" class="">
                               </label>
                               <label><span class="ruckus-white">Medium business</span>
-                                <input type="radio" name="size" data-name="medium" value="17" class="">
+                                <input type="radio" name="size" data-name="medium" value="Medium Business" class="">
                               </label>
                               <label><span class="ruckus-white">Large business</span>
-                                 <input type="radio" name="size" data-name="large" value="19" class="">
+                                 <input type="radio" name="size" data-name="large" value="Large Business" class="">
                               </label>
                           </fieldset>
                           <!-- Wi-Fi requirement -->
                           <fieldset class="slide-data hide" data-linked-slide="wifi">
                               <label>
                                   <span class="ruckus-white">Public Wifi</span>
-                                <input type="checkbox" name="wifi" data-name="public" value="23" class="">
+                                <input type="checkbox" name="wifi-public" data-name="public" value="To provide public Wi-Fi" class="">
                               </label>
                               <label><span class="ruckus-white">Point of Sale</span>
-                                <input type="checkbox" name="wifi" data-name="pos" value="29" class="">
+                                <input type="checkbox" name="wifi-pos" data-name="pos" value="Point of Sale" class="">
                               </label>
                               <label><span class="ruckus-white">Employees</span>
-                                <input type="checkbox" name="wifi" data-name="employee" value="31" class="">
+                                <input type="checkbox" name="wifi-employee" data-name="employee" value="Employee" class="">
                               </label>
                           </fieldset>
                           <!-- Name -->
@@ -187,7 +176,7 @@
                               <div class="row collapse">
                                   <div class="large-12 columns">
                                       <label class="ruckus-white"><span>Email<span class="ruckus-orange">*</span></span>
-                                          <input type="text" placeholder="What is your email address?" data-option-type="ruckus-option" class="ruckus-required email" name="email" required/>
+                                          <input type="email" placeholder="What is your email address?" data-option-type="ruckus-option" class="ruckus-required email" name="email" required/>
                                       </label>
                                   </div>
                               </div>
@@ -458,6 +447,11 @@
                                       </label>
                                   </div>
                               </div>
+                              <div class="row collapse">
+                                  <div class="large-12 columns">
+                                      <input class="button alt ruckus-form-submit" type="submit" value="submit"/>
+                                  </div>
+                              </div>
                           </fieldset>
                       </form>
                   </div>
@@ -468,6 +462,12 @@
           <!-- Stage 5: Solution: template-stage-5 -->
           <section class="stage5 slide"  data-slidename="solution">
               <div class="row valign-middle tile-content">
+                  <div class="link-to-guide padding-10">
+                        <a class="ruckus-white h4" href="entry-three.php" alt="Simply Better Guide" target="_blank">
+                            <span>Simply better Wireless Guide</span>
+                            <span class="button alt">Go</span>
+                        </a>
+                  </div>
                   <div class="large-12 columns">
                       <div class="ruckus-background-black opacity-75 large-centered padding-60-75 no-padding-small no-background-color-small">
                           <!-- content -->
@@ -481,7 +481,7 @@
                                   <!-- Solution -->
                                   <div class="row">
                                       <div class="large-12 columns template-solution-header">
-                                          <h3 class="ruckus-orange">Small Retail</h3>
+                                          <h3 class="ruckus-orange">Title</h3>
                                       </div>
                                   </div>
                                   <div class="row">

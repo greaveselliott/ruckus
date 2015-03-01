@@ -9864,7 +9864,7 @@ th.hide-for-touch {
 
 /* line 135, ../scss/_structure.scss */
 .no-margin-bottom {
-  margin-bottom: 0px; }
+  margin-bottom: 0px !important; }
 
 /* line 138, ../scss/_structure.scss */
 .margin-center, .nav-wrapper {
@@ -10052,12 +10052,18 @@ th.hide-for-touch {
 .button:hover {
   color: #EA7600 !important;
   border-color: #EA7600 !important; }
-/* line 30, ../scss/_buttons.scss */
+/* line 28, ../scss/_buttons.scss */
+.button:hover.no-hover {
+  background-color: transparent !important;
+  border-color: #fff !important;
+  color: #fff !important;
+  cursor: default !important; }
+/* line 36, ../scss/_buttons.scss */
 .button.alt:hover {
   background-color: #fff !important;
   border-color: #fff !important;
   color: black !important; }
-/* line 36, ../scss/_buttons.scss */
+/* line 42, ../scss/_buttons.scss */
 .button.round-icon {
   margin: 0 auto;
   height: 60px !important;
@@ -10073,32 +10079,32 @@ th.hide-for-touch {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   transform: translate(0, 0); }
-/* line 44, ../scss/_buttons.scss */
+/* line 50, ../scss/_buttons.scss */
 .button.round-icon.subtle {
   border-color: #75787B;
   color: #75787B; }
-/* line 49, ../scss/_buttons.scss */
+/* line 55, ../scss/_buttons.scss */
 .button.round-icon:before {
   font-size: 1.25rem;
   height: 100%;
   width: 100%;
   text-align: center; }
-/* line 56, ../scss/_buttons.scss */
+/* line 62, ../scss/_buttons.scss */
 .button.round-icon.chevron-down:before {
   content: "\f078"; }
-/* line 57, ../scss/_buttons.scss */
+/* line 63, ../scss/_buttons.scss */
 .button.round-icon.chevron-left:before {
   content: "\f053";
   text-indent: -6px; }
-/* line 58, ../scss/_buttons.scss */
+/* line 64, ../scss/_buttons.scss */
 .button.round-icon.chevron-right:before {
   content: "\f054";
   text-indent: 6px; }
-/* line 59, ../scss/_buttons.scss */
+/* line 65, ../scss/_buttons.scss */
 .button.round-icon.chevron-up:before {
   content: "\f077"; }
 
-/* line 63, ../scss/_buttons.scss */
+/* line 69, ../scss/_buttons.scss */
 .image {
   display: block;
   width: 100%;
@@ -10107,34 +10113,34 @@ th.hide-for-touch {
   background-position-x: center;
   background-position-y: -90px;
   margin-bottom: 20px; }
-/* line 71, ../scss/_buttons.scss */
+/* line 77, ../scss/_buttons.scss */
 .image#wi-fi {
   background-image: url("../images/stage3-wifi.png"); }
-/* line 74, ../scss/_buttons.scss */
+/* line 80, ../scss/_buttons.scss */
 .image#pos {
   background-image: url("../images/stage3-card.png"); }
-/* line 77, ../scss/_buttons.scss */
+/* line 83, ../scss/_buttons.scss */
 .image#employee {
   background-image: url("../images/stage3-graph.png"); }
 
-/* line 83, ../scss/_buttons.scss */
+/* line 89, ../scss/_buttons.scss */
 .toggled .image {
   background-position-y: 0px; }
-/* line 86, ../scss/_buttons.scss */
+/* line 92, ../scss/_buttons.scss */
 .toggled .button {
   color: #EA7600 !important;
   border-color: #EA7600 !important; }
-/* line 90, ../scss/_buttons.scss */
+/* line 96, ../scss/_buttons.scss */
 .toggled .button.alt {
   background-color: #EA7600 !important;
   border-color: #EA7600 !important;
   color: white !important; }
 
-/* line 98, ../scss/_buttons.scss */
+/* line 104, ../scss/_buttons.scss */
 .nav-wrapper {
   width: 125px; }
 
-/* line 103, ../scss/_buttons.scss */
+/* line 109, ../scss/_buttons.scss */
 #hub-link {
   width: 180px;
   height: auto;
@@ -10145,6 +10151,16 @@ th.hide-for-touch {
   right: 0px;
   top: 50%;
   margin-top: -90px; }
+
+/* line 121, ../scss/_buttons.scss */
+.link-to-guide {
+  width: 200px;
+  background-color: #EA7600;
+  height: 140px;
+  position: absolute;
+  right: 0px;
+  top: 40%;
+  z-index: 1000; }
 
 /* line 1, ../scss/_background-images.scss */
 body {
@@ -10586,6 +10602,10 @@ header nav li a:hover {
   left: 0px;
   opacity: 0;
   z-index: -100; }
+/* line 14, ../scss/_loading.scss */
+.loading.active {
+  opacity: 1;
+  z-index: 100; }
 
 /* line 1, ../scss/_template.scss */
 .ruckus-tile {
