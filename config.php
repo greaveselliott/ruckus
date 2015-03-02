@@ -1,9 +1,9 @@
 <?php
 ########## MySql details (Replace with yours) #############
-$username = "root"; //mysql username
-$password = "root"; //mysql password
-$hostname = "localhost"; //hostname
-$databasename = 'scotchbox'; //databasename
+$username = "elliott"; //mysql username
+$password = "Ruckus1!"; //mysql password
+$hostname = "213.171.218.234"; //hostname
+$databasename = 'ruckus'; //databasename
 
 //connect to database
 $mysqli = new mysqli($hostname, $username, $password, $databasename);

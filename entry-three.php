@@ -17,9 +17,9 @@
                 <div class="table-center-container">
                     <div class="table-center-cell">
                         <img src="images/ruckus-logo-big.png">
-                        <h3 class="ruckus-white"><span class="font-scale-x2">The Simply Better Guide <br>to Retail Tech</span></h3>
+                        <h3 class="ruckus-white"><span class="font-scale-x2">The Simply Better Guide <br>to Retail Technology</span></h3>
                         <hr>
-                        <h5 class="ruckus-orange h3 text-left text-center">This guide highlights some of the biggest and most important changes happening in retail today.</h5>
+                        <h5 class="ruckus-orange h3 text-left text-center">This guide highlights some of the biggest and most important changes happening in retail technology today.</h5>
                         <div class="display-inline-block padding-50">
                             <div class="button round-icon chevron-down no-hover"></div>
                         </div>
@@ -192,7 +192,7 @@
         <div class="large-12 columns">
         <div class="row ruckus-background-black">
             <div class="large-12 columns ">
-                <h2 class="h3 ruckus-white">Mobile Payments aren’t just convenient for consumers, they huge benefits for retailers too
+                <h2 class="h3 ruckus-white">Mobile Payments aren’t just convenient for consumers, they bring huge benefits for retailers too
                 </h2>
             </div>
         </div>
@@ -229,7 +229,7 @@
                     <figcaption>
                         <span class="ruckus-orange h4">Scrap the paper</span>
                         <br>
-                        <span class="ruckus-white">Replacing paper-based coupons and vouchers with mobile alternatives - which integrate into existing loyalty schemes - can lead to higher conversion rates</span>
+                        <span class="ruckus-white">Replacing paper-based coupons and vouchers with mobile alternatives - which integrate into existing loyalty schemes, can lead to higher conversion rates</span>
                     </figcaption>
                 </figure>
             </div>
@@ -245,7 +245,7 @@
                                     <span class="ruckus-orange h3">€19.2B</span>
                                     <br>
                                     <span class="ruckus-orange">mCommerce = massive Commerce</span><br>
-                                    <span class="ruckus-white">European mCommerce revenues are set torise from €1.7 in 2011 to €19.2b in 2017</span>
+                                    <span class="ruckus-white">European mCommerce revenues are set to rise from €1.7b in 2011 to €19.2b in 2017</span>
                                 </figcaption>
                             </figure>
                         </div>
@@ -319,7 +319,7 @@
         <div class="large-12 columns ">
             <div class="row ruckus-background-black">
                 <div class="large-12 columns">
-                    <h2 class="ruckus-white h3">Retailers embracing an omnichannel approach will those best placed to succeed</h2>
+                    <h2 class="ruckus-white h3">Retailers embracing an omnichannel approach will be those best placed to succeed</h2>
                 </div>
             </div>
             <!-- Facts: Percentage Data -->
@@ -329,11 +329,7 @@
 
                         <span class="table-center-container">
                             <span class="table-center-cell">
-                                <span class="ruckus-black h4">The many ways</span>
-                                    <br>
-                                    <span class="ruckus-white">
-                                        The many ways – Whether bricks or clicks-to-mortar the path to purchase for customers is becoming increasingly blurred
-                                    </span>
+                                    <span class="ruckus-white">Whether bricks or clicks-to-mortar the path to purchase for customers is becoming increasingly blurred</span>
                             </span>
                         </span>
                 </div>
@@ -342,7 +338,7 @@
                     <figure class="circular-fact">
                         <img class="lazy-load" data-original="images/guide/icons-21.png">
                         <figcaption class="ruckus-white">
-                            Check prices on mobile devices while on a business's premises
+                            Check prices on mobile devices while in-store
                         </figcaption>
                     </figure>
                 </div>
@@ -378,7 +374,7 @@
                     <figure class="circular-fact">
                         <img class="lazy-load" data-original="images/guide/icons-25.png">
                         <figcaption class="ruckus-white">
-                            Want ability to check stock levels availability on their mobile
+                            Want ability to check stock level availability on their mobile
                         </figcaption>
                     </figure>
                 </div>
@@ -392,7 +388,7 @@
                     <div class="table-center-container height-100">
                         <div class="table-center-cell">
                             <h4 class="ruckus-orange">Online marches onward </h4>
-                            <p class="ruckus-white">In the 2014 holiday period, John Lewis - a leading UK 'bricks-and-clicks' retailer recorded a 19% increase in online sales , boosting the online share of total sales to 36%.</p>
+                            <p class="ruckus-white">In the 2014 holiday period, John Lewis - a leading UK 'bricks-and-clicks' retailer recorded a 19% increase in online sales, boosting the online share of their total sales to 36%.</p>
                         </div>
                     </div>
                 </div>
@@ -459,7 +455,7 @@
         <div class="large-12 columns">
             <div class="row ruckus-background-black">
                 <div class="large-12 columns">
-                    <h2 class="ruckus-white h3">Social media lets retail brands engage directly with customers – that’s just part of the opportunity </h2>
+                    <h2 class="ruckus-white h3">Social media lets retail brands engage directly with customers</h2>
                 </div>
             </div>
             <!-- Artwork -->
@@ -488,7 +484,7 @@
                             </div>
                             <div class="row ruckus-white collapse padding-top-10">
                                 <div class="large-2 columns"><i class="fa fa-search ruckus-orange h3"></i></div>
-                                <div class="large-8 columns line-height-h3 text-left">Research a brand</div>
+                                <div class="large-8 columns line-height-h3 text-left">Researched a brand</div>
                                 <div class="large-2 columns line-height-h3 text-left"><span>59%</span></div>
                             </div>
                             <div class="row ruckus-white collapse padding-top-10">
@@ -501,7 +497,8 @@
                 </div>
                 <!-- Referring is occurring / wr trust 'our' networks -->
                 <div class="large-3 columns ruckus-background-orange opacity-75 " data-equalizer-watch>
-                    <figure class="padding-50"><img class="lazy-load" data-original="images/guide/icons-14.png">
+                    <figure class="padding-50">
+                        <img class="lazy-load" data-original="images/guide/icons-14.png">
                         <figcaption>
                             <span class="ruckus-black h4">Referring is occurring</span>
                             <br>
@@ -557,7 +554,7 @@
                         <figcaption>
                             <span class="ruckus-orange h4">Full of 'next' appeal</span>
                             <br>
-                            <span class="ruckus-white">52% say big data has enabled theme to expand their sales by offering customers the 'next' logical item</span>
+                            <span class="ruckus-white">52% say big data has enabled them to expand their sales by offering customers the 'next' logical item</span>
                         </figcaption></figure>
                 </div>
                 <!-- Referring is occurring / wr trust 'our' networks -->

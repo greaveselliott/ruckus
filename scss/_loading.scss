@@ -1,5 +1,5 @@
 .loading {
-  background-color: rgba(black, 0.5);
+  background-color: rgba(black, 0.75);
   background-image: url('../images/loading.gif');
   background-repeat: no-repeat;
   background-position: center center;
@@ -10,6 +10,11 @@
   left: 0px;
   opacity: 0;
   z-index:  -100;
+  -webkit-transition: opacity 0.42s ease-in;
+  -moz-transition: opacity 0.42s ease-in;
+  -ms-transition: opacity 0.42s ease-in;
+  -o-transition: opacity 0.42s ease-in;
+  transition: opacity 0.42s ease-in;
 
   &.active {
     opacity: 1;

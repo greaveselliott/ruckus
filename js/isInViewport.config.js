@@ -69,7 +69,11 @@
         var $hubLink = $(self.options.cta_button);
 
         var timelineHubLink = new TimelineMax({yoyo: true, paused: true, repeat: 1, onComplete: console.log('Hublink animation complete')});
-        timelineHubLink.to($hubLink, 0.5, { rotation: 5 ,scaleX: 1.2, scaleY: 1.2, ease: Back.easeInOut.config(1.7), y: 0 });
+        timelineHubLink.to($hubLink, 1.5, {
+            rotation: 0 ,
+            scaleX: 1.5, scaleY: 1.5, right: '50%', ease: Back.easeInOut.config(1.25), y: 0
+
+        });
 
         $(document).on('cta_pulse',function(){
             timelineHubLink.restart();

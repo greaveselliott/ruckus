@@ -50,11 +50,10 @@
                     <div class="row collapse">
                         <div class="large-7 columns large-centered">
                             <h2 class="ruckus-orange text-center">Simply Better Wireless.</h2>
-                            <p class="ruckus-white text-center h4">Ruckus Wireless is a pioneer in the wireless infrastructure market, enabling carriers and enterprises to stay ahead of the exploding demand for high-bandwidth applications and services.</p>
+                            <p class="ruckus-white text-center h4 ruckus-orange">Find out how Ruckus can help you get Simply Better Wireless. Just answer two simple questions to personalise your own Ruckus wireless solution.</p>
                             <hr>
-                            <p class="ruckus-orange text-center h4">Ruckus redefines what’s possible in wireless network performance with flexibility, reliability, and affordability.</p>
-                            <hr>
-                            <p class="ruckus-white text-center h4">Find out how Ruckus can help you get Simply Better Wireless. Just answer two simply questions to your own personalised Ruckus solution.</p>
+                            <p class="text-center h5 ruckus-orange">Ruckus Wireless is a pioneer in the wireless infrastructure market, enabling businesses to stay ahead of the exploding demand for high-bandwidth applications and services.</p>
+
                             <div class="ruckus-hub-start button alt">Start Now</div>
                         </div>
                     </div>
@@ -100,7 +99,7 @@
               <!-- Options 2 -->
               <div class="ruckus-background-black opacity-75 large-centered padding-60-75 no-padding-small no-background-color-small">
                   <div class="row">
-                      <div class="large-12 columns">
+                      <div class="large-12 columns padding-50">
                           <h2 class="ruckus-white">What do you need Wi-Fi for?</h2>
                           <h4 class="ruckus-white">Please select one or more options below</h4>
                       </div>
@@ -124,7 +123,7 @@
               <div class="row">
                   <div class="large-8 columns large-centered">
                       <h2 class="text-center ruckus-white">One final step</h2>
-                      <h3 class="text-center ruckus-orange">Please enter your details below so that we can email your solution to you </h3>
+                      <h3 class="text-center ruckus-orange h5">Please enter your details so we can email your personalised solution to you</h3>
                   </div>
               </div>
               <div class="row">
@@ -141,7 +140,7 @@
                           <!-- Size of business -->
                           <fieldset class="slide-data hide" data-linked-slide="size">
                               <label><span class="ruckus-white">Small business</span>
-                                <input type="radio" name="size" data-name="small" value="Small Business" class="">
+                                <input type="radio" name="size" data-name="small" value="Small" class="">
                               </label>
                               <label><span class="ruckus-white">Medium business</span>
                                 <input type="radio" name="size" data-name="medium" value="Medium Business" class="">
