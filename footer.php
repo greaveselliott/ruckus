@@ -17,11 +17,14 @@
 <script src="js/app.js"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.15.1/TweenMax.min.js"></script>
 <script src="jquery-template/jquery-loadTemplate/jquery.loadTemplate-1.4.5.min.js"></script>
-<script src="jquery.cookieConsent/jquery.cookie.js"></script>
-<script src="jquery.cookieConsent/jquery.cookieConsent.min.js"></script>
-<script src="js/jquery.cookieConsent.config.js"></script>
+<script src="jquery.cookiebar/jquery.cookiebar.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $.cookieBar({
+        });
+    });
+</script>
 <script src="js/ruckus.js"></script>
 <script src="js/ruckus.config.js"></script>
-
 </body>
 </html>

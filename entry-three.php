@@ -1,3 +1,34 @@
+
+<?php
+
+// Define your username and password
+$username = "ruckus";
+$password = "ruckus1!";
+
+if ($_POST['txtUsername'] != $username || $_POST['txtPassword'] != $password) {
+
+    ?>
+
+    <h1>Login</h1>
+
+    <form name="form" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+        <p><label for="txtUsername">Username:</label>
+            <br /><input type="text" title="Enter your Username" name="txtUsername" /></p>
+
+        <p><label for="txtpassword">Password:</label>
+            <br /><input type="password" title="Enter your password" name="txtPassword" /></p>
+
+        <p><input type="submit" name="Submit" value="Login" /></p>
+
+    </form>
+
+<?php
+
+}
+else {
+
+    ?>
+
 <?php
     /*
     * Template: entry-three.php
@@ -59,8 +90,8 @@
                         </span>
                         <span class="large-4 columns">
                              <span class="table-center-container">
-                                <span class="table-center-cell text-left ruckus-white h4_5">
-                                     of retailers say that their customers spend more time in store since they installed Wi-Fi</span>
+                                <span class="table-center-cell text-left ruckus-white h5">
+                                     of retailers say that their customers spend more time in store since they installed  <span class="display-inline-block">Wi-Fi</span></span>
                             </span>
                         </span>
                     <span class="large-4 columns"><img class="lazy-load left" data-original="images/guide/icons-17.png"></span>
@@ -77,8 +108,8 @@
                         </span>
                         <span class="large-4 columns">
                             <span class="table-center-container">
-                                <span class="table-center-cell text-left h4_5">
-                                    of retailers say that their customers spend more money
+                                <span class="table-center-cell text-left h5">
+                                    of retailers say that their customers spend more money since they installed <span class="display-inline-block">Wi-Fi</span>
                                 </span>
                             </span>
                         </span>
@@ -104,7 +135,7 @@
             <div class="row ruckus-background-black">
 
                 <div class="large-12 columns">
-                    <h2 class="ruckus-white h3">Mobile will continue to grow in every part of the shopper journey, with smartphones and tablets playing an even bigger role</h2>
+                    <h2 class="ruckus-white h3">Mobile will continue to grow in every part of the shopper journey, with smartphones and tablets playing an increasingly larger role</h2>
                 </div>
 
             </div>
@@ -127,7 +158,11 @@
                                         </span>
                                     </span>
                                 </span>
-                                <figcaption class="ruckus-white h4 display-inline-block line-height-h1">Investment in mobility</figcaption>
+                                <figcaption class="text-left">
+                                    <span class="ruckus-white h4 line-height-h4">Investment in mobility</span>
+                                    <br>
+                                    <span class="h6 ruckus-orange line-height-h6">most conversation centered on the shift from fixed to mobile Point of Sale (POS).</span>
+                                </figcaption>
                             </figure>
                         </div>
                     </div>
@@ -141,7 +176,11 @@
                                          </span>
                                      </span>
                                  </span>
-                                <figcaption class="ruckus-white h4 display-inline-block line-height-h1">Retail Technology Solutions</figcaption>
+                                <figcaption class="text-left">
+                                    <span class="ruckus-white h4 line-height-h4">Retail Technology Solution</span>
+                                    <br>
+                                    <span class="h6 ruckus-orange line-height-h6">The most popular topics in this category were RFID and beacon technology</span>
+                                </figcaption>
                             </figure>
                         </div>
                     </div>
@@ -155,7 +194,11 @@
                                         </span>
                                     </span>
                                 </span>
-                                <figcaption class="ruckus-white h4 display-inline-block line-height-h1">Global e-commerce</figcaption>
+                                <figcaption class="text-left">
+                                    <span class="ruckus-white h4 line-height-h4">Global e-commerce</span>
+                                    <br>
+                                    <span class="h6 ruckus-orange line-height-h6">As companies seek to grow their retail footprint, the need for a global e-commerce framework arises as a top concern</span>
+                                </figcaption>
                             </figure>
                         </div>
                     </div>
@@ -176,12 +219,6 @@
                     </div>
                 </section>
             </div>
-<!--            <!-- Quick Fact: Semi Transparent Orange background -->
-<!--            <div class="row ruckus-background-orange opacity-75">-->
-<!--                <div class="large-12 columns">-->
-<!--                    <h3 class="text-center h4 padding-25">A UK based retailer has had a 70% rise in web traffic through smart devices</h3>-->
-<!--                </div>-->
-<!--            </div>-->
 
             </div>
 
@@ -192,7 +229,7 @@
         <div class="large-12 columns">
         <div class="row ruckus-background-black">
             <div class="large-12 columns ">
-                <h2 class="h3 ruckus-white">Mobile Payments aren’t just convenient for consumers, they bring huge benefits for retailers too
+                <h2 class="h3 ruckus-white">Mobile Payments aren’t just convenient for consumers, they deliver huge benefits for retailers too
                 </h2>
             </div>
         </div>
@@ -284,7 +321,7 @@
                     <figcaption>
                         <span class="ruckus-orange h4">The virtues of virtual</span>
                         <br>
-                        <span class="ruckus-white">- Digital wallets offer the potential to get rid of cards and cash altogether, allowing users to store a virtual version of almost everything they need</span>
+                        <span class="ruckus-white">Digital wallets offer the potential to get rid of cards and cash altogether, allowing users to store a virtual version of almost everything they need</span>
                     </figcaption>
                 </figure>
             </div>
@@ -319,7 +356,7 @@
         <div class="large-12 columns ">
             <div class="row ruckus-background-black">
                 <div class="large-12 columns">
-                    <h2 class="ruckus-white h3">Retailers embracing an omnichannel approach will be those best placed to succeed</h2>
+                    <h2 class="ruckus-white h3">Retailers embracing an omnichannel approach will be best placed to succeed</h2>
                 </div>
             </div>
             <!-- Facts: Percentage Data -->
@@ -329,7 +366,8 @@
 
                         <span class="table-center-container">
                             <span class="table-center-cell">
-                                    <span class="ruckus-white">Whether bricks or clicks-to-mortar the path to purchase for customers is becoming increasingly blurred</span>
+                                    <span class="ruckus-white"><span class="h5">The path to purchase for customers is becoming increasingly blurred.
+</span><br><br><span class="h4">Your customers now…</span></span>
                             </span>
                         </span>
                 </div>
@@ -347,7 +385,7 @@
                     <figure class="circular-fact">
                         <img class="lazy-load" data-original="images/guide/icons-22.png">
                         <figcaption class="ruckus-white">
-                            Research products
+                            Research products before buying
                         </figcaption>
                     </figure>
                 </div>
@@ -356,7 +394,7 @@
                     <figure class="circular-fact">
                         <img class="lazy-load" data-original="images/guide/icons-23.png">
                         <figcaption class="ruckus-white">
-                            Look at product reviews
+                            Check product reviews
                         </figcaption>
                     </figure>
                 </div>
@@ -382,7 +420,7 @@
             <!-- Footer information: Semi-transparent black background -->
             <div class="row ruckus-background-black" data-equalizer>
                 <div class="large-2 columns" data-equalizer-watch>
-                    <figure class="padding-25"><img class="lazy-load" data-original="images/guide/icons-30.png"><figcaption class="ruckus-orange">Click & Collect</figcaption></figure>
+                    <figure class="padding-25"><img class="lazy-load" data-original="images/guide/Icons-30.png"><figcaption class="ruckus-orange">Click & Collect</figcaption></figure>
                 </div>
                 <div class="large-6 columns" data-equalizer-watch>
                     <div class="table-center-container height-100">
@@ -396,7 +434,7 @@
                     <div class="table-center-container height-100">
                         <div class="table-center-cell">
                             <h4 class="ruckus-orange">Click-and-collect delivers</h4>
-                            <p class="ruckus-white">US retailer Macy's found that when using its click-and-collect service customers spent 125% of their intended order.</p>
+                            <p class="ruckus-white">US retailer Macy's found that when using its click-and-collect service customers spent 25% more of their intended order.</p>
                         </div>
                     </div>
                 </div>
@@ -542,8 +580,8 @@
                 </div>
             </div>
             <div class="row">
-                <div class="large-12 columns ruckus-background-black opacity-75">
-                    <h3 class="h3 ruckus-orange">Of the retailers surveyed:</h3>
+                <div class="large-12 columns ruckus-background-orange opacity-75">
+                    <h3 class="h3_5 ruckus-black">Of the retailers surveyed:</h3>
                 </div>
             </div>
             <!-- Artwork -->
@@ -624,4 +662,9 @@
 </body>
 <?php
     require_once('footer-entry-3.php');
+?>
+<?php
+
+}
+
 ?>

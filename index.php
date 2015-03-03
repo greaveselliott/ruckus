@@ -1,4 +1,35 @@
+
 <?php
+
+// Define your username and password
+$username = "ruckus";
+$password = "ruckus1!";
+
+if ($_POST['txtUsername'] != $username || $_POST['txtPassword'] != $password) {
+
+    ?>
+
+    <h1>Login</h1>
+
+    <form name="form" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+        <p><label for="txtUsername">Username:</label>
+            <br /><input type="text" title="Enter your Username" name="txtUsername" /></p>
+
+        <p><label for="txtpassword">Password:</label>
+            <br /><input type="password" title="Enter your password" name="txtPassword" /></p>
+
+        <p><input type="submit" name="Submit" value="Login" /></p>
+
+    </form>
+
+<?php
+
+}
+else {
+
+    ?>
+
+    <?php
     /*
     * Template: index.php
     * Project: ruckus hub
@@ -105,9 +136,9 @@
                       </div>
                       <div class="large-12 columns">
                           <ul class="large-block-grid-3 medium-block-grid-3 small-block-grid-1 ruckus-option-group"  data-toggle-type="checkbox">
-                              <li class="ruckus-option"  data-option-name="public"><div class="image hide-for-small" id="wi-fi"></div><span class="button">To provide public Wi-Fi</span></li>
-                              <li class="ruckus-option"  data-option-name="pos"><div class="image hide-for-small" id="pos"></div><span class="button">POS</span></li>
-                              <li class="ruckus-option"  data-option-name="employee"><div class="image hide-for-small" id="employee"></div><span class="button">Employee enablement</span></li>
+                              <li class="ruckus-option"  data-option-name="public"><div class="image hide-for-small" id="wi-fi"></div><span class="button alt">To provide public Wi-Fi</span></li>
+                              <li class="ruckus-option"  data-option-name="pos"><div class="image hide-for-small" id="pos"></div><span class="button alt">POS</span></li>
+                              <li class="ruckus-option"  data-option-name="employee"><div class="image hide-for-small" id="employee"></div><span class="button alt">Employee enablement</span></li>
                           </ul>
                       </div>
                   </div>
@@ -461,28 +492,23 @@
           <!-- Stage 5: Solution: template-stage-5 -->
           <section class="stage5 slide"  data-slidename="solution">
               <div class="row valign-middle tile-content">
-                  <div class="link-to-guide padding-10">
+                  <div class="link-to-guide padding-25">
                         <a class="ruckus-white h4" href="entry-three.php" alt="Simply Better Guide" target="_blank">
-                            <span>Simply better Wireless Guide</span>
-                            <span class="button alt">Go</span>
+                            <span>Simply Better Guide to Retail Technology</span>
+                            <span class="button alt no-margin-bottom">Go</span>
                         </a>
                   </div>
                   <div class="large-12 columns">
                       <div class="ruckus-background-black opacity-75 large-centered padding-60-75 no-padding-small no-background-color-small">
                           <!-- content -->
-                          <div class="row ">
-                              <div class="large-12 columns large-centered">
-                                  <h3 class="text-center ruckus-white">Your simply better solution</h3>
+                          <div class="row">
+                              <div class="large-12 columns template-solution-header">
+
                               </div>
                           </div>
                           <div class="row">
                               <div class="large-12 columns large-centered medium-8 medium-centered">
                                   <!-- Solution -->
-                                  <div class="row">
-                                      <div class="large-12 columns template-solution-header">
-                                          <h3 class="ruckus-orange">Title</h3>
-                                      </div>
-                                  </div>
                                   <div class="row">
                                       <!-- Writing-->
                                       <div class="large-8 columns ruckus-white template-solution-article">
@@ -490,7 +516,7 @@
                                       </div>
                                       <!-- Video-->
                                       <div class="large-4 columns">
-                                          <h5 class="ruckus-orange">Videos</h5>
+                                          <h5 class="ruckus-orange margin-bottom-20">From what you've told us, check out these</h5>
                                           <ul class="large-block-grid-1 medium-block-grid-2 small-block-grid-2 template-solution-videos">
                                           </ul>
                                           <h5 class="ruckus-orange">Downloads</h5>
@@ -531,3 +557,5 @@
     </article>
 </body>
 <?php require_once('footer.php');?>
+
+<?php }?>

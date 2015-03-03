@@ -71,7 +71,7 @@
         var timelineHubLink = new TimelineMax({yoyo: true, paused: true, repeat: 1, onComplete: console.log('Hublink animation complete')});
         timelineHubLink.to($hubLink, 1.5, {
             rotation: 0 ,
-            scaleX: 1.5, scaleY: 1.5, right: '50%', ease: Back.easeInOut.config(1.25), y: 0
+            scaleX: 1.5, scaleY: 1.5, rotationY: 360, right: '50%', ease: Back.easeInOut.config(1.25), y: 0
 
         });
 

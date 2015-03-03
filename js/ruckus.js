@@ -80,49 +80,11 @@
                     videos:     '.template-solution-videos',
                     downloads:  '.template-solution-downloads'
                 },
-            //    solutionData: [
-            //        {
-            //            header:   [
-            //                {
-            //                    headerTitle: 'Solution unavailable'
-            //                }
-            //            ],
-            //            article: [
-            //                {
-            //                    articleText: 'Why not enter a solution into the plugin configuration file'
-            //                }
-            //            ],
-            //            videos: [
-            //                {
-            //                    videoURL: 'http://player.vimeo.com/video/60122989'
-            //                }
-            //            ],
-            //            downloads:[
-            //                {
-            //                    downloadName: 'default download title',
-            //                    downloadImage: 'http://placehold.it/320x170',
-            //                    downloadLink: '#'
-            //
-            //                },
-            //                {
-            //                    downloadName: 'default download title',
-            //                    downloadImage: 'http://placehold.it/320x170',
-            //                    downloadLink: '#'
-            //
-            //                }
-            //            ]
-            //        }
-            //    ]
                 solutionData: [
-                    {
-                        header:   [
-                            {
-                                headerTitle: 'Thanks'
-                            }
-                        ],
+                    { // Small
                         article: [
                             {
-                                articleText: "<p class='ruckus-orange'>Why do you think the right Wi-Fi so important even for a small business?</p><p>Because once you have it, you, and your customers, will come to rely on it even more in the future. </p><hr>"},
+                                articleText: "<p>Why do you think the right Wi-Fi so important even for a small business?</p><p>Because once you have it, you, and your customers, will come to rely on it even more in the future. </p><hr>"},
                             {
                                 articleText: "<p>Even the smallest of stores need Wi-Fi today. It may be simply to build a hotspot for customers in a coffee shop, but it may be for something more sophisticated such as processing credit card transactions away from the till, or being able to check what stock is available in the back room. Whatever you needs, you need Wi-Fi that works, isn’t difficult to set up, and most importantly, is safe and secure for the user.</p><hr>"},
                             {
@@ -133,33 +95,22 @@
                         ],
                         videos: [
                             {
-                                videoURL: 'http://player.vimeo.com/video/60122989'
+                                videoURL: 'https://www.youtube.com/embed/_MpshIvZxx4'
                             }
                         ],
                         downloads:[
                             {
-                                downloadName: 'default download title',
-                                downloadImage: 'http://placehold.it/320x170',
-                                downloadLink: '#'
-
-                            },
-                            {
-                                downloadName: 'default download title',
-                                downloadImage: 'http://placehold.it/320x170',
-                                downloadLink: '#'
+                                downloadName: 'Ruckus Wireless Best Practises',
+                                downloadImage: 'images/solution-download-images.jpg',
+                                downloadLink: 'http://a030f85c1e25003d7609-b98377aee968aad08453374eb1df3398.r40.cf2.rackcdn.com/wp/wp-wireless-best-practices.pdf'
 
                             }
                         ]
                     },
-                    {
-                        header:   [
-                            {
-                                headerTitle: 'Thanks'
-                            }
-                        ],
+                    {   // medium
                         article: [
                             {
-                                articleText: '<p class="ruckus-orange">Lets imagine for a minute<br>Imagine a store where sales staff never leave a customer to check if something is in stock,</p><p>Or where they can order out-of-stock items for next day home delivery while standing at the display.</p><p>Or a store where customers don’t have to queue at a till to pay.</p><hr>'},{
+                                articleText: '<p>Lets imagine for a minute...<br>...a store where sales staff never leave a customer to check if something is in stock...</p><p>...or where they can order out-of-stock items for next day home delivery while standing at the display...</p><p>...or a store where customers don’t have to queue at a till to pay.</p><hr>'},{
                                 articleText: '<p>All of this and more is possible now with Ruckus - From a single large store to hundreds of smaller boutiques across an entire country, Wi-Fi is the easiest way to connect customers and staff to the information they need to enable a sale.</p><p>Ruckus Wireless is a market leader in Wi-Fi for mid-market retailers. Our solutions are simple to deploy, sold and supported by a huge choice of specialist resellers, and uses the smartest technology to ensure the best connection across the whole sales floor and back office.</p><hr class="ruckus-orange">'},{
                                 articleText: '<p>With Wi-Fi in store, staff can better service your customer’s better, and you can start thinking about how you can</p><ul> <li>Use location based services solutions - such as Ruckus SPoT™ - to review your footfall and see how people move around your store: <ul> <li>Change your window display and analyse how many more people come into the store than just walk past</li> <li>Match your highest margin products to the areas where your customers go most.</li> </ul> </li> <li>Reward loyal customers with target promotions – something that nearly ¾ of all customers say they are happy to receive</li> <li>Understand more about your demographics and how your store is used at different times and on different days of the week.</li></ul>'},{
                                 articleText: '<blockquote>“Almost every new consumer product today has an embedded Wi-Fi capability. To effectively demonstrate and sell these products, customers want to actually see and understand how to use them in a live environment. The Ruckus system, with its integrated adaptive antenna array technology, is simply in a different league and has helped increase in-store sales” <cite class="ruckus-orange">Tim Pearce – Hughes Electrical (UK)</cite></blockquote>'
@@ -167,64 +118,42 @@
                         ],
                         videos: [
                             {
-                                videoURL: 'http://player.vimeo.com/video/60122989'
+                                videoURL: 'https://www.youtube.com/embed/6DR2MguoDgQ'
                             },
                             {
-                                videoURL: 'http://player.vimeo.com/video/60122989'
+                                videoURL: 'https://www.youtube.com/embed/_MpshIvZxx4'
                             }
                         ],
                         downloads:[
                             {
-                                downloadName: 'default download title',
-                                downloadImage: 'http://placehold.it/320x170',
-                                downloadLink: '#'
-
-                            },
-                            {
-                                downloadName: 'default download title',
-                                downloadImage: 'http://placehold.it/320x170',
-                                downloadLink: '#'
-
-                            },
-                            {
-                                downloadName: 'default download title',
-                                downloadImage: 'http://placehold.it/320x170',
-                                downloadLink: '#'
-
+                                downloadName: 'Ruckus Wireless Best Practises',
+                                downloadImage: 'images/solution-download-images.jpg',
+                                downloadLink: 'http://a030f85c1e25003d7609-b98377aee968aad08453374eb1df3398.r40.cf2.rackcdn.com/wp/wp-wireless-best-practices.pdf'
                             }
                         ]
                     },
-                    {
-                        header:   [
-                            {
-                                headerTitle: 'Thanks'
-                            }
-                        ],
+                    {   // large
                         article: [
                             {
-                                articleText: '<p class="ruckus-orange">Even the smallest of stores need Wi-Fi today.  It may be simply to build a hotspot for customers in a coffee shop, but it may be for something more sophisticated such as processing credit card transactions away from the till, or being able to check what stock is available in the back room. Whatever you needs, you need Wi-Fi that works, isn’t difficult to set up, and most importantly, is safe and secure for the user.</p><p>Why is choosing the right Wi-Fi so important even for a small business? Because once you have it, you, and your customers, will come to rely on it even more in the future.</p><hr>'},{
+                                articleText: '<p>Even the smallest of stores need Wi-Fi today.  It may be simply to build a hotspot for customers in a coffee shop, but it may be for something more sophisticated such as processing credit card transactions away from the till, or being able to check what stock is available in the back room. Whatever you needs, you need Wi-Fi that works, isn’t difficult to set up, and most importantly, is safe and secure for the user.</p><p>Why is choosing the right Wi-Fi so important even for a small business? Because once you have it, you, and your customers, will come to rely on it even more in the future.</p><hr>'},{
                                 articleText: '<p>Simply Smarter Wireless allows you to move and grow from;</p><ul><li>secure credit transactions from wireless terminals, and</li><li>providing simple and secure customer hotspots, to</li><li>digital signage showing promotions</li><li>discrete video surveillance</li><li>stock checking without leaving the customer</li></ul><hr>'},{
                                 articleText: '<p>For the smaller store, often a single access point in the back office is enough to provide coverage from front of store to back, and support tens of users, but sometimes you need to cover a couple of floors and two or more access points are required. With the right Wi-Fi ,processing credit card transactions can easily be done in a PCI compliant way, and running more sophisticated things like shop video surveillance is easy</p>'},{
                                 articleText: '<p>Remember,  61 % of retailers say that their customers spend more time in store since they installed Wi-Fi (source /GR DeviceSpace 2014) and 50% spend more money. That’s why choosing the right Wi-Fi is so important.</p>'
                             }
                         ],
                         videos: [
-                            {
-                                videoURL: 'http://player.vimeo.com/video/60122989'
-                            }
+
                         ],
                         downloads:[
                             {
-                                downloadName: 'default download title',
-                                downloadImage: 'http://placehold.it/320x170',
-                                downloadLink: '#'
-
+                                downloadName: 'Location: The New Battlefield',
+                                downloadImage: 'images/solution-battlefield-images.jpg',
+                                downloadLink: 'http://a030f85c1e25003d7609-b98377aee968aad08453374eb1df3398.r40.cf2.rackcdn.com/wp/wp-location-new-battlefield.pdf'
                             },
                             {
-                                downloadName: 'default download title',
-                                downloadImage: 'http://placehold.it/320x170',
-                                downloadLink: '#'
-
+                                downloadName: 'PCI Compliance',
+                                downloadImage: 'images/solution-smart-images.jpg',
+                                downloadLink: 'http://a030f85c1e25003d7609-b98377aee968aad08453374eb1df3398.r40.cf2.rackcdn.com/wp/wp-smartsec-for-pci-compliance.pdf'
                             }
                         ]
                     }
@@ -315,7 +244,9 @@
             },
             serializedData: undefined,                               // Serialized module data
             rootDir: self.options.model.rootDir,                    // Root directory (e.g. https://www.yourwebsite.com/)
-            cookiesEnabled: true,                                    // are cookies enabled?
+            cookiesEnabled: {
+                tracking: false
+            },                                    // are cookies enabled?
             startingFrame: self.options.model.startingFrame,         // are cookies enabled?
             loadingActive: false,
             navigationActive: false,
@@ -353,43 +284,46 @@
         return self;
     };
 
-    // Creating, reading and updating the cookies
-    EemjiiRuckus.prototype.cookie     = function (){
-
-    };
-
-
     // Set analytics
     EemjiiRuckus.prototype.setAnalytics = function () {
         var self = this;
+        // EU Cookie Law - Has the user consented to tracking cookies?
+        if(self.Model.cookiesEnabled.tracking) {
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-        ga('create', 'UA-59686286-1', 'auto');
-        ga('send', 'pageview');
-
+            ga('create', 'UA-59686286-1', 'auto');
+            ga('send', 'pageview');
+        }
         // returning self: enables functions chaining
         return self;
     };
     // Tracking user interaction with Google analytics
     EemjiiRuckus.prototype.sendAnalytics  = function (currentFrame){
         var self = this;
-
-        ga('set', {
-            page: '/'+currentFrame,
-            title: self.Model.pageInfo[currentFrame],
-            entryPoint: self.Model.entryPoint
-        });
-        ga('send', 'pageview', {
-            //'page': '/my-new-page',
-            'hitCallback': function() {
-                console.log('analytics.js done sending data');
-            }
-        });
-
+        // EU Cookie Law - Has the user consented to tracking cookies?
+        if(self.Model.cookiesEnabled.tracking) {
+            ga('set', {
+                page: '/'+currentFrame,
+                title: self.Model.pageInfo[currentFrame],
+                entryPoint: self.Model.entryPoint
+            });
+            ga('send', 'pageview', {
+                //'page': '/my-new-page',
+                'hitCallback': function() {
+                    console.log('analytics.js done sending data');
+                }
+            });
+        }
         // returning self: enables functions chaining
         return self;
     };
@@ -461,7 +395,7 @@
         // Header
         self.View.solutionTarget.$header.loadTemplate(  // loading template into $header
             self.options.view.solutionsTemplate.header, //
-            {headerTitle: 'Thanks ' + self.Model.userName}
+            {headerTitle: self.Model.userName + "'s Simply Better Wireless Solution"}
         );
         // Article
         self.View.solutionTarget.$article.loadTemplate( // loading template into $article

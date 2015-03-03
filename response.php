@@ -48,3 +48,14 @@ if ($connection->query($query) === TRUE) {
 } else {
     echo "Error: " . $query . "<br>" . $connection->error;
 }
+
+$msg = "First line of text\nSecond line of text";
+
+// use wordwrap() if lines are longer than 70 characters
+$msg = wordwrap($msg,70);
+
+$subject = "Hi". $ruckus_user_name . ", view your simply wireless solution";
+
+// send email
+mail($ruckus_user_email,$subject,$msg);
+?>
