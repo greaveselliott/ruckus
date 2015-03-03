@@ -171,7 +171,7 @@ else {
                           <!-- Size of business -->
                           <fieldset class="slide-data hide" data-linked-slide="size">
                               <label><span class="ruckus-white">Small business</span>
-                                <input type="radio" name="size" data-name="small" value="Small" class="">
+                                <input type="radio" name="size" data-name="small" value="Small Business" class="">
                               </label>
                               <label><span class="ruckus-white">Medium business</span>
                                 <input type="radio" name="size" data-name="medium" value="Medium Business" class="">

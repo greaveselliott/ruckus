@@ -14,9 +14,9 @@ echo "Connected successfully";
 // Values
 //print_r($_POST);
 
-    $ruckus_user_name               = array_key_exists('name', $_POST) ? $_POST['name']: null;
-    $ruckus_user_email              = array_key_exists('email',$_POST) ? $_POST['email']: null;
-    $ruckus_user_country            = array_key_exists('country',$_POST) ? $_POST['country']: null;
+    $ruckus_user_name               = array_key_exists('name', $_POST) ? $_POST['name']: 'undefined';
+    $ruckus_user_email              = array_key_exists('email',$_POST) ? $_POST['email']: 'undefined';
+    $ruckus_user_country            = array_key_exists('country',$_POST) ? $_POST['country']: '';
     $ruckus_user_telephone          = array_key_exists('telephone', $_POST) ? $_POST['telephone'] : null;
     $ruckus_user_business_sector    = 'not yet available';
     $ruckus_user_business_size      = array_key_exists('size',$_POST) ? $_POST['size'] : null;
@@ -31,9 +31,14 @@ VALUES
 	(
 	    '".$ruckus_user_name."',
 	    '".$ruckus_user_email."',
-	    $ruckus_user_telephone,
+	    '".$ruckus_user_telephone."',
 	    '".$ruckus_user_country."',
-	    '".$ruckus_user_business_sector."', '".$ruckus_user_business_size."', $ruckus_user_wifi_public, $ruckus_user_wifi_pos, $ruckus_user_wifi_employee, '".$ruckus_user_input_date."');
+	    '".$ruckus_user_business_sector."',
+	    '".$ruckus_user_business_size."',
+	    $ruckus_user_wifi_public,
+	    $ruckus_user_wifi_pos,
+	    $ruckus_user_wifi_employee,
+	    '".$ruckus_user_input_date."');
 ";
 
 /*
@@ -54,8 +59,14 @@ $msg = "First line of text\nSecond line of text";
 // use wordwrap() if lines are longer than 70 characters
 $msg = wordwrap($msg,70);
 
-$subject = "Hi". $ruckus_user_name . ", view your simply wireless solution";
+$subject = "Hi ". $ruckus_user_name . ", view your simply better wireless solution";
+
+$headers = "From: no-reply@simplybetterwireless.net \r\n";
+//$headers .= "Reply-To: no-reply@simplybetterwireless.net \r\n";
+//$headers .= "CC: susan@example.com\r\n";
+$headers .= "MIME-Version: 1.0\r\n";
+$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
 // send email
-mail($ruckus_user_email,$subject,$msg);
+mail($ruckus_user_email,$subject,$msg, $headers);
 ?>

@@ -736,9 +736,11 @@
 
         // Form Complete Event - Not the greatest code, but meh...
         $(document).on('formSubmitted', function(){
-            self.View.currentFrame >= self.Model.totalFrames ?
-            self.View.currentFrame == self.Model.totalFrames-1 :
+            if (self.View.currentFrame >= self.Model.totalFrames ) {
+                self.View.currentFrame = self.Model.totalFrames-1;
+            } else {
                 self.View.currentFrame++;
+            }
             self.setDeepLink();
         });
 
@@ -755,14 +757,17 @@
         var $attr = obj.attr('class');
 
         if ( $attr.indexOf('next') !== -1 || $attr.indexOf('start') !== -1){
-            self.View.currentFrame >= self.Model.totalFrames ?
-                self.View.currentFrame == self.Model.totalFrames-1 :
-                    self.View.currentFrame++;
-
+            if (self.View.currentFrame >= self.Model.totalFrames ) {
+                self.View.currentFrame = self.Model.totalFrames-1;
+            } else {
+                self.View.currentFrame++;
+            }
         } else if ( $attr.indexOf('prev') !== -1 ){
-            self.View.currentFrame <= self.Model.startingFrame ?
-                self.View.currentFrame == self.Model.startingFrame :
-                    self.View.currentFrame--;
+            if ( self.View.currentFrame <= self.Model.startingFrame ) {
+                self.View.currentFrame = self.Model.startingFrame;
+            } else {
+                self.View.currentFrame--;
+            }
         }
 
         console.log('The starting frame is: ' + self.View.startingFrame);
@@ -811,13 +816,6 @@
             //}
         });
 
-        console.log('Current slide is '+currentSlideName);
-        console.log('Linked slide is ',$linkedSlide);
-        console.log('Minimum required form elements', minRequired);
-        console.log('Current valid elements', currentValid);
-
-        console.log('FORM UPDATED!');
-
         self.Model.isCurrentSlideValid = minRequired <= currentValid;
 
         if (self.Model.isCurrentSlideValid) {
@@ -825,8 +823,6 @@
         } else {
             self.toggleNavigation(false);
         }
-
-        console.log(self);
         return self;
     };
 

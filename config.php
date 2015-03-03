@@ -7,5 +7,4 @@ $databasename = 'ruckus'; //databasename
 
 //connect to database
 $mysqli = new mysqli($hostname, $username, $password, $databasename);
-
 ?>

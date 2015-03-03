@@ -358,20 +358,21 @@ small {
 }
 
 a {
-    color: #2ba6cb;
+    color: #EA7600;
     text-decoration: none;
 }
 
 a:hover {
-    color: #2795b6 !important;
+    color: #000000 !important;
 }
 
 a:active {
-    color: #2795b6 !important;
+    color: #000000 !important;
+    text-decoration: underline;
 }
 
 a:visited {
-    color: #2ba6cb !important;
+    color: #000000 !important;
 }
 
 h1 a,
@@ -735,11 +736,11 @@ body.outlook p {
     }
 
     .header {
-        background: #999999;
+        background: #000000;
     }
 
     .footer .wrapper {
-        background: #ebebeb;
+        background: #FFFFFF;
     }
 
     .footer h5 {
@@ -769,7 +770,72 @@ body.outlook p {
             padding-right: 10px !important;
         }
     }
+    .ruckus-orange {
+        color: #EA7600 !important; }
+    .ruckus-background-orange {
+        background-color: #EA7600; }
+    .ruckus-background-orange.opacity-25 {
+        background-color: rgba(234, 118, 0, 0.25); }
+    .ruckus-background-orange.opacity-50 {
+        background-color: rgba(234, 118, 0, 0.5); }
+    .ruckus-background-orange.opacity-75 {
+        background-color: rgba(234, 118, 0, 0.75); }
+    @media only screen and (min-width: 40.063em) {
+        .ruckus-background-orange.opacity-75-medium-up {
+            background-color: rgba(234, 118, 0, 0.75); } }
+    .ruckus-background-orange.opacity-85 {
+        background-color: rgba(234, 118, 0, 0.85); }
+    .ruckus-background-orange.opacity-90 {
+        background-color: rgba(234, 118, 0, 0.9); }
+    .ruckus-background-orange.opacity-95 {
+        background-color: rgba(234, 118, 0, 0.95); }
 
+    /* line 3, ../scss/_colours.scss */
+    .ruckus-white, #social-shopping-stats ul li {
+        color: #fff !important; }
+
+    /* line 5, ../scss/_colours.scss */
+    .ruckus-background-white {
+        background-color: #fff; }
+    /* line 8, ../scss/_colours.scss */
+    .ruckus-background-white.opacity-25 {
+        background-color: rgba(255, 255, 255, 0.25); }
+    /* line 11, ../scss/_colours.scss */
+    .ruckus-background-white.opacity-50 {
+        background-color: rgba(255, 255, 255, 0.5); }
+    /* line 14, ../scss/_colours.scss */
+    .ruckus-background-white.opacity-75 {
+        background-color: rgba(255, 255, 255, 0.75); }
+    @media only screen and (min-width: 40.063em) {
+        /* line 17, ../scss/_colours.scss */
+        .ruckus-background-white.opacity-75-medium-up {
+            background-color: rgba(255, 255, 255, 0.75); } }
+    /* line 22, ../scss/_colours.scss */
+    .ruckus-background-white.opacity-85 {
+        background-color: rgba(255, 255, 255, 0.85); }
+    /* line 25, ../scss/_colours.scss */
+    .ruckus-background-white.opacity-90 {
+        background-color: rgba(255, 255, 255, 0.9); }
+    /* line 28, ../scss/_colours.scss */
+    .ruckus-background-white.opacity-95 {
+        background-color: rgba(255, 255, 255, 0.95); }
+
+    .ruckus-black {
+        color: #000 !important; }
+    .ruckus-background-black {
+        background-color: #000; }
+    .ruckus-background-black.opacity-25 {
+        background-color: rgba(0, 0, 0, 0.25); }
+    .ruckus-background-black.opacity-50 {
+        background-color: rgba(0, 0, 0, 0.5); }
+    .ruckus-background-black.opacity-75 {
+        background-color: rgba(0, 0, 0, 0.75); }
+    .ruckus-background-black.opacity-85 {
+        background-color: rgba(0, 0, 0, 0.85); }
+    .ruckus-background-black.opacity-90 {
+        background-color: rgba(0, 0, 0, 0.9); }
+    .ruckus-background-black.opacity-95 {
+        background-color: rgba(0, 0, 0, 0.95); }
 </style>
 </head>
 <body>
@@ -777,6 +843,7 @@ body.outlook p {
 <tr>
 <td class="center" align="center" valign="top">
 <center>
+
 
 <table class="row header">
     <tr>
@@ -789,13 +856,15 @@ body.outlook p {
 
                             <table class="twelve columns">
                                 <tr>
+
                                     <td class="six sub-columns">
-                                        <img src="http://placehold.it/200x50">
+                                        <img src="http://simplybetterwireless.net/images/ruckus-logo.png">
                                     </td>
-                                    <td class="six sub-columns last" style="text-align:right; vertical-align:middle;">
-                                        <span class="template-label">SIDEBAR HERO</span>
+                                    <td class="six sub-columns last" align="right" style="text-align:right; vertical-align:middle;">
+                                        <span class="template-label"></span>
                                     </td>
                                     <td class="expander"></td>
+
                                 </tr>
                             </table>
 
@@ -807,7 +876,6 @@ body.outlook p {
         </td>
     </tr>
 </table>
-
 <br>
 
 <table class="container">
@@ -822,18 +890,30 @@ body.outlook p {
                         <table class="twelve columns">
                             <tr>
                                 <td>
-                                    <h1>Welcome, Daneel Olivan</h1>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+
+                                    <h1>Hi, [Recipient name]</h1>
+                                    <p class="lead">Heres a copy of your Simply Better Wireless Solution</p>
                                     <img width="580" height="300" src="http://placehold.it/580x300">
+
                                 </td>
                                 <td class="expander"></td>
                             </tr>
                         </table>
 
+                    </td>
+                </tr>
+            </table>
+            <table class="row">
+                <tr>
+                    <td class="wrapper last">
+
                         <table class="twelve columns">
                             <tr>
-                                <td class="panel">
-                                    <p>Phasellus dictum sapien a neque luctus cursus. Pellentesque sem dolor, fringilla et pharetra vitae. <a href="#">Click it! »</a></p>
+                                <td>
+
+                                    <h3>[Chosen solution]</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
                                 </td>
                                 <td class="expander"></td>
                             </tr>
@@ -843,27 +923,14 @@ body.outlook p {
                 </tr>
             </table>
 
-            <br>  <!-- Break Tag for row -->
 
             <table class="row">
                 <tr>
-                    <td class="wrapper">
+                    <td class="wrapper last">
 
-                        <table class="six columns">
+                        <table class="three columns">
                             <tr>
                                 <td>
-
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet.</p>
-
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet.</p>
-
-                                    <table class="button">
-                                        <tr>
-                                            <td>
-                                                <a href="#">Click Me!</a>
-                                            </td>
-                                        </tr>
-                                    </table>
 
                                 </td>
                                 <td class="expander"></td>
@@ -871,77 +938,22 @@ body.outlook p {
                         </table>
 
                     </td>
-                    <td class="wrapper last">
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td class="wrapper">
+                        <h4>Connect with us</h4>
+                    </td>
+                </tr>
+            </table>
+            <table class="row footer">
+                <tr>
+                    <td class="wrapper">
 
-                        <table class="six columns">
+                        <table class="four columns">
                             <tr>
-                                <td class="panel">
-                                    <h6>Header Thing</h6>
-                                    <p>Sub-head or something</p>
-                                    <table>
-                                        <tr>
-                                            <td>
-                                                <a href="#">Just a Plain Link &raquo;</a>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                    <hr>
-                                    <table>
-                                        <tr>
-                                            <td>
-                                                <a href="#">Just a Plain Link &raquo;</a>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                    <hr>
-                                    <table>
-                                        <tr>
-                                            <td>
-                                                <a href="#">Just a Plain Link &raquo;</a>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                    <hr>
-                                    <table>
-                                        <tr>
-                                            <td>
-                                                <a href="#">Just a Plain Link &raquo;</a>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                    <hr>
-                                    <table>
-                                        <tr>
-                                            <td>
-                                                <a href="#">Just a Plain Link &raquo;</a>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                    <hr>
-                                    <table>
-                                        <tr>
-                                            <td>
-                                                <a href="#">Just a Plain Link &raquo;</a>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                    <hr>
-                                    <table>
-                                        <tr>
-                                            <td>
-                                                <a href="#">Just a Plain Link &raquo;</a>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </td>
-                                <td class="expander"></td>
-                            </tr>
-                        </table>
-                        <br>
-                        <table class="six columns">
-                            <tr>
-                                <td class="panel">
-                                    <h6 style="margin-bottom:5px;">Connect With Us:</h6>
+                                <td>
                                     <table class="tiny-button facebook">
                                         <tr>
                                             <td>
@@ -949,8 +961,17 @@ body.outlook p {
                                             </td>
                                         </tr>
                                     </table>
+                                </td>
+                                <td class="expander"></td>
+                            </tr>
+                        </table>
 
-                                    <hr>
+                    </td>
+                    <td class="wrapper">
+
+                        <table class="four columns">
+                            <tr>
+                                <td>
 
                                     <table class="tiny-button twitter">
                                         <tr>
@@ -959,8 +980,17 @@ body.outlook p {
                                             </td>
                                         </tr>
                                     </table>
+                                </td>
+                                <td class="expander"></td>
+                            </tr>
+                        </table>
 
-                                    <hr>
+                    </td>
+                    <td class="wrapper last">
+
+                        <table class="four columns">
+                            <tr>
+                                <td>
 
                                     <table class="tiny-button google-plus">
                                         <tr>
@@ -969,10 +999,7 @@ body.outlook p {
                                             </td>
                                         </tr>
                                     </table>
-                                    <br>
-                                    <h6 style="margin-bottom:5px;">Contact Info:</h6>
-                                    <p>Phone: <b>408.341.0600</b></p>
-                                    <p>Email: <a href="mailto:hseldon@trantor.com">hseldon@trantor.com</a></p>
+
                                 </td>
                                 <td class="expander"></td>
                             </tr>
@@ -981,28 +1008,6 @@ body.outlook p {
                     </td>
                 </tr>
             </table>
-            <br>
-            <br>
-            <!-- Legal + Unsubscribe -->
-            <table class="row">
-                <tr>
-                    <td class="wrapper last">
-
-                        <table class="twelve columns">
-                            <tr>
-                                <td align="center">
-                                    <center>
-                                        <p style="text-align:center;"><a href="#">Terms</a> | <a href="#">Privacy</a> | <a href="#">Unsubscribe</a></p>
-                                    </center>
-                                </td>
-                                <td class="expander"></td>
-                            </tr>
-                        </table>
-
-                    </td>
-                </tr>
-            </table>
-
             <!-- container end below -->
         </td>
     </tr>
