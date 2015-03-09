@@ -54,10 +54,34 @@ if ($connection->query($query) === TRUE) {
     echo "Error: " . $query . "<br>" . $connection->error;
 }
 
-$msg = "First line of text\nSecond line of text";
 
-// use wordwrap() if lines are longer than 70 characters
-$msg = wordwrap($msg,70);
+$template = file_get_contents('http://simplybetterwireless.net/email-template-solution-header.php');
+
+$template .= <<<EOT
+<table class="row">
+    <tr>
+        <td class="wrapper last">
+            <table class="twelve columns">
+                <tr>
+                    <td>
+EOT;
+$template .= "<h1>Hi $ruckus_user_name, </h1>";
+$template .= <<<EOT
+                        <p class="lead">Here's a copy of your Simply Better Wireless Solution</p>
+                    </td>
+                    <td class="expander"></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+EOT;
+$template .= file_get_contents('http://simplybetterwireless.net/email-template-solution-content.php');
+
+//$msg = "First line of text\nSecond line of text";
+//
+//// use wordwrap() if lines are longer than 70 characters
+//$msg = wordwrap($msg,70);
 
 $subject = "Hi ". $ruckus_user_name . ", view your simply better wireless solution";
 
@@ -68,5 +92,5 @@ $headers .= "MIME-Version: 1.0\r\n";
 $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
 // send email
-mail($ruckus_user_email,$subject,$msg, $headers);
+mail($ruckus_user_email,$subject,$template,$headers);
 ?>

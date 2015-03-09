@@ -101,3 +101,16 @@ $respond-to-list:   "screen" $screen,
   }
   //}
 }
+// creates properties specific to each responsive
+@mixin responsive_property($selector) {
+  .#{$selector}{
+    @content;
+  }
+  @each $i in $respond-to-list {
+    @include respond-to(#{nth($i,1)}){
+      .#{$selector}-#{nth($i,1)} {
+        @content;
+      }
+    }
+  }
+}

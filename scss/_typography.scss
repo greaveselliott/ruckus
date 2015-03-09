@@ -1,35 +1,43 @@
-.h0 {
+
+@include responsive_property(h0){
   font-size:  4.75rem !important;
 }
-.h1 {
+@include responsive_property(h1){
   font-size: $h1-font-size !important;
 }
-
-.h2 {
+@include responsive_property(h2){
   font-size: $h2-font-size !important;
 }
-
-.h3 {
+@include responsive_property(h3){
   font-size: $h3-font-size !important;
 }
 
-.h3_5 {
+@include responsive_property(h3_5){
   font-size:$h3_5-font-size !important;
 }
 
-.h4 {
+@include responsive_property(h4){
   font-size: $h4-font-size !important;
 }
 
-.h4_5 {
+@include responsive_property(h4_5){
   font-size: $h4_5-font-size !important;
 }
 
-.h5 {
+@include responsive_property(h5){
   font-size: $h5-font-size !important;
 }
+@include responsive_property(text-left){
+  text-align: left !important;
+}
+@include responsive_property(text-center){
+  text-align: center !important;
+}
+@include responsive_property(text-right){
+  text-align: right !important;
+}
 
-.h6 {
+@include responsive_property(h6){
   font-size: $h6-font-size !important;
 }
 
@@ -45,6 +53,6 @@
   font-weight: $font-weight-bold !important;
 }
 
-.font-scale-x2 {
+@include responsive_property(font-scale-x2) {
   font-size: 2em !important;
 }

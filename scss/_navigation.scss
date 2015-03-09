@@ -30,3 +30,16 @@ header {
   bottom: -100px;
   opacity: 0;
 }
+
+#appendix {
+  h2 {
+    @extend .ruckus-orange;
+  }
+  p {
+    display: inline;
+    white-space: normal;
+    word-break: break-all;
+    padd: 10px;
+    @extend .ruckus-orange;
+  }
+}

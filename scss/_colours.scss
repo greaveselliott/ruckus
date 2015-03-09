@@ -1,8 +1,11 @@
 @each $i in $ruckus-colours-list {
 
+  @include responsive_property(h6){
+    font-size: $h6-font-size !important;
+  }
   .ruckus-#{nth($i,1)} { color: #{nth($i,2)} !important; }
 
-  .ruckus-background-#{nth($i,1)} {
+  @include responsive_property(ruckus-background-#{nth($i,1)}){
     background-color: #{nth($i,2)};
 
     &.opacity-25 {
@@ -14,11 +17,11 @@
     &.opacity-75 {
       background-color: #{rgba(nth($i,2), 0.75)};
     }
-    &.opacity-75-medium-up {
-      @include respond-to(medium-up){
-        background-color: #{rgba(nth($i,2), 0.75)};
-      }
-    }
+    //    &.opacity-75-medium-up {
+    //      @include respond-to(medium-up){
+    //        background-color: #{rgba(nth($i,2), 0.75)};
+    //      }
+    //    }
     &.opacity-85 {
       background-color: #{rgba(nth($i,2), 0.85)};
     }
@@ -29,6 +32,35 @@
       background-color: #{rgba(nth($i,2), 0.95)};
     }
   }
+
+//  .ruckus-background-#{nth($i,1)} {
+
+//    background-color: #{nth($i,2)};
+
+//    &.opacity-25 {
+//      background-color: #{rgba(nth($i,2), 0.25)};
+//    }
+//    &.opacity-50 {
+//      background-color: #{rgba(nth($i,2), 0.5)};
+//    }
+//    &.opacity-75 {
+//      background-color: #{rgba(nth($i,2), 0.75)};
+//    }
+////    &.opacity-75-medium-up {
+////      @include respond-to(medium-up){
+////        background-color: #{rgba(nth($i,2), 0.75)};
+////      }
+////    }
+//    &.opacity-85 {
+//      background-color: #{rgba(nth($i,2), 0.85)};
+//    }
+//    &.opacity-90 {
+//      background-color: #{rgba(nth($i,2), 0.90)};
+//    }
+//    &.opacity-95 {
+//      background-color: #{rgba(nth($i,2), 0.95)};
+//    }
+//  }
 }
 
 
