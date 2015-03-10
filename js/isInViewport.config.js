@@ -29,7 +29,18 @@
     var activePage = 'active-page.js',
         defaults = {
             wayPoints: 'ruckus-tile',
-            cta_button: '#hub-link'
+            cta_button: '#hub-link',
+            ruckus_colours: [
+                /*'ruckus-orange'*/'#EA7600',
+                ///*'ruckus-grey'*/  '#75787B',
+                ///*'ruckus-black'*/ '#000000',
+                ///*'ruckus-white'*/ '#ffffff',
+                /*'ruckus-green'*/ '#74aa50',
+                /*'ruckus-violet'*/'#702082',
+                /*'ruckus-blue'*/  '#009CBD',
+                /*'ruckus-gold'*/  '#B58500',
+                /*'ruckus-red'*/   '#A4343A'
+            ]
         };
 
     // The actual plugin constructor
@@ -67,21 +78,59 @@
     ActivePage.prototype.timelineHubLink = function () {
         var self = this;
         var $hubLink = $(self.options.cta_button);
+        var colours = self.options.ruckus_colours;
 
-        var timelineHubLink = new TimelineMax({yoyo: true, paused: true, repeat: 1, onComplete: console.log('Hublink animation complete')});
-        timelineHubLink.to($hubLink, 1.5, {
-            rotation: 0 ,
-            scaleX: 1.5, scaleY: 1.5, rotationY: 360, right: '50%', ease: Back.easeInOut.config(1.25), y: 0
-
-        });
+        var tween = function () {
+            TweenLite.to($hubLink, 1.5, {
+                'background-color': colours[Math.floor(Math.random()*colours.length)],
+                ease: Back.easeInOut.config(1.25)
+            });
+        };
 
         $(document).on('cta_pulse',function(){
-            timelineHubLink.restart();
+            tween();
         });
 
-        console.log(self);
-
         return self;
+    };
+
+    ActivePage.prototype.currentMediaQuery = function () {
+        var self = this;
+
+        // Responsive Width Conditions
+        var $smallRange     = ['0em', '40em'];
+        var $mediumRange    = ['40.063em', '64em'];
+        var $largeRange     = ['64.063em', '90em'];
+        var $xlargeRange    = ['90.063em', '120em'];
+        var $xxlargeRange   = ['120.063em', '99999999em'];
+
+        var currentSize         = document.documentElement.clientWidth;
+        var mediaQueryResult;
+        switch (currentSize) {
+            // small
+            case currentSize <= $smallRange[1]:
+                mediaQueryResult = 'small';
+                break;
+            // medium
+            case currentSize >= $smallRange[1] && currentSize <= $mediumRange[1]:
+                mediaQueryResult = 'medium';
+                break;
+            // large
+            case currentSize >= $mediumRange[1] && currentSize <= $largeRange[1]:
+                mediaQueryResult = 'large';
+                break;
+            // xlarge
+            case currentSize >= $largeRange[1] && currentSize <= $xlargeRange[1]:
+                mediaQueryResult = 'xlarge';
+                break;
+            // xxlarge
+            case currentSize >= $xlargeRange[1] && currentSize <= $xxlargeRange[1]:
+                mediaQueryResult = 'xxlarge';
+                break;
+            default:
+                break;
+        }
+        return mediaQueryResult;
     };
 
     ActivePage.prototype.updateCtaText = function () {
@@ -97,8 +146,6 @@
     ActivePage.prototype.setCurrentCTA = function ($element) {
         var self = this;
 
-        //console.log($element.data('cta'));
-
         self.currentCTA = $element.data('cta');
 
         return self;
@@ -110,7 +157,6 @@
 
     ActivePage.prototype.alertHubLink = function ($element) {
         var self = this;
-        console.log('alertHubLink(); sees element as ', $element);
         $(document).trigger('cta_pulse',[$element]);
 
 
@@ -129,12 +175,22 @@
                     var previousWaypoint = this.previous();
                     var nextWaypoint = this.next();
                     var $element = $(this.element);
-
+                    var currentQuery = self.currentMediaQuery();
                     // reset
-                    $elements.removeClass('np-previous np-current np-next').css({opacity: 0.5});
+                    $elements.removeClass('np-previous np-current np-next');
+
+                    if( currentQuery != 'large' || currentQuery != 'xlarge' || currentQuery != 'xxlarge' ) {
+                        $elements.css({opacity: 0.5});
+                    }
+
 
                     // set current element
-                    $element.addClass('np-current').css({opacity: 1});
+                    $element.addClass('np-current');
+
+                    if( currentQuery != 'large' || currentQuery != 'xlarge' || currentQuery != 'xxlarge' ) {
+                        $elements.css({opacity: 1});
+                    }
+
                     self.getCurrentCTA($element);
                     self.setCurrentCTA($element);
                     self.alertHubLink($element);

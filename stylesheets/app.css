@@ -17183,10 +17183,11 @@ body {
 /* line 2, ../scss/_zurb-grid-extension.scss */
 .row.full-screen {
   max-width: 100% !important; }
-/* line 17, ../scss/_zurb-grid-extension.scss */
-.row.full-screen > .large-12 > .row {
-  padding-left: 10%;
-  padding-right: 10%; }
+@media only screen and (min-width: 64.063em) {
+  /* line 17, ../scss/_zurb-grid-extension.scss */
+  .row.full-screen > .large-12 > .row {
+    padding-left: 10%;
+    padding-right: 10%; } }
 
 /* line 1, ../scss/_media.scss */
 figure {

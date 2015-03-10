@@ -15,8 +15,10 @@
     //}
 
       > .large-12 > .row {
-        padding-left: 10%;
-        padding-right: 10%;
+        @include respond-to(large-up) {
+          padding-left: 10%;
+          padding-right: 10%;
+        }
       }
 
   }

@@ -70,7 +70,7 @@ else {
         </div>
         <div class="row ruckus-background-black opacity-75">
             <!-- Network stability and bandwidth -->
-            <div class="large-6 columns margin-bottom-20-small-only">
+            <div class="large-6 medium-6 columns margin-bottom-20-small-only">
                 <figure class="row wifi-retail-fact ruckus-background-black opacity-75 padding-bottom-20-small-only">
                         <span class="large-4 medium-4 columns">
                             <span class="table-center-container">
@@ -109,7 +109,7 @@ else {
                 </figure>
             </div>
             <!-- How people feel when there's no Wi-Fi in a business premises -->
-            <div class="large-6 columns no-padding-left-small-only no-padding-right-small-only hide-for-small">
+            <div class="large-6 medium-6 columns no-padding-left-small-only no-padding-right-small-only hide-for-small">
                 <figure class="ruckus-background-black opacity-75 padding-25">
                                         <figcaption class="ruckus-white text-left h4 text-center-small-only">What are consumers using Wi-Fi for in-store? </figcaption>
                     <img class="lazy-load" data-original="images/guide/icons-34.png">
@@ -126,7 +126,7 @@ else {
             <div class="row ruckus-background-black">
 
                 <div class="large-12 columns">
-                    <h2 class="ruckus-white h3 h4-small-only">Mobile will continue to grow in every part of the shopper journey<span class="hide-for-small">, with smartphones and tablets playing an increasingly larger role</span></h2>
+                    <h2 class="ruckus-white h3 h4-small-only">Mobile will continue to grow in every part of the shopper journey<span class="hide-for-small display-inline">, with smartphones and tablets playing an increasingly larger role</span></h2>
                 </div>
 
             </div>
@@ -350,7 +350,7 @@ else {
             </div>
             <!-- Facts: Percentage Data -->
             <div class="row" data-equalizer>
-                <div class="large-2 columns ruckus-background-orange opacity-75 " data-equalizer-watch>
+                <div class="large-2 medium-2 columns ruckus-background-orange opacity-75 " data-equalizer-watch>
                     <!-- Text with Semi-Transparent Orange background -->
 
                         <span class="table-center-container">
@@ -360,7 +360,7 @@ else {
                             </span>
                         </span>
                 </div>
-                <div class="large-2 columns ruckus-background-black opacity-75 padding-bottom-20 padding-top-20-small-only"" data-equalizer-watch>
+                <div class="large-2 medium-2 columns ruckus-background-black opacity-75 padding-bottom-20 padding-top-20-small-only"" data-equalizer-watch>
                     <!-- Check prices -->
                     <figure class="circular-fact">
                         <img class="lazy-load hide-for-small" data-original="images/guide/icons-21.png">
@@ -369,7 +369,7 @@ else {
                         </figcaption>
                     </figure>
                 </div>
-                <div class="large-2 columns ruckus-background-black opacity-75 padding-bottom-20" data-equalizer-watch>
+                <div class="large-2 medium-2 columns ruckus-background-black opacity-75 padding-bottom-20" data-equalizer-watch>
                     <!-- Research product -->
                     <figure class="circular-fact">
                         <img class="lazy-load hide-for-small" data-original="images/guide/icons-22.png">
@@ -378,7 +378,7 @@ else {
                         </figcaption>
                     </figure>
                 </div>
-                <div class="large-2 columns ruckus-background-black opacity-75 padding-bottom-20" data-equalizer-watch>
+                <div class="large-2 medium-2 columns ruckus-background-black opacity-75 padding-bottom-20" data-equalizer-watch>
                     <!-- Look at product reviews -->
                     <figure class="circular-fact">
                         <img class="lazy-load hide-for-small" data-original="images/guide/icons-23.png">
@@ -387,7 +387,7 @@ else {
                         </figcaption>
                     </figure>
                 </div>
-                <div class="large-2 columns ruckus-background-black opacity-75 padding-bottom-20" data-equalizer-watch>
+                <div class="large-2 medium-2 columns ruckus-background-black opacity-75 padding-bottom-20" data-equalizer-watch>
                     <!-- Create win-win-win -->
                     <figure class="circular-fact">
                         <img class="lazy-load hide-for-small" data-original="images/guide/icons-24.png">
@@ -396,7 +396,7 @@ else {
                         </figcaption>
                     </figure>
                 </div>
-                <div class="large-2 columns ruckus-background-black opacity-75 padding-bottom-20" data-equalizer-watch>
+                <div class="large-2 medium-2 columns ruckus-background-black opacity-75 padding-bottom-20" data-equalizer-watch>
                     <!-- Create win-win-win -->
                     <figure class="circular-fact">
                         <img class="lazy-load hide-for-small" data-original="images/guide/icons-25.png">
@@ -408,10 +408,10 @@ else {
             </div>
             <!-- Footer information: Semi-transparent black background -->
             <div class="row ruckus-background-black" data-equalizer>
-                <div class="large-2 columns" data-equalizer-watch>
+                <div class="large-2 medium-2 columns" data-equalizer-watch>
                     <figure class="padding-25 hide-for-small"><img class="lazy-load" data-original="images/guide/Icons-30.png"><figcaption class="ruckus-orange">Click & Collect</figcaption></figure>
                 </div>
-                <div class="large-6 columns" data-equalizer-watch>
+                <div class="large-6 medium-6 columns" data-equalizer-watch>
                     <div class="table-center-container height-100">
                         <div class="table-center-cell">
                             <h4 class="ruckus-orange">Online marches onward </h4>
@@ -419,7 +419,7 @@ else {
                         </div>
                     </div>
                 </div>
-                <div class="large-4 columns" data-equalizer-watch>
+                <div class="large-4 medium-4 columns" data-equalizer-watch>
                     <div class="table-center-container height-100">
                         <div class="table-center-cell">
                             <h4 class="ruckus-orange">Click-and-collect delivers</h4>
@@ -441,7 +441,7 @@ else {
             <!-- Artwork -->
             <div class="row" data-equalizer>
                 <!-- A rewarding future -->
-                <div class="large-4 columns " data-equalizer-watch>
+                <div class="large-4 medium-4 columns " data-equalizer-watch>
                     <figure class="padding-50">
                         <img class="lazy-load hide-for-small" data-original="images/guide/icons-12.png">
                         <figcaption>
@@ -452,7 +452,7 @@ else {
                     </figure>
                 </div>
                 <!-- Many appy returns -->
-                <div class="large-4 columns ruckus-background-black " data-equalizer-watch>
+                <div class="large-4 medium-4 columns ruckus-background-black " data-equalizer-watch>
                     <div class="table-center-container">
                         <div class="table-center-cell">
                             <figure class="mobile-with-text" id="many-appy-returns">
@@ -467,7 +467,7 @@ else {
                     </div>
                 </div>
                 <!-- The age of engagement -->
-                <div class="large-4 columns " data-equalizer-watch>
+                <div class="large-4 medium-4 columns " data-equalizer-watch>
                     <figure class="padding-50 padding-bottom-20-small-only">
                         <img class="lazy-load hide-for-small" data-original="images/guide/icons-13.png">
                         <figcaption><span class="ruckus-orange h4">The age of engagement</span><br><span class="ruckus-white">92% of shoppers engage with a loyalty scheme at least once a month</span></figcaption>
@@ -488,42 +488,42 @@ else {
             <!-- Artwork -->
             <div class="row" data-equalizer>
                 <!-- Social shopping stats -->
-                <div class="large-3 columns ruckus-background-black" data-equalizer-watch id="social-shopping-stats">
+                <div class="large-3 medium-3 columns ruckus-background-black" data-equalizer-watch id="social-shopping-stats">
                     <div class="table-center-container">
                         <div class="table-center-cell text-left">
                             <h4 class="ruckus-orange">Social Shopping Stats</h4>
                             <h5 class="ruckus-white margin-bottom-20">Using social media consumers have:</h5>
 
                             <div class="row ruckus-white collapse">
-                                <div class="large-2 columns hide-for-small"><i class="fa fa-comments ruckus-orange h3"></i></div>
-                                <div class="large-8 columns line-height-h3 text-left"><span class="hide show-for-small display-inline">52%</span> Interacted with brands</div>
-                                <div class="large-2 columns line-height-h3 text-left hide-for-small"><span>52%</span></div>
+                                <div class="large-2 medium-2 columns hide-for-small"><i class="fa fa-comments ruckus-orange h3"></i></div>
+                                <div class="large-8 medium-8 columns line-height-h3 text-left"><span class="hide show-for-small display-inline">52%</span> Interacted with brands</div>
+                                <div class="large-2 medium-2 columns line-height-h3 text-left hide-for-small"><span>52%</span></div>
                             </div>
                             <div class="row ruckus-white collapse padding-top-10">
-                                <div class="large-2 columns hide-for-small"><i class="fa fa-comment ruckus-orange h3"></i></div>
-                                <div class="large-8 columns line-height-h3 text-left"><span class="hide show-for-small display-inline">55%</span> Shared their experience</div>
-                                <div class="large-2 columns line-height-h3 text-left hide-for-small"><span>55%</span></div>
+                                <div class="large-2 medium-2 columns hide-for-small"><i class="fa fa-comment ruckus-orange h3"></i></div>
+                                <div class="large-8 medium-8 columns line-height-h3 text-left"><span class="hide show-for-small display-inline">55%</span> Shared their experience</div>
+                                <div class="large-2 medium-2 columns line-height-h3 text-left hide-for-small"><span>55%</span></div>
                             </div>
                             <div class="row ruckus-white collapse padding-top-10">
-                                <div class="large-2 columns hide-for-small"><i class="fa fa-eye ruckus-orange h3"></i></div>
-                                <div class="large-8 columns line-height-h3 text-left"><span class="hide show-for-small display-inline">58%</span> Discovered brands</div>
-                                <div class="large-2 columns line-height-h3 text-left hide-for-small"><span>58%</span></div>
+                                <div class="large-2 medium-2 columns hide-for-small"><i class="fa fa-eye ruckus-orange h3"></i></div>
+                                <div class="large-8 medium-8 columns line-height-h3 text-left"><span class="hide show-for-small display-inline">58%</span> Discovered brands</div>
+                                <div class="large-2 medium-2 columns line-height-h3 text-left hide-for-small"><span>58%</span></div>
                             </div>
                             <div class="row ruckus-white collapse padding-top-10">
-                                <div class="large-2 columns hide-for-small"><i class="fa fa-search ruckus-orange h3"></i></div>
-                                <div class="large-8 columns line-height-h3 text-left"> <span class="hide show-for-small display-inline">59%</span> Researched a brand</div>
-                                <div class="large-2 columns line-height-h3 text-left hide-for-small"><span>59%</span></div>
+                                <div class="large-2 medium-2 columns hide-for-small"><i class="fa fa-search ruckus-orange h3"></i></div>
+                                <div class="large-8 medium-8 columns line-height-h3 text-left"> <span class="hide show-for-small display-inline">59%</span> Researched a brand</div>
+                                <div class="large-2 medium-2 columns line-height-h3 text-left hide-for-small"><span>59%</span></div>
                             </div>
                             <div class="row ruckus-white collapse padding-top-10">
-                                <div class="large-2 columns hide-for-small"><i class="fa fa-shopping-cart ruckus-orange h3"></i></div>
-                                <div class="large-8 columns line-height-h3 text-left"><span class="hide show-for-small display-inline">48%</span> Bought products</div>
-                                <div class="large-2 columns line-height-h3 text-left"><span class="hide-for-small">48%</span></div>
+                                <div class="large-2 medium-2 columns hide-for-small"><i class="fa fa-shopping-cart ruckus-orange h3"></i></div>
+                                <div class="large-8 medium-8 columns line-height-h3 text-left"><span class="hide show-for-small display-inline">48%</span> Bought products</div>
+                                <div class="large-2 medium-2 columns line-height-h3 text-left"><span class="hide-for-small">48%</span></div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- Referring is occurring / wr trust 'our' networks -->
-                <div class="large-3 columns ruckus-background-orange opacity-75 " data-equalizer-watch>
+                <div class="large-3 medium-3 columns ruckus-background-orange opacity-75 " data-equalizer-watch>
                     <figure class="padding-50 padding-bottom-20-small-only">
                         <img class="lazy-load hide-for-small" data-original="images/guide/icons-14.png">
                         <figcaption>
@@ -531,7 +531,7 @@ else {
                             <br>
                             <span class="ruckus-white">71% of consumers are likely to make a purchase based on social media referrals</span></figcaption></figure>
                 </div>
-                <div class="large-3 columns ruckus-background-black opacity-75 " data-equalizer-watch>
+                <div class="large-3 medium-3 columns ruckus-background-black opacity-75 " data-equalizer-watch>
                     <figure class="padding-50 padding-bottom-20-small-only"><img class="lazy-load hide-for-small" data-original="images/guide/icons-15.png">
                         <figcaption>
                             <span class="ruckus-orange h4">We trust 'our' networks</span>
@@ -540,7 +540,7 @@ else {
                         </figcaption>
                     </figure>
                 </div>
-                <div class="large-3 columns ruckus-background-black opacity-75 " data-equalizer-watch>
+                <div class="large-3 medium-3 columns ruckus-background-black opacity-75 " data-equalizer-watch>
                     <div class="table-center-container">
                         <div class="table-center-cell">
                             <figure class="mobile-with-text" id="vocal-over-social">
@@ -576,7 +576,7 @@ else {
             <!-- Artwork -->
             <div class="row" data-equalizer>
                 <!-- Social shopping stats -->
-                <div class="large-4 columns ruckus-background-black opacity-75 " data-equalizer-watch>
+                <div class="large-4 medium-4 columns ruckus-background-black opacity-75 " data-equalizer-watch>
                     <figure class="padding-50 padding-bottom-20-small-only"><img class="lazy-load hide-for-small" data-original="images/guide/icons-03.png">
                         <figcaption>
                             <span class="ruckus-orange h4">Full of 'next' appeal</span>
@@ -585,7 +585,7 @@ else {
                         </figcaption></figure>
                 </div>
                 <!-- Referring is occurring / wr trust 'our' networks -->
-                <div class="large-4 columns ruckus-background-orange opacity-75 " data-equalizer-watch>
+                <div class="large-4 medium-4 columns ruckus-background-orange opacity-75 " data-equalizer-watch>
                     <figure class="padding-50 padding-bottom-20-small-only">
                         <div class="table-center-container"><div class="table-center-cell">
                         <img class="lazy-load hide-for-small" data-original="images/guide/icons-31.png">
@@ -596,7 +596,7 @@ else {
                         </figcaption>
                     </figure>
                 </div>
-                <div class="large-4 columns ruckus-background-black opacity-75 " data-equalizer-watch>
+                <div class="large-4 medium-4 columns ruckus-background-black opacity-75 " data-equalizer-watch>
                     <figure class="padding-50 padding-bottom-20-small-only">
                         <img class="lazy-load hide-for-small" data-original="images/guide/icons-36.png">
                         <figcaption>
