@@ -3,7 +3,12 @@
   @include responsive_property(h6){
     font-size: $h6-font-size !important;
   }
-  .ruckus-#{nth($i,1)} { color: #{nth($i,2)} !important; }
+
+  @include responsive_property (ruckus-#{nth($i,1)}) {
+    color: #{nth($i,2)} !important;
+  }
+
+  //.ruckus-#{nth($i,1)} { color: #{nth($i,2)} !important; }
 
   @include responsive_property(ruckus-background-#{nth($i,1)}){
     background-color: #{nth($i,2)};
@@ -17,11 +22,11 @@
     &.opacity-75 {
       background-color: #{rgba(nth($i,2), 0.75)};
     }
-    //    &.opacity-75-medium-up {
-    //      @include respond-to(medium-up){
-    //        background-color: #{rgba(nth($i,2), 0.75)};
-    //      }
-    //    }
+//        &.opacity-75-medium-up {
+//          @include respond-to(medium-up){
+//            background-color: #{rgba(nth($i,2), 0.75)};
+//          }
+//        }
     &.opacity-85 {
       background-color: #{rgba(nth($i,2), 0.85)};
     }

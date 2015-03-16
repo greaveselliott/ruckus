@@ -1,0 +1,42 @@
+// Styles for the hub solution
+
+.content {
+  h1, h2, h3, h4, h5, h6, p, a, ul, li, blockquote, cite {
+    color: $ruckus-black;
+    @include respond-to(small-only){
+      color: $ruckus-white;
+    }
+  }
+  p {
+    //margin-bottom: 0px;
+  }
+  ul {
+    list-style-type: circle;
+
+    li {
+      height: auto;
+    }
+  }
+  blockquote {
+    border-left: none;
+    padding: 10px 0px;
+    display: block;
+    height: auto;
+    cite {
+      display: inline-block;
+      background-color: $ruckus-orange;
+      padding: 0px 10px;
+      margin-bottom: 10px;
+      border-radius: 10px;
+      -webkit-border-radius: 3px;
+      border-radius: 3px;
+    }
+  }
+}
+
+.download-link {
+  width: 100%;
+  img {
+    width: 100%;
+  }
+}

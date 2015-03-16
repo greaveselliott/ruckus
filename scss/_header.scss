@@ -5,4 +5,7 @@
 
 .logo {
   height: 40px;
+  @include respond-to(small-only) {
+    padding-left: 20px;
+  }
 }

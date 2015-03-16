@@ -52,7 +52,12 @@
 .text-bold {
   font-weight: $font-weight-bold !important;
 }
-
+.text-underline {
+  text-decoration: underline;
+}
 @include responsive_property(font-scale-x2) {
   font-size: 2em !important;
+}
+@include responsive_property(font-scale-x1-5) {
+  font-size: 1.5em !important;
 }

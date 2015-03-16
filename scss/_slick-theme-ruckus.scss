@@ -1,0 +1,29 @@
+.ruckus-slick {
+  @include respond-to(medium-up) {
+    margin-top: 100px;
+  }
+}
+
+.slick-dots {
+  display: none !important;
+}
+.slick-prev {
+  position: absolute;
+  bottom: 40%;
+  left: -80px;
+  display:none !important;
+  @include respond-to(large-up){
+    display: block !important;
+  }
+}
+
+.slick-next {
+  position: absolute;
+  bottom: 40%;
+  right: -40px;
+  display: none !important;
+  @include respond-to(large-up){
+    display: block !important;
+  }
+}
+

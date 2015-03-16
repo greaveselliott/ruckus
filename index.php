@@ -43,26 +43,32 @@ else {
       <div class="absolute top width-100 header">
         <div class="row padding-top-10">
             <div class="large-12 columns">
-                <ul class="large-block-grid-2 medium-block-grid-2 small-block-grid-2">
-                    <li>
-                    <header class="left">
+                    <header id="ruckus-logo" class="position-left">
                         <img src="images/ruckus-logo.png" alt="Ruckus Logo" class="logo">
                         <h1 class="hide">Ruckus</h1>
+                        <!-- CTA Contact | Buy now | Get Demo -->
+                        <nav class="cta-ruckus-nav hide-for-small">
+                            <h2 class="hide">Contact Ruckus, Buy Ruckus Products Now or Get a Demo</h2>
+                            <ul class="contact no-bullet no-margin-bottom">
+                                <li id="home-link">
+                                    <a href="http://www.ruckuswireless.com/" target="_blank" title="Visit the Ruckus Wireless home page"><i class="fa fa-home"></i>Ruckus Home</a>
+                                </li>
+                                <li id="contact-link"><a href="http://www.ruckuswireless.com/contact" title="contact" target="_blank"><i class="fa fa-envelope-o"></i>Contact Us</a></li>
+                                <li id="buy-link"><a href="http://www.ruckuswireless.com//buy" id="buy" target="_blank"><i class="fa fa-shopping-cart"></i>Buy Now</a></li>
+                                <li id="demo-link"><a href="http://www.ruckuswireless.com//request-a-demo" id="Request a Demo" target="_blank"><i class="fa fa-bar-chart"></i>Get a Demo</a></li>
+                            </ul>
+
+                        </nav>
                     </header>
-                    </li>
-                    <li>
                     <nav id="social-media-links">
                         <div class="clearfix">
-                            <ul class="right small">
-                                <li><a class="icon_facebook" href="#" title="Like us on Facebook"><i class="fa fa-facebook"></i></a></li>
-                                <li><a class="icon_twitter" href="#" title="Follow us on Twitter"><i class="fa fa-twitter"></i></a></li>
-                                <li><a class="icon_google" href="#" title="Follow us on Google+"><i class="fa fa-google-plus"></i></a></li>
-                                <li><a class="icon_linked-in" href="#" title="Follow our Linked-in page"><i class="fa fa-linkedin"></i></a></li>
+                            <ul class="position-right small">
+                                <li><a class="icon_facebook" href="https://www.facebook.com/RuckusWirelessUK" title="Visit the Official Ruckus Wireless Facebook page" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                <li><a class="icon_twitter" href="https://twitter.com/RuckusEMEA" title="Visit the Official Ruckus Wireless Twitter PAGE" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                <li><a class="icon_linked-in" href=" https://www.linkedin.com/company/165796?trk=vsrp_companies_res_name&trkInfo=VSRPsearchId%3A281003031423500454049%2CVSRPtargetId%3A165796%2CVSRPcmpt%3Aprimary" title="Connect with Ruckus Wireless on Linked-in" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                             </ul>
                         </div>
                     </nav>
-                    </li>
-                </ul>
             </div>
             <div class="large-6 columns">
 
@@ -80,10 +86,10 @@ else {
                     <!-- Heading text -->
                     <div class="row collapse">
                         <div class="large-7 columns large-centered">
-                            <h2 class="ruckus-orange text-center">Simply Better Wireless.</h2>
-                            <p class="ruckus-white text-center h4 ruckus-orange">Find out how Ruckus can help you get Simply Better Wireless. Just answer two simple questions to personalise your own Ruckus wireless solution.</p>
+                            <h2 class="ruckus-orange text-center h4-small-only">Simply Better Wireless.</h2>
+                            <p class="ruckus-white text-center h4 h6-small-only ruckus-orange">Find out how Ruckus can help you get Simply Better Wireless. Just answer two simple questions to personalise your own Ruckus wireless solution.</p>
                             <hr>
-                            <p class="text-center h5 ruckus-orange">Ruckus Wireless is a pioneer in the wireless infrastructure market, enabling businesses to stay ahead of the exploding demand for high-bandwidth applications and services.</p>
+                            <p class="text-center h5 h6-small-only ruckus-orange">Ruckus Wireless is a pioneer in the wireless infrastructure market, enabling businesses to stay ahead of the exploding demand for high-bandwidth applications and services.</p>
 
                             <div class="ruckus-hub-start button alt">Start Now</div>
                         </div>
@@ -100,7 +106,7 @@ else {
                     <!-- Options 2 -->
                     <div class="ruckus-background-black opacity-75 large-centered padding-60-75 no-padding-small no-background-color-small">
                       <div class="row">
-                          <div class="large-12 columns"><h2 class="ruckus-white">Select one answer below that best represents your business size</h2></div>
+                          <div class="large-12 columns"><h2 class="ruckus-white h4-small-only">Select one answer below that best represents your business size</h2></div>
                           <div class="large-12 columns">
                               <ul class="large-block-grid-3 medium-block-grid-3 small-block-grid-1 ruckus-option-group"  data-toggle-type="radio">
                                   <li class="ruckus-option"  data-option-name="small">
@@ -131,15 +137,21 @@ else {
               <div class="ruckus-background-black opacity-75 large-centered padding-60-75 no-padding-small no-background-color-small">
                   <div class="row">
                       <div class="large-12 columns padding-50">
-                          <h2 class="ruckus-white">What do you need Wi-Fi for?</h2>
-                          <h4 class="ruckus-white">Please select one or more options below</h4>
+                          <h2 class="ruckus-white text-center h4-small-only">What do you need Wi-Fi for?</h2>
                       </div>
+                  </div>
+                  <div class="row">
                       <div class="large-12 columns">
                           <ul class="large-block-grid-3 medium-block-grid-3 small-block-grid-1 ruckus-option-group"  data-toggle-type="checkbox">
                               <li class="ruckus-option"  data-option-name="public"><div class="image hide-for-small" id="wi-fi"></div><span class="button alt">To provide public Wi-Fi</span></li>
                               <li class="ruckus-option"  data-option-name="pos"><div class="image hide-for-small" id="pos"></div><span class="button alt">POS</span></li>
                               <li class="ruckus-option"  data-option-name="employee"><div class="image hide-for-small" id="employee"></div><span class="button alt">Employee enablement</span></li>
                           </ul>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="large-12 columns">
+                          <h4 class="ruckus-orange text-center">Please select <strong class="text-underline">one or more</strong> options</h4>
                       </div>
                   </div>
                </div>
@@ -153,8 +165,8 @@ else {
               <!-- content -->
               <div class="row">
                   <div class="large-8 columns large-centered">
-                      <h2 class="text-center ruckus-white">One final step</h2>
-                      <h3 class="text-center ruckus-orange h5">Please enter your details so we can email your personalised solution to you</h3>
+                      <h2 class="text-center ruckus-white h4-small-only">One final step</h2>
+                      <h3 class="text-center ruckus-orange h5 h6-small-only">Please enter your details so we can email your personalised solution to you</h3>
                   </div>
               </div>
               <div class="row">
@@ -216,6 +228,16 @@ else {
                                       <label class="ruckus-white"><span>Country</span><small class="ruckus-orange">(optional)</small>
                                           <select data-option-type="ruckus-option" name="country">
                                           <option value="">Select your country</option>
+                                          <option value="BE">Belgium</option>
+                                          <option value="DK">Denmark</option>
+                                          <option value="FR">France</option>
+                                          <option value="DE">Germany</option>
+                                          <option value="NO">Norway</option>
+                                          <option value="NL">Netherlands</option>
+                                          <option value="SE">Sweden</option>
+                                          <option value="ES">Spain</option>
+                                          <option value="GB">United Kingdom</option>
+                                          <option value="">========</option>
                                           <option value="AF">Afghanistan</option>
                                           <option value="AX">Åland Islands</option>
                                           <option value="AL">Albania</option>
@@ -237,7 +259,7 @@ else {
                                           <option value="BD">Bangladesh</option>
                                           <option value="BB">Barbados</option>
                                           <option value="BY">Belarus</option>
-                                          <option value="BE">Belgium</option>
+
                                           <option value="BZ">Belize</option>
                                           <option value="BJ">Benin</option>
                                           <option value="BM">Bermuda</option>
@@ -276,7 +298,6 @@ else {
                                           <option value="CW">Curaçao</option>
                                           <option value="CY">Cyprus</option>
                                           <option value="CZ">Czech Republic</option>
-                                          <option value="DK">Denmark</option>
                                           <option value="DJ">Djibouti</option>
                                           <option value="DM">Dominica</option>
                                           <option value="DO">Dominican Republic</option>
@@ -291,14 +312,14 @@ else {
                                           <option value="FO">Faroe Islands</option>
                                           <option value="FJ">Fiji</option>
                                           <option value="FI">Finland</option>
-                                          <option value="FR">France</option>
+
                                           <option value="GF">French Guiana</option>
                                           <option value="PF">French Polynesia</option>
                                           <option value="TF">French Southern Territories</option>
                                           <option value="GA">Gabon</option>
                                           <option value="GM">Gambia</option>
                                           <option value="GE">Georgia</option>
-                                          <option value="DE">Germany</option>
+
                                           <option value="GH">Ghana</option>
                                           <option value="GI">Gibraltar</option>
                                           <option value="GR">Greece</option>
@@ -372,7 +393,6 @@ else {
                                           <option value="NA">Namibia</option>
                                           <option value="NR">Nauru</option>
                                           <option value="NP">Nepal</option>
-                                          <option value="NL">Netherlands</option>
                                           <option value="NC">New Caledonia</option>
                                           <option value="NZ">New Zealand</option>
                                           <option value="NI">Nicaragua</option>
@@ -381,7 +401,7 @@ else {
                                           <option value="NU">Niue</option>
                                           <option value="NF">Norfolk Island</option>
                                           <option value="MP">Northern Mariana Islands</option>
-                                          <option value="NO">Norway</option>
+
                                           <option value="OM">Oman</option>
                                           <option value="PK">Pakistan</option>
                                           <option value="PW">Palau</option>
@@ -424,13 +444,12 @@ else {
                                           <option value="ZA">South Africa</option>
                                           <option value="GS">South Georgia and the South Sandwich Islands</option>
                                           <option value="SS">South Sudan</option>
-                                          <option value="ES">Spain</option>
+
                                           <option value="LK">Sri Lanka</option>
                                           <option value="SD">Sudan</option>
                                           <option value="SR">Suriname</option>
                                           <option value="SJ">Svalbard and Jan Mayen</option>
                                           <option value="SZ">Swaziland</option>
-                                          <option value="SE">Sweden</option>
                                           <option value="CH">Switzerland</option>
                                           <option value="SY">Syrian Arab Republic</option>
                                           <option value="TW">Taiwan, Province of China</option>
@@ -450,7 +469,7 @@ else {
                                           <option value="UG">Uganda</option>
                                           <option value="UA">Ukraine</option>
                                           <option value="AE">United Arab Emirates</option>
-                                          <option value="GB">United Kingdom</option>
+
                                           <option value="US">United States</option>
                                           <option value="UM">United States Minor Outlying Islands</option>
                                           <option value="UY">Uruguay</option>
@@ -492,14 +511,8 @@ else {
           <!-- Stage 5: Solution: template-stage-5 -->
           <section class="stage5 slide"  data-slidename="solution">
               <div class="row valign-middle tile-content">
-                  <div class="link-to-guide padding-25">
-                        <a class="ruckus-white h4" href="entry-three.php" alt="Simply Better Guide" target="_blank">
-                            <span>Simply Better Guide to Retail Technology</span>
-                            <span class="button alt no-margin-bottom">Go</span>
-                        </a>
-                  </div>
                   <div class="large-12 columns">
-                      <div class="ruckus-background-black opacity-75 large-centered padding-60-75 no-padding-small no-background-color-small">
+                      <div class="ruckus-background-white opacity-50 large-centered padding-60-75 no-padding-small no-background-color-small">
                           <!-- content -->
                           <div class="row">
                               <div class="large-12 columns template-solution-header">
@@ -507,28 +520,70 @@ else {
                               </div>
                           </div>
                           <div class="row">
-                              <div class="large-12 columns large-centered medium-8 medium-centered">
+                              <div class="large-12 columns large-centered">
                                   <!-- Solution -->
                                   <div class="row">
-                                      <!-- Writing-->
-                                      <div class="large-8 columns ruckus-white template-solution-article">
+                                      <div class="large-12 columns">
+                                          <div id="st-accordion" class="st-accordion">
+                                              <ul class="no-margin no-padding">
+                                                  <li>
+                                                      <a href="#5">
+                                                          <h4 class="button alt"><span class="font-scale-x1-5-medium-up">Simply Better Solution</span></h4>
+                                                          <span class="st-arrow hide-for-small"><i class="fa fa-arrow-up"></i></span>
+                                                      </a>
+                                                      <div class="st-content template-solution-article">
+                                                         <!-- Content -->
+                                                      </div>
+                                                  </li>
+                                                  <li>
+                                                      <a href="#5">
+                                                          <h4 class="button alt"><span class="font-scale-x1-5-medium-up">Videos</span></h4>
+                                                          <span class="st-arrow hide-for-small"><i class="fa fa-arrow-up"></i></span>
+                                                      </a>
+                                                      <div class="st-content">
+                                                          <ul class="template-solution-videos large-block-grid-3 medium-block-grid-3 small-block-grid-3">
 
-                                      </div>
-                                      <!-- Video-->
-                                      <div class="large-4 columns">
-                                          <h5 class="ruckus-orange margin-bottom-20">From what you've told us, check out these</h5>
-                                          <ul class="large-block-grid-1 medium-block-grid-2 small-block-grid-2 template-solution-videos">
-                                          </ul>
-                                          <h5 class="ruckus-orange">Downloads</h5>
-                                          <ul class="large-block-grid-1 medium-block-grid-3 small-block-grid-2 template-solution-downloads">
-                                          </ul>
+                                                          </ul>
+                                                      </div>
+                                                  </li>
+                                                  <li>
+                                                      <a href="#5">
+                                                          <h4 class="button alt"><span class="font-scale-x1-5-medium-up">Downloads</span></h4>
+                                                          <span class="st-arrow hide-for-small"><i class="fa fa-arrow-up"></i></span>
+                                                      </a>
+                                                      <div class="st-content">
+                                                          <ul class="template-solution-downloads large-block-grid-3">
+
+                                                          </ul>
+                                                      </div>
+                                                  </li>
+                                                  <li>
+                                                      <a href="#5">
+                                                          <h4 class="button alt"><span class="font-scale-x1-5-medium-up">Read more about Ruckus</span></h4>
+                                                          <span class="st-arrow hide-for-small"><i class="fa fa-arrow-up"></i></span>
+                                                      </a>
+                                                      <div class="st-content template-solution-about">
+                                                          <p>Some content</p>
+                                                      </div>
+                                                  </li>
+                                              </ul>
+                                          </div>
+                                          <!-- accordion end -->
+                                          <div>
+                                              <a class="ruckus-white" href="entry-three.php" alt="Simply Better Guide" target="_blank">
+                                                  <h4 class="button"><span class="font-scale-x1-5-medium-up">Simply Better Guide to Retail Technology</span></h4>
+                                              </a>
+                                          </div>
+                                          <div id="example2" class="hide-for-small">
+                                              <div id="shareme" data-url="http://www.simplybetterwireless.net/" data-text="Find your organizations simply better wireless solution today!"></div>
+                                          </div>
                                       </div>
                                   </div>
                               </div>
                           </div>
                       </div>
                   </div>
-            </div>
+                </div>
           </section>
         </div>
         <!-- slide navigation -->
@@ -555,7 +610,6 @@ else {
         </div>
 
     </article>
-</body>
 <?php require_once('footer.php');?>
 
 <?php }?>

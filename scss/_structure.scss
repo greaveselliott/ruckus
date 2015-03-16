@@ -263,6 +263,20 @@
   margin-top: 50px;
 }
 
+@include responsive_property(height-auto){
+  height: auto !important;
+}
+
+.position-left {
+  left:     0px;
+  position: absolute;
+  top:      0px;
+}
+.position-right {
+  position: absolute;
+  top:      0px;
+  right:    10px;
+}
 .fake-column-33, .fake-column-50, .fake-column-66 { display: inline-block; }
 .fake-column-33 { width: 33%; }
 .fake-column-50 { width: 50%; }

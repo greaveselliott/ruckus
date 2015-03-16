@@ -101,6 +101,19 @@
   }
 }
 
+.st-open {
+  .button {
+    color: $ruckus-orange !important;
+    border-color: $ruckus-orange !important;
+
+    &.alt {
+      background-color: $ruckus-orange !important;
+      border-color: $ruckus-orange !important;
+      color: white !important;
+    }
+  }
+}
+
 .nav-wrapper {
   width: 125px;
   @extend .margin-center;

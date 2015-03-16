@@ -1,0 +1,72 @@
+
+    {
+        "article": [
+            {
+                "articleText": "<h5 class=\"text-underline\">Wi-Fi for a small business</h5><p>Even the smallest of stores need Wi-Fi today - It may be to build a hotspot for customers, or something more sophisticated such as processing credit card transactions away from the till in a PCI compliant way.</p><p>Whatever your needs, you need Wi-Fi that works, is easy to set up but most importantly, it’s safe and secure.</p><h6>Simply Smarter Wireless allows you to;</h6><ul> <li>Make secure credit transactions from wireless terminals</li> <li>Provide simple and secure customer hotspots</li> <li>Use digital signage showing promotions</li> <li>Maintain discrete video surveillance</li> <li>Check stock without leaving the customer</li></ul><h5>Getting the right coverage</h5><p>For a smaller store, often a single access point in the back office is enough to provide coverage while supporting tens of users. If you need to cover multiple floors two or more access points are required.</p><h6>Remember…</h6><p>…61 % of retailers say that their customers spend more time in store since they installed Wi-Fi (source /GR DeviceSpace 2014) and 50% spend more money. That’s why choosing the right Wi-Fi is so important.</p>"
+            }
+        ],
+        "videos": [
+            {
+                "videoTitle": "Case Study: Marstons Pubs",
+                "videoURL": "https://www.youtube.com/embed/_MpshIvZxx4"
+            },
+            {
+                "videoTitle": "Case Study: Marstons Pubs",
+                "videoURL": '"https://www.youtube.com/embed/_MpshIvZxx4"
+            }
+        ],
+        "downloads":[
+            {
+                "downloadName": "Ruckus Wireless Best Practises",
+                "downloadImage": "images/solution-download-images.jpg",
+                "downloadLink": "http://a030f85c1e25003d7609-b98377aee968aad08453374eb1df3398.r40.cf2.rackcdn.com/wp/wp-wireless-best-practices.pdf"
+
+            }
+        ]
+    },
+    {   // medium
+    article: [
+    {
+    articleText: '<h5 class="text-underline">Wi-Fi for a medium business</h5><h6>Imagine a store where;</h6><ul><li>Staff never leave a customer to check if something is in stock,</li> <li>Staff can order out-of-stock items for next day home delivery while standing at the display.</li> <li>Customers don’t have to queue at a till to pay.</li></ul><p>All of this and more is possible now with Ruckus - From a single large store to hundreds of smaller boutiques across an entire country.</p><p>Our solutions are simple to deploy, use the smartest technology ensuring the best connection across the whole sales floor and back office, and available through a large number of specialist resellers.</p><h5 class="text-underline">Benefits of Ruckus Wireless</h5><h6>With Wi-Fi in store you can start thinking about how you can</h6><ul><li>Use location based services solutions - such as Ruckus SPoT™ - to review your footfall and see how people move around your store: <ul> <li>Analyse how many more people come into the store than just walk past</li> <li>Match your highest margin products to the areas where your customers go most</li> </ul></li> <li>Reward loyal customers with targeted promotions</li> <li>Understand more about how your store is used at different times and on different days of the week.</li></ul><blockquote>Almost every new consumer product today has an embedded Wi-Fi capability. To effectively demonstrate and sell these products, customers want to actually see and understand how to use them in a live environment. The Ruckus system, with its integrated adaptive antenna array technology, is simply in a different league and has helped increase in-store sales<br><cite>Tim Pearce – Hughes Electrical (UK)</cite></blockquote>'
+    }
+    ],
+    videos: [
+    {
+    videoTitle: 'Case Study: Marstons Pubs',
+    videoURL: 'https://www.youtube.com/embed/6DR2MguoDgQ'
+    },
+    {
+    videoTitle: 'Case Study: Le Pain Quotidien',
+    videoURL: 'https://www.youtube.com/embed/_MpshIvZxx4'
+    }
+    ],
+    downloads:[
+    {
+    downloadName: 'Ruckus Wireless Best Practises',
+    downloadImage: 'images/solution-download-images.jpg',
+    downloadLink: 'http://a030f85c1e25003d7609-b98377aee968aad08453374eb1df3398.r40.cf2.rackcdn.com/wp/wp-wireless-best-practices.pdf'
+    }
+    ]
+    },
+    {   // large
+    article: [
+    {
+    articleText: '<h5 class="text-underline">Wi-Fi for a large business</h5><p>Great Wi-Fi in large stores and shopping malls is now expected by shoppers and essential to retail operations. It provides everything from shopper internet access, to operational support for instant stock lookup, VOIP, video signage and security.</p><h5 class="text-underline">Benefits of Ruckus Wireless</h5><p>Large stores / shopping malls typically need hundreds of wireless access points to cover the estate. This is where Ruckus’s Simply Better Wireless delivers a solution that provides faster connections over longer distances for more concurrent users. Built to deliver PCI compliant security, Ruckus’s Wi-Fi can reach every corner of the estate. This means better performance for users with less infrastructure.</p><p>And where there’s no network, wireless mesh enables faster and easier installation. This means that your sales staff, managers and security teams can be connected wherever they are in the store or in the mall.</p><h6>Remember…</h6><p>74% of shoppers are happy for a retailer to send a promotional text while they’re using in-store Wi-Fi</p><p>61% of smartphone users want the ads they see customized to their immediate surroundings</p>'
+    }
+    ],
+    videos: [
+
+    ],
+    downloads:[
+    {
+    downloadName: 'Location: The New Battlefield',
+    downloadImage: 'images/solution-battlefield-images.jpg',
+    downloadLink: 'http://a030f85c1e25003d7609-b98377aee968aad08453374eb1df3398.r40.cf2.rackcdn.com/wp/wp-location-new-battlefield.pdf'
+    },
+    {
+    downloadName: 'PCI Compliance',
+    downloadImage: 'images/solution-smart-images.jpg',
+    downloadLink: 'http://a030f85c1e25003d7609-b98377aee968aad08453374eb1df3398.r40.cf2.rackcdn.com/wp/wp-smartsec-for-pci-compliance.pdf'
+    }
+    ]
+    }

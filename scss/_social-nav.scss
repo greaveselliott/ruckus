@@ -1,13 +1,21 @@
 #social-media-links {
   ul {
     list-style-type: none !important;
+    padding-right: 5px;
     li {
       display: table;
-      width: 30px;
-      height: 30px;
+      width: 40px;
+      height: 40px;
       float: left;
       border: solid 1px white;
       margin: 0px 0px 0px 10px;
+      -webkit-transition: all 0.12s ease-in;
+      -moz-transition: all 0.12s ease-in;
+      -ms-transition: all 0.12s ease-in;
+      -o-transition: all 0.12s ease-in;
+      transition: all 0.12s ease-in;
+      -webkit-border-radius: 3px;
+      border-radius: 3px;
       a {
         display: table-cell;
         text-align: center;
@@ -15,6 +23,10 @@
         i {
           color: white;
         }
+      }
+      &:hover {
+        border-color: $ruckus-orange;
+        background-color: $ruckus-orange;
       }
     }
   }

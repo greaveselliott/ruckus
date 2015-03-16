@@ -72,29 +72,30 @@
                     header:     'template-solution-header.html',
                     article:    'template-solution-article.html',
                     videos:     'template-solution-videos.html',
-                    downloads:  'template-solution-downloads.html'
+                    downloads:  'template-solution-downloads.html',
+                    about:      'template-solution-about.html'
                 },
                 solutionTarget: {
                     header:     '.template-solution-header',
                     article:    '.template-solution-article',
                     videos:     '.template-solution-videos',
-                    downloads:  '.template-solution-downloads'
+                    downloads:  '.template-solution-downloads',
+                    about:      '.template-solution-about'
                 },
                 solutionData: [
                     { // Small
                         article: [
                             {
-                                articleText: "<p>Why do you think the right Wi-Fi so important even for a small business?</p><p>Because once you have it, you, and your customers, will come to rely on it even more in the future. </p><hr>"},
-                            {
-                                articleText: "<p>Even the smallest of stores need Wi-Fi today. It may be simply to build a hotspot for customers in a coffee shop, but it may be for something more sophisticated such as processing credit card transactions away from the till, or being able to check what stock is available in the back room. Whatever you needs, you need Wi-Fi that works, isn’t difficult to set up, and most importantly, is safe and secure for the user.</p><hr>"},
-                            {
-                                articleText: "<h5 class='ruckus-white'>Simply Smarter Wireless allows you to move and grow from;</h5><ul> <li>secure credit transactions from wireless terminals, and</li> <li>providing simple and secure customer hotspots, to</li> <li>digital signage showing promotions</li> <li>discrete video surveillance</li> <li>stock checking without leaving the customer</li></ul><hr>"},
-                            {
-                                articleText: "<p>For the smaller store, often a single access point in the back office is enough to provide coverage from front of store to back, and support tens of users, but sometimes you need to cover a couple of floors and two or more access points are required. With the right Wi-Fi, processing credit card transactions can easily be done in a PCI compliant way, and running more sophisticated things like shop video surveillance is easy</p><p>Remember…<br>…61 % of retailers say that their customers spend more time in store since they installed Wi-Fi (source /GR DeviceSpace 2014) and 50% spend more money. That’s why choosing the right Wi-Fi is so important.</p>"
+                                articleText: '<h5 class="text-underline">Wi-Fi for a small business</h5><p>Even the smallest of stores need Wi-Fi today - It may be to build a hotspot for customers, or something more sophisticated such as processing credit card transactions away from the till in a PCI compliant way.</p><p>Whatever your needs, you need Wi-Fi that works, is easy to set up but most importantly, it’s safe and secure.</p><h6>Simply Smarter Wireless allows you to;</h6><ul> <li>Make secure credit transactions from wireless terminals</li> <li>Provide simple and secure customer hotspots</li> <li>Use digital signage showing promotions</li> <li>Maintain discrete video surveillance</li> <li>Check stock without leaving the customer</li></ul><h5>Getting the right coverage</h5><p>For a smaller store, often a single access point in the back office is enough to provide coverage while supporting tens of users. If you need to cover multiple floors two or more access points are required.</p><h6>Remember…</h6><p>…61 % of retailers say that their customers spend more time in store since they installed Wi-Fi (source /GR DeviceSpace 2014) and 50% spend more money. That’s why choosing the right Wi-Fi is so important.</p>'
                             }
                         ],
                         videos: [
                             {
+                                videoTitle: 'Case Study: Marstons Pubs',
+                                videoURL: 'https://www.youtube.com/embed/_MpshIvZxx4'
+                            },
+                            {
+                                videoTitle: 'Case Study: Marstons Pubs',
                                 videoURL: 'https://www.youtube.com/embed/_MpshIvZxx4'
                             }
                         ],
@@ -110,17 +111,16 @@
                     {   // medium
                         article: [
                             {
-                                articleText: '<p>Lets imagine for a minute...<br>...a store where sales staff never leave a customer to check if something is in stock...</p><p>...or where they can order out-of-stock items for next day home delivery while standing at the display...</p><p>...or a store where customers don’t have to queue at a till to pay.</p><hr>'},{
-                                articleText: '<p>All of this and more is possible now with Ruckus - From a single large store to hundreds of smaller boutiques across an entire country, Wi-Fi is the easiest way to connect customers and staff to the information they need to enable a sale.</p><p>Ruckus Wireless is a market leader in Wi-Fi for mid-market retailers. Our solutions are simple to deploy, sold and supported by a huge choice of specialist resellers, and uses the smartest technology to ensure the best connection across the whole sales floor and back office.</p><hr class="ruckus-orange">'},{
-                                articleText: '<p>With Wi-Fi in store, staff can better service your customer’s better, and you can start thinking about how you can</p><ul> <li>Use location based services solutions - such as Ruckus SPoT™ - to review your footfall and see how people move around your store: <ul> <li>Change your window display and analyse how many more people come into the store than just walk past</li> <li>Match your highest margin products to the areas where your customers go most.</li> </ul> </li> <li>Reward loyal customers with target promotions – something that nearly ¾ of all customers say they are happy to receive</li> <li>Understand more about your demographics and how your store is used at different times and on different days of the week.</li></ul>'},{
-                                articleText: '<blockquote>“Almost every new consumer product today has an embedded Wi-Fi capability. To effectively demonstrate and sell these products, customers want to actually see and understand how to use them in a live environment. The Ruckus system, with its integrated adaptive antenna array technology, is simply in a different league and has helped increase in-store sales” <cite class="ruckus-orange">Tim Pearce – Hughes Electrical (UK)</cite></blockquote>'
+                                articleText: '<h5 class="text-underline">Wi-Fi for a medium business</h5><h6>Imagine a store where;</h6><ul><li>Staff never leave a customer to check if something is in stock,</li> <li>Staff can order out-of-stock items for next day home delivery while standing at the display.</li> <li>Customers don’t have to queue at a till to pay.</li></ul><p>All of this and more is possible now with Ruckus - From a single large store to hundreds of smaller boutiques across an entire country.</p><p>Our solutions are simple to deploy, use the smartest technology ensuring the best connection across the whole sales floor and back office, and available through a large number of specialist resellers.</p><h5 class="text-underline">Benefits of Ruckus Wireless</h5><h6>With Wi-Fi in store you can start thinking about how you can</h6><ul><li>Use location based services solutions - such as Ruckus SPoT™ - to review your footfall and see how people move around your store: <ul> <li>Analyse how many more people come into the store than just walk past</li> <li>Match your highest margin products to the areas where your customers go most</li> </ul></li> <li>Reward loyal customers with targeted promotions</li> <li>Understand more about how your store is used at different times and on different days of the week.</li></ul><blockquote>Almost every new consumer product today has an embedded Wi-Fi capability. To effectively demonstrate and sell these products, customers want to actually see and understand how to use them in a live environment. The Ruckus system, with its integrated adaptive antenna array technology, is simply in a different league and has helped increase in-store sales</blockquote>'
                             }
                         ],
                         videos: [
                             {
+                                videoTitle: 'Case Study: Marstons Pubs',
                                 videoURL: 'https://www.youtube.com/embed/6DR2MguoDgQ'
                             },
                             {
+                                videoTitle: 'Case Study: Le Pain Quotidien',
                                 videoURL: 'https://www.youtube.com/embed/_MpshIvZxx4'
                             }
                         ],
@@ -135,10 +135,7 @@
                     {   // large
                         article: [
                             {
-                                articleText: '<p>Even the smallest of stores need Wi-Fi today.  It may be simply to build a hotspot for customers in a coffee shop, but it may be for something more sophisticated such as processing credit card transactions away from the till, or being able to check what stock is available in the back room. Whatever you needs, you need Wi-Fi that works, isn’t difficult to set up, and most importantly, is safe and secure for the user.</p><p>Why is choosing the right Wi-Fi so important even for a small business? Because once you have it, you, and your customers, will come to rely on it even more in the future.</p><hr>'},{
-                                articleText: '<p>Simply Smarter Wireless allows you to move and grow from;</p><ul><li>secure credit transactions from wireless terminals, and</li><li>providing simple and secure customer hotspots, to</li><li>digital signage showing promotions</li><li>discrete video surveillance</li><li>stock checking without leaving the customer</li></ul><hr>'},{
-                                articleText: '<p>For the smaller store, often a single access point in the back office is enough to provide coverage from front of store to back, and support tens of users, but sometimes you need to cover a couple of floors and two or more access points are required. With the right Wi-Fi ,processing credit card transactions can easily be done in a PCI compliant way, and running more sophisticated things like shop video surveillance is easy</p>'},{
-                                articleText: '<p>Remember,  61 % of retailers say that their customers spend more time in store since they installed Wi-Fi (source /GR DeviceSpace 2014) and 50% spend more money. That’s why choosing the right Wi-Fi is so important.</p>'
+                                articleText: '<h5 class="text-underline">Wi-Fi for a large business</h5><p>Great Wi-Fi in large stores and shopping malls is now expected by shoppers and essential to retail operations. It provides everything from shopper internet access, to operational support for instant stock lookup, VOIP, video signage and security.</p><h5 class="text-underline">Benefits of Ruckus Wireless</h5><p>Large stores / shopping malls typically need hundreds of wireless access points to cover the estate. This is where Ruckus’s Simply Better Wireless delivers a solution that provides faster connections over longer distances for more concurrent users. Built to deliver PCI compliant security, Ruckus’s Wi-Fi can reach every corner of the estate. This means better performance for users with less infrastructure.</p><p>And where there’s no network, wireless mesh enables faster and easier installation. This means that your sales staff, managers and security teams can be connected wherever they are in the store or in the mall.</p><h6>Remember…</h6><p>74% of shoppers are happy for a retailer to send a promotional text while they’re using in-store Wi-Fi</p><p>61% of smartphone users want the ads they see customized to their immediate surroundings</p>'
                             }
                         ],
                         videos: [
@@ -195,7 +192,6 @@
         // and this.options
 
         var self = this;
-        //console.log(this);
         self.Model()
             .View()
             .Controller()
@@ -259,9 +255,6 @@
     // Updating URL deep linking
     EemjiiRuckus.prototype.setDeepLink   = function (){
         var self = this;
-        //var slug = self.Model.pageInfo[self.View.currentFrame].toLowerCase().replace(/ /g, '-');;
-
-        //console.log('slug is: ' + slug);
 
         $.address.value(self.View.currentFrame);
 
@@ -320,7 +313,6 @@
             ga('send', 'pageview', {
                 //'page': '/my-new-page',
                 'hitCallback': function() {
-                    console.log('analytics.js done sending data');
                 }
             });
         }
@@ -343,13 +335,11 @@
         var self = this;
 
         if (self.Model.loadingActive) {
-            console.log('LOADING...');
             self.View.$loadingBar.removeClass('active').addClass('inactive');
             self.Model.loadingActive = false;
         } else {
             self.View.$loadingBar.removeClass('inactive').addClass('active');
             self.Model.loadingActive = true;
-            console.log('LOADING COMPLETE');
         }
 
         return self;
@@ -383,19 +373,21 @@
             self.View.navTimeline.reverse();
             self.Model.navigationActive = false;
         }
-       console.log('navigation active: '+ toggle);
 
         return self;
     };
 
     // Updating end result
     EemjiiRuckus.prototype.updateResult = function () {
-        console.log('updating result');
         var self = this;
+
         // Header
         self.View.solutionTarget.$header.loadTemplate(  // loading template into $header
             self.options.view.solutionsTemplate.header, //
-            {headerTitle: self.Model.userName + "'s Simply Better Wireless Solution"}
+            {
+                headerTitle: "Thanks " + self.Model.userName+",",
+                headerSub:"Here is your Simply Better Wireless Solution along with some case studies and downloads. If you would like any more information about Ruckus <a href=\"http://www.ruckuswireless.com/\" title=\"Visit the Ruckus Wireless Official Home page\" class=\"ruckus-orange\">please click here</a>."
+            }
         );
         // Article
         self.View.solutionTarget.$article.loadTemplate( // loading template into $article
@@ -411,6 +403,13 @@
         self.View.solutionTarget.$downloads.loadTemplate( // loading template into $downloads
             self.options.view.solutionsTemplate.downloads,
             self.options.view.solutionData[self.Model.currentResult].downloads
+        );
+        // About Ruckus
+        self.View.solutionTarget.$about.loadTemplate(
+            self.options.view.solutionsTemplate.about,
+            {
+                aboutText: '<p>Ruckus is a global supplier of advanced wireless systems for the rapidly expanding mobile Internet infrastructure market. The company offers a wide range of indoor and outdoor "Smart Wi-Fi" products to mobile carriers, broadband service providers, and corporate enterprises.<br>Ruckus technology addresses Wi-Fi capacity and coverage challenges caused by the ever-increasing amount of traffic on wireless networks. Ruckus invented and has patented state-of-the-art wireless voice, video, and data technology innovations. For more information, visit http://www.ruckuswireless.com.</p>'
+            }
         );
 
         return self;
@@ -428,25 +427,7 @@
             .setBackground()
             .setBackgroundDimensions()
             .buildTimeLineSlide()
-            .goToAndPlay(self.View.currentFrame);
-            //switch ( inputType || self.Model.lastUsedInputType ) {
-            //    case 'toggle' || 'form-input':
-            //        //self.updateResult();
-            //        //self.updateCookie();
-            //        //self.sendAnalytics();
-            //        break;
-            //    case 'playback':
-            //        self.scale()
-            //
-            //            .setBackground()
-            //            .setBackgroundDimensions()
-            //            .buildTimeLineSlide()
-            //            .goToAndPlay(self.View.currentFrame);
-            //        break;
-            //    default:
-            //        break;
-            //}
-            //self.Model.lastUsedInputType = inputType;
+            .goToAndStop(self.View.currentFrame);
         });
 
         // returning self: enables functions chaining
@@ -471,7 +452,6 @@
             default:
                 break;
         }
-        console.log('The current result is ', self.Model.currentResult);
     };
 
     // APPLICATION VIEW
@@ -517,7 +497,8 @@
                 $header:    $(self.options.view.solutionTarget.header),
                 $article:   $(self.options.view.solutionTarget.article),
                 $videos:    $(self.options.view.solutionTarget.videos),
-                $downloads: $(self.options.view.solutionTarget.downloads)
+                $downloads: $(self.options.view.solutionTarget.downloads),
+                $about:     $(self.options.view.solutionTarget.about)
             }
 
         };
@@ -591,13 +572,22 @@
 
     EemjiiRuckus.prototype.goToAndPlay = function (frame) {
         var self = this;
-        console.log(frame);
 
         self.View.timeLineSlide.tweenTo(frame);
         self.View.timeLineBackground.tweenTo(frame);
         // returning self: enables functions chaining
         return self;
     };
+
+    EemjiiRuckus.prototype.goToAndStop = function (frame) {
+        var self = this;
+
+        self.View.timeLineSlide.seek(frame,true);
+        self.View.timeLineBackground.seek(frame,true);
+        // returning self: enables functions chaining
+        return self;
+    };
+
 
     EemjiiRuckus.prototype.setBackground = function () {
         var self = this;
@@ -644,7 +634,6 @@
 
                     currentBackgroundPosition = -self.View.stageWidth * (key-1);
                 }
-                console.log(key);
                 // ANIMATE BACKGROUND BY TWEENING OBJECTS SIMILTANIOUSLY
                 // Animating background as a RTL slider will work best with this design.
             });
@@ -653,7 +642,6 @@
         });
         // The background is now set.
         self.View.backgroundSet = true;
-        console.log(self);
         // returning self: enables functions chaining
         return self;
     };
@@ -752,8 +740,6 @@
     EemjiiRuckus.prototype.playback = function (obj) {
         var self = this;
 
-        console.log('clicked');
-
         var $attr = obj.attr('class');
 
         if ( $attr.indexOf('next') !== -1 || $attr.indexOf('start') !== -1){
@@ -769,12 +755,6 @@
                 self.View.currentFrame--;
             }
         }
-
-        console.log('The starting frame is: ' + self.View.startingFrame);
-        console.log('The current frame is: ' + self.View.currentFrame);
-        //self.Model.$appContainer.trigger('refresh',['playback']);
-        // console.log(self.View.currentFrame);
-        // returning self: enables functions chaining
         return self;
     };
 
@@ -803,7 +783,6 @@
             var $thisElement = $(this);
 
             if ($thisElement.is(':checkbox, :radio')) {
-                console.log('is checkbox or radio');
                 if ($thisElement.prop('checked') ) {
                     currentValid++;
                 }
@@ -830,7 +809,6 @@
         var self = this;
 
         $('#ruckus-data').submit(function(){
-            console.log('CLICKED');
             var data = self.getFormData();
 
             // Save the users input name to the models object
@@ -843,7 +821,6 @@
                 url: $('#ruckus-data').attr("action"),
                 data: data
             }).done(function(){ // Required Callback Function
-                console.log("success");
                 $('#ruckus-data')[0].reset();
 
                 // trigger form submit event
@@ -881,13 +858,11 @@
             pairedFormInput.is(':checked') ?
                 pairedFormInput.prop('checked', false).change() :
                     pairedFormInput.prop('checked', true).change();
-            console.log('Paired form input: ' + pairedFormInput);
 
             // Toggling the button on UI
             if ($dataType == 'checkbox') {
                 if ($self.hasClass('toggled') ) {         // Does this element have the '.toggled' class?
                     $self.removeClass('toggled');
-                    console.log('Does the sibling have a class of toggled? ' + $siblings.hasClass('toggled'));
                     if (!$siblings.hasClass('toggled')) {
                         //self.toggleNavigation(false);
                     }
@@ -899,8 +874,9 @@
             } else if ($dataType == 'radio') {
                 $parent.children(self.Model.userOptions).removeClass('toggled');
                 $self.addClass('toggled');
-                //self.toggleNavigation(true);
-
+                self.toggleNavigation(false);
+                self.View.currentFrame++;
+                self.setDeepLink();
             }
 
             if (self.Model.isCurrentSlideValid){

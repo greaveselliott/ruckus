@@ -644,7 +644,6 @@ else {
                 </div>
             </div>
     </footer>
-</body>
 <?php
     require_once('footer-entry-3.php');
 ?>
