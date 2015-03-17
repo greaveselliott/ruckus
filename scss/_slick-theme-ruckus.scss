@@ -7,7 +7,7 @@
 .slick-dots {
   display: none !important;
 }
-.slick-prev {
+.ruckus-slick-prev {
   position: absolute;
   bottom: 40%;
   left: -80px;
@@ -17,13 +17,16 @@
   }
 }
 
-.slick-next {
+.ruckus-slick-next {
   position: absolute;
   bottom: 40%;
-  right: -40px;
+  right: -80px;
   display: none !important;
   @include respond-to(large-up){
     display: block !important;
   }
 }
 
+.slick-slide img {
+  padding: 10px;
+}

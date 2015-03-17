@@ -7,7 +7,6 @@
 * Description: Includes the footer scripts and closing </html> tags.
 */
 ?>
-
 <!-- Scripts: DO NOT DELETE -->
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="js/jquery-cookie/src/jquery.cookie.js"></script>
@@ -24,5 +23,7 @@
 <script src="js/fullscreen.config.js"></script>
 <script src="waypoints/lib/jquery.waypoints.js"></script>
 <script src="js/isInViewport.config.js"></script>
+<script src="jquery.scrollTo/jquery.scrollTo.min.js"></script>
+<script src="jquery.scrollTo/jquery.scrollTo.config.js"></script>
 </body>
 </html>

@@ -52,7 +52,7 @@ else {
                         <hr>
                         <h5 class="ruckus-orange h3 h5-small-only text-left text-center">This guide highlights some of the biggest and most important changes happening in retail technology today.</h5>
                         <div class="display-inline-block padding-50">
-                            <div class="button round-icon chevron-down no-hover"></div>
+                            <div id="scrollTo-1" class="button round-icon chevron-down"></div>
                         </div>
                     </div>
                 </div>
@@ -85,6 +85,7 @@ else {
                                      of retailers say that their customers spend more time in store since they installed  <span class="display-inline-block">Wi-Fi</span></span>
                             </span>
                         </span>
+                        <span class="large-4 medium-4 columns"></span>
                     <span class="large-4 medium-4 columns"><img class="lazy-load left hide-for-small" data-original="images/guide/icons-17.png"></span>
                     <span class="clear-both"></span>
                 </figure>
@@ -107,6 +108,10 @@ else {
                         <span class="large-4 medium-4 columns hide-for-small">
                             <img class="lazy-load" data-original="images/guide/icons-18.png"></span>
                 </figure>
+                <br>
+                    <div class="display-inline-block padding-50 margin-bottom-20">
+                        <div id="scrollTo-2" class="button round-icon chevron-down"></div>
+                    </div>
             </div>
             <!-- How people feel when there's no Wi-Fi in a business premises -->
             <div class="large-6 medium-6 columns no-padding-left-small-only no-padding-right-small-only hide-for-small">
@@ -193,6 +198,7 @@ else {
                             </figure>
                         </div>
                     </div>
+
                     <div class="ruckus-entry-3_background ruckus-background-black opacity-75 height-100"></div>
                 </section>
                 <section class="large-6 medium-6 columns data-equalizer-watch">
@@ -206,6 +212,10 @@ else {
                                     <span class="ruckus-white">The ‘Black Friday’ bargains (Nov 2014) saw the biggest-ever sales week in the history of leading UK retailer John Lewis. On- the-go, or just in bed, users with smart devices delivered up to 70% of traffic between midnight and 8am.</span>
                                 </figcaption>
                             </figure>
+                            <br>
+                            <div class="display-inline-block padding-50 margin-bottom-20">
+                                <div id="scrollTo-3" class="button alt round-icon chevron-down"></div>
+                            </div>
                         </div>
                     </div>
                 </section>
@@ -278,6 +288,10 @@ else {
                     </div>
 
             </div>
+            <br>
+            <div class="display-inline-block padding-50 margin-bottom-20">
+                <div id="scrollTo-4" class="button alt round-icon chevron-down"></div>
+            </div>
         </div>
             </div>
         <div class="ruckus-entry-3_background background-3 lazy-load" data-original="images/guide/guide-background-03.jpg" style="background-color: #000;"></div>
@@ -335,6 +349,10 @@ else {
                         <span class="ruckus-white">44% of retailers are updating their POS strategies to take advantage of technology</span>
                     </figcaption>
                 </figure>
+            </div>
+            <br>
+            <div class="display-inline-block padding-50 margin-bottom-20">
+                <div id="scrollTo-5" class="button alt round-icon chevron-down"></div>
             </div>
         </div>
         </div>
@@ -427,6 +445,10 @@ else {
                         </div>
                     </div>
                 </div>
+                <br>
+                <div class="display-inline-block padding-50 margin-bottom-20">
+                    <div id="scrollTo-6" class="button alt round-icon chevron-down"></div>
+                </div>
             </div>
             <div class="ruckus-entry-3_background background-5 lazy-load" data-original="images/guide/guide-background-05.jpg" style="background-color: #000;"></div>
     </article>
@@ -472,6 +494,10 @@ else {
                         <img class="lazy-load hide-for-small" data-original="images/guide/icons-13.png">
                         <figcaption><span class="ruckus-orange h4">The age of engagement</span><br><span class="ruckus-white">92% of shoppers engage with a loyalty scheme at least once a month</span></figcaption>
                     </figure>
+                </div>
+                <br>
+                <div class="display-inline-block padding-50 margin-bottom-20">
+                    <div id="scrollTo-7" class="button alt round-icon chevron-down"></div>
                 </div>
             </div>
         </div>
@@ -555,6 +581,10 @@ else {
                             </figure>
                         </div>
                     </div>
+                </div>
+                <br>
+                <div class="display-inline-block padding-50 margin-bottom-20">
+                    <div id="scrollTo-8" class="button alt round-icon chevron-down"></div>
                 </div>
             </div>
 <!--        </div>-->
