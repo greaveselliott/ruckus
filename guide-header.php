@@ -1,6 +1,6 @@
 <?php
 /*
-* Template: header.php
+* Template: guide-header.php
 * Project: ruckus hub
 * Author: Elliott Matthew Greaves
 * Author URL: http://www.elliottgreaves.com/

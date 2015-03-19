@@ -38,7 +38,7 @@ else {
     * Description: Template file for entry point 1.
     */
 
-    require_once('header.php');
+    require_once('guide-header.php');
 ?>
 <body id="entry-3">
     <header class="hide"><h1>Ruckus | Simply Better Wireless</h1></header>
@@ -675,7 +675,7 @@ else {
             </div>
     </footer>
 <?php
-    require_once('footer-entry-3.php');
+    require_once('guide-footer.php');
 ?>
 <?php
 

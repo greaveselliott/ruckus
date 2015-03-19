@@ -55,7 +55,7 @@ if ($connection->query($query) === TRUE) {
 }
 
 
-$template = file_get_contents('http://simplybetterwireless.net/email-template-solution-header.php');
+$template = file_get_contents('http://simplybetterwireless.net/email-template-solution-guide-header.php');
 
 $template .= <<<EOT
 <table class="row">
