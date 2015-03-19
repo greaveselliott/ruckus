@@ -18,7 +18,7 @@
                                     <ul class="no-margin no-padding">
                                         <li>
                                             <a href="#5">
-                                                <h4 class="button alt"><span class="font-scale-x1-5-medium-up">Simply Better Solution</span></h4>
+                                                <h4 class="button alt"><span class="font-scale-x1-5-medium-up">A solution to match your needs</span></h4>
                                                 <span class="st-arrow hide-for-small"><i class="fa fa-arrow-up"></i></span>
                                             </a>
                                             <div class="st-content template-solution-article">
@@ -27,7 +27,7 @@
                                         </li>
                                         <li>
                                             <a href="#5">
-                                                <h4 class="button alt"><span class="font-scale-x1-5-medium-up">Videos</span></h4>
+                                                <h4 class="button alt"><span class="font-scale-x1-5-medium-up">Video case studies of similar businesses to yours</span></h4>
                                                 <span class="st-arrow hide-for-small"><i class="fa fa-arrow-up"></i></span>
                                             </a>
                                             <div class="st-content">
@@ -38,7 +38,7 @@
                                         </li>
                                         <li>
                                             <a href="#5">
-                                                <h4 class="button alt"><span class="font-scale-x1-5-medium-up">Downloads</span></h4>
+                                                <h4 class="button alt"><span class="font-scale-x1-5-medium-up">Practical Guides and White Papers to help you plan</span></h4>
                                                 <span class="st-arrow hide-for-small"><i class="fa fa-arrow-up"></i></span>
                                             </a>
                                             <div class="st-content">
@@ -49,7 +49,7 @@
                                         </li>
                                         <li>
                                             <a href="#5">
-                                                <h4 class="button alt"><span class="font-scale-x1-5-medium-up">Read more about Ruckus</span></h4>
+                                                <h4 class="button alt"><span class="font-scale-x1-5-medium-up">Learn More about Ruckus</span></h4>
                                                 <span class="st-arrow hide-for-small"><i class="fa fa-arrow-up"></i></span>
                                             </a>
                                             <div class="st-content template-solution-about">

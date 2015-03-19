@@ -72,15 +72,13 @@
                     header:     'template-solution-header.html',
                     article:    'template-solution-article.html',
                     videos:     'template-solution-videos.html',
-                    downloads:  'template-solution-downloads.html',
-                    about:      'template-solution-about.html'
+                    downloads:  'template-solution-downloads.html'
                 },
                 solutionTarget: {
                     header:     '.template-solution-header',
                     article:    '.template-solution-article',
                     videos:     '.template-solution-videos',
-                    downloads:  '.template-solution-downloads',
-                    about:      '.template-solution-about'
+                    downloads:  '.template-solution-downloads'
                 },
                 solutionData: [
                     { // Small
@@ -386,7 +384,7 @@
             self.options.view.solutionsTemplate.header, //
             {
                 headerTitle: "Thanks " + self.Model.userName+",",
-                headerSub:"Here is your Simply Better Wireless Solution along with some case studies and downloads. If you would like any more information about Ruckus <a href=\"http://www.ruckuswireless.com/\" title=\"Visit the Ruckus Wireless Official Home page\" class=\"ruckus-orange\">please click here</a>."
+                headerSub:"From the details you’ve provided us, here is a range of information to help you build a Simply Better Wireless Solution for your business."
             }
         );
         // Article
@@ -403,13 +401,6 @@
         self.View.solutionTarget.$downloads.loadTemplate( // loading template into $downloads
             self.options.view.solutionsTemplate.downloads,
             self.options.view.solutionData[self.Model.currentResult].downloads
-        );
-        // About Ruckus
-        self.View.solutionTarget.$about.loadTemplate(
-            self.options.view.solutionsTemplate.about,
-            {
-                aboutText: '<p>Ruckus is a global supplier of advanced wireless systems for the rapidly expanding mobile Internet infrastructure market. The company offers a wide range of indoor and outdoor "Smart Wi-Fi" products to mobile carriers, broadband service providers, and corporate enterprises.<br>Ruckus technology addresses Wi-Fi capacity and coverage challenges caused by the ever-increasing amount of traffic on wireless networks. Ruckus invented and has patented state-of-the-art wireless voice, video, and data technology innovations. For more information, visit http://www.ruckuswireless.com.</p>'
-            }
         );
 
         return self;
