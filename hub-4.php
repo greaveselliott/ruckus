@@ -31,7 +31,7 @@
                                                 <span class="st-arrow hide-for-small"><i class="fa fa-arrow-up"></i></span>
                                             </a>
                                             <div class="st-content">
-                                                <ul class="template-solution-videos large-block-grid-3 medium-block-grid-3 small-block-grid-3">
+                                                <ul class="template-solution-videos large-block-grid-2 medium-block-grid-3 small-block-grid-3">
 
                                                 </ul>
                                             </div>
@@ -42,7 +42,7 @@
                                                 <span class="st-arrow hide-for-small"><i class="fa fa-arrow-up"></i></span>
                                             </a>
                                             <div class="st-content">
-                                                <ul class="template-solution-downloads large-block-grid-3">
+                                                <ul class="template-solution-downloads large-block-grid-2">
 
                                                 </ul>
                                             </div>
@@ -52,8 +52,24 @@
                                                 <h4 class="button alt"><span class="font-scale-x1-5-medium-up">Learn More about Ruckus</span></h4>
                                                 <span class="st-arrow hide-for-small"><i class="fa fa-arrow-up"></i></span>
                                             </a>
-                                            <div class="st-content template-solution-about">
-                                                <p>Some content</p>
+                                            <div class="st-content">
+                                                <ul class="small-block-grid-4">
+                                                    <li id="home-link">
+                                                        <a href="http://www.ruckuswireless.com/" target="_blank" title="Visit the Ruckus Wireless home page"><img src="images/solution-links-home.png" alt="Visit Ruckus Home"></a>
+                                                    </li>
+                                                    <li id="contact-link"><a href="http://www.ruckuswireless.com/contact" title="contact" target="_blank"><img src="images/solution-links-contact.png" alt="Contact us"></a></li>
+                                                    <li id="buy-link"><a href="http://www.ruckuswireless.com//buy" id="buy" target="_blank"><img src="images/solution-links-buy.png" alt="Buy now"></a></li>
+                                                    <li id="demo-link"><a href="http://www.ruckuswireless.com//request-a-demo" id="Request a Demo" target="_blank"><img src="images/solution-links-demo.png" alt="Get a demo"></a></li>
+                                                </ul>
+                                                <nav class="social-media-links margin-center">                                      <h4 class="text-center">Connect with us on:</h4>
+                                                    <div class="margin-bottom-20">
+                                                        <ul class="margin-center">
+                                                            <li><a class="icon_facebook" href="https://www.facebook.com/RuckusWirelessUK" title="Visit the Official Ruckus Wireless Facebook page" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                                            <li><a class="icon_twitter" href="https://twitter.com/RuckusEMEA" title="Visit the Official Ruckus Wireless Twitter PAGE" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                                            <li><a class="icon_linked-in" href=" https://www.linkedin.com/company/165796?trk=vsrp_companies_res_name&trkInfo=VSRPsearchId%3A281003031423500454049%2CVSRPtargetId%3A165796%2CVSRPcmpt%3Aprimary" title="Connect with Ruckus Wireless on Linked-in" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </nav>
                                             </div>
                                         </li>
                                     </ul>

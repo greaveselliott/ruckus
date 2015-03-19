@@ -19,7 +19,7 @@
 
                 </nav>
             </header>
-            <nav id="social-media-links">
+            <nav class="social-media-links">
                 <div class="clearfix">
                     <ul class="position-right small">
                         <li><a class="icon_facebook" href="https://www.facebook.com/RuckusWirelessUK" title="Visit the Official Ruckus Wireless Facebook page" target="_blank"><i class="fa fa-facebook"></i></a></li>

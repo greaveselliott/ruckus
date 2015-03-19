@@ -4,6 +4,7 @@
         <div class="large-12 columns">
             <div class="row collapse display-block">
                 <div class="large-8 medium-8 large-centered medium-centered columns display-block">
+                    <h3 class="hub-header ruckus-white 4-small-only">Public Wi-Fi trends<span class="hide-for-small h5 ruckus-orange"> - A Pan-European survey</span></h3>
                     <div class="ruckus-slick">
                         <div><img src="images/survey-results-01.jpg"></div>
                         <div><img src="images/survey-results-02.jpg"></div>
@@ -34,9 +35,16 @@
             </div>
             <div class="row collapse">
                 <div class="large-7 columns large-centered">
-                    <p class="ruckus-white text-center h4 h6-small-only ruckus-orange">Find out how Ruckus can help you get Simply Better Wireless. Just answer two simple questions to personalise your own Ruckus wireless solution.</p>
-
+                    <div class="ruckus-slick-text">
+                        <div>
+                            <p class="ruckus-white text-center h5 h6-small-only no-margin-bottom">Find out how Ruckus can help you get Simply Better Wireless. Just answer two simple questions to personalise your own Ruckus wireless solution.</p>
+                        </div>
+                        <div>
+                            <p class="text-center h5 h6-small-only ruckus-orange no-margin-bottom">Ruckus Wireless is a pioneer in the wireless infrastructure market, enabling businesses to stay ahead of the exploding demand for high-bandwidth applications and services.</p>
+                        </div>
+                    </div>
                     <div class="ruckus-hub-start button alt">Start Now</div>
+
                 </div>
             </div>
             <!-- Selection of options-->

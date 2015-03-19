@@ -1,3 +1,5 @@
+// RUCKUS COLOURS
+
 @each $i in $ruckus-colours-list {
 
   @include responsive_property(h6){
