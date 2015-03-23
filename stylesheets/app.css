@@ -18841,213 +18841,122 @@ img[src^='http://placehold.it/'] {
   color: transparent !important;
   background-color: #EA7600; }
 
-/* Preload images */
-/* line 2, ../lightbox2/sass/_lightbox.scss */
-body:after {
-  content: url(../images/lightbox-close.png) url("../lightbox2/img/ajax-loader.gif") url(../images/lightbox-prev.png) url(../images/lightbox-next.png);
-  display: none; }
+/**
+ * Featherlight – ultra slim jQuery lightbox
+ * Version 1.2.3 - http://noelboss.github.io/featherlight/
+ *
+ * Copyright 2015, Noël Raoul Bossart (http://www.noelboss.com)
+ * MIT Licensed.
+**/
+@media all {
+  /* line 9, ../featherlight/src/featherlight.scss */
+  .featherlight {
+    display: none;
+    /* dimensions: spanning the background from edge to edge */
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2147483647;
+    /* z-index needs to be >= elements on the site. */
+    /* position: centering content */
+    text-align: center;
+    /* insures that the ::before pseudo element doesn't force wrap with fixed width content; */
+    white-space: nowrap;
+    /* styling */
+    cursor: pointer;
+    background: #333;
+    /* IE8 "hack" for nested featherlights */
+    background: transparent; }
 
-/* line 7, ../lightbox2/sass/_lightbox.scss */
-.lightboxOverlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 9999;
-  background-color: black;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
-  opacity: 0.8;
-  display: none; }
+  /* support for nested featherlights. Does not work in IE8 (use JS to fix) */
+  /* line 31, ../featherlight/src/featherlight.scss */
+  .featherlight:last-of-type {
+    background: rgba(0, 0, 0, 0.8); }
 
-/* line 18, ../lightbox2/sass/_lightbox.scss */
-.lightbox {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  z-index: 10000;
-  text-align: center;
-  line-height: 0;
-  font-weight: normal; }
+  /* line 35, ../featherlight/src/featherlight.scss */
+  .featherlight:before {
+    /* position: trick to center content vertically */
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em; }
 
-/* line 28, ../lightbox2/sass/_lightbox.scss */
-.lightbox .lb-image {
-  display: block;
-  height: auto;
-  max-width: inherit;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
-  border-radius: 3px; }
+  /* line 44, ../featherlight/src/featherlight.scss */
+  .featherlight .featherlight-content {
+    /* make content container for positioned elements (close button) */
+    position: relative;
+    /* position: centering vertical and horizontal */
+    text-align: left;
+    vertical-align: middle;
+    display: inline-block;
+    /* dimensions: cut off images */
+    overflow: auto;
+    padding: 25px 25px 0;
+    border-bottom: 25px solid transparent;
+    /* dimensions: handling small or empty content */
+    min-width: 30%;
+    width: 90%;
+    height: 75%;
+    /* dimensions: handling large content */
+    margin-left: 5%;
+    margin-right: 5%;
+    max-height: 95%;
+    /* styling */
+    background: #fff;
+    cursor: auto;
+    /* reset white-space wrapping */
+    white-space: normal; }
 
-/* line 39, ../lightbox2/sass/_lightbox.scss */
-.lightbox a img {
-  border: none; }
+  /* contains the content */
+  /* line 77, ../featherlight/src/featherlight.scss */
+  .featherlight .featherlight-inner {
+    /* make sure its visible */
+    display: block; }
 
-/* line 43, ../lightbox2/sass/_lightbox.scss */
-.lb-outerContainer {
-  position: relative;
-  background-color: white;
-  *zoom: 1;
-  width: 250px;
-  height: 250px;
-  margin: 0 auto;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
-  border-radius: 4px; }
+  /* line 82, ../featherlight/src/featherlight.scss */
+  .featherlight .featherlight-close-icon {
+    /* position: centering vertical and horizontal */
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+    right: 0;
+    /* dimensions: 25px x 25px */
+    line-height: 25px;
+    width: 25px;
+    /* styling */
+    cursor: pointer;
+    text-align: center;
+    font: Arial, sans-serif;
+    background: #fff;
+    /* Set the background in case it overlaps the content */
+    background: white;
+    color: #000; }
 
-/* line 57, ../lightbox2/sass/_lightbox.scss */
-.lb-outerContainer:after {
-  content: "";
-  display: table;
-  clear: both; }
+  /* line 103, ../featherlight/src/featherlight.scss */
+  .featherlight .featherlight-image {
+    /* styling */
+    width: 100%; }
 
-/* line 63, ../lightbox2/sass/_lightbox.scss */
-.lb-container {
-  padding: 4px; }
+  /* line 109, ../featherlight/src/featherlight.scss */
+  .featherlight-iframe .featherlight-content {
+    /* removed the border for image croping since iframe is edge to edge */
+    border-bottom: 0;
+    padding: 0; }
 
-/* line 67, ../lightbox2/sass/_lightbox.scss */
-.lb-loader {
-  position: absolute;
-  top: 35%;
-  left: 0;
-  height: 25%;
-  width: 100%;
-  text-align: center;
-  line-height: 0; }
-
-/* line 77, ../lightbox2/sass/_lightbox.scss */
-.lb-cancel {
-  display: block;
-  width: 60px;
-  height: 66px;
-  margin: 0 auto;
-  background: url("../lightbox2/img/ajax-loader.gif") no-repeat; }
-
-/* line 85, ../lightbox2/sass/_lightbox.scss */
-.lb-nav {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  z-index: 10; }
-
-/* line 94, ../lightbox2/sass/_lightbox.scss */
-.lb-container > .nav {
-  left: 0; }
-
-/* line 98, ../lightbox2/sass/_lightbox.scss */
-.lb-nav a {
-  outline: none;
-  background-image: url("data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="); }
-
-/* line 103, ../lightbox2/sass/_lightbox.scss */
-.lb-prev, .lb-next {
-  height: 100%;
-  cursor: pointer;
-  display: block; }
-
-/* line 109, ../lightbox2/sass/_lightbox.scss */
-.lb-nav a.lb-prev {
-  width: 34%;
-  left: 0;
-  float: left;
-  background: url(../images/lightbox-prev.png) left 48% no-repeat;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-  opacity: 0;
-  -webkit-transition: opacity 0.6s;
-  -moz-transition: opacity 0.6s;
-  -o-transition: opacity 0.6s;
-  transition: opacity 0.6s; }
-
-/* line 122, ../lightbox2/sass/_lightbox.scss */
-.lb-nav a.lb-prev:hover {
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-  opacity: 1; }
-
-/* line 127, ../lightbox2/sass/_lightbox.scss */
-.lb-nav a.lb-next {
-  width: 64%;
-  right: 0;
-  float: right;
-  background: url(../images/lightbox-next.png) right 48% no-repeat;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-  opacity: 0;
-  -webkit-transition: opacity 0.6s;
-  -moz-transition: opacity 0.6s;
-  -o-transition: opacity 0.6s;
-  transition: opacity 0.6s; }
-
-/* line 140, ../lightbox2/sass/_lightbox.scss */
-.lb-nav a.lb-next:hover {
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-  opacity: 1; }
-
-/* line 145, ../lightbox2/sass/_lightbox.scss */
-.lb-dataContainer {
-  margin: 0 auto;
-  padding-top: 5px;
-  *zoom: 1;
-  width: 100%;
-  -moz-border-radius-bottomleft: 4px;
-  -webkit-border-bottom-left-radius: 4px;
-  border-bottom-left-radius: 4px;
-  -moz-border-radius-bottomright: 4px;
-  -webkit-border-bottom-right-radius: 4px;
-  border-bottom-right-radius: 4px; }
-
-/* line 158, ../lightbox2/sass/_lightbox.scss */
-.lb-dataContainer:after {
-  content: "";
-  display: table;
-  clear: both; }
-
-/* line 164, ../lightbox2/sass/_lightbox.scss */
-.lb-data {
-  padding: 0 4px;
-  color: #ccc; }
-
-/* line 169, ../lightbox2/sass/_lightbox.scss */
-.lb-data .lb-details {
-  width: 85%;
-  float: left;
-  text-align: left;
-  line-height: 1.1em; }
-
-/* line 176, ../lightbox2/sass/_lightbox.scss */
-.lb-data .lb-caption {
-  font-size: 13px;
-  font-weight: bold;
-  line-height: 1em; }
-
-/* line 182, ../lightbox2/sass/_lightbox.scss */
-.lb-data .lb-number {
-  display: block;
-  clear: left;
-  padding-bottom: 1em;
-  font-size: 12px;
-  color: #999999; }
-
-/* line 190, ../lightbox2/sass/_lightbox.scss */
-.lb-data .lb-close {
-  display: block;
-  float: right;
-  width: 30px;
-  height: 30px;
-  background: url(../images/lightbox-close.png) top right no-repeat;
-  text-align: right;
-  outline: none;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
-  opacity: 0.7;
-  -webkit-transition: opacity 0.2s;
-  -moz-transition: opacity 0.2s;
-  -o-transition: opacity 0.2s;
-  transition: opacity 0.2s; }
-
-/* line 206, ../lightbox2/sass/_lightbox.scss */
-.lb-data .lb-close:hover {
-  cursor: pointer;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-  opacity: 1; }
+  /* line 115, ../featherlight/src/featherlight.scss */
+  .featherlight iframe {
+    /* styling */
+    border: none; } }
+/* handling phones and small screens */
+@media only screen and (max-width: 1024px) {
+  /* line 123, ../featherlight/src/featherlight.scss */
+  .featherlight .featherlight-content {
+    /* dimensions: maximize lightbox with for small screens */
+    margin-left: 10px;
+    margin-right: 10px;
+    max-height: 98%;
+    padding: 10px 10px 0;
+    border-bottom: 10px solid transparent; } }
