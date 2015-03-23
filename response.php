@@ -18,7 +18,7 @@ echo "Connected successfully";
     $ruckus_user_email              = array_key_exists('email',$_POST) ? $_POST['email']: 'undefined';
     $ruckus_user_country            = array_key_exists('country',$_POST) ? $_POST['country']: '';
     $ruckus_user_telephone          = array_key_exists('telephone', $_POST) ? $_POST['telephone'] : null;
-    $ruckus_user_business_sector    = 'not yet available';
+    $ruckus_user_business_sector    = 'Option not yet available';
     $ruckus_user_business_size      = array_key_exists('size',$_POST) ? $_POST['size'] : null;
     $ruckus_user_wifi_public        = array_key_exists('wifi-public', $_POST) ? 1 : 0;
     $ruckus_user_wifi_pos           = array_key_exists('wifi-pos',$_POST) ? 1 : 0;
@@ -55,7 +55,7 @@ if ($connection->query($query) === TRUE) {
 }
 
 
-$template = file_get_contents('http://simplybetterwireless.net/email-template-solution-guide-header.php');
+$template = file_get_contents('http://simplybetterwireless.net/email-template-solution-header.php');
 
 $template .= <<<EOT
 <table class="row">
@@ -76,7 +76,11 @@ $template .= <<<EOT
     </tr>
 </table>
 EOT;
-$template .= file_get_contents('http://simplybetterwireless.net/email-template-solution-content.php');
+
+// get specific email template, specific to the size of the users business
+$template .=    file_get_contents('http://simplybetterwireless.net/email-template-solution-content-'.
+                strtolower( preg_replace( "/[\s_]/", "-", $ruckus_user_business_size) ) .
+                '.php' );
 
 //$msg = "First line of text\nSecond line of text";
 //

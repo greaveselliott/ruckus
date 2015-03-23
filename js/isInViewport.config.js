@@ -78,13 +78,30 @@
     ActivePage.prototype.timelineHubLink = function () {
         var self = this;
         var $hubLink = $(self.options.cta_button);
+        var $button = $hubLink.find('.button');
         var colours = self.options.ruckus_colours;
+        console.log($hubLink);
 
         var tween = function () {
-            TweenLite.to($hubLink, 1.5, {
+            TweenMax.to($hubLink, 1.5, {
                 'background-color': colours[Math.floor(Math.random()*colours.length)],
                 ease: Back.easeInOut.config(1.25)
             });
+            tweenButton();
+        };
+        var speed = 1;
+        var tweenButton = function () {
+            TweenMax.to($button, speed, {
+                "background-color":"#ffffff",
+                "color": "black",
+                onComplete:tweenButtonCallback});
+        };
+
+        var tweenButtonCallback = function () {
+            TweenMax.to($button, speed, {
+                "background-color":"transparent",
+                "color": "white",
+                onComplete:tweenButton});
         };
 
         $(document).on('cta_pulse',function(){
@@ -137,7 +154,8 @@
         var self = this;
 
         $(document).on('cta_pulse', function () {
-           $('#CTA-text').text(self.currentCTA);
+           $('#CTA-text-1').text(self.currentCTA[0]);
+           $('#CTA-text-2').text(self.currentCTA[1]);
         });
 
         return self;
@@ -146,7 +164,7 @@
     ActivePage.prototype.setCurrentCTA = function ($element) {
         var self = this;
 
-        self.currentCTA = $element.data('cta');
+        self.currentCTA = [$element.data('cta'),$element.data('cta2')];
 
         return self;
     };

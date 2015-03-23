@@ -13060,7 +13060,7 @@ th.hide-for-touch {
 
 /* line 2, ../scss/_social-nav.scss */
 .social-media-links ul {
-  width: 165px;
+  width: 155px;
   height: 40px;
   list-style-type: none !important;
   padding-right: 5px; }
@@ -13118,6 +13118,7 @@ th.hide-for-touch {
 
 /* line 12, ../scss/_buttons.scss */
 .button, .sharrre .box {
+  background-color: transparent;
   border: solid 1px #FFF;
   white-space: nowrap; }
 @media only screen and (max-width: 40em) {
@@ -13241,8 +13242,12 @@ th.hide-for-touch {
   right: 0px;
   top: 50%;
   margin-top: -90px; }
+/* line 132, ../scss/_buttons.scss */
+#hub-link .button, #hub-link .sharrre .box, .sharrre #hub-link .box {
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
 
-/* line 134, ../scss/_buttons.scss */
+/* line 138, ../scss/_buttons.scss */
 .link-to-guide {
   width: 280px;
   background-color: #EA7600;
@@ -13252,7 +13257,7 @@ th.hide-for-touch {
   top: 40%;
   z-index: 1000; }
 
-/* line 144, ../scss/_buttons.scss */
+/* line 148, ../scss/_buttons.scss */
 .cursor-pointer {
   cursor: pointer; }
 
@@ -17952,6 +17957,13 @@ figure {
   left: 15%;
   width: 70%; }
 
+/* line 25, ../scss/_media.scss */
+.hub-cta-download {
+  display: block;
+  position: absolute;
+  top: 30px;
+  left: -300px; }
+
 /* line 1, ../scss/_guide-background.scss */
 body#entry-3 {
   background-color: #000; }
@@ -18420,11 +18432,12 @@ img[src^='http://placehold.it/'] {
 /* line 89, ../scss/_jquery.accordion.scss */
 .st-content img {
   width: 125px;
-  border-right: 1px solid #fff;
-  border-bottom: 1px solid #fff; }
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px; }
 
 @media screen and (max-width: 320px) {
-  /* line 95, ../scss/_jquery.accordion.scss */
+  /* line 96, ../scss/_jquery.accordion.scss */
   .st-accordion ul li > a {
     font-size: 36px; } }
 /* line 4, ../scss/_hub_solution.scss */
@@ -18656,17 +18669,7 @@ img[src^='http://placehold.it/'] {
   border: 1px solid transparent; }
 
 /* Slider */
-/* line 40, ../scss/_slick-theme.scss */
-.slick-loading .slick-list {
-  background: #fff url('/images/../slick/slick/ajax-loader.gif?1426474060') center center no-repeat; }
-
 /* Icons */
-@font-face {
-  font-family: "slick";
-  src: url('/fonts/../slick/slick/fonts/slick.eot?1426474060');
-  src: url('/fonts/../slick/slick/fonts/slick.eot?&1426474060#iefix') format("embedded-opentype"), url('/fonts/../slick/slick/fonts/slick.woff?1426474060') format("woff"), url('/fonts/../slick/slick/fonts/slick.ttf?1426474060') format("truetype"), url('/fonts/../slick/slick/fonts/slick.svg?1426474060#slick') format("svg");
-  font-weight: normal;
-  font-style: normal; }
 /* Arrows */
 /* line 58, ../scss/_slick-theme.scss */
 .slick-prev, .slick-next {
@@ -18837,3 +18840,214 @@ img[src^='http://placehold.it/'] {
 .slick-dots li button:before {
   color: transparent !important;
   background-color: #EA7600; }
+
+/* Preload images */
+/* line 2, ../lightbox2/sass/_lightbox.scss */
+body:after {
+  content: url(../images/lightbox-close.png) url("../lightbox2/img/ajax-loader.gif") url(../images/lightbox-prev.png) url(../images/lightbox-next.png);
+  display: none; }
+
+/* line 7, ../lightbox2/sass/_lightbox.scss */
+.lightboxOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background-color: black;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+  display: none; }
+
+/* line 18, ../lightbox2/sass/_lightbox.scss */
+.lightbox {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: 10000;
+  text-align: center;
+  line-height: 0;
+  font-weight: normal; }
+
+/* line 28, ../lightbox2/sass/_lightbox.scss */
+.lightbox .lb-image {
+  display: block;
+  height: auto;
+  max-width: inherit;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px; }
+
+/* line 39, ../lightbox2/sass/_lightbox.scss */
+.lightbox a img {
+  border: none; }
+
+/* line 43, ../lightbox2/sass/_lightbox.scss */
+.lb-outerContainer {
+  position: relative;
+  background-color: white;
+  *zoom: 1;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px; }
+
+/* line 57, ../lightbox2/sass/_lightbox.scss */
+.lb-outerContainer:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* line 63, ../lightbox2/sass/_lightbox.scss */
+.lb-container {
+  padding: 4px; }
+
+/* line 67, ../lightbox2/sass/_lightbox.scss */
+.lb-loader {
+  position: absolute;
+  top: 35%;
+  left: 0;
+  height: 25%;
+  width: 100%;
+  text-align: center;
+  line-height: 0; }
+
+/* line 77, ../lightbox2/sass/_lightbox.scss */
+.lb-cancel {
+  display: block;
+  width: 60px;
+  height: 66px;
+  margin: 0 auto;
+  background: url("../lightbox2/img/ajax-loader.gif") no-repeat; }
+
+/* line 85, ../lightbox2/sass/_lightbox.scss */
+.lb-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10; }
+
+/* line 94, ../lightbox2/sass/_lightbox.scss */
+.lb-container > .nav {
+  left: 0; }
+
+/* line 98, ../lightbox2/sass/_lightbox.scss */
+.lb-nav a {
+  outline: none;
+  background-image: url("data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="); }
+
+/* line 103, ../lightbox2/sass/_lightbox.scss */
+.lb-prev, .lb-next {
+  height: 100%;
+  cursor: pointer;
+  display: block; }
+
+/* line 109, ../lightbox2/sass/_lightbox.scss */
+.lb-nav a.lb-prev {
+  width: 34%;
+  left: 0;
+  float: left;
+  background: url(../images/lightbox-prev.png) left 48% no-repeat;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition: opacity 0.6s;
+  -moz-transition: opacity 0.6s;
+  -o-transition: opacity 0.6s;
+  transition: opacity 0.6s; }
+
+/* line 122, ../lightbox2/sass/_lightbox.scss */
+.lb-nav a.lb-prev:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1; }
+
+/* line 127, ../lightbox2/sass/_lightbox.scss */
+.lb-nav a.lb-next {
+  width: 64%;
+  right: 0;
+  float: right;
+  background: url(../images/lightbox-next.png) right 48% no-repeat;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition: opacity 0.6s;
+  -moz-transition: opacity 0.6s;
+  -o-transition: opacity 0.6s;
+  transition: opacity 0.6s; }
+
+/* line 140, ../lightbox2/sass/_lightbox.scss */
+.lb-nav a.lb-next:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1; }
+
+/* line 145, ../lightbox2/sass/_lightbox.scss */
+.lb-dataContainer {
+  margin: 0 auto;
+  padding-top: 5px;
+  *zoom: 1;
+  width: 100%;
+  -moz-border-radius-bottomleft: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+  border-bottom-right-radius: 4px; }
+
+/* line 158, ../lightbox2/sass/_lightbox.scss */
+.lb-dataContainer:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* line 164, ../lightbox2/sass/_lightbox.scss */
+.lb-data {
+  padding: 0 4px;
+  color: #ccc; }
+
+/* line 169, ../lightbox2/sass/_lightbox.scss */
+.lb-data .lb-details {
+  width: 85%;
+  float: left;
+  text-align: left;
+  line-height: 1.1em; }
+
+/* line 176, ../lightbox2/sass/_lightbox.scss */
+.lb-data .lb-caption {
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1em; }
+
+/* line 182, ../lightbox2/sass/_lightbox.scss */
+.lb-data .lb-number {
+  display: block;
+  clear: left;
+  padding-bottom: 1em;
+  font-size: 12px;
+  color: #999999; }
+
+/* line 190, ../lightbox2/sass/_lightbox.scss */
+.lb-data .lb-close {
+  display: block;
+  float: right;
+  width: 30px;
+  height: 30px;
+  background: url(../images/lightbox-close.png) top right no-repeat;
+  text-align: right;
+  outline: none;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
+  -webkit-transition: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  transition: opacity 0.2s; }
+
+/* line 206, ../lightbox2/sass/_lightbox.scss */
+.lb-data .lb-close:hover {
+  cursor: pointer;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1; }

@@ -87,9 +87,10 @@
 //    padding: 0px 4px 15px 4px;
 }
 .st-content img{
-    width:125px;
-    border-right:1px solid #fff;
-    border-bottom:1px solid #fff;
+  width:125px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
 }
 @media screen and (max-width: 320px){
 	.st-accordion ul li > a{

@@ -2,29 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="195a1756-a828-4484-ba93-284ef59836fb" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hub-navigation-social.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/JPEG/.BridgeSort" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/template-solution-about.html" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/lightbox-close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/lightbox-loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/lightbox-next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/lightbox-prev.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/prev.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/email-template-solution-content-medium-business.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/email-template-solution-content-small-business.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/email-template-solution-content.php" afterPath="$PROJECT_DIR$/email-template-solution-content-large-business.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sharrre" afterPath="$PROJECT_DIR$/Sharrre" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/_colours.scssc" afterPath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/_colours.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/_header.scssc" afterPath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/_header.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/_slick-theme-ruckus.scssc" afterPath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/_slick-theme-ruckus.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/_buttons.scssc" afterPath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/_buttons.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/_jquery.accordion.scssc" afterPath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/_jquery.accordion.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/_media.scssc" afterPath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/_media.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/_navigation.scssc" afterPath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/_navigation.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/_slick-theme.scssc" afterPath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/_slick-theme.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/_social-nav.scssc" afterPath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/_social-nav.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/_variables.scssc" afterPath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/_variables.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/app.scssc" afterPath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/app.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/email-image-implenting-retail-wifi.jpg" afterPath="$PROJECT_DIR$/images/email-image-implenting-retail-wifi.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/email-image-viewing-deploying.jpg" afterPath="$PROJECT_DIR$/images/email-image-viewing-deploying.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/email-image-viewing-deploying.psd" afterPath="$PROJECT_DIR$/images/email-image-viewing-deploying.psd" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery-template" afterPath="$PROJECT_DIR$/jquery-template" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery.scrollTo" afterPath="$PROJECT_DIR$/jquery.scrollTo" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery_lazyload" afterPath="$PROJECT_DIR$/jquery_lazyload" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slick" afterPath="$PROJECT_DIR$/slick" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/solution-links-images.ai" afterPath="$PROJECT_DIR$/images/solution-links-images.ai" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Happy.js" afterPath="$PROJECT_DIR$/Happy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_colours.scss" afterPath="$PROJECT_DIR$/scss/_colours.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_header.scss" afterPath="$PROJECT_DIR$/scss/_header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_slick-theme-ruckus.scss" afterPath="$PROJECT_DIR$/scss/_slick-theme-ruckus.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_buttons.scss" afterPath="$PROJECT_DIR$/scss/_buttons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_jquery.accordion.scss" afterPath="$PROJECT_DIR$/scss/_jquery.accordion.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_media.scss" afterPath="$PROJECT_DIR$/scss/_media.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_navigation.scss" afterPath="$PROJECT_DIR$/scss/_navigation.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_slick-theme.scss" afterPath="$PROJECT_DIR$/scss/_slick-theme.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_social-nav.scss" afterPath="$PROJECT_DIR$/scss/_social-nav.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_variables.scss" afterPath="$PROJECT_DIR$/scss/_variables.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/app.css" afterPath="$PROJECT_DIR$/stylesheets/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/app.scss" afterPath="$PROJECT_DIR$/scss/app.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/email-template-solution.php" afterPath="$PROJECT_DIR$/email-template-solution.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entry-three.php" afterPath="$PROJECT_DIR$/entry-three.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide-footer.php" afterPath="$PROJECT_DIR$/guide-footer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hub-0-2.php" afterPath="$PROJECT_DIR$/hub-0-2.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hub-4.php" afterPath="$PROJECT_DIR$/hub-4.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hub-footer.php" afterPath="$PROJECT_DIR$/hub-footer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hub-header.php" afterPath="$PROJECT_DIR$/hub-header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/isInViewport.config.js" afterPath="$PROJECT_DIR$/js/isInViewport.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/response.php" afterPath="$PROJECT_DIR$/response.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/ruckus.js" afterPath="$PROJECT_DIR$/js/ruckus.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -51,12 +72,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
+      <file leaf-file-name="_social-nav.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/_social-nav.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.4666667" vertical-offset="1031" max-vertical-offset="1750">
-              <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
+            <state vertical-scroll-proportion="-9.0" vertical-offset="205" max-vertical-offset="1000">
+              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hub-3.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hub-3.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.9666667" vertical-offset="521" max-vertical-offset="8950">
+              <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_jquery.accordion.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/_jquery.accordion.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.5" vertical-offset="1805" max-vertical-offset="2600">
+              <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="response.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/response.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="15.7" vertical-offset="1896" max-vertical-offset="3075">
+              <caret line="57" column="97" selection-start-line="57" selection-start-column="97" selection-end-line="57" selection-end-column="97" />
+              <folding>
+                <marker date="1427129132000" expanded="true" signature="1257:1844" placeholder="INSERT INTO ..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,18 +117,8 @@
       <file leaf-file-name="entry-two.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/entry-two.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9666667" vertical-offset="1131" max-vertical-offset="1750">
+            <state vertical-scroll-proportion="-10.966666" vertical-offset="921" max-vertical-offset="1750">
               <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="slick.config.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/slick/slick/slick.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.55910546" vertical-offset="0" max-vertical-offset="1400">
-              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -84,49 +127,38 @@
       <file leaf-file-name="hub-0-2.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hub-0-2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.0333333" vertical-offset="854" max-vertical-offset="1700">
-              <caret line="39" column="65" selection-start-line="39" selection-start-column="65" selection-end-line="39" selection-end-column="65" />
+            <state vertical-scroll-proportion="14.188235" vertical-offset="1856" max-vertical-offset="2550">
+              <caret line="26" column="65" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/_header.scss">
+      <file leaf-file-name="hub-footer.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hub-footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="650">
-              <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.73297733" vertical-offset="826" max-vertical-offset="1575">
+              <caret line="54" column="22" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hub-0-1.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hub-0-1.php">
+      <file leaf-file-name="email-template-solution-content-small-business.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/email-template-solution-content-small-business.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.166667" vertical-offset="0" max-vertical-offset="800">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="249" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hub-header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hub-header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0333333" vertical-offset="606" max-vertical-offset="1450">
-              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_slick-theme-ruckus.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/_slick-theme-ruckus.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.033334" vertical-offset="529" max-vertical-offset="1250">
-              <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
-              <folding />
+            <state vertical-scroll-proportion="7.446429" vertical-offset="1317" max-vertical-offset="5825">
+              <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="48" selection-end-column="16" />
+              <folding>
+                <marker date="1427134420000" expanded="true" signature="2913:3365" placeholder="..." />
+                <marker date="1427134420000" expanded="true" signature="2933:3345" placeholder="..." />
+                <marker date="1427134420000" expanded="true" signature="2973:3324" placeholder="..." />
+                <marker date="1427134420000" expanded="true" signature="3027:3299" placeholder="..." />
+                <marker date="1427134420000" expanded="true" signature="3059:3267" placeholder="..." />
+                <marker date="1427134420000" expanded="true" signature="3095:3234" placeholder="..." />
+                <marker date="1427134420000" expanded="true" signature="4351:4791" placeholder="..." />
+                <marker date="1427134420000" expanded="true" signature="4501:4753" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,18 +166,8 @@
       <file leaf-file-name="ruckus.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/ruckus.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="44.23077" vertical-offset="4425" max-vertical-offset="25125">
-              <caret line="135" column="1741" selection-start-line="135" selection-start-column="1741" selection-end-line="135" selection-end-column="1741" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hub-4.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hub-4.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.633333" vertical-offset="931" max-vertical-offset="3450">
-              <caret line="44" column="105" selection-start-line="44" selection-start-column="105" selection-end-line="44" selection-end-column="105" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2250" max-vertical-offset="23750">
+              <caret line="98" column="24" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -164,19 +186,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/scss/_buttons.scss" />
-        <option value="$PROJECT_DIR$/json/data.json" />
-        <option value="$PROJECT_DIR$/js/sharrre.js" />
-        <option value="$PROJECT_DIR$/temp.html" />
-        <option value="$PROJECT_DIR$/Sharrre/jquery.sharrre.config.js" />
-        <option value="$PROJECT_DIR$/scss/_sharrre.scss" />
-        <option value="$PROJECT_DIR$/scss/_typography.scss" />
-        <option value="$PROJECT_DIR$/scss/_slide.scss" />
-        <option value="$PROJECT_DIR$/template-solution-about.html" />
-        <option value="$PROJECT_DIR$/template-solution-header.html" />
-        <option value="$PROJECT_DIR$/template-solution-videos.html" />
         <option value="$PROJECT_DIR$/template-solution-article.html" />
-        <option value="$PROJECT_DIR$/scss/_jquery.accordion.scss" />
         <option value="$PROJECT_DIR$/scss/_settings.scss" />
         <option value="$PROJECT_DIR$/template-solution-downloads.html" />
         <option value="$PROJECT_DIR$/scss/_hub_solution.scss" />
@@ -187,10 +197,7 @@
         <option value="$PROJECT_DIR$/slick/slick/_slick-theme-ruckus.scss" />
         <option value="$PROJECT_DIR$/jquery-scrollto/src/documents/lib/jquery-scrollto.config.js" />
         <option value="$PROJECT_DIR$/footer-entry-3.php" />
-        <option value="$PROJECT_DIR$/scss/_navigation.scss" />
         <option value="$PROJECT_DIR$/jquery.scrollTo/jquery.scrollTo.config.js" />
-        <option value="$PROJECT_DIR$/scss/app.scss" />
-        <option value="$PROJECT_DIR$/scss/_slick-theme.scss" />
         <option value="$PROJECT_DIR$/stylesheets/app.css" />
         <option value="$PROJECT_DIR$/hub-0-1.php" />
         <option value="$PROJECT_DIR$/hub-1.php" />
@@ -199,22 +206,37 @@
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/hub-head.php" />
         <option value="$PROJECT_DIR$/hub-navigation.php" />
-        <option value="$PROJECT_DIR$/hub-footer.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/entry-two.php" />
-        <option value="$PROJECT_DIR$/entry-three.php" />
         <option value="$PROJECT_DIR$/scss/_colours.scss" />
         <option value="$PROJECT_DIR$/scss/_variables.scss" />
         <option value="$PROJECT_DIR$/scss/_structure.scss" />
-        <option value="$PROJECT_DIR$/scss/_social-nav.scss" />
-        <option value="$PROJECT_DIR$/hub-header.php" />
         <option value="ed4b02e7/scratch" />
-        <option value="$PROJECT_DIR$/js/ruckus.js" />
-        <option value="$PROJECT_DIR$/hub-4.php" />
         <option value="$PROJECT_DIR$/scss/_header.scss" />
         <option value="$PROJECT_DIR$/scss/_slick-theme-ruckus.scss" />
-        <option value="$PROJECT_DIR$/hub-0-2.php" />
         <option value="$PROJECT_DIR$/slick/slick/slick.config.js" />
+        <option value="$PROJECT_DIR$/hub-footer.php" />
+        <option value="$PROJECT_DIR$/slick/slick/slick.js" />
+        <option value="$PROJECT_DIR$/scss/_slick-theme.scss" />
+        <option value="$PROJECT_DIR$/lightbox2/sass/_lightbox.scss" />
+        <option value="$PROJECT_DIR$/scss/app.scss" />
+        <option value="$PROJECT_DIR$/scss/_media.scss" />
+        <option value="$PROJECT_DIR$/entry-three.php" />
+        <option value="$PROJECT_DIR$/guide-footer.php" />
+        <option value="$PROJECT_DIR$/js/isInViewport.config.js" />
+        <option value="$PROJECT_DIR$/scss/_buttons.scss" />
+        <option value="$PROJECT_DIR$/scss/_navigation.scss" />
+        <option value="$PROJECT_DIR$/hub-header.php" />
+        <option value="$PROJECT_DIR$/scss/_social-nav.scss" />
+        <option value="$PROJECT_DIR$/hub-4.php" />
+        <option value="$PROJECT_DIR$/scss/_jquery.accordion.scss" />
+        <option value="$PROJECT_DIR$/email-template-solution.php" />
+        <option value="$PROJECT_DIR$/response.php" />
+        <option value="$PROJECT_DIR$/js/ruckus.js" />
+        <option value="$PROJECT_DIR$/email-template-solution-content-large-business.php" />
+        <option value="$PROJECT_DIR$/email-template-solution-content-small-business.php" />
+        <option value="$PROJECT_DIR$/email-template-solution-content-medium-business.php" />
+        <option value="$PROJECT_DIR$/hub-0-2.php" />
       </list>
     </option>
   </component>
@@ -268,27 +290,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ruckus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ruckus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ip-solutions-wordpress" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../pulse.wordpress/wp/wp-content" />
     <property name="FullScreen" value="true" />
     <property name="options.lastSelected" value="editor" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -297,13 +305,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/fonts" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/lightbox2/css" />
+      <recent name="$PROJECT_DIR$/fonts" />
       <recent name="$PROJECT_DIR$/accordion/css" />
-      <recent name="$PROJECT_DIR$/js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lightbox2/sass" />
       <recent name="$PROJECT_DIR$/scss" />
       <recent name="$PROJECT_DIR$/Sharrre" />
       <recent name="$PROJECT_DIR$/js" />
@@ -371,28 +380,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18433735" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32771084" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25903615" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32771084" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2725322" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28612304" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -425,110 +434,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/template-solution-videos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.6666666" vertical-offset="0" max-vertical-offset="325">
-          <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_slide.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.333333" vertical-offset="0" max-vertical-offset="525">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-solution-article.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="225">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_settings.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.625" vertical-offset="5110" max-vertical-offset="37575">
-          <caret line="203" column="24" selection-start-line="203" selection-start-column="20" selection-end-line="203" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-solution-downloads.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="350">
-          <caret line="3" column="62" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_jquery.accordion.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2" vertical-offset="1879" max-vertical-offset="2575">
-          <caret line="79" column="23" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_cookie-bar.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="600">
-          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slick/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="626">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_hub_solution.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.2" vertical-offset="429" max-vertical-offset="1175">
-          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_template-mobile-momentum.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.666667" vertical-offset="0" max-vertical-offset="550">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_typography.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66442955" vertical-offset="1104" max-vertical-offset="1700">
-          <caret line="60" column="44" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slick/slick/slick.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="18.26923" vertical-offset="23225" max-vertical-offset="58350">
-          <caret line="910" column="41" selection-start-line="910" selection-start-column="36" selection-end-line="910" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing-slick.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.3666666" vertical-offset="79" max-vertical-offset="850">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="25" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/_forms.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="626">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -536,15 +445,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33226836" vertical-offset="592" max-vertical-offset="18350">
           <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_buttons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7343124" vertical-offset="200" max-vertical-offset="3775">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -552,7 +452,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="626">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -560,25 +459,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="27725">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_navigation.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.8" vertical-offset="1856" max-vertical-offset="2475">
-          <caret line="92" column="13" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="10.42492" vertical-offset="127624" max-vertical-offset="135150">
-          <caret line="0" column="394569" selection-start-line="0" selection-start-column="394569" selection-end-line="0" selection-end-column="394569" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -586,7 +466,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -594,31 +473,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6469833" vertical-offset="221" max-vertical-offset="1050">
           <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slick/slick/slick-theme.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5225">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1125" max-vertical-offset="2275">
-          <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_slick-theme.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1000" max-vertical-offset="4800">
-          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -626,7 +480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6476684" vertical-offset="3250" max-vertical-offset="9200">
           <caret line="130" column="67" selection-start-line="130" selection-start-column="63" selection-end-line="130" selection-end-column="67" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -634,7 +487,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.133333" vertical-offset="331" max-vertical-offset="1050">
           <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -642,7 +494,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.633333" vertical-offset="356" max-vertical-offset="1075">
           <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -650,39 +501,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6058158" vertical-offset="0" max-vertical-offset="619">
           <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide-footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16478191" vertical-offset="23" max-vertical-offset="800">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hub-3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="9.410339" vertical-offset="3300" max-vertical-offset="9275">
-          <caret line="348" column="10" selection-start-line="348" selection-start-column="10" selection-end-line="348" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/entry-three.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15185784" vertical-offset="2456" max-vertical-offset="19800">
-          <caret line="95" column="64" selection-start-line="95" selection-start-column="64" selection-end-line="95" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hub-footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15185784" vertical-offset="6" max-vertical-offset="1525">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -690,23 +508,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4194631" vertical-offset="0" max-vertical-offset="596">
           <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_colours.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2075">
-          <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide-header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="525">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -714,79 +515,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.392857" vertical-offset="4635" max-vertical-offset="7225">
           <caret line="193" column="1" selection-start-line="193" selection-start-column="1" selection-end-line="193" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.3" vertical-offset="106" max-vertical-offset="950">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_social-nav.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="1000">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="scratchpad://ed4b02e7/scratch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="650">
-          <caret line="0" column="1695" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="1695" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/ruckus.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="44.23077" vertical-offset="4425" max-vertical-offset="25125">
-          <caret line="135" column="1741" selection-start-line="135" selection-start-column="1741" selection-end-line="135" selection-end-column="1741" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hub-4.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.633333" vertical-offset="931" max-vertical-offset="3450">
-          <caret line="44" column="105" selection-start-line="44" selection-start-column="105" selection-end-line="44" selection-end-column="105" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hub-0-1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.166667" vertical-offset="0" max-vertical-offset="800">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="249" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="650">
-          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.4666667" vertical-offset="1031" max-vertical-offset="1750">
-          <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/entry-two.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9666667" vertical-offset="1131" max-vertical-offset="1750">
-          <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -794,30 +522,315 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.033334" vertical-offset="529" max-vertical-offset="1250">
           <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/layout.entry-three.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="775">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide-header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54530203" vertical-offset="0" max-vertical-offset="596">
+          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slick/slick/slick.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="26224" max-vertical-offset="58375">
+          <caret line="1032" column="19" selection-start-line="1032" selection-start-column="19" selection-end-line="1032" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slick/slick/slick-theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15974441" vertical-offset="0" max-vertical-offset="5225">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lightbox2/css/screen.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1425" max-vertical-offset="2550">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_slick-theme.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25167784" vertical-offset="0" max-vertical-offset="4900">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_loading.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33557048" vertical-offset="0" max-vertical-offset="700">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_media.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0352349" vertical-offset="179" max-vertical-offset="875">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slick/slick/_slick.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3489499" vertical-offset="1234" max-vertical-offset="2525">
+          <caret line="58" column="15" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.040387724" vertical-offset="0" max-vertical-offset="950">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28271407" vertical-offset="1000" max-vertical-offset="2300">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slick/slick/slick.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2311248" vertical-offset="0" max-vertical-offset="1425">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hub-0-1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1615509" vertical-offset="0" max-vertical-offset="650">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lightbox2/sass/_lightbox.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21079259" vertical-offset="1625" max-vertical-offset="5475">
+          <caret line="68" column="9" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide-footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3238342" vertical-offset="0" max-vertical-offset="772">
+          <caret line="15" column="89" selection-start-line="15" selection-start-column="89" selection-end-line="15" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33226323" vertical-offset="386818" max-vertical-offset="532825">
+          <caret line="13234" column="9" selection-start-line="13234" selection-start-column="1" selection-end-line="13234" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/isInViewport.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.4625936" vertical-offset="4400" max-vertical-offset="6525">
+          <caret line="96" column="35" selection-start-line="96" selection-start-column="35" selection-end-line="96" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_colours.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2075">
+          <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entry-three.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29145077" vertical-offset="1575" max-vertical-offset="22650">
+          <caret line="63" column="79" selection-start-line="63" selection-start-column="79" selection-end-line="63" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_buttons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.61139894" vertical-offset="2853" max-vertical-offset="3875">
+          <caret line="133" column="17" selection-start-line="133" selection-start-column="17" selection-end-line="133" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1100" max-vertical-offset="1700">
+          <caret line="44" column="7" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.3" vertical-offset="1" max-vertical-offset="650">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_navigation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1669" max-vertical-offset="2225">
+          <caret line="83" column="1" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hub-header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0333333" vertical-offset="606" max-vertical-offset="1450">
-          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="51" />
+        <state vertical-scroll-proportion="-0.12208258" vertical-offset="818" max-vertical-offset="1375">
+          <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hub-4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5674232" vertical-offset="1450" max-vertical-offset="3500">
+          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_social-nav.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.0" vertical-offset="205" max-vertical-offset="1000">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ruckus.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2250" max-vertical-offset="23750">
+          <caret line="98" column="24" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hub-3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.9666667" vertical-offset="521" max-vertical-offset="8950">
+          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_jquery.accordion.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.5" vertical-offset="1805" max-vertical-offset="2600">
+          <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/email-template-solution-header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.5151515" vertical-offset="19824" max-vertical-offset="22275">
+          <caret line="863" column="43" selection-start-line="863" selection-start-column="43" selection-end-line="863" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/email-template-solution-content-small-business.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="7.446429" vertical-offset="1317" max-vertical-offset="5825">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="48" selection-end-column="16" />
+          <folding>
+            <marker date="1427134420000" expanded="true" signature="2913:3365" placeholder="..." />
+            <marker date="1427134420000" expanded="true" signature="2933:3345" placeholder="..." />
+            <marker date="1427134420000" expanded="true" signature="2973:3324" placeholder="..." />
+            <marker date="1427134420000" expanded="true" signature="3027:3299" placeholder="..." />
+            <marker date="1427134420000" expanded="true" signature="3059:3267" placeholder="..." />
+            <marker date="1427134420000" expanded="true" signature="3095:3234" placeholder="..." />
+            <marker date="1427134420000" expanded="true" signature="4351:4791" placeholder="..." />
+            <marker date="1427134420000" expanded="true" signature="4501:4753" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/email-template-solution-content-medium-business.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21428572" vertical-offset="700" max-vertical-offset="6100">
+          <caret line="22" column="194" selection-start-line="22" selection-start-column="194" selection-end-line="22" selection-end-column="194" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/email-template-solution-content-large-business.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.5353805" vertical-offset="2775" max-vertical-offset="5450">
+          <caret line="38" column="48" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="48" />
+          <folding>
+            <marker date="1427134390000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427134390000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427134390000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427134390000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427134390000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427134390000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427134390000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427134390000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427134390000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427134390000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427134390000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/email-template-solution.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.106809" vertical-offset="27071" max-vertical-offset="28050">
+          <caret line="1057" column="7" selection-start-line="1057" selection-start-column="7" selection-end-line="1057" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#center#0;n#td#0;n#tr#0;n#table#0;n#center#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/response.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="15.7" vertical-offset="1896" max-vertical-offset="3075">
+          <caret line="57" column="97" selection-start-line="57" selection-start-column="97" selection-end-line="57" selection-end-column="97" />
+          <folding>
+            <marker date="1427129132000" expanded="true" signature="1257:1844" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entry-two.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.966666" vertical-offset="921" max-vertical-offset="1750">
+          <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hub-0-2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.0333333" vertical-offset="854" max-vertical-offset="1700">
-          <caret line="39" column="65" selection-start-line="39" selection-start-column="65" selection-end-line="39" selection-end-column="65" />
+        <state vertical-scroll-proportion="14.188235" vertical-offset="1856" max-vertical-offset="2550">
+          <caret line="26" column="65" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/slick/slick/slick.config.js">
+    <entry file="file://$PROJECT_DIR$/hub-footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55910546" vertical-offset="0" max-vertical-offset="1400">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.73297733" vertical-offset="826" max-vertical-offset="1575">
+          <caret line="54" column="22" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="22" />
           <folding />
         </state>
       </provider>

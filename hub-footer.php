@@ -52,5 +52,6 @@
 <script src="js/ruckus.config.js"></script>
 <script src="slick/slick/slick.min.js"></script>
 <script src="slick/slick/slick.config.js"></script>
+<script src="lightbox2/js/lightbox.min.js"></script>
 </body>
 </html>

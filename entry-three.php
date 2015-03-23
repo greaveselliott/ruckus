@@ -61,7 +61,7 @@ else {
         <div class="ruckus-entry-3_background background-1 lazy-load" data-original="images/guide/guide-background-00.jpg" style="background-color: #000;"></div>
     </section>
 <!--#0: Wi-Fi in retail -->
-<article class="row full-screen ruckus-tile" id="retail-wifi" data-cta="Get the right Wi-Fi – Specify your wireless needs">
+<article class="row full-screen ruckus-tile" id="retail-wifi" data-cta="Have you got the right Wi-Fi?" data-cta2="To get your personalised Ruckus solution">
     <div class="large-12 columns">
         <div class="row ruckus-background-black opacity-75 no-padding-left-small-only no-padding-right-small-only">
             <div class="large-12 columns margin-bottom-20 ruckus-background-black">
@@ -126,7 +126,7 @@ else {
 </article>
 
     <!--#1: Mobile Momentum -->
-    <article class="row full-screen ruckus-tile" id="mobile-momentum" data-cta="Get the right wireless to keep moving"><!-- fullscreen background? -->
+    <article class="row full-screen ruckus-tile" id="mobile-momentum" data-cta="Get the right wireless to keep moving " data-cta2="For your personalised Ruckus solution"><!-- fullscreen background? -->
         <div class="large-12 columns">
             <div class="row ruckus-background-black">
 
@@ -226,7 +226,7 @@ else {
         <div class="ruckus-entry-3_background background-1 lazy-load" data-original="images/guide/guide-background-01.jpg" style="background-color: #000;"></div>
         </article>
     <!--#2: Mobile Payment -->
-    <article class="row full-screen ruckus-tile" id="mobile-payment" data-cta="Get the wireless that pays its way">
+    <article class="row full-screen ruckus-tile" id="mobile-payment" data-cta="Get the Wi-Fi that pays its way" data-cta2="For a personalised Ruckus solution">
         <div class="large-12 columns">
         <div class="row ruckus-background-black">
             <div class="large-12 columns ">
@@ -297,7 +297,7 @@ else {
         <div class="ruckus-entry-3_background background-3 lazy-load" data-original="images/guide/guide-background-03.jpg" style="background-color: #000;"></div>
     </article>
     <!--#3: POS Technology -->
-    <article class="row full-screen ruckus-tile" id="pos-technology" data-cta="Specify your PCI compliant wireless needs">
+    <article class="row full-screen ruckus-tile" id="pos-technology" data-cta="" data-cta2="To specify your PCI compliant wireless needs">
         <div class="large-12 columns">
         <div class="row ruckus-background-black">
             <div class="large-12 columns ">
@@ -359,7 +359,7 @@ else {
         <div class="ruckus-entry-3_background background-4 lazy-load" data-original="images/guide/guide-background-04.jpg" style="background-color: #000;"></div>
     </article>
     <!--#4: Omnichannel Omnipetence? -->
-    <article class="row full-screen ruckus-tile" id="omnichannel-omnipetence" data-cta="Get seamless wireless here to serve your needs">
+    <article class="row full-screen ruckus-tile" id="omnichannel-omnipetence" data-cta="Deliver the best Wi-Fi" dta-cta2="To get your personalised Ruckus solution">
         <div class="large-12 columns ">
             <div class="row ruckus-background-black">
                 <div class="large-12 columns">
@@ -453,7 +453,7 @@ else {
             <div class="ruckus-entry-3_background background-5 lazy-load" data-original="images/guide/guide-background-05.jpg" style="background-color: #000;"></div>
     </article>
     <!--#5: Loyalty Learnings -->
-    <article class="row full-screen ruckus-background-black opacity-75 ruckus-tile" id="loyalty-learnings" data-cta="Reward your customers with the best wireless">
+    <article class="row full-screen ruckus-background-black opacity-75 ruckus-tile" id="loyalty-learnings" data-cta="Reward your customers with the best Wi-Fi" data-cta2="To get your personalised Ruckus solution">
         <div class="large-12 columns">
             <div class="row ruckus-background-black">
                 <div class="large-12 columns">
@@ -504,7 +504,7 @@ else {
         <div class="ruckus-entry-3_background background-6 lazy-load" data-original="images/guide/guide-background-06.jpg" style="background-color: #000;"></div>
     </article>
     <!--#6: Social Shopping -->
-    <article class="row full-screen ruckus-tile" id="social-shopping" data-cta="Get the right wireless to engage with your customers">
+    <article class="row full-screen ruckus-tile" id="social-shopping" data-cta="Engage with your customers" data-cta2="To specify your wireless needs">
         <div class="large-12 columns">
             <div class="row ruckus-background-black">
                 <div class="large-12 columns">
@@ -591,7 +591,7 @@ else {
             <div class="ruckus-entry-3_background background-7 lazy-load" data-original="images/guide/guide-background-07.jpg" style="background-color: #000;"></div>
     </article>
     <!--#7: Big Data -->
-    <article class="row full-screen ruckus-tile" id="big-data" data-cta="Specify your wireless needs to make the most of Big Data">
+    <article class="row full-screen ruckus-tile" id="big-data" data-cta="Make the most of Big Data" data-cta2="To get a personalised wireless solution">
         <div class="large-12 columns">
             <div class="row ruckus-background-black">
                 <div class="large-12 columns">
@@ -644,8 +644,9 @@ else {
 <!--    </footer>-->
     <div id="hub-link" class="hide-for-small">
         <a href="index.php" target="_blank" class="padding-25 display-block">
-            <p id="CTA-text" class="h5 text-center">Select your own wireless needs</p>
-            <p class="button alt no-margin-bottom">GO</p>
+            <p id="CTA-text-1" class="h5 text-center">Get your personalised Ruckus solution</p>
+            <p class="button alt">CLICK HERE</p>
+            <p id="CTA-text-2" class="h5 text-center no-margin-bottom"></p>
         </a>
     </div>
 

@@ -13,10 +13,7 @@
 <script src="bower_components/foundation/js/foundation.min.js"></script>
 <script src="js/app.js"></script>
 <script src="js/foundation.equalizer.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.15.1/TweenLite.min.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.15.1/TimelineMax.min.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.15.1/easing/EasePack.min.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.15.1/plugins/CSSPlugin.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js"></script>
 <script src="jquery_lazyload/jquery.lazyload.js"></script>
 <script src="js/jquery.lazyload.config.js"></script>
 <script src="js/fullscreen.js"></script>
