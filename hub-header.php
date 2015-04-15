@@ -1,6 +1,6 @@
 
 <div class="absolute top width-100 header">
-    <div class="row padding-top-10">
+    <div class="row padding-top-10 padding-bottom-10">
         <div class="large-12 columns">
             <header id="ruckus-logo">
                 <img src="images/ruckus-logo.png" alt="Ruckus Logo" class="logo">
@@ -10,11 +10,26 @@
                     <h2 class="hide">Contact Ruckus, Buy Ruckus Products Now or Get a Demo</h2>
                     <ul class="contact no-bullet no-margin-bottom">
                         <li id="home-link">
-                            <a href="http://www.ruckuswireless.com/" target="_blank" title="Visit the Ruckus Wireless home page"><i class="fa fa-home"></i>Ruckus Home</a>
+                            <a href="http://www.ruckuswireless.com/" target="_blank" title="Visit Ruckus Home"  data-tooltip aria-haspopup="true">
+                                    <i class="fa fa-home"></i>
+
+                            </a>
                         </li>
-                        <li id="contact-link"><a href="http://www.ruckuswireless.com/contact" title="contact" target="_blank"><i class="fa fa-envelope-o"></i>Contact Us</a></li>
-                        <li id="buy-link"><a href="http://www.ruckuswireless.com//buy" id="buy" target="_blank"><i class="fa fa-shopping-cart"></i>Buy Now</a></li>
-                        <li id="demo-link"><a href="http://www.ruckuswireless.com//request-a-demo" id="Request a Demo" target="_blank"><i class="fa fa-bar-chart"></i>Get a Demo</a></li>
+                        <li id="contact-link">
+                            <a href="http://www.ruckuswireless.com/contact" title="Contact Us" target="_blank" data-tooltip aria-haspopup="true">
+                                <i class="fa fa-envelope-o"></i>
+                            </a>
+                        </li>
+                        <li id="buy-link">
+                            <a href="http://www.ruckuswireless.com//buy" id="buy" target="_blank" data-tooltip aria-haspopup="true" title="Buy now">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </li>
+                        <li id="demo-link">
+                            <a href="http://www.ruckuswireless.com//request-a-demo" id="Request a Demo" target="_blank" title="Get a Demo" data-tooltip aria-haspopup="true">
+                                <i class="fa fa-bar-chart"></i>
+                            </a>
+                        </li>
                     </ul>
 
                 </nav>

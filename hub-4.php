@@ -57,9 +57,17 @@
                                                     <li id="home-link">
                                                         <a href="http://www.ruckuswireless.com/" target="_blank" title="Visit the Ruckus Wireless home page"><img src="images/solution-links-images-01.png" alt="Visit Ruckus Home"></a>
                                                     </li>
-                                                    <li id="contact-link"><a href="http://www.ruckuswireless.com/contact" title="contact" target="_blank"><img src="images/solution-links-images-03.png" alt="Contact us"></a></li>
-                                                    <li id="buy-link"><a href="http://www.ruckuswireless.com//buy" id="buy" target="_blank"><img src="images/solution-links-images-02.png" alt="Buy now"></a></li>
-                                                    <li id="demo-link"><a href="http://www.ruckuswireless.com//request-a-demo" id="Request a Demo" target="_blank"><img src="images/solution-links-images-02.png" alt="Get a demo"></a></li>
+                                                    <li id="contact-link">
+                                                        <a href="http://www.ruckuswireless.com/contact" title="contact" target="_blank"><img src="images/solution-links-images-04.png" alt="Contact us"></a>
+                                                    </li>
+                                                    <li id="buy-link">
+                                                        <a href="http://www.ruckuswireless.com//buy" id="buy" target="_blank">
+                                                            <img src="images/solution-links-images-03.png" alt="Buy now"></a>
+                                                    </li>
+                                                    <li id="demo-link">
+                                                        <a href="http://www.ruckuswireless.com//request-a-demo" id="Request a Demo" target="_blank">
+                                                            <img src="images/solution-links-images-02.png" alt="Get a demo"></a>
+                                                    </li>
                                                 </ul>
                                                 <nav class="social-media-links margin-center">                                      <h4 class="text-center">Connect with us on:</h4>
                                                     <div class="margin-bottom-20">

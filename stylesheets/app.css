@@ -9829,6 +9829,10 @@ th.hide-for-touch {
   padding-top: 10px; }
 
 /* line 107, ../scss/_structure.scss */
+.padding-bottom-10 {
+  padding-bottom: 10px; }
+
+/* line 110, ../scss/_structure.scss */
 .padding-10 {
   padding: 10px; }
 
@@ -10953,49 +10957,49 @@ th.hide-for-touch {
   .padding-top-50-xxlarge-only {
     padding-top: 50px; } }
 @media only screen and (min-width: 40.063em) {
-  /* line 174, ../scss/_structure.scss */
+  /* line 177, ../scss/_structure.scss */
   .padding-left-0-medium-up {
     padding-left: 0px !important; } }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 179, ../scss/_structure.scss */
+  /* line 182, ../scss/_structure.scss */
   .padding-right-0-medium-up {
     padding-right: 0px !important; } }
 
-/* line 185, ../scss/_structure.scss */
+/* line 188, ../scss/_structure.scss */
 .padding-15-25 {
   padding: 15px 25px; }
 
-/* line 188, ../scss/_structure.scss */
+/* line 191, ../scss/_structure.scss */
 .height-100 {
   height: 100% !important; }
 
-/* line 191, ../scss/_structure.scss */
+/* line 194, ../scss/_structure.scss */
 .no-margin-bottom {
   margin-bottom: 0px !important; }
 
-/* line 194, ../scss/_structure.scss */
+/* line 197, ../scss/_structure.scss */
 .margin-center, .nav-wrapper {
   margin: 0 auto; }
 
 @media only screen and (max-width: 40em) {
-  /* line 195, ../scss/_structure.scss */
+  /* line 198, ../scss/_structure.scss */
   .margin-center-small {
     margin: 0 auto; } }
 
-/* line 197, ../scss/_structure.scss */
+/* line 200, ../scss/_structure.scss */
 .margin-top-20 {
   margin-top: 20px; }
 
-/* line 198, ../scss/_structure.scss */
+/* line 201, ../scss/_structure.scss */
 .margin-bottom-20 {
   margin-bottom: 20px; }
 
-/* line 199, ../scss/_structure.scss */
+/* line 202, ../scss/_structure.scss */
 .margin-left-20 {
   margin-left: 20px; }
 
-/* line 200, ../scss/_structure.scss */
+/* line 203, ../scss/_structure.scss */
 .margin-right-20 {
   margin-right: 20px; }
 
@@ -12175,31 +12179,31 @@ th.hide-for-touch {
   /* line 111, ../scss/_functions.scss */
   .height-auto-xxlarge-only {
     height: auto !important; } }
-/* line 270, ../scss/_structure.scss */
+/* line 273, ../scss/_structure.scss */
 .position-left {
   left: 0px;
   position: absolute;
   top: 0px; }
 
-/* line 275, ../scss/_structure.scss */
+/* line 278, ../scss/_structure.scss */
 .position-right {
   position: absolute;
   top: 0px;
   right: 10px; }
 
-/* line 280, ../scss/_structure.scss */
+/* line 283, ../scss/_structure.scss */
 .fake-column-33, .fake-column-50, .fake-column-66 {
   display: inline-block; }
 
-/* line 281, ../scss/_structure.scss */
+/* line 284, ../scss/_structure.scss */
 .fake-column-33 {
   width: 33%; }
 
-/* line 282, ../scss/_structure.scss */
+/* line 285, ../scss/_structure.scss */
 .fake-column-50 {
   width: 50%; }
 
-/* line 283, ../scss/_structure.scss */
+/* line 286, ../scss/_structure.scss */
 .fake-column-66 {
   width: 66%; }
 
@@ -13038,22 +13042,23 @@ th.hide-for-touch {
 /* line 1, ../scss/_header.scss */
 .header {
   position: fixed;
-  z-index: 50; }
+  z-index: 50;
+  background: #000; }
 
-/* line 6, ../scss/_header.scss */
+/* line 7, ../scss/_header.scss */
 .logo {
   height: 40px; }
 @media only screen and (max-width: 40em) {
-  /* line 6, ../scss/_header.scss */
+  /* line 7, ../scss/_header.scss */
   .logo {
     padding-left: 20px; } }
 
-/* line 13, ../scss/_header.scss */
+/* line 14, ../scss/_header.scss */
 .hub-header {
   padding: 0px 10px;
   margin: 0px; }
 @media only screen and (min-width: 40.063em) {
-  /* line 13, ../scss/_header.scss */
+  /* line 14, ../scss/_header.scss */
   .hub-header {
     position: relative;
     top: 100px; } }
@@ -18005,104 +18010,35 @@ body#entry-3 {
   white-space: normal;
   word-break: break-all; }
 
-/* line 23, ../scss/_navigation.scss */
+/* line 22, ../scss/_navigation.scss */
+#ruckus-logo {
+  display: inline-block; }
+/* line 24, ../scss/_navigation.scss */
 #ruckus-logo .cta-ruckus-nav {
   position: relative;
   display: none; }
 /* line 27, ../scss/_navigation.scss */
+#ruckus-logo .cta-ruckus-nav ul {
+  padding-left: 20px;
+  display: inline-block; }
+/* line 30, ../scss/_navigation.scss */
 #ruckus-logo .cta-ruckus-nav ul li {
-  padding: 0px 7px;
-  position: absolute;
-  display: block;
-  color: #fff;
-  top: 0px;
-  height: 25px;
-  opacity: 0; }
-/* line 36, ../scss/_navigation.scss */
-#ruckus-logo .cta-ruckus-nav ul li:nth-child(4) {
-  -webkit-transition: all 0.125s ease-in;
-  -moz-transition: all 0.125s ease-in;
-  -ms-transition: all 0.125s ease-in;
-  -o-transition: all 0.125s ease-in;
-  transition: all 0.125s ease-in; }
-/* line 36, ../scss/_navigation.scss */
-#ruckus-logo .cta-ruckus-nav ul li:nth-child(3) {
-  -webkit-transition: all 0.16667s ease-in;
-  -moz-transition: all 0.16667s ease-in;
-  -ms-transition: all 0.16667s ease-in;
-  -o-transition: all 0.16667s ease-in;
-  transition: all 0.16667s ease-in; }
-/* line 36, ../scss/_navigation.scss */
-#ruckus-logo .cta-ruckus-nav ul li:nth-child(2) {
-  -webkit-transition: all 0.25s ease-in;
-  -moz-transition: all 0.25s ease-in;
-  -ms-transition: all 0.25s ease-in;
-  -o-transition: all 0.25s ease-in;
-  transition: all 0.25s ease-in; }
-/* line 36, ../scss/_navigation.scss */
-#ruckus-logo .cta-ruckus-nav ul li:nth-child(1) {
-  -webkit-transition: all 0.5s ease-in;
-  -moz-transition: all 0.5s ease-in;
-  -ms-transition: all 0.5s ease-in;
-  -o-transition: all 0.5s ease-in;
-  transition: all 0.5s ease-in; }
-/* line 44, ../scss/_navigation.scss */
+  display: inline-block; }
+/* line 32, ../scss/_navigation.scss */
 #ruckus-logo .cta-ruckus-nav ul li a {
-  -webkit-transition: all 0.12s ease-in;
-  -moz-transition: all 0.12s ease-in;
-  -ms-transition: all 0.12s ease-in;
-  -o-transition: all 0.12s ease-in;
-  transition: all 0.12s ease-in;
-  white-space: nowrap; }
-/* line 51, ../scss/_navigation.scss */
+  display: block; }
+/* line 34, ../scss/_navigation.scss */
 #ruckus-logo .cta-ruckus-nav ul li a i {
-  margin-right: 10px; }
-/* line 54, ../scss/_navigation.scss */
+  padding: 10px 20px 10px 0px; }
+/* line 37, ../scss/_navigation.scss */
 #ruckus-logo .cta-ruckus-nav ul li a:hover {
-  color: #EA7600;
-  padding-left: 7px; }
-/* line 62, ../scss/_navigation.scss */
+  color: #EA7600; }
+/* line 44, ../scss/_navigation.scss */
 #ruckus-logo:hover {
   cursor: pointer; }
-/* line 64, ../scss/_navigation.scss */
+/* line 46, ../scss/_navigation.scss */
 #ruckus-logo:hover .cta-ruckus-nav {
   display: block; }
-/* line 69, ../scss/_navigation.scss */
-#ruckus-logo:hover .cta-ruckus-nav ul li:nth-child(1) {
-  -webkit-transition: all 0.09s ease-in;
-  -moz-transition: all 0.09s ease-in;
-  -ms-transition: all 0.09s ease-in;
-  -o-transition: all 0.09s ease-in;
-  transition: all 0.09s ease-in;
-  top: 0px;
-  opacity: 1; }
-/* line 69, ../scss/_navigation.scss */
-#ruckus-logo:hover .cta-ruckus-nav ul li:nth-child(2) {
-  -webkit-transition: all 0.18s ease-in;
-  -moz-transition: all 0.18s ease-in;
-  -ms-transition: all 0.18s ease-in;
-  -o-transition: all 0.18s ease-in;
-  transition: all 0.18s ease-in;
-  top: 25px;
-  opacity: 1; }
-/* line 69, ../scss/_navigation.scss */
-#ruckus-logo:hover .cta-ruckus-nav ul li:nth-child(3) {
-  -webkit-transition: all 0.27s ease-in;
-  -moz-transition: all 0.27s ease-in;
-  -ms-transition: all 0.27s ease-in;
-  -o-transition: all 0.27s ease-in;
-  transition: all 0.27s ease-in;
-  top: 50px;
-  opacity: 1; }
-/* line 69, ../scss/_navigation.scss */
-#ruckus-logo:hover .cta-ruckus-nav ul li:nth-child(4) {
-  -webkit-transition: all 0.36s ease-in;
-  -moz-transition: all 0.36s ease-in;
-  -ms-transition: all 0.36s ease-in;
-  -o-transition: all 0.36s ease-in;
-  transition: all 0.36s ease-in;
-  top: 75px;
-  opacity: 1; }
 
 /* line 1, ../scss/_loading.scss */
 .loading {

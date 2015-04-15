@@ -26,6 +26,7 @@
 <script src="js/jquery.address-1.5.min.js"></script>
 <script src="bower_components/foundation/js/foundation.min.js"></script>
 <script src="bower_components/foundation/js/foundation/foundation.accordion.js"></script>
+<script src="bower_components/foundation/js/foundation/foundation.tooltip.js"></script>
 <script src="js/app.js"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.15.1/TweenMax.min.js"></script>
 <script src="jquery-template/jquery-loadTemplate/jquery.loadTemplate-1.4.5.min.js"></script>

@@ -20,40 +20,22 @@
   }
 }
 #ruckus-logo {
+  display: inline-block;
   .cta-ruckus-nav {
     position: relative;
     display: none;
     ul {
+      padding-left: 20px;
+      display: inline-block;
       li {
-        padding: 0px 7px;
-        position: absolute;
-        display: block;
-        color: $ruckus-white;
-        top: 0px;
-        height: 25px;
-        opacity:0;
-        @for $i from 4 through 1 {
-          &:nth-child(#{$i}) {
-            -webkit-transition: all #{0.5/$i}s ease-in;
-            -moz-transition: all #{0.5/$i}s ease-in;
-            -ms-transition: all #{0.5/$i}s ease-in;
-            -o-transition: all #{0.5/$i}s ease-in;
-            transition: all #{0.5/$i}s ease-in;
-          }
-        }
+        display: inline-block;
         a {
-          -webkit-transition: all 0.12s ease-in;
-          -moz-transition: all 0.12s ease-in;
-          -ms-transition: all 0.12s ease-in;
-          -o-transition: all 0.12s ease-in;
-          transition: all 0.12s ease-in;
-          white-space: nowrap;
+          display: block;
           i {
-            margin-right: 10px;
+            padding:10px 20px 10px 0px;
           }
           &:hover {
             color: $ruckus-orange;
-            padding-left: 7px;
           }
         }
       }
@@ -65,18 +47,7 @@
       display: block;
       ul {
         li {
-          @for $i from 1 through 4 {
-            &:nth-child(#{$i}) {
-              -webkit-transition: all #{0.09*$i}s ease-in;
-              -moz-transition: all #{0.09*$i}s ease-in;
-              -ms-transition: all #{0.09*$i}s ease-in;
-              -o-transition: all #{0.09*$i}s ease-in;
-              transition: all #{0.09*$i}s ease-in;
-              top: #{($i - 1)*25}px;
-              opacity: 1;
-              //padding-left: 6px;
-            }
-          }
+
         }
       }
     }
