@@ -18763,21 +18763,35 @@ img[src^='http://placehold.it/'] {
   .ruckus-slick-next {
     display: block !important; } }
 
-/* line 32, ../scss/_slick-theme-ruckus.scss */
+/* line 29, ../scss/_slick-theme-ruckus.scss */
+.slick-slide.slick-active:first-child {
+  background-color: pink; }
+/* line 31, ../scss/_slick-theme-ruckus.scss */
+.slick-slide.slick-active:first-child img {
+  padding-left: 0px !important; }
+/* line 36, ../scss/_slick-theme-ruckus.scss */
+.slick-slide.slick-active:last-child img {
+  padding-right: 0px !important; }
+/* line 41, ../scss/_slick-theme-ruckus.scss */
+.slick-slide img {
+  padding: 10px; }
+
+/* line 48, ../scss/_slick-theme-ruckus.scss */
 .slick-dots li button {
   -webkit-border-radius: 20px;
   border-radius: 20px;
   overflow: hidden; }
-/* line 37, ../scss/_slick-theme-ruckus.scss */
+/* line 53, ../scss/_slick-theme-ruckus.scss */
 .slick-dots li button:before {
   color: transparent !important;
   background-color: #EA7600; }
 
-/* line 45, ../scss/_slick-theme-ruckus.scss */
+/* line 61, ../scss/_slick-theme-ruckus.scss */
 .speech-bubble-tail {
   position: relative;
-  background-color: black; }
-/* line 49, ../scss/_slick-theme-ruckus.scss */
+  background-color: black;
+  margin: 0px 9px; }
+/* line 66, ../scss/_slick-theme-ruckus.scss */
 .speech-bubble-tail .arrow-down {
   position: relative;
   content: "";

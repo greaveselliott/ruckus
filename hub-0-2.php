@@ -5,7 +5,7 @@
             <div class="row collapse display-block">
                 <div class="large-8 medium-8 large-centered medium-centered columns display-block">
                     <div class="hub-cta-download"><img src="images/hub-cta-download-link.png"></div>
-                    <h3 class="h3_5 hub-header ruckus-orange 4-small-only text-center">Public Wi-Fi trends<span class="hide-for-small display-inline"> - A Pan-European survey</span></h3>
+                    <h3 class="h4 hub-header ruckus-orange 4-small-only text-center">Public Wi-Fi trends<span class="hide-for-small display-inline"> - A Pan-European survey 2015</span></h3>
                     <div class="ruckus-slick">
                         <div><a href="one-page-survey-results.pdf" data-featherlight="template-lightbox.html" data-title="My caption"><img src="images/survey-results-01.jpg"></a></div>
                         <div><a href="one-page-survey-results.pdf" data-featherlight="template-lightbox.html" data-title="My caption"><img src="images/survey-results-02.jpg"></a></div>

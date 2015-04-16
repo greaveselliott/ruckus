@@ -24,7 +24,23 @@
   }
 }
 
-.slick-slide img {
+.slick-slide {
+  &.slick-active {
+    &:first-child {
+      background-color: pink;
+      img {
+        padding-left: 0px !important;
+      }
+    }
+    &:last-child {
+      img {
+        padding-right: 0px !important;
+      }
+    }
+  }
+  img {
+    padding: 10px;
+  }
 }
 
 .slick-dots {
@@ -45,6 +61,7 @@
 .speech-bubble-tail {
   position: relative;
   background-color: black;
+  margin: 0px 9px;
 
   .arrow-down {
     position: relative;
