@@ -4,13 +4,13 @@ $(document).foundation();
 
 (function($){
     var $container = $('.ruckus-slick-text').css({"position":"relative"});
-    var $slides = $container.find('pgit').css({"opacity":0});
+    var $slides = $container.find('p').css({"opacity":0});
     $slides.eq(0).css({"position":"absolute", "opacity":1});
-    console.log($slides);
+
     function timeout () {
         setTimeout(function(){
             $slides.each(function(index){
-                $(this).eq(index).toggleAnimation(500);
+                $(this).toggleAnimation(500);
             });
             // recall timer function
             timeout();
@@ -19,19 +19,15 @@ $(document).foundation();
 
     timeout();
 
-    $.fn.toggleAnimation = function (speed) {
+    $.fn.toggleAnimation = function (speed,i) {
         var self = this;
-        var opacity;
-        console.log(self);
-        if (self.css('opacity')== 0) {
-            opacity = 1;
-            console.log(self.css('opacity'));
-        } else if (self.css('opacity')== 1) {
-            opacity = 0;
-            console.log(self.css('opacity'));
+        if (self.css('opacity') == 0) {
+            self.animate({"opacity": 1}, speed);
+        } else if (self.css('opacity') == 1) {
+            self.animate({"opacity": 0}, speed);
         }
 
-        self.animate({"opacity": opacity}, speed);
+
         return self;
     };
 

@@ -36,7 +36,7 @@
             </div>
             <div class="row collapse">
                 <div class="large-7 columns large-centered">
-                    <div class="ruckus-slick-text">
+                    <div class="ruckus-slick-text padding-bottom-20">
                             <p class="ruckus-white text-center h5 h6-small-only no-margin-bottom">Find out how Ruckus can help you get Simply Better Wireless. Just answer two simple questions to personalise your own Ruckus wireless solution.</p>
                             <p class="text-center h5 h6-small-only ruckus-orange no-margin-bottom">Ruckus Wireless is a pioneer in the wireless infrastructure market, enabling businesses to stay ahead of the exploding demand for high-bandwidth applications and services.</p>
                     </div>
