@@ -96,21 +96,21 @@ else {
                 </figure>
                 <br>
                 <figure class="row wifi-retail-fact ruckus-background-white opacity-75 padding-bottom-20-small-only">
-                        <span class="ruckus-orange large-4 medium-4 columns">
+                        <span class="ruckus-orange large-4 medium-6 columns">
                             <span class="table-center-container">
                                 <span class="table-center-cell">
-                                    <span class="h0 h3-small-only">50%</span>
+                                    <span class="h0 h3-medium-only h3-small-only">50%</span>
                                 </span>
                             </span>
                         </span>
-                        <span class="large-4 medium-4 columns">
+                        <span class="large-4 medium-6 columns">
                             <span class="table-center-container">
                                 <span class="table-center-cell text-left h5">
                                     of retailers say that their customers spend more money since they installed <span class="display-inline-block">Wi-Fi</span>
                                 </span>
                             </span>
                         </span>
-                        <span class="large-4 medium-4 columns hide-for-small">
+                        <span class="large-4 medium-4 hide-for-medium-down columns">
                             <span class="table-center-container">
                                 <span class="table-center-cell">
                                     <img class="lazy-load left hide-for-small width-100" data-original="images/guide/icons-18.png">

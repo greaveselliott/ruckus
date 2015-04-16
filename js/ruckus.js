@@ -279,22 +279,20 @@
     EemjiiRuckus.prototype.setAnalytics = function () {
         var self = this;
         // EU Cookie Law - Has the user consented to tracking cookies?
-        if(self.Model.cookiesEnabled.tracking) {
-            (function (i, s, o, g, r, a, m) {
-                i['GoogleAnalyticsObject'] = r;
-                i[r] = i[r] || function () {
-                    (i[r].q = i[r].q || []).push(arguments)
-                }, i[r].l = 1 * new Date();
-                a = s.createElement(o),
-                    m = s.getElementsByTagName(o)[0];
-                a.async = 1;
-                a.src = g;
-                m.parentNode.insertBefore(a, m)
-            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-            ga('create', 'UA-59686286-1', 'auto');
-            ga('send', 'pageview');
-        }
+        ga('create', 'UA-59686286-1', 'auto');
+        ga('send', 'pageview');
         // returning self: enables functions chaining
         return self;
     };
@@ -302,18 +300,17 @@
     EemjiiRuckus.prototype.sendAnalytics  = function (currentFrame){
         var self = this;
         // EU Cookie Law - Has the user consented to tracking cookies?
-        if(self.Model.cookiesEnabled.tracking) {
-            ga('set', {
-                page: '/'+currentFrame,
-                title: self.Model.pageInfo[currentFrame],
-                entryPoint: self.Model.entryPoint
-            });
-            ga('send', 'pageview', {
-                //'page': '/my-new-page',
-                'hitCallback': function() {
-                }
-            });
-        }
+        ga('set', {
+            page: '/'+currentFrame,
+            title: self.Model.pageInfo[currentFrame],
+            entryPoint: self.Model.entryPoint
+        });
+        ga('send', 'pageview', {
+            //'page': '/my-new-page',
+            'hitCallback': function() {
+                console.log('analytics sent!');
+            }
+        });
         // returning self: enables functions chaining
         return self;
     };
