@@ -10,10 +10,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery_lazyload" afterPath="$PROJECT_DIR$/jquery_lazyload" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lightbox2" afterPath="$PROJECT_DIR$/lightbox2" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slick" afterPath="$PROJECT_DIR$/slick" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/survey-results-02.jpg" afterPath="$PROJECT_DIR$/images/survey-results-02.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/survey-results-17.jpg" afterPath="$PROJECT_DIR$/images/survey-results-17.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Happy.js" afterPath="$PROJECT_DIR$/Happy.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_slick-theme-ruckus.scss" afterPath="$PROJECT_DIR$/scss/_slick-theme-ruckus.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/app.css" afterPath="$PROJECT_DIR$/stylesheets/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hub-0-2.php" afterPath="$PROJECT_DIR$/hub-0-2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entry-three.php" afterPath="$PROJECT_DIR$/entry-three.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ruckus.iws" />
@@ -81,11 +83,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_slick-theme-ruckus.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_slick-theme-ruckus.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/_slick-theme-ruckus.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6858169" vertical-offset="1193" max-vertical-offset="2000">
-              <caret line="63" column="18" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
+            <state vertical-scroll-proportion="-12.733334" vertical-offset="1168" max-vertical-offset="1975">
+              <caret line="62" column="26" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="entry-three.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/entry-three.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.46140036" vertical-offset="22093" max-vertical-offset="23575">
+              <caret line="656" column="40" selection-start-line="656" selection-start-column="40" selection-end-line="656" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -129,7 +141,6 @@
         <option value="$PROJECT_DIR$/scss/_slick-theme.scss" />
         <option value="$PROJECT_DIR$/lightbox2/sass/_lightbox.scss" />
         <option value="$PROJECT_DIR$/scss/_media.scss" />
-        <option value="$PROJECT_DIR$/entry-three.php" />
         <option value="$PROJECT_DIR$/guide-footer.php" />
         <option value="$PROJECT_DIR$/js/isInViewport.config.js" />
         <option value="$PROJECT_DIR$/scss/_buttons.scss" />
@@ -155,6 +166,7 @@
         <option value="$PROJECT_DIR$/slick/slick/slick.config.js" />
         <option value="$PROJECT_DIR$/hub-0-2.php" />
         <option value="$PROJECT_DIR$/scss/_slick-theme-ruckus.scss" />
+        <option value="$PROJECT_DIR$/entry-three.php" />
       </list>
     </option>
   </component>
@@ -471,13 +483,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guide-footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3238342" vertical-offset="0" max-vertical-offset="772">
-          <caret line="15" column="89" selection-start-line="15" selection-start-column="89" selection-end-line="15" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/isInViewport.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.4625936" vertical-offset="4400" max-vertical-offset="6525">
@@ -489,14 +494,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2075">
           <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/entry-three.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29145077" vertical-offset="1575" max-vertical-offset="22650">
-          <caret line="63" column="79" selection-start-line="63" selection-start-column="79" selection-end-line="63" selection-end-column="79" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -595,6 +592,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22441652" vertical-offset="1175" max-vertical-offset="2300">
           <caret line="52" column="41" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -623,6 +621,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23056994" vertical-offset="2472" max-vertical-offset="7300">
           <caret line="106" column="20" selection-start-line="106" selection-start-column="20" selection-end-line="106" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -638,6 +637,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2681347" vertical-offset="643" max-vertical-offset="1500">
           <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -713,10 +713,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/guide-footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44883305" vertical-offset="0" max-vertical-offset="650">
+          <caret line="15" column="89" selection-start-line="15" selection-start-column="89" selection-end-line="15" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scss/_slick-theme-ruckus.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6858169" vertical-offset="1193" max-vertical-offset="2000">
-          <caret line="63" column="18" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
+        <state vertical-scroll-proportion="-12.733334" vertical-offset="1168" max-vertical-offset="1975">
+          <caret line="62" column="26" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entry-three.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46140036" vertical-offset="22093" max-vertical-offset="23575">
+          <caret line="656" column="40" selection-start-line="656" selection-start-column="40" selection-end-line="656" selection-end-column="40" />
           <folding />
         </state>
       </provider>

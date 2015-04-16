@@ -651,9 +651,10 @@ else {
     </div>
 
     <footer id="appendix" class="row full-screen ruckus-background-black">
+        <div class="large-12 columns">
             <div class="row">
                 <div class="large-12 columns">
-                    <h2>Sources</h2>
+                    <h4 class="ruckus-orange">Information Sources</h4>
                     <hr>
                 </div>
             </div>
@@ -673,6 +674,7 @@ else {
                     <p>http://www.maritzmotivation.com/~/media/Files/MaritzMotivationSolutions/Product-Sheets/Maritz-Loyalty-Marketing_Loyalty-Report-US---Summary-of-Key-Insights.pdf</p>
                     <p>http://www.digitalinformationworld.com/2014/01/social-media-influence-on-purchase-decisions-infographic.html</p>
                 </div>
+            </div>
             </div>
     </footer>
 <?php
