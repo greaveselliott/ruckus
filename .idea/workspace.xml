@@ -10,9 +10,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lightbox2" afterPath="$PROJECT_DIR$/lightbox2" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slick" afterPath="$PROJECT_DIR$/slick" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Happy.js" afterPath="$PROJECT_DIR$/Happy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entry-three.php" afterPath="$PROJECT_DIR$/entry-three.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/ruckus.js" afterPath="$PROJECT_DIR$/js/ruckus.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/google-analytics.js" afterPath="$PROJECT_DIR$/js/google-analytics.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide-header.php" afterPath="$PROJECT_DIR$/guide-header.php" />
     </list>
     <ignored path="ruckus.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,11 +46,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ruckus.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ruckus.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/ruckus.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4935567" vertical-offset="9467" max-vertical-offset="25350">
+            <state vertical-scroll-proportion="77.57692" vertical-offset="9467" max-vertical-offset="25350">
               <caret line="302" column="8" selection-start-line="302" selection-start-column="8" selection-end-line="312" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="guide-header.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/guide-header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.42098445" vertical-offset="0" max-vertical-offset="772">
+              <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="google-analytics.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/google-analytics.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="325">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -100,8 +119,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/scss/_cookie-bar.scss" />
-        <option value="$PROJECT_DIR$/scss/_template-mobile-momentum.scss" />
         <option value="$PROJECT_DIR$/testing-slick.php" />
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/slick/slick/_slick-theme-ruckus.scss" />
@@ -151,6 +168,8 @@
         <option value="$PROJECT_DIR$/scss/_slick-theme-ruckus.scss" />
         <option value="$PROJECT_DIR$/entry-three.php" />
         <option value="$PROJECT_DIR$/js/ruckus.js" />
+        <option value="$PROJECT_DIR$/js/google-analytics.js" />
+        <option value="$PROJECT_DIR$/guide-header.php" />
       </list>
     </option>
   </component>
@@ -362,13 +381,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hub-head.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6058158" vertical-offset="0" max-vertical-offset="619">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hub-navigation.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4194631" vertical-offset="0" max-vertical-offset="596">
@@ -380,13 +392,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="775">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide-header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54530203" vertical-offset="0" max-vertical-offset="596">
-          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -641,14 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guide-footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44883305" vertical-offset="0" max-vertical-offset="650">
-          <caret line="15" column="89" selection-start-line="15" selection-start-column="89" selection-end-line="15" selection-end-column="89" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/_slick-theme-ruckus.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.49481866" vertical-offset="1168" max-vertical-offset="1975">
@@ -733,8 +730,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/ruckus.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4935567" vertical-offset="9467" max-vertical-offset="25350">
+        <state vertical-scroll-proportion="77.57692" vertical-offset="9467" max-vertical-offset="25350">
           <caret line="302" column="8" selection-start-line="302" selection-start-column="8" selection-end-line="312" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide-footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1619171" vertical-offset="0" max-vertical-offset="772">
+          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/google-analytics.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="325">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide-header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42098445" vertical-offset="0" max-vertical-offset="772">
+          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
           <folding />
         </state>
       </provider>

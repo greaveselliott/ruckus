@@ -17,5 +17,4 @@
     <link rel="shortcut icon" href="http://www.ruckuswireless.com/sites/all/themes/ruckus/favicon.ico">
     <script src="bower_components/modernizr/modernizr.js"></script>
     <script src="js/google-analytics.js"></script>
-    <!-- <script data-main="js/main" src="js/require.js"></script> -->
 </head>
