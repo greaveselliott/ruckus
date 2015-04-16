@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="195a1756-a828-4484-ba93-284ef59836fb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sharrre" afterPath="$PROJECT_DIR$/Sharrre" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/_slick-theme-ruckus.scssc" afterPath="$PROJECT_DIR$/.sass-cache/b15d19c6fe24e085670bde1e25b3a04457f59cf9/_slick-theme-ruckus.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/featherlight" afterPath="$PROJECT_DIR$/featherlight" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery-template" afterPath="$PROJECT_DIR$/jquery-template" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery.scrollTo" afterPath="$PROJECT_DIR$/jquery.scrollTo" />
@@ -10,9 +11,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lightbox2" afterPath="$PROJECT_DIR$/lightbox2" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slick" afterPath="$PROJECT_DIR$/slick" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Happy.js" afterPath="$PROJECT_DIR$/Happy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hub-0-2.php" afterPath="$PROJECT_DIR$/hub-0-2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slick/slick/slick.config.js" afterPath="$PROJECT_DIR$/slick/slick/slick.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_slick-theme-ruckus.scss" afterPath="$PROJECT_DIR$/scss/_slick-theme-ruckus.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/app.css" afterPath="$PROJECT_DIR$/stylesheets/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ruckus.iws" />
@@ -51,8 +51,28 @@
       <file leaf-file-name="slick.config.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/slick/slick/slick.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29812607" vertical-offset="0" max-vertical-offset="1125">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.5567376" vertical-offset="1136" max-vertical-offset="1700">
+              <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_template-carousel.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../pulse.wordpress/content/themes/ip-solutions/sass/_template-carousel.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.1666665" vertical-offset="0" max-vertical-offset="275">
+              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="slick.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../pulse.wordpress/content/themes/ip-solutions/javascripts/slick/slick/slick.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="325" max-vertical-offset="1225">
+              <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="22" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -61,7 +81,7 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="975">
+            <state vertical-scroll-proportion="0.0" vertical-offset="361" max-vertical-offset="975">
               <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -73,7 +93,7 @@
       <file leaf-file-name="hub-footer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hub-footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="325" max-vertical-offset="1425">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="325" max-vertical-offset="1625">
               <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
               <folding />
             </state>
@@ -83,8 +103,8 @@
       <file leaf-file-name="_slick-theme-ruckus.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/_slick-theme-ruckus.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="448" max-vertical-offset="1250">
-              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+            <state vertical-scroll-proportion="-6.6666665" vertical-offset="1025" max-vertical-offset="1575">
+              <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -124,7 +144,6 @@
         <option value="$PROJECT_DIR$/scss/_colours.scss" />
         <option value="$PROJECT_DIR$/scss/_variables.scss" />
         <option value="ed4b02e7/scratch" />
-        <option value="$PROJECT_DIR$/scss/_slick-theme-ruckus.scss" />
         <option value="$PROJECT_DIR$/slick/slick/slick.js" />
         <option value="$PROJECT_DIR$/scss/_slick-theme.scss" />
         <option value="$PROJECT_DIR$/lightbox2/sass/_lightbox.scss" />
@@ -153,6 +172,7 @@
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/hub-0-2.php" />
+        <option value="$PROJECT_DIR$/scss/_slick-theme-ruckus.scss" />
         <option value="$PROJECT_DIR$/slick/slick/slick.config.js" />
       </list>
     </option>
@@ -204,6 +224,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ruckus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ruckus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ruckus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -351,20 +385,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery.scrollTo/jquery.scrollTo.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6469833" vertical-offset="221" max-vertical-offset="1050">
-          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jquery.scrollTo/demo/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6476684" vertical-offset="3250" max-vertical-offset="9200">
@@ -674,10 +694,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_slick-theme-ruckus.scss">
+    <entry file="file://$PROJECT_DIR$/hub-0-2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="448" max-vertical-offset="1250">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        <state vertical-scroll-proportion="30.833334" vertical-offset="1875" max-vertical-offset="2550">
+          <caret line="38" column="67" selection-start-line="38" selection-start-column="67" selection-end-line="38" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../pulse.wordpress/content/themes/ip-solutions/javascripts/slick/slick/slick.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="325" max-vertical-offset="1225">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="22" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../pulse.wordpress/content/themes/ip-solutions/sass/_template-carousel.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.1666665" vertical-offset="0" max-vertical-offset="275">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -700,18 +736,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hub-0-2.php">
+    <entry file="file://$PROJECT_DIR$/scss/_slick-theme-ruckus.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="30.833334" vertical-offset="1875" max-vertical-offset="2550">
-          <caret line="38" column="67" selection-start-line="38" selection-start-column="67" selection-end-line="38" selection-end-column="67" />
+        <state vertical-scroll-proportion="-6.6666665" vertical-offset="1025" max-vertical-offset="1575">
+          <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/slick/slick/slick.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29812607" vertical-offset="0" max-vertical-offset="1125">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.5567376" vertical-offset="1136" max-vertical-offset="1700">
+          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
           <folding />
         </state>
       </provider>

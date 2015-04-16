@@ -25,7 +25,6 @@
 }
 
 .slick-slide img {
-  padding: 10px;
 }
 
 .slick-dots {
@@ -40,5 +39,20 @@
         background-color: $ruckus-orange;
       }
     }
+  }
+}
+
+.speech-bubble-tail {
+  position: relative;
+  background-color: black;
+
+  .arrow-down {
+    position: relative;
+    content: "";
+    display: block;
+    width: 20px;
+    height: 4px;
+    margin-right: -10px;
+    background: $ruckus-orange;
   }
 }

@@ -18763,19 +18763,29 @@ img[src^='http://placehold.it/'] {
   .ruckus-slick-next {
     display: block !important; } }
 
-/* line 27, ../scss/_slick-theme-ruckus.scss */
-.slick-slide img {
-  padding: 10px; }
-
-/* line 33, ../scss/_slick-theme-ruckus.scss */
+/* line 32, ../scss/_slick-theme-ruckus.scss */
 .slick-dots li button {
   -webkit-border-radius: 20px;
   border-radius: 20px;
   overflow: hidden; }
-/* line 38, ../scss/_slick-theme-ruckus.scss */
+/* line 37, ../scss/_slick-theme-ruckus.scss */
 .slick-dots li button:before {
   color: transparent !important;
   background-color: #EA7600; }
+
+/* line 45, ../scss/_slick-theme-ruckus.scss */
+.speech-bubble-tail {
+  position: relative;
+  background-color: black; }
+/* line 49, ../scss/_slick-theme-ruckus.scss */
+.speech-bubble-tail .arrow-down {
+  position: relative;
+  content: "";
+  display: block;
+  width: 20px;
+  height: 4px;
+  margin-right: -10px;
+  background: #EA7600; }
 
 /**
  * Featherlight – ultra slim jQuery lightbox
