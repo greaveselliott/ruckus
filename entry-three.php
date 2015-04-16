@@ -285,7 +285,7 @@ else {
 
                     <div class="table-center-container">
                         <div class="table-center-cell">
-                            <figure class="mobile-with-text-large-only" id="keep-up-moving">
+                            <figure class="mobile-with-text-large-up" id="keep-up-moving">
                                 <img class="lazy-load hide-for-small hide-for-medium" data-original="images/guide/icons-11.png" alt="White touch screen SmartPhone - vector icon">
                                 <figcaption>
                                     <span class="ruckus-black ruckus-orange-large-up h3">€19.2B</span>
@@ -579,7 +579,7 @@ else {
                 <div class="large-3 medium-3 columns ruckus-background-black opacity-75 " data-equalizer-watch>
                     <div class="table-center-container">
                         <div class="table-center-cell">
-                            <figure class="mobile-with-text-large-only" id="vocal-over-social">
+                            <figure class="mobile-with-text-large-up" id="vocal-over-social">
                                 <img class="lazy-load hide-for-small hide-for-medium" data-original="images/guide/icons-11.png" alt="White touch screen SmartPhone - vector icon">
                                 <figcaption>
                                     <span class="ruckus-orange h5">Vocal over social</span>

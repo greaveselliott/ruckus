@@ -10,7 +10,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lightbox2" afterPath="$PROJECT_DIR$/lightbox2" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slick" afterPath="$PROJECT_DIR$/slick" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Happy.js" afterPath="$PROJECT_DIR$/Happy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/ruckus.js" afterPath="$PROJECT_DIR$/js/ruckus.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entry-three.php" afterPath="$PROJECT_DIR$/entry-three.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ruckus.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,11 +36,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ruckus.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ruckus.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/ruckus.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4935567" vertical-offset="392" max-vertical-offset="25350">
+            <state vertical-scroll-proportion="-14.730769" vertical-offset="392" max-vertical-offset="25350">
               <caret line="35" column="61" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_media.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/_media.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.566667" vertical-offset="368" max-vertical-offset="1225">
+              <caret line="25" column="28" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="entry-three.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/entry-three.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.18491921" vertical-offset="9347" max-vertical-offset="24000">
+              <caret line="287" column="68" selection-start-line="287" selection-start-column="68" selection-end-line="287" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -107,8 +128,8 @@
         <option value="$PROJECT_DIR$/scss/_buttons.scss" />
         <option value="$PROJECT_DIR$/scss/_template.scss" />
         <option value="$PROJECT_DIR$/scss/_media.scss" />
-        <option value="$PROJECT_DIR$/entry-three.php" />
         <option value="$PROJECT_DIR$/js/ruckus.js" />
+        <option value="$PROJECT_DIR$/entry-three.php" />
       </list>
     </option>
   </component>
@@ -159,6 +180,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ruckus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ruckus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ruckus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -270,7 +305,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32771084" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25903615" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25903615" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -643,25 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/entry-three.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23425196" vertical-offset="1556" max-vertical-offset="24225">
-          <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
-          <folding>
-            <element signature="e#2195#2226#0#HTML" expanded="true" />
-            <element signature="e#6997#7028#0#HTML" expanded="true" />
-            <element signature="e#12709#12745#0#HTML" expanded="true" />
-            <element signature="e#13832#13863#0#HTML" expanded="true" />
-            <element signature="e#18364#18395#0#HTML" expanded="true" />
-            <element signature="e#22338#22369#0#HTML" expanded="true" />
-            <element signature="e#28649#28680#0#HTML" expanded="true" />
-            <element signature="e#32150#32181#0#HTML" expanded="true" />
-            <element signature="e#39044#39075#0#HTML" expanded="true" />
-            <element signature="e#42318#42349#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/_typography.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.1669658" vertical-offset="450" max-vertical-offset="1875">
@@ -694,14 +710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_media.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46140036" vertical-offset="368" max-vertical-offset="1225">
-          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5922693" vertical-offset="0" max-vertical-offset="950">
@@ -712,8 +720,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/ruckus.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4935567" vertical-offset="392" max-vertical-offset="25350">
+        <state vertical-scroll-proportion="-14.730769" vertical-offset="392" max-vertical-offset="25350">
           <caret line="35" column="61" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_media.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.566667" vertical-offset="368" max-vertical-offset="1225">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entry-three.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18491921" vertical-offset="9347" max-vertical-offset="24000">
+          <caret line="287" column="68" selection-start-line="287" selection-start-column="68" selection-end-line="287" selection-end-column="68" />
           <folding />
         </state>
       </provider>
