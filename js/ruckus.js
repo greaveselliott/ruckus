@@ -33,7 +33,7 @@
                 rootDir:            '192.168.33.10/ruckus/',
                 defaultPageTitle:   ' | Simply Better Wireless | Ruckus',
                 pageInfo:           [
-                                    '',
+                                    '', // Default page title
                                     'How large is your business?',
                                     'What do you need Wi-Fi for?',
                                     'Your contact details',
@@ -302,7 +302,7 @@
         // EU Cookie Law - Has the user consented to tracking cookies?
         ga('set', {
             page: '/'+currentFrame,
-            title: self.Model.pageInfo[currentFrame],
+            title: self.Model.pageInfo[currentFrame-1],
             entryPoint: self.Model.entryPoint
         });
         ga('send', 'pageview', {
