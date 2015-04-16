@@ -9792,47 +9792,59 @@ th.hide-for-touch {
 .absolute .bottom {
   bottom: 0; }
 
-/* line 73, ../scss/_structure.scss */
+/* line 72, ../scss/_structure.scss */
+.width-inherit {
+  width: inherit !important; }
+
+/* line 75, ../scss/_structure.scss */
+.width-20 {
+  width: 20%; }
+
+/* line 78, ../scss/_structure.scss */
+.width-70 {
+  width: 70%; }
+
+/* line 81, ../scss/_structure.scss */
 .width-100, .button, .sharrre .box {
   width: 100%; }
 
 @media only screen and (max-width: 40em) {
-  /* line 77, ../scss/_structure.scss */
+  /* line 85, ../scss/_structure.scss */
   .width-100-small {
     width: 100%; } }
 
 @media only screen and (max-width: 40em) {
-  /* line 82, ../scss/_structure.scss */
+  /* line 90, ../scss/_structure.scss */
   .height-100-small {
     height: 100%; } }
 
-/* line 88, ../scss/_structure.scss */
+/* line 96, ../scss/_structure.scss */
 .padding-60-75 {
   padding: 60px 75px; }
 
-/* line 91, ../scss/_structure.scss */
+/* line 99, ../scss/_structure.scss */
 .padding-10-30-0-10 {
   padding: 10px 30px 0px 10px; }
 
-/* line 94, ../scss/_structure.scss */
+/* line 102, ../scss/_structure.scss */
 .no-padding {
   padding: 0 !important; }
 
 @media only screen and (max-width: 40em) {
-  /* line 97, ../scss/_structure.scss */
+  /* line 105, ../scss/_structure.scss */
   .no-padding-small {
     padding: 0px !important;
     padding: 0px !important; } }
 
-/* line 104, ../scss/_structure.scss */
+/* line 112, ../scss/_structure.scss */
 .padding-top-10 {
   padding-top: 10px; }
 
-/* line 107, ../scss/_structure.scss */
+/* line 115, ../scss/_structure.scss */
 .padding-bottom-10 {
   padding-bottom: 10px; }
 
-/* line 110, ../scss/_structure.scss */
+/* line 118, ../scss/_structure.scss */
 .padding-10 {
   padding: 10px; }
 
@@ -10957,49 +10969,49 @@ th.hide-for-touch {
   .padding-top-50-xxlarge-only {
     padding-top: 50px; } }
 @media only screen and (min-width: 40.063em) {
-  /* line 177, ../scss/_structure.scss */
+  /* line 185, ../scss/_structure.scss */
   .padding-left-0-medium-up {
     padding-left: 0px !important; } }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 182, ../scss/_structure.scss */
+  /* line 190, ../scss/_structure.scss */
   .padding-right-0-medium-up {
     padding-right: 0px !important; } }
 
-/* line 188, ../scss/_structure.scss */
+/* line 196, ../scss/_structure.scss */
 .padding-15-25 {
   padding: 15px 25px; }
 
-/* line 191, ../scss/_structure.scss */
+/* line 199, ../scss/_structure.scss */
 .height-100 {
   height: 100% !important; }
 
-/* line 194, ../scss/_structure.scss */
+/* line 202, ../scss/_structure.scss */
 .no-margin-bottom {
   margin-bottom: 0px !important; }
 
-/* line 197, ../scss/_structure.scss */
+/* line 205, ../scss/_structure.scss */
 .margin-center, .nav-wrapper {
   margin: 0 auto; }
 
 @media only screen and (max-width: 40em) {
-  /* line 198, ../scss/_structure.scss */
+  /* line 206, ../scss/_structure.scss */
   .margin-center-small {
     margin: 0 auto; } }
 
-/* line 200, ../scss/_structure.scss */
+/* line 208, ../scss/_structure.scss */
 .margin-top-20 {
   margin-top: 20px; }
 
-/* line 201, ../scss/_structure.scss */
+/* line 209, ../scss/_structure.scss */
 .margin-bottom-20 {
   margin-bottom: 20px; }
 
-/* line 202, ../scss/_structure.scss */
+/* line 210, ../scss/_structure.scss */
 .margin-left-20 {
   margin-left: 20px; }
 
-/* line 203, ../scss/_structure.scss */
+/* line 211, ../scss/_structure.scss */
 .margin-right-20 {
   margin-right: 20px; }
 
@@ -12179,31 +12191,31 @@ th.hide-for-touch {
   /* line 111, ../scss/_functions.scss */
   .height-auto-xxlarge-only {
     height: auto !important; } }
-/* line 273, ../scss/_structure.scss */
+/* line 281, ../scss/_structure.scss */
 .position-left {
   left: 0px;
   position: absolute;
   top: 0px; }
 
-/* line 278, ../scss/_structure.scss */
+/* line 286, ../scss/_structure.scss */
 .position-right {
   position: absolute;
   top: 0px;
   right: 10px; }
 
-/* line 283, ../scss/_structure.scss */
+/* line 291, ../scss/_structure.scss */
 .fake-column-33, .fake-column-50, .fake-column-66 {
   display: inline-block; }
 
-/* line 284, ../scss/_structure.scss */
+/* line 292, ../scss/_structure.scss */
 .fake-column-33 {
   width: 33%; }
 
-/* line 285, ../scss/_structure.scss */
+/* line 293, ../scss/_structure.scss */
 .fake-column-50 {
   width: 50%; }
 
-/* line 286, ../scss/_structure.scss */
+/* line 294, ../scss/_structure.scss */
 .fake-column-66 {
   width: 66%; }
 
@@ -13253,7 +13265,7 @@ th.hide-for-touch {
 /* line 122, ../scss/_buttons.scss */
 #hub-link {
   padding: 10px !important;
-  width: 10%;
+  width: 9.75%;
   height: auto;
   min-height: 180px;
   background-color: #009CBD;
@@ -13266,8 +13278,24 @@ th.hide-for-touch {
 #hub-link .button, #hub-link .sharrre .box, .sharrre #hub-link .box {
   padding-left: 0 !important;
   padding-right: 0 !important; }
+@media only screen and (min-width: 64.063em) {
+  /* line 133, ../scss/_buttons.scss */
+  #hub-link .button, #hub-link .sharrre .box, .sharrre #hub-link .box {
+    font-size: 1vw; } }
+@media only screen and (max-width: 40em) {
+  /* line 122, ../scss/_buttons.scss */
+  #hub-link {
+    top: auto;
+    bottom: 0px;
+    width: 100%; } }
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 122, ../scss/_buttons.scss */
+  #hub-link {
+    top: auto;
+    bottom: 0px;
+    width: 100%; } }
 
-/* line 139, ../scss/_buttons.scss */
+/* line 152, ../scss/_buttons.scss */
 .link-to-guide {
   width: 280px;
   background-color: #EA7600;
@@ -13277,7 +13305,7 @@ th.hide-for-touch {
   top: 40%;
   z-index: 1000; }
 
-/* line 149, ../scss/_buttons.scss */
+/* line 162, ../scss/_buttons.scss */
 .cursor-pointer {
   cursor: pointer; }
 
@@ -17977,7 +18005,19 @@ figure {
   left: 15%;
   width: 70%; }
 
-/* line 25, ../scss/_media.scss */
+@media only screen and (min-width: 64.063em) {
+  /* line 26, ../scss/_media.scss */
+  .mobile-with-text-large-up {
+    position: relative;
+    margin: 0 auto;
+    width: 225px; }
+  /* line 30, ../scss/_media.scss */
+  .mobile-with-text-large-up figcaption {
+    position: absolute;
+    top: 50px;
+    left: 15%;
+    width: 70%; } }
+/* line 39, ../scss/_media.scss */
 .hub-cta-download {
   display: block;
   position: absolute;
@@ -18077,22 +18117,6 @@ body#entry-3 {
 .loading.active {
   opacity: 1;
   z-index: 100; }
-
-/* line 1, ../scss/_template.scss */
-.ruckus-tile {
-  -webkit-transition: opacity 0.22s ease-in;
-  -moz-transition: opacity 0.22s ease-in;
-  -ms-transition: opacity 0.22s ease-in;
-  -o-transition: opacity 0.22s ease-in;
-  transition: opacity 0.22s ease-in; }
-@media only screen and (min-width: 40.063em) {
-  /* line 1, ../scss/_template.scss */
-  .ruckus-tile {
-    min-height: 75% !important; } }
-@media only screen and (min-width: 64.063em) {
-  /* line 1, ../scss/_template.scss */
-  .ruckus-tile {
-    min-height: 75% !important; } }
 
 /* line 5, ../scss/_template-mobile-momentum.scss */
 #mobile-momentum .dimensions-trolleys {

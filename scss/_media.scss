@@ -22,6 +22,20 @@ figure {
   }
 }
 
+@include respond-to(large-up){
+  .mobile-with-text-large-up {
+    position: relative;
+    margin: 0 auto;
+    width: 225px;
+    figcaption {
+      position: absolute;
+      top: 50px;
+      left: 15%;
+      width: 70%;
+    }
+  }
+}
+
 .hub-cta-download {
   display: block;
   position: absolute;

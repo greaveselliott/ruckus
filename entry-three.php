@@ -124,7 +124,7 @@ else {
                     </div>
             </div>
             <!-- How people feel when there's no Wi-Fi in a business premises -->
-            <div class="large-6 medium-6 columns no-padding-left-small-only no-padding-right-small-only hide-for-small">
+            <div class="large-6 medium-6 columns no-padding-right-medium-up no-padding-left-small-only no-padding-right-small-only hide-for-small">
                 <figure class="ruckus-background-black opacity-75 padding-25">
                                         <figcaption class="ruckus-white text-left h4 text-center-small-only">What are consumers using Wi-Fi for in-store? </figcaption>
                     <img class="lazy-load" data-original="images/guide/icons-34.png">
@@ -157,14 +157,14 @@ else {
                     <div class="row">
                         <div class="large-12 columns padding-bottom-20-small-only">
                             <figure class="padding-25 no-padding-small-only">
-                                <span class="mm-icons padding-right-20 hide-for-small">
+                                <span class="mm-icons padding-right-20 hide-for-small width-20">
                                     <span class="table-center-container">
                                         <span class="table-center-cell">
                                             <i class="fa fa-mobile ruckus-orange h1 display-inline-block"></i>
                                         </span>
                                     </span>
                                 </span>
-                                <figcaption class="text-left">
+                                <figcaption class="text-left display-inline-block width-70">
                                     <span class="ruckus-white h4 line-height-h4 h5-small-only">Investment in mobility</span>
                                     <br>
                                     <span class="h6 ruckus-orange line-height-h6">most conversation centered on the shift from fixed to mobile Point of Sale (POS).</span>
@@ -175,14 +175,14 @@ else {
                     <div class="row">
                         <div class="large-12 columns padding-bottom-20-small-only">
                             <figure class="padding-25 padding-right-20 no-padding-small-only">
-                                 <span class="mm-icons hide-for-small">
+                                 <span class="mm-icons hide-for-small width-20">
                                      <span class="table-center-container">
                                          <span class="table-center-cell">
                                              <i class="fa fa-shopping-cart ruckus-orange h1 display-inline-block"></i>
                                          </span>
                                      </span>
                                  </span>
-                                <figcaption class="text-left">
+                                <figcaption class="text-left display-inline-block width-70">
                                     <span class="ruckus-white h4 line-height-h4 h5-small-only">Retail Technology Solution</span>
                                     <br>
                                     <span class="h6 ruckus-orange line-height-h6">The most popular topics in this category were RFID and beacon technology</span>
@@ -193,14 +193,14 @@ else {
                     <div class="row">
                         <div class="large-12 columns padding-bottom-20-small-only">
                             <figure class="padding-25 padding-right-20 no-padding-small-only">
-                                <span class="mm-icons hide-for-small">
+                                <span class="mm-icons hide-for-small width-20">
                                     <span class="table-center-container">
                                         <span class="table-center-cell">
                                             <i class="fa fa-globe ruckus-orange h1 display-inline-block line-height-h1"></i>
                                         </span>
                                     </span>
                                 </span>
-                                <figcaption class="text-left">
+                                <figcaption class="text-left width-70 display-inline-block">
                                     <span class="ruckus-white h4 line-height-h4 h5-small-only">Global e-commerce</span>
                                     <br>
                                     <span class="h6 ruckus-orange line-height-h6">As companies seek to grow their retail footprint, the need for a global e-commerce framework arises as a top concern</span>
@@ -285,12 +285,12 @@ else {
 
                     <div class="table-center-container">
                         <div class="table-center-cell">
-                            <figure class="mobile-with-text" id="keep-up-moving">
-                                <img class="lazy-load" data-original="images/guide/icons-11.png" alt="White touch screen SmartPhone - vector icon">
+                            <figure class="mobile-with-text-large-only" id="keep-up-moving">
+                                <img class="lazy-load hide-for-small hide-for-medium" data-original="images/guide/icons-11.png" alt="White touch screen SmartPhone - vector icon">
                                 <figcaption>
-                                    <span class="ruckus-orange h3">€19.2B</span>
+                                    <span class="ruckus-black ruckus-orange-large-up h3">€19.2B</span>
                                     <br>
-                                    <span class="ruckus-orange">mCommerce = massive Commerce</span><br>
+                                    <span class="ruckus-black ruckus-orange-large-up">mCommerce = massive Commerce</span><br>
                                     <span class="ruckus-white">European mCommerce revenues are set to rise from €1.7b in 2011 to €19.2b in 2017</span>
                                 </figcaption>
                             </figure>
@@ -435,7 +435,7 @@ else {
                 </div>
             </div>
             <!-- Footer information: Semi-transparent black background -->
-            <div class="row ruckus-background-black" data-equalizer>
+            <div class="row ruckus-background-black opacity-90" data-equalizer>
                 <div class="large-2 medium-2 columns" data-equalizer-watch>
                     <figure class="padding-25 hide-for-small"><img class="lazy-load" data-original="images/guide/Icons-30.png"><figcaption class="ruckus-orange">Click & Collect</figcaption></figure>
                 </div>
@@ -579,8 +579,8 @@ else {
                 <div class="large-3 medium-3 columns ruckus-background-black opacity-75 " data-equalizer-watch>
                     <div class="table-center-container">
                         <div class="table-center-cell">
-                            <figure class="mobile-with-text" id="vocal-over-social">
-                                <img class="lazy-load" data-original="images/guide/icons-11.png" alt="White touch screen SmartPhone - vector icon">
+                            <figure class="mobile-with-text-large-only" id="vocal-over-social">
+                                <img class="lazy-load hide-for-small hide-for-medium" data-original="images/guide/icons-11.png" alt="White touch screen SmartPhone - vector icon">
                                 <figcaption>
                                     <span class="ruckus-orange h5">Vocal over social</span>
                                     <br>
@@ -652,7 +652,7 @@ else {
     </article>
     <!--    <footer>-->
 <!--    </footer>-->
-    <div id="hub-link" class="hide-for-small">
+    <div id="hub-link">
         <a href="index.php" target="_blank" class="display-block">
             <p id="CTA-text-1" class="h5 text-center">Get your personalised Ruckus solution</p>
             <p class="button alt">CLICK HERE</p>

@@ -121,7 +121,7 @@
 
 #hub-link {
   padding: 10px !important;
-  width: 10%;
+  width: 9.75%;
   height: auto;
   min-height: 180px;
   background-color: $ruckus-blue;
@@ -133,6 +133,19 @@
   .button {
     padding-left: 0 !important;
     padding-right: 0 !important;
+    @include respond-to(large-up){
+      font-size: 1vw;
+    }
+  }
+  @include respond-to(small-only) {
+    top: auto;
+    bottom: 0px;
+    width: 100%;
+  }
+  @include respond-to(medium-only) {
+    top: auto;
+    bottom: 0px;
+    width: 100%;
   }
 }
 
