@@ -118,8 +118,7 @@ else {
                             </span>
                         </span>
                 </figure>
-                <br>
-                    <div class="display-inline-block padding-50 margin-bottom-20">
+                <div class="row padding-top-20 padding-bottom-20">
                         <div id="scrollTo-2" class="button round-icon chevron-down"></div>
                     </div>
             </div>
@@ -298,12 +297,11 @@ else {
                     </div>
 
             </div>
-            <br>
-            <div class="display-inline-block padding-50 margin-bottom-20">
-                <div id="scrollTo-4" class="button alt round-icon chevron-down"></div>
-            </div>
         </div>
-            </div>
+        <div class="row ruckus-background-black opacity-75 padding-top-20 padding-bottom-20">
+                    <div id="scrollTo-4" class="button alt round-icon chevron-down"></div>
+        </div>
+        </div>
         <div class="ruckus-entry-3_background background-3 lazy-load" data-original="images/guide/guide-background-03.jpg" style="background-color: #000;"></div>
     </article>
     <!--#3: POS Technology -->
@@ -360,11 +358,10 @@ else {
                     </figcaption>
                 </figure>
             </div>
-            <br>
-            <div class="display-inline-block padding-50 margin-bottom-20">
+        </div>
+            <div class="row padding-top-20 padding-bottom-20">
                 <div id="scrollTo-5" class="button alt round-icon chevron-down"></div>
             </div>
-        </div>
         </div>
         <div class="ruckus-entry-3_background background-4 lazy-load" data-original="images/guide/guide-background-04.jpg" style="background-color: #000;"></div>
     </article>
@@ -455,10 +452,9 @@ else {
                         </div>
                     </div>
                 </div>
-                <br>
-                <div class="display-inline-block padding-50 margin-bottom-20">
-                    <div id="scrollTo-6" class="button alt round-icon chevron-down"></div>
-                </div>
+            </div>
+            <div class="row ruckus-background-black opacity-90 padding-bottom-20">
+                <div id="scrollTo-6" class="button alt round-icon chevron-down"></div>
             </div>
             <div class="ruckus-entry-3_background background-5 lazy-load" data-original="images/guide/guide-background-05.jpg" style="background-color: #000;"></div>
     </article>
@@ -505,10 +501,9 @@ else {
                         <figcaption><span class="ruckus-orange h4">The age of engagement</span><br><span class="ruckus-white">92% of shoppers engage with a loyalty scheme at least once a month</span></figcaption>
                     </figure>
                 </div>
-                <br>
-                <div class="display-inline-block padding-50 margin-bottom-20">
-                    <div id="scrollTo-7" class="button alt round-icon chevron-down"></div>
-                </div>
+            </div>
+            <div class="row padding-top-20 padding-bottom-20">
+                <div id="scrollTo-7" class="button alt round-icon chevron-down"></div>
             </div>
         </div>
         <div class="ruckus-entry-3_background background-6 lazy-load" data-original="images/guide/guide-background-06.jpg" style="background-color: #000;"></div>
@@ -592,10 +587,9 @@ else {
                         </div>
                     </div>
                 </div>
-                <br>
-                <div class="display-inline-block padding-50 margin-bottom-20">
-                    <div id="scrollTo-8" class="button alt round-icon chevron-down"></div>
-                </div>
+            </div>
+            <div class="row padding-top-20 padding-bottom-20">
+                <div id="scrollTo-8" class="button alt round-icon chevron-down"></div>
             </div>
 <!--        </div>-->
             <div class="ruckus-entry-3_background background-7 lazy-load" data-original="images/guide/guide-background-07.jpg" style="background-color: #000;"></div>
