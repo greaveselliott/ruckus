@@ -12221,60 +12221,74 @@ th.hide-for-touch {
 
 /* line 106, ../scss/_functions.scss */
 .h0 {
-  font-size: 4.75rem !important; }
+  font-size: 4.75rem !important;
+  font-size: 4.75vw  !important; }
 
 @media only screen {
   /* line 111, ../scss/_functions.scss */
   .h0-screen {
-    font-size: 4.75rem !important; } }
+    font-size: 4.75rem !important;
+    font-size: 4.75vw  !important; } }
 @media only screen and (orientation: landscape) {
   /* line 111, ../scss/_functions.scss */
   .h0-landscape {
-    font-size: 4.75rem !important; } }
+    font-size: 4.75rem !important;
+    font-size: 4.75vw  !important; } }
 @media only screen and (orientation: portrait) {
   /* line 111, ../scss/_functions.scss */
   .h0-portrait {
-    font-size: 4.75rem !important; } }
+    font-size: 4.75rem !important;
+    font-size: 4.75vw  !important; } }
 @media only screen {
   /* line 111, ../scss/_functions.scss */
   .h0-small-up {
-    font-size: 4.75rem !important; } }
+    font-size: 4.75rem !important;
+    font-size: 4.75vw  !important; } }
 @media only screen and (max-width: 40em) {
   /* line 111, ../scss/_functions.scss */
   .h0-small-only {
-    font-size: 4.75rem !important; } }
+    font-size: 4.75rem !important;
+    font-size: 4.75vw  !important; } }
 @media only screen and (min-width: 40.063em) {
   /* line 111, ../scss/_functions.scss */
   .h0-medium-up {
-    font-size: 4.75rem !important; } }
+    font-size: 4.75rem !important;
+    font-size: 4.75vw  !important; } }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
   /* line 111, ../scss/_functions.scss */
   .h0-medium-only {
-    font-size: 4.75rem !important; } }
+    font-size: 4.75rem !important;
+    font-size: 4.75vw  !important; } }
 @media only screen and (min-width: 64.063em) {
   /* line 111, ../scss/_functions.scss */
   .h0-large-up {
-    font-size: 4.75rem !important; } }
+    font-size: 4.75rem !important;
+    font-size: 4.75vw  !important; } }
 @media only screen and (min-width: 64.063em) and (max-width: 90em) {
   /* line 111, ../scss/_functions.scss */
   .h0-large-only {
-    font-size: 4.75rem !important; } }
+    font-size: 4.75rem !important;
+    font-size: 4.75vw  !important; } }
 @media only screen and (min-width: 90.063em) {
   /* line 111, ../scss/_functions.scss */
   .h0-xlarge-up {
-    font-size: 4.75rem !important; } }
+    font-size: 4.75rem !important;
+    font-size: 4.75vw  !important; } }
 @media only screen and (min-width: 120.063em) and (max-width: 99999999em) {
   /* line 111, ../scss/_functions.scss */
   .h0-xxlarge-only {
-    font-size: 4.75rem !important; } }
+    font-size: 4.75rem !important;
+    font-size: 4.75vw  !important; } }
 @media only screen and (min-width: 120.063em) {
   /* line 111, ../scss/_functions.scss */
   .h0-xxlarge-up {
-    font-size: 4.75rem !important; } }
+    font-size: 4.75rem !important;
+    font-size: 4.75vw  !important; } }
 @media only screen and (min-width: 120.063em) and (max-width: 99999999em) {
   /* line 111, ../scss/_functions.scss */
   .h0-xxlarge-only {
-    font-size: 4.75rem !important; } }
+    font-size: 4.75rem !important;
+    font-size: 4.75vw  !important; } }
 /* line 106, ../scss/_functions.scss */
 .h1 {
   font-size: 4.75rem !important; }
@@ -12891,39 +12905,39 @@ th.hide-for-touch {
   /* line 111, ../scss/_functions.scss */
   .h6-xxlarge-only {
     font-size: 1rem !important; } }
-/* line 44, ../scss/_typography.scss */
+/* line 51, ../scss/_typography.scss */
 .line-height-h1 {
   line-height: 5.625rem !important; }
 
-/* line 45, ../scss/_typography.scss */
+/* line 52, ../scss/_typography.scss */
 .line-height-h1 {
   line-height: 4.75rem !important; }
 
-/* line 46, ../scss/_typography.scss */
+/* line 53, ../scss/_typography.scss */
 .line-height-h2 {
   line-height: 3.25rem !important; }
 
-/* line 47, ../scss/_typography.scss */
+/* line 54, ../scss/_typography.scss */
 .line-height-h3 {
   line-height: 2.3125rem !important; }
 
-/* line 48, ../scss/_typography.scss */
+/* line 55, ../scss/_typography.scss */
 .line-height-h4 {
   line-height: 1.4375rem !important; }
 
-/* line 49, ../scss/_typography.scss */
+/* line 56, ../scss/_typography.scss */
 .line-height-h5 {
   line-height: 1.125rem !important; }
 
-/* line 50, ../scss/_typography.scss */
+/* line 57, ../scss/_typography.scss */
 .line-height-h6 {
   line-height: 1rem !important; }
 
-/* line 52, ../scss/_typography.scss */
+/* line 59, ../scss/_typography.scss */
 .text-bold {
   font-weight: bold !important; }
 
-/* line 55, ../scss/_typography.scss */
+/* line 62, ../scss/_typography.scss */
 .text-underline {
   text-decoration: underline; }
 

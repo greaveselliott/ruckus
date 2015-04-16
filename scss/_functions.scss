@@ -114,3 +114,21 @@ $respond-to-list:   "screen" $screen,
     }
   }
 }
+
+@function convert-to-vw ($value, $base-value: $rem-base){
+  $value: strip-unit($value) / strip-unit($base-value) * 1vw;
+  @if ($value == 0rem) { $value: 0; } // Turn 0rem into 0
+  @return $value;
+}
+
+@function vw-calc($values, $base-value: $rem-base) {
+  $max: length($values);
+
+  @if $max == 1 { @return convert-to-vw(nth($values, 1), $base-value); }
+
+  $vwValues: ();
+  @for $i from 1 through $max {
+    $remValues: append($vwValues, convert-to-vw(nth($values, $i), $base-value));
+  }
+  @return $vwValues;
+}

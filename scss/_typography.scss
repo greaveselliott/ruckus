@@ -1,6 +1,13 @@
+$h1-font-size: 44 !default;
+$h2-font-size: 37 !default;
+$h3-font-size: 27 !default;
+$h4-font-size: 23 !default;
+$h5-font-size: 18 !default;
+$h6-font-size: 1rem !default;
 
 @include responsive_property(h0){
   font-size:  4.75rem !important;
+  font-size:  4.75vw  !important;
 }
 @include responsive_property(h1){
   font-size: $h1-font-size !important;
@@ -13,7 +20,7 @@
 }
 
 @include responsive_property(h3_5){
-  font-size:$h3_5-font-size !important;
+  font-size: $h3_5-font-size !important;
 }
 
 @include responsive_property(h4){
