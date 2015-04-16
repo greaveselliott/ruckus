@@ -13238,7 +13238,8 @@ th.hide-for-touch {
 
 /* line 122, ../scss/_buttons.scss */
 #hub-link {
-  width: 180px;
+  padding: 10px !important;
+  width: 10%;
   height: auto;
   min-height: 180px;
   background-color: #009CBD;
@@ -13247,12 +13248,12 @@ th.hide-for-touch {
   right: 0px;
   top: 50%;
   margin-top: -90px; }
-/* line 132, ../scss/_buttons.scss */
+/* line 133, ../scss/_buttons.scss */
 #hub-link .button, #hub-link .sharrre .box, .sharrre #hub-link .box {
   padding-left: 0 !important;
   padding-right: 0 !important; }
 
-/* line 138, ../scss/_buttons.scss */
+/* line 139, ../scss/_buttons.scss */
 .link-to-guide {
   width: 280px;
   background-color: #EA7600;
@@ -13262,7 +13263,7 @@ th.hide-for-touch {
   top: 40%;
   z-index: 1000; }
 
-/* line 148, ../scss/_buttons.scss */
+/* line 149, ../scss/_buttons.scss */
 .cursor-pointer {
   cursor: pointer; }
 

@@ -80,7 +80,6 @@
         var $hubLink = $(self.options.cta_button);
         var $button = $hubLink.find('.button');
         var colours = self.options.ruckus_colours;
-        console.log($hubLink);
 
         var tween = function () {
             TweenMax.to($hubLink, 1.5, {

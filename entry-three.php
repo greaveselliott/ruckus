@@ -653,7 +653,7 @@ else {
     <!--    <footer>-->
 <!--    </footer>-->
     <div id="hub-link" class="hide-for-small">
-        <a href="index.php" target="_blank" class="padding-25 display-block">
+        <a href="index.php" target="_blank" class="display-block">
             <p id="CTA-text-1" class="h5 text-center">Get your personalised Ruckus solution</p>
             <p class="button alt">CLICK HERE</p>
             <p id="CTA-text-2" class="h5 text-center no-margin-bottom"></p>
