@@ -72,21 +72,26 @@ else {
             <!-- Network stability and bandwidth -->
             <div class="large-6 medium-6 columns margin-bottom-20-small-only">
                 <figure class="row wifi-retail-fact ruckus-background-black opacity-75 padding-bottom-20-small-only">
-                        <span class="large-4 medium-4 columns">
-                            <span class="table-center-container">
-                                <span class="table-center-cell ruckus-white">
-                                    <span class="h0 h3-small-only">61%</span>
+                    <span class="large-4 medium-6 columns">
+                        <span class="table-center-container">
+                            <span class="table-center-cell ruckus-white">
+                                <span class="h0 h3-medium-only h3-small-only">61%</span>
+                            </span>
+                        </span>
+                    </span>
+                    <span class="large-4 medium-6 columns">
+                         <span class="table-center-container">
+                            <span class="table-center-cell text-left ruckus-white h5">
+                                 of retailers say that their customers spend more time in store since they installed  <span class="display-inline-block">Wi-Fi</span></span>
+                        </span>
+                    </span>
+                    <span class="large-4 medium-4 hide-for-medium-down columns">
+                        <span class="table-center-container">
+                                <span class="table-center-cell">
+                                    <img class="lazy-load left hide-for-small width-100" data-original="images/guide/icons-17.png">
                                 </span>
                             </span>
                         </span>
-                        <span class="large-4 medium-4 columns">
-                             <span class="table-center-container">
-                                <span class="table-center-cell text-left ruckus-white h5">
-                                     of retailers say that their customers spend more time in store since they installed  <span class="display-inline-block">Wi-Fi</span></span>
-                            </span>
-                        </span>
-                        <span class="large-4 medium-4 columns"></span>
-                    <span class="large-4 medium-4 columns"><img class="lazy-load left hide-for-small" data-original="images/guide/icons-17.png"></span>
                     <span class="clear-both"></span>
                 </figure>
                 <br>
@@ -106,7 +111,12 @@ else {
                             </span>
                         </span>
                         <span class="large-4 medium-4 columns hide-for-small">
-                            <img class="lazy-load" data-original="images/guide/icons-18.png"></span>
+                            <span class="table-center-container">
+                                <span class="table-center-cell">
+                                    <img class="lazy-load left hide-for-small width-100" data-original="images/guide/icons-18.png">
+                                </span>
+                            </span>
+                        </span>
                 </figure>
                 <br>
                     <div class="display-inline-block padding-50 margin-bottom-20">
@@ -650,7 +660,7 @@ else {
         </a>
     </div>
 
-    <footer id="appendix" class="row full-screen ruckus-background-black">
+    <footer id="appendix" class="row full-screen ruckus-background-black padding-top-20">
         <div class="large-12 columns">
             <div class="row">
                 <div class="large-12 columns">
